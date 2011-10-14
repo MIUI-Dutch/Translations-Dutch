@@ -29,4 +29,6 @@
     <string name="cert_read_error">Installatie mislukt. Kan het certificaat bestand niet lezen</string>
     <string name="no_cert_file_found">Geen certificaat-bestand gevonden op de SD-kaart</string>
     <string name="sdcard_not_present">SD-kaart is niet aanwezig.</string>
+    <string name="one_wapi_ascrt">Een WAPI AS certificaat</string>
+    <string name="one_wapi_usercrt">Een WAPI gebruiker certificaat</string>
 </resources>

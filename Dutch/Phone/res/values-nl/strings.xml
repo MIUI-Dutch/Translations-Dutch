@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <string name="contactsIconLabel">Contacten</string>
     <string name="dialerIconLabel">Bellen</string>
@@ -614,5 +614,6 @@
     <string name="auto_registration">Auto registratie</string>
     <string name="set_primary">Zet standaard</string>
     <string name="advanced_settings_container">Geavanceerde instellingen container</string>
+    <string name="allow_3rd_app_listen_phone_event_reboot_prompt">Herstart nodig om zeker te zijn dat afluisteren juist ingesteld is bij aan- en uitzetten.\nDDoorgaan?</string>
     <string name="auth_username">Authentificeer gebruikersnaam</string>
 </resources>

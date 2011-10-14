@@ -1463,4 +1463,7 @@
     <string name="yes">Ja</string>
     <string name="zone_list_menu_sort_alphabetically">Alfabetisch sorteren</string>
     <string name="zone_list_menu_sort_by_timezone">Sorteren op tijdzone</string>
+    <string name="pref_volume_category_title">Volume</string>
+    <string name="pref_volume_wake_title">Volume toets activatie</string>
+    <string name="pref_volume_wake_summary">De volume toets activeert de telefoon. Bedoeld voor telefoons waar de Power-toets moeilijk bereikbaar is</string>
 </resources>

@@ -66,7 +66,6 @@
     <string name="pref_camera_focusmode_macro">Macro</string>
     <string name="pref_camera_focusmode_fixed">Fixed</string>
     <string name="pref_camera_focusmode_edof">EDOF</string>
-    <string name="pref_camera_focusmode_continuous_video">Continuous video</string>
     <string name="flash_auto">Auto</string>
     <string name="flash_on">Aan</string>
     <string name="flash_off">Uit</string>
@@ -135,4 +134,10 @@
     <string name="pref_video_quality_mms">MMS (Laag, 30s)</string>
     <string name="pref_video_continuous_focus">Continue focus</string>
     <string name="tag_coloreffect">COLOR_EFFECT_INDEX</string>
+    <string name="pref_camera_afzone">Selecteerbare zone AF</string>
+    <string name="pref_camera_afzone_auto">Auto</string>
+    <string name="pref_camera_afzone_average">Frame</string>
+    <string name="pref_camera_afzone_center">Centrum</string>
+    <string name="pref_camera_afzone_spot">Punt</string>
+    <string name="APKTOOL_DUMMY_008b">false</string>
 </resources>

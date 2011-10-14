@@ -1324,4 +1324,8 @@
     <string name="years">jaren</string>
     <string name="yes">OK</string>
     <string name="yesterday">Gisteren</string>
+    <string name="managed_roaming_title">Roaming</string>
+    <string name="managed_roaming_dialog_content">Netwerk met beperkte Service gevonden. Wil je een Netwerk zoeken?</string>
+    <string name="managed_roaming_dialog_ok_button">Ja</string>
+    <string name="managed_roaming_dialog_cancel_button">Nee</string>
 </resources>
