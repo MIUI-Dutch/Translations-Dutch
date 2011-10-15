@@ -55,11 +55,6 @@ if not exist "_OUTPUT_ROM" mkdir "_OUTPUT_ROM"
 if not exist "_INPUT_ROM" mkdir "_INPUT_ROM"
 if not exist "_TEMP" mkdir "_TEMP"
 if not exist "_TRANSLATE" mkdir "_TRANSLATE"
-if not exist "_OUTPUT" mkdir "_OUTPUT"
-if not exist "_OUTPUT\system" mkdir "_OUTPUT\system"
-if not exist "_OUTPUT\system\app" mkdir "_OUTPUT\system\app"
-if not exist "_OUTPUT\system\media" mkdir "_OUTPUT\system\media"
-if not exist "_OUTPUT\system\framework" mkdir "_OUTPUT\system\framework"
 if not exist "Settings" mkdir "Settings"
 if not exist "Settings/AutoAPKToolMain.ini" goto :oneiniisnotthere
 for /f "tokens=1,2 delims==" %%a in (Settings/AutoAPKToolMain.ini) do ( 
@@ -426,6 +421,14 @@ xcopy /e /f /y _TRANSLATE\Dutch\%%F _INPUT_APK\%%F\
 @echo %time%::removeunnes >>%logD%
 for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-zh*') do rd /s /q _INPUT_APK\framework-res\res\%%d
 for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-mcc*') do rd /s /q _INPUT_APK\framework-res\res\%%d
+for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-rAU*') do rd /s /q _INPUT_APK\framework-res\res\%%d
+for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-rCA*') do rd /s /q _INPUT_APK\framework-res\res\%%d
+for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-rGB*') do rd /s /q _INPUT_APK\framework-res\res\%%d
+for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-rIE*') do rd /s /q _INPUT_APK\framework-res\res\%%d
+for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-rNZ*') do rd /s /q _INPUT_APK\framework-res\res\%%d
+dir /b /a:d _INPUT_APK\framework-res\res
+for %%i IN (%DoSpecial%) DO if exist _INPUT_APK\%%i rd /s /q _INPUT_APK\%%i
+for %%i IN (%DoSpecial%) DO if exist _INPUT_APK\%%i.apk del _INPUT_APK\%%i.apk
 
 ::recompile
 @echo %time%::recompile >>%logD%
@@ -459,15 +462,15 @@ DEL "_FLASHABLES\system\app\framework-res.apk"
 
 :: ------------------------------
 ::automaticmiuinl
+:updateonlyspecial
 @echo %time%::automaticmiuinl >>%logD%
 for /f %%r in ('dir /b _INPUT_ROM\*.zip') do (
  if not exist "_TEMP\%%~nr\system" (
   for %%i IN (framework-res %DoSpecial%) DO (
    if exist "_OUT_APK\%%i.apk" del "_OUT_APK\%%i.apk"
-   if exist "_FLASHABLES\system\app\%%i.apk" (
-    DEL "_FLASHABLES\system\app\%%i.apk"
-   )
+   if exist "_FLASHABLES\system\app\%%i.apk" DEL "_FLASHABLES\system\app\%%i.apk"
    if exist "_INPUT_APK\%%i.apk" del "_INPUT_APK\%%i.apk"
+   if exist "_INPUT_APK\%%i" rd /s /q "_INPUT_APK\%%i"
    7za e _INPUT_ROM\%%r -o_INPUT_APK %%i.apk -r -y
    if not exist "_INPUT_APK\framework-res.apk" @echo check "_INPUT_APK\framework-res.apk" &pause
    if not exist "_INPUT_APK\%%i.apk" @echo Not in this ROM: "_INPUT_APK\%%i.apk"
@@ -479,6 +482,12 @@ for /f %%r in ('dir /b _INPUT_ROM\*.zip') do (
     xcopy /s /y /i "_TRANSLATE\Dutch\%%i" "_INPUT_APK\%%i" 
     for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-zh*') do rd /s /q _INPUT_APK\framework-res\res\%%d
     for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-mcc*') do rd /s /q _INPUT_APK\framework-res\res\%%d
+    for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-rAU*') do rd /s /q _INPUT_APK\framework-res\res\%%d
+    for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-rCA*') do rd /s /q _INPUT_APK\framework-res\res\%%d
+    for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-rGB*') do rd /s /q _INPUT_APK\framework-res\res\%%d
+    for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-rIE*') do rd /s /q _INPUT_APK\framework-res\res\%%d
+    for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-rNZ*') do rd /s /q _INPUT_APK\framework-res\res\%%d
+    if %%i==framework-res dir /b /a:d _INPUT_APK\framework-res\res
     call 03recompileAPK "_INPUT_APK\%%i"
     call 04rebuildusableAPK "_INPUT_APK\%%i.apk"
     call 06buildflashable "_OUT_APK\%%i.apk"
