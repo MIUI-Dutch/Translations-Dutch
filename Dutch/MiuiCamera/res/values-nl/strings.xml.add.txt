@@ -1,0 +1,12 @@
+
+---------- D:\AUTOAPKTOOL2.0.3\_INPUT_APK\MIUICAMERA\RES\VALUES\STRINGS.XML
+    <string name="pref_camera_focusmode_continuous_video">Continuous video</string>
+
+---------- D:\AUTOAPKTOOL2.0.3\_INPUT_APK\MIUICAMERA\RES\VALUES\STRINGS.XML
+    <string name="pref_video_quality_720p">720P (30m)</string>
+
+---------- D:\AUTOAPKTOOL2.0.3\_INPUT_APK\MIUICAMERA\RES\VALUES\STRINGS.XML
+    <string name="pref_camera_focusmode_continuous_video">Continuous video</string>
+
+---------- D:\AUTOAPKTOOL2.0.3\_INPUT_APK\MIUICAMERA\RES\VALUES\STRINGS.XML
+    <string name="pref_video_quality_720p">720P (30m)</string>

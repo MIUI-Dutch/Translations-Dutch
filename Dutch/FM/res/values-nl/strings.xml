@@ -68,7 +68,6 @@
   <string name="toast_edit_station">Station opgeslagen</string>
   <string name="toast_save_station">%sMHz radio opgeslagen</string>
   <string name="exit">Einde</string>
-  <string name="menu_exit">Einde</string>
   <string name="fmradio_in_calling_at_begin">Radio kan niet gestart worden tijdens gesprek</string>
   <string name="fmradio_start_error">Radio kan niet gestart worden</string>
   <string name="fmradio_on_airplane_mode_in_listen">Radio niet beschikbaar in vliegtuig-stand, wordt automatisch gesloten</string>
