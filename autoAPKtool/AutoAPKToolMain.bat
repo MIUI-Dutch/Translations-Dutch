@@ -376,76 +376,110 @@ if exist %logD% DEL %logD%
 ::
 ::
 	set DoSpecial=MiuiCamera Torch FM
+	set _LANGUAGE=Dutch
 ::
 ::
 ::ifframework
 Set BeginTime=%time%
-@echo %time%::ifframework >>%logD%
-if not exist "%~dp0_INPUT_APK\framework-res.apk" (
-@echo ERROR: framework-res.apk is not in "_INPUT_APK" folder
-pause
-goto restart
+if exist _FLASHABLES\system\app\*.apk del /q _FLASHABLES\system\app\*.apk
+if exist _FLASHABLES\system\framework\*.apk del /q _FLASHABLES\system\framework\*.apk
+
+@echo.
+@echo	Please DO NOT mix more MIUI version ROMs in _INPUT_ROM folder
+@echo	YOU are responsible checking, this script can't possibly know of version conflicts
+@echo	If different ROMs versions exist in _INPUT_ROM, wrong app's will be inserted in the ROMs
+@echo	Move unwanted ROMs version out of _INPUT_ROM folder (or make them hidden)
+@echo.
+@echo.
+@echo	rule-of-thumb: when translating new version of ROM: always drag new version ROM to next prompt,
+@echo	 and all work-folders will be cleaned of all files
+@echo.
+@echo.
+@echo	If YOU are NOTE SURE about content of _INPUT_ROM: check NOW
+@echo.
+@echo	You can exit by typing 'exit' to next prompt
+@echo.
+@echo	When you the press 'Enter'-key the current set of _INPUT_APK\*.apk files will be used
+@echo	 to be inserted in the ROMs 
+@echo.
+set DoWork=
+set /P DoWork=Drag ROM file from _INPUT_ROM here, type 'exit' or press [enter]-key : %=%
+if '%DoWork%'=='exit' goto restart
+if '%DoWork%'=='' goto nonewdecompilerecompile
+
+if exist %DoWork% (
+
+ @echo %DoWork%
+ ::cleanup
+ if exist _OUT_APK\*.apk del /q _OUT_APK\*.apk
+ if exist _INPUT_APK\*.apk del /q _INPUT_APK\*.apk
+ if exist _OUT_APK_ZIPALIGN\*.apk del /q _OUT_APK_ZIPALIGN\*.apk
+ for /f %%D in ('dir /b /a:d _INPUT_APK') do rd /s /q _INPUT_APK\%%D
+ for /f %%D in ('dir /b /a:d _TEMP') do rd /s /q _TEMP\%%D
+ if exist _TEMP\*.* del /q _TEMP\*.*
+ @echo cleaned all folders
+ 7za e %DoWork% -o_INPUT_APK *.apk -r -y
+ @echo extracted *.apk from %DoWork% to _INPUT_APK\*.apk
+
+ @echo %time%::ifframework >>%logD%
+ if not exist "%~dp0_INPUT_APK\framework-res.apk" (
+  @echo ERROR: framework-res.apk is not in "_INPUT_APK" folder
+  pause
+  goto restart
+ )
+ @echo installing framework file...
+ set FRMWRK=
+ set FRMWRK="_INPUT_APK\framework-res.apk"
+ call 01framework-if.bat %INPUT%
+ @echo DONE
+ ::dont decompile-recompile if no translation file available
+ for /f %%x in ('dir /b _INPUT_APK\*.apk') do (
+  if not exist _TRANSLATE\%_LANGUAGE%\%%~nx del _INPUT_APK\%%x
+ )
+ for %%i IN (framework-res %DoSpecial%) DO if exist _INPUT_APK\%%i.apk del _INPUT_APK\%%i.apk
+
+ ::decompile
+ @echo %time%:decompile >>%logD%
+ @echo decompiling apks...
+ :: for loop call to 02decompileAPK
+ FOR %%F IN (_INPUT_APK\*.apk) DO (
+  @echo [*] %%F >>%logD%
+  @echo decompiling %%F... >>%logD%
+  call 02decompileAPK %%F 2>>%logD%
+ )
+ ::install translation files
+ @echo %time%:install translation >>%logD%
+ @echo additional translation(s)
+ FOR /f %%F IN ('dir /b /a:d _TRANSLATE\%_LANGUAGE%') DO (
+  @echo [*] %%F >>%logD%
+  xcopy /e /f /i /y _TRANSLATE\%_LANGUAGE%\%%F _INPUT_APK\%%F
+ )
+ for %%I in (framework-res %DoSpecial%) DO if exist _INPUT_APK\%%I rd /s /q _INPUT_APK\%%I
+ for %%I in (%DoSpecial%) DO if exist _INPUT_APK\%%I.apk del /q _INPUT_APK\%%I.apk
+ ::recompile
+ @echo %time%::recompile >>%logD%
+ @echo recompiling apks...
+ :: for loop call to 03recompileAPK
+ for /f "tokens=* delims= " %%a in ('dir _INPUT_APK /b /ad') do (
+  @echo [*] %%a folder >>%logR%
+  @echo recompiling %%a.apk... >>%logR%
+  call 03recompileAPK %%a 2>>%logR%
+ )
+ ::rebuildusable
+ @echo %time%::rebuildusable >>%logD%
+ @echo rebuilding apks...
+ FOR %%F IN (_INPUT_APK\*.apk) DO call 04rebuildusableAPK %%F
 )
-@echo installing framework file...
-set FRMWRK=
-set FRMWRK="_INPUT_APK\framework-res.apk"
-call 01framework-if.bat %INPUT%
-@echo DONE
-::dont decompile-recompile if no translation file available
-for /f %%x in ('dir /b _INPUT_APK\*.apk') do (
- if not exist _TRANSLATE\Dutch\%%~nx del _INPUT_APK\%%x
+
+:nonewdecompilerecompile
+for %%i IN (framework-res %DoSpecial%) DO (
+if exist _INPUT_APK\%%i.apk del /q _INPUT_APK\%%i.apk
+if exist _OUT_APK\%%i.apk del /q _OUT_APK\%%i.apk
+if exist _FLASHABLES\system\app\%%i.apk del /q _FLASHABLES\system\app\%%i.apk
+if exist _FLASHABLES\system\framework\%%i.apk del /q _FLASHABLES\system\framework\%%i.apk
+if exist _INPUT_APK\%%i rd /s /q _INPUT_APK\%%i
+if exist _OUT_APK_ZIPALIGNED\%%i.apk del /q _OUT_APK_ZIPALIGNED\%%i.apk
 )
-for %%i IN (%DoSpecial%) DO if exist _INPUT_APK\%%i.apk del _INPUT_APK\%%i.apk
-
-::decompile
-@echo %time%::decompile >>%logD%
-@echo decompiling apks...
-:: for loop call to 02decompileAPK
-FOR %%F IN (_INPUT_APK\*.apk) DO (
-@echo [*] %%F >>%logD%
-@echo decompiling %%F... >>%logD%
-call 02decompileAPK %%F 2>>%logD%
-)
-
-::installtranslation
-@echo %time%::installtranslation >>%logD%
-@echo installing additional translation(s)...
-:: for loop to copy additional translation folders
-FOR /f %%F IN ('dir /b /a:d _TRANSLATE\Dutch') DO (
-@echo [*] %%F >>%logD%
-xcopy /e /f /y _TRANSLATE\Dutch\%%F _INPUT_APK\%%F\
-)
-@echo DONE
-
-::removeunnes
-@echo %time%::removeunnes >>%logD%
-for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-zh*') do rd /s /q _INPUT_APK\framework-res\res\%%d
-for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-mcc*') do rd /s /q _INPUT_APK\framework-res\res\%%d
-for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-rAU*') do rd /s /q _INPUT_APK\framework-res\res\%%d
-for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-rCA*') do rd /s /q _INPUT_APK\framework-res\res\%%d
-for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-rGB*') do rd /s /q _INPUT_APK\framework-res\res\%%d
-for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-rIE*') do rd /s /q _INPUT_APK\framework-res\res\%%d
-for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-rNZ*') do rd /s /q _INPUT_APK\framework-res\res\%%d
-dir /b /a:d _INPUT_APK\framework-res\res
-for %%i IN (%DoSpecial%) DO if exist _INPUT_APK\%%i rd /s /q _INPUT_APK\%%i
-for %%i IN (%DoSpecial%) DO if exist _INPUT_APK\%%i.apk del _INPUT_APK\%%i.apk
-
-::recompile
-@echo %time%::recompile >>%logD%
-@echo recompiling apks...
-:: for loop call to 03recompileAPK
-for /f "tokens=* delims= " %%a in ('dir _INPUT_APK /b/ad') do (
-@echo [*] %%a folder >>%logR%
-@echo recompiling %%a.apk... >>%logR%
-call 03recompileAPK %%a 2>>%logR%
-)
-
-::rebuildusable
-@echo %time%::rebuildusable >>%logD%
-@echo rebuilding apks...
-FOR %%F IN (_INPUT_APK\*.apk) DO call 04rebuildusableAPK %%F
-@echo DONE
-
 ::buildflashableall
 @echo %time%::buildflashableall >>%logD%
 :: do checks first
@@ -462,13 +496,12 @@ DEL "_FLASHABLES\system\app\framework-res.apk"
 
 :: ------------------------------
 ::automaticmiuinl
-:updateonlyspecial
 @echo %time%::automaticmiuinl >>%logD%
 for /f %%r in ('dir /b _INPUT_ROM\*.zip') do (
- if not exist "_TEMP\%%~nr\system" (
   for %%i IN (framework-res %DoSpecial%) DO (
    if exist "_OUT_APK\%%i.apk" del "_OUT_APK\%%i.apk"
    if exist "_FLASHABLES\system\app\%%i.apk" DEL "_FLASHABLES\system\app\%%i.apk"
+   if exist "_FLASHABLES\system\framework\%%i.apk" DEL "_FLASHABLES\system\framework\%%i.apk"
    if exist "_INPUT_APK\%%i.apk" del "_INPUT_APK\%%i.apk"
    if exist "_INPUT_APK\%%i" rd /s /q "_INPUT_APK\%%i"
    7za e _INPUT_ROM\%%r -o_INPUT_APK %%i.apk -r -y
@@ -479,7 +512,7 @@ for /f %%r in ('dir /b _INPUT_ROM\*.zip') do (
    call 01framework-if.bat %INPUT%
    if exist "_INPUT_APK\%%i.apk" (
     call 02decompileAPK "_INPUT_APK\%%i.apk"
-    xcopy /s /y /i "_TRANSLATE\Dutch\%%i" "_INPUT_APK\%%i" 
+    xcopy /e /f /i /y "_TRANSLATE\%_LANGUAGE%\%%i" "_INPUT_APK\%%i" 
     for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-zh*') do rd /s /q _INPUT_APK\framework-res\res\%%d
     for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-mcc*') do rd /s /q _INPUT_APK\framework-res\res\%%d
     for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-rAU*') do rd /s /q _INPUT_APK\framework-res\res\%%d
@@ -494,7 +527,7 @@ for /f %%r in ('dir /b _INPUT_ROM\*.zip') do (
     if not exist "_FLASHABLES\system\app\%%i.apk" @echo check "_FLASHABLES\system\app\%%i.apk" &pause
    )
   )
- )
+ 
  @echo %time%::buildflashableall >>%logD%
  :: do checks first
  :: will use this for some other option
@@ -506,7 +539,7 @@ for /f %%r in ('dir /b _INPUT_ROM\*.zip') do (
   DEL "_FLASHABLES\system\app\framework-res.apk"
  )
  md "_TEMP\%%~nr"
- xcopy /s /y /i "_FLASHABLES\system" "_TEMP\%%~nr\system"
+ xcopy /e /f /i /y "_FLASHABLES\system" "_TEMP\%%~nr\system"
 )
 ::-----------------------------------
 :automaticnoprecompile
@@ -521,6 +554,14 @@ for /f %%r in ('dir /b _INPUT_ROM\*.zip') do (
  @echo Signing "_TEMP\%%r" to _OUTPUT_ROM\%%~nr-signed.zip ...
  java -jar "_SIGN_ZIP\signapk.jar" "_SIGN_ZIP\testkey.x509.pem" "_SIGN_ZIP\testkey.pk8" "_TEMP\%%r" "_OUTPUT_ROM\%%~nr-signed.zip"
  DEL "_TEMP\%%r"
+)
+for %%i IN (framework-res %DoSpecial%) DO (
+if exist _INPUT_APK\%%i.apk del /q _INPUT_APK\%%i.apk
+if exist _OUT_APK\%%i.apk del /q _OUT_APK\%%i.apk
+if exist _FLASHABLES\system\app\%%i.apk del /q _FLASHABLES\system\app\%%i.apk
+if exist _FLASHABLES\system\framework\%%i.apk del /q _FLASHABLES\system\framework\%%i.apk
+if exist _INPUT_APK\%%i rd /s /q _INPUT_APK\%%i
+if exist _OUT_APK_ZIPALIGNED\%%i.apk del /q _OUT_APK_ZIPALIGNED\%%i.apk
 )
 @echo %time%::ready >>%logD%
 set EndTime=%time%
@@ -558,7 +599,7 @@ if '%TRNSLTN%'=='' goto :installtranslation
 FOR /f %%F IN ('dir /b /a:d %TRNSLTN%') DO (
 @echo [*] %%F >>%logD%
 @echo copying %%F... >>%logD%
-xcopy /e /f /y %TRNSLTN%\%%F _INPUT_APK\%%F\
+xcopy /e /f /i /y %TRNSLTN%\%%F _INPUT_APK\%%F\
 )
 notepad %logD%
 @echo DONE
@@ -988,7 +1029,7 @@ Goto :quit
 :applythisfolder
 for /f "delims== tokens=2" %%I in ('Set Folder_%choice1%') Do Set This_Folder=%%I
 echo Applying "%This_Folder%" dev folder files...
-xcopy "%~dp0_MODS\%This_Folder%" "%~dp0_INPUT_APK" /S /Y
+xcopy /e /f /i /y "%~dp0_MODS\%This_Folder%" "%~dp0_INPUT_APK"
 echo DONE. Mod folder "%This_Folder%" applied to _INPUT_APK files!
 :: -----------------------------------------------------
 if exist "%~dp0_MODS\Delete_%This_Folder%.txt" (
