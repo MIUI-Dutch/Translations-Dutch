@@ -407,8 +407,13 @@ set /P DoWork=Drag ROM file from _INPUT_ROM here, type 'exit' or press [enter]-k
 if '%DoWork%'=='exit' goto restart
 if '%DoWork%'=='' goto nonewdecompilerecompile
 
-if exist %DoWork% (
+if not exist %DoWork% (
+@echo %DoWork% does NOT EXIST, please select ROM from _INPUT_ROM folder and drag in window
+pause
+goto automatic
+)
 
+if exist %DoWork% (
  @echo %DoWork%
  ::cleanup
  if exist _OUT_APK\*.apk del /q _OUT_APK\*.apk
