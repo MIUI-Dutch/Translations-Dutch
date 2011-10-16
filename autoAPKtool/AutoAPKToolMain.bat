@@ -549,16 +549,18 @@ for /f %%r in ('dir /b _INPUT_ROM\*.zip') do (
 ::-----------------------------------
 :automaticnoprecompile
 for /f %%r in ('dir /b _INPUT_ROM\*.zip') do (
- @echo [*] %%r >>%logD%
- @echo Building %%r ROM... >>%logD%
- COPY /y "_INPUT_ROM\%%r" "_TEMP\%%r"
- @echo Updating and Compressing "_TEMP\%%r"... >>%logD%
- @echo Updating and Compressing "_TEMP\%%r"...
- 7za a -tzip "%~dp0_TEMP\%%r" "%~dp0_TEMP\%%~nr\system" -mx%complevel%
- @echo Signing "_TEMP\%%r" to _OUTPUT_ROM\%%~nr-signed.zip ... >>%logD%
- @echo Signing "_TEMP\%%r" to _OUTPUT_ROM\%%~nr-signed.zip ...
- java -jar "_SIGN_ZIP\signapk.jar" "_SIGN_ZIP\testkey.x509.pem" "_SIGN_ZIP\testkey.pk8" "_TEMP\%%r" "_OUTPUT_ROM\%%~nr-signed.zip"
- DEL "_TEMP\%%r"
+ if exist "%~dp0_TEMP\%%~nr\system\framework\framework-res.apk" (
+  @echo [*] %%r >>%logD%
+  @echo Building %%r ROM... >>%logD%
+  COPY /y "_INPUT_ROM\%%r" "_TEMP\%%r"
+  @echo Updating and Compressing "_TEMP\%%r"... >>%logD%
+  @echo Updating and Compressing "_TEMP\%%r"...
+  7za a -tzip "%~dp0_TEMP\%%r" "%~dp0_TEMP\%%~nr\system" -mx%complevel%
+  @echo Signing "_TEMP\%%r" to _OUTPUT_ROM\%%~nr-signed.zip ... >>%logD%
+  @echo Signing "_TEMP\%%r" to _OUTPUT_ROM\%%~nr-signed.zip ...
+  java -jar "_SIGN_ZIP\signapk.jar" "_SIGN_ZIP\testkey.x509.pem" "_SIGN_ZIP\testkey.pk8" "_TEMP\%%r" "_OUTPUT_ROM\%%~nr-signed.zip"
+  DEL "_TEMP\%%r"
+ )
 )
 for %%i IN (framework-res %DoSpecial%) DO (
 if exist _INPUT_APK\%%i.apk del /q _INPUT_APK\%%i.apk
