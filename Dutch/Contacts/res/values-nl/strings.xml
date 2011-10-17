@@ -39,7 +39,7 @@
     <string name="menu_sendEmail">E-mail verzenden</string>
     <string name="menu_viewAddress">Adres op kaart</string>
     <string name="menu_makeDefaultNumber">Standaardnummer maken</string>
-    <string name="menu_makeDefaultEmail">Standaarde-mail</string>
+    <string name="menu_makeDefaultEmail">Standaard e-mail</string>
     <string name="menu_splitAggregate">Splits</string>
     <string name="splitConfirmation_title">Contact opsplitsen</string>
     <string name="splitConfirmation">Weet u zeker dat u dit contact wilt opsplitsen in meerdere contacten: Eén voor elke set van contactinformatie dat erin is samengevoegd</string>
@@ -56,7 +56,7 @@
     <string name="multipleContactDeleteConfirmation">Als u dit contact verwijdert, wordt informatie uit meerdere accounts gewist</string>
     <string name="deleteConfirmation">Deze contactpersoon wordt verwijderd</string>
     <string name="menu_done">Gereed</string>
-    <string name="menu_doNotSave">Terugz.</string>
+    <string name="menu_doNotSave">Niet opslaan</string>
     <string name="editContact_title_edit">Contact wijzigen</string>
     <string name="editContact_title_insert">Contact toevoegen</string>
     <string name="label_notes">Notitie</string>

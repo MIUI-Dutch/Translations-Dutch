@@ -17,7 +17,7 @@
     <string name="callFailed_server_unreachable">Server onbereikbaar</string>
     <string name="callFailed_number_unreachable">Nummer onbereikbaar</string>
     <string name="callFailed_invalid_credentials">Onjuiste gebruikersnaam of wachtwoord</string>
-    <string name="callFailed_out_of_network">Gebeld vanuit het neterk</string>
+    <string name="callFailed_out_of_network">Gebeld vanuit het netwerk</string>
     <string name="callFailed_server_error">Server fout. Probeer later opnieuw.</string>
     <string name="callFailed_noSignal">Geen signaal</string>
     <string name="callFailed_limitExceeded">ACM limiet overschreden</string>
@@ -314,7 +314,7 @@
     <string name="notification_voicemail_no_vm_number">Voicemail nummer onbekend</string>
     <string name="notification_network_selection_title">Geen service</string>
     <string name="notification_network_selection_text">Geselecteerd netwerk (%s) niet beschikbaar</string>
-    <string name="incall_error_power_off">Om te bellen, a.u.b. eerst vliegtuigmodus uitzetten.</string>
+    <string name="incall_error_power_off">Om te bellen, a.u.b. eerst vliegtuig-modus uitzetten.</string>
     <string name="incall_error_emergency_only">Niet geregistreerd op netwerk.</string>
     <string name="incall_error_out_of_service">Mobiel netwerk niet beschikbaar.</string>
     <string name="incall_error_no_phone_number_supplied">Oproep niet verstuurd, geen geldig nummer ingevoert.</string>

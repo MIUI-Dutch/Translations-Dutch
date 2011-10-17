@@ -34,7 +34,7 @@
     <string name="record_list">Record lijst</string>
     <string name="sd_card_not_available">SD kaart niet beschikbaar</string>
     <string name="call_record">Oproepen record</string>
-    <string name="open_file_explorer">Open Bestands Beheer</string>
+    <string name="open_file_explorer">Open Bestanden</string>
     <string name="no_file">Geen bestand</string>
     <string name="mark_now">(Huidige)</string>
     <string name="second">%d seconden</string>

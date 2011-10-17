@@ -5,8 +5,8 @@
     <string name="bt_share_picker_label">Bluetooth</string>
     <string name="unknown_device">Onbekend apparaat</string>
     <string name="unknownNumber">Onbekend</string>
-    <string name="airplane_error_title">Vliegtuig modus</string>
-    <string name="airplane_error_msg">Je kan Bluetooth niet gebruiken in vliegtuigmodus</string>
+    <string name="airplane_error_title">Vliegtuig-modus</string>
+    <string name="airplane_error_msg">Je kan Bluetooth niet gebruiken in vliegtuig-modus</string>
     <string name="bt_enable_title">Bluetooth</string>
     <string name="bt_enable_line1">Om Bluetooth te gebruiken, moet je Bluetooth aanzetten.</string>
     <string name="bt_enable_line2">Bluetooth nu aanzetten?</string>

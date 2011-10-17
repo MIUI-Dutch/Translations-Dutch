@@ -20,8 +20,8 @@
     <string name="fmradio_found_format">%s MHz...</string>
     <string name="fmradio_found_station">%d station(s) gevonden</string>
     <string name="fmradio_clear_confirm_msg">Alle opgeslagen radio stations worden gewist, doorgaan met scan?</string>
-    <string name="fmradio_airplane_mode_enable_at_begin">Sluit radio af in vliegtuig-stand</string>
-    <string name="fmradio_airplane_mode_enable_in_listen">Vliegtuig-stand aan, de radio wordt automatisch afgesloten</string>
+    <string name="fmradio_airplane_mode_enable_at_begin">Sluit radio af in vliegtuig-modus</string>
+    <string name="fmradio_airplane_mode_enable_in_listen">Vliegtuig-modus aan, de radio wordt automatisch afgesloten</string>
     <string name="fmradio_waiting_for_power_on">Start radio, moment...</string>
     <string name="error_mem_full">Telefoongeheugen is vol, de radio kan niet starten</string>
     <string name="service_start_error_msg">Radio start mislukt</string>
@@ -62,12 +62,12 @@
     <string name="fmradio_no_headset_at_begin">Sluit koptelefoon aan voor gebruik van de radio</string>
     <string name="fmradio_start_error">Start radio mislukt</string>
     <string name="fmradio_no_headset_in_listen">Koptelefoon is verwijderd, radio word automatisch afgesloten</string>
-    <string name="fmradio_on_airplane_mode_in_listen">Vliegtuig-stand, de radio is afgesloten</string>
+    <string name="fmradio_on_airplane_mode_in_listen">Vliegtuig-modus, de radio is afgesloten</string>
     <string name="fmradio_stop_unexpected">Onbekende fout, radio is afgesloten</string>
-    <string name="sleep_mode">Slaapstand</string>
+    <string name="sleep_mode">Slaap-modus</string>
     <string name="popup_time">%d minuten</string>
-    <string name="select_quit_time">Selecteer slaapstand tijd (minuten)</string>
-    <string name="cancel_sleep_mode">Slaapstand uitschakelen</string>
+    <string name="select_quit_time">Selecteer slaap-modus tijd (minuten)</string>
+    <string name="cancel_sleep_mode">Slaap-modus uitschakelen</string>
     <string name="quit_warining">Radio stopt spelen na %d minuten</string>
     <string name="min_time">1</string>
     <string name="max_time">90</string>

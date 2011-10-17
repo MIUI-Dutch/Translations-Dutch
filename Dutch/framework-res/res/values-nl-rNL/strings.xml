@@ -1229,7 +1229,7 @@
     <string name="status_bar_toggle_brightness">Helderheid</string>
     <string name="status_bar_toggle_data">Data</string>
     <string name="status_bar_toggle_divider">Schakelaars hierboven zijn actief</string>
-    <string name="status_bar_toggle_flight_mode">Vliegtuig</string>
+    <string name="status_bar_toggle_flight_mode">Vliegtuig-modus</string>
     <string name="status_bar_toggle_gps">GPS</string>
     <string name="status_bar_toggle_lock">Vergrendel</string>
     <string name="status_bar_toggle_mute">Stil</string>

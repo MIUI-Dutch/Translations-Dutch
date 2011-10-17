@@ -33,7 +33,7 @@
     <string name="add_device_admin">In-\nschakelen</string>
     <string name="add_device_admin_msg">Apparaatbeheerder activeren?</string>
     <string name="advanced_mode">Geavanceerd</string>
-    <string name="airplane_mode">Vliegtuigstand</string>
+    <string name="airplane_mode">Vliegtuig-modus</string>
     <string name="airplane_mode_summary">Alle draadloze verbindingen uitschakelen</string>
     <string name="alarm_volume_title">Alarmvolume</string>
     <string name="all_volume">Alle volumes</string>
@@ -119,7 +119,7 @@
     <string name="battery_auto_saving_category_rule">Batterij besparingsinstellingen</string>
     <string name="battery_auto_saving_practise">Tips voor het verlengen batterijduur</string>
     <string name="battery_auto_saving_practise_more">Meer stroom besparende tips...</string>
-    <string name="battery_auto_saving_practise_summary">1.Beperk het aantal apps op de achtergrond. \n2.Tenzij er weinig licht is, is maximale helderheid instellen niet nodig. \n3.Denk aan het instellen van vliegtuigmodus tijdens de nacht.</string>
+    <string name="battery_auto_saving_practise_summary">1.Beperk het aantal apps op de achtergrond. \n2.Tenzij er weinig licht is, is maximale helderheid instellen niet nodig. \n3.Denk aan het instellen van vliegtuig-modus tijdens de nacht.</string>
     <string name="battery_auto_saving_rule_apn">Dataverbinding uitschakelen</string>
     <string name="battery_auto_saving_rule_apn_summary">Verbetering batterijverbruik hoog</string>
     <string name="battery_auto_saving_rule_auto_sync">Synchroniseren uitschakelen</string>
@@ -229,7 +229,7 @@
     <string name="battery_sugg_apps_info">Toepassing stoppen of wissen</string>
     <string name="battery_sugg_bluetooth_basic">Schakel Bluetooth uit indien standby</string>
     <string name="battery_sugg_display">Helderheid en/of time-out scherm verminderen</string>
-    <string name="battery_sugg_radio">Schakel over naar vliegtuigstand om energie te besparen in gebieden zonder mobiele dekking</string>
+    <string name="battery_sugg_radio">Schakel over naar vliegtuig-modus om energie te besparen in gebieden zonder mobiele dekking</string>
     <string name="battery_sugg_wifi">Wi-Fi uitschakelen indien standby of niet beschikbaar</string>
     <string name="bluetooth">Bluetooth</string>
     <string name="bluetooth_a2dp_profile_summary_connected">Verbonden met media-audio</string>
@@ -1373,7 +1373,7 @@
     <string name="wifi_fail_to_scan">Kan niet scannen op netwerken</string>
     <string name="wifi_forget">Vergeten</string>
     <string name="wifi_gateway">Gateway</string>
-    <string name="wifi_in_airplane_mode">In Vliegtuigstand</string>
+    <string name="wifi_in_airplane_mode">In Vliegtuig-modus</string>
     <string name="wifi_ip_address">IP-adres</string>
     <string name="wifi_ip_settings_invalid_ip">Geef een geldig IP-adres in.</string>
     <string name="wifi_ip_settings_menu_cancel">Annuleer</string>
