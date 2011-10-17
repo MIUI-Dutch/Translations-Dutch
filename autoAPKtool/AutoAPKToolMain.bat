@@ -466,6 +466,12 @@ if exist %DoWork% (
  @echo recompiling apks...
  :: for loop call to 03recompileAPK
  for /f "tokens=* delims= " %%a in ('dir _INPUT_APK /b /ad') do (
+  if exist "_INPUT_APK\%%a\res\values-nl-rNL" (
+   if exist "_TRANSLATE\%_LANGUAGE%\%%a\res\values-nl" (
+    @echo Update "_INPUT_APK\%%a\res\values-nl-rNL" with "_TRANSLATE\%_LANGUAGE%\%%a\res\values-nl\*.*"
+    copy /y  "_TRANSLATE\%_LANGUAGE%\%%a\res\values-nl\*.*" "_INPUT_APK\%%a\res\values-nl-rNL"
+   )
+  )
   @echo [*] %%a folder >>%logR%
   @echo recompiling %%a.apk... >>%logR%
   call 03recompileAPK %%a 2>>%logR%
@@ -525,6 +531,12 @@ for /f %%r in ('dir /b _INPUT_ROM\*.zip') do (
     for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-rGB*') do rd /s /q _INPUT_APK\framework-res\res\%%d
     for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-rIE*') do rd /s /q _INPUT_APK\framework-res\res\%%d
     for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-rNZ*') do rd /s /q _INPUT_APK\framework-res\res\%%d
+    if exist "_INPUT_APK\%%i\res\values-nl-rNL" (
+     if exist "_TRANSLATE\%_LANGUAGE%\%%i\res\values-nl" (
+      @echo Update "_INPUT_APK\%%i\res\values-nl-rNL" with "_TRANSLATE\%_LANGUAGE%\%%i\res\values-nl\*.*"
+      copy /y  "_TRANSLATE\%_LANGUAGE%\%%i\res\values-nl\*.*" "_INPUT_APK\%%i\res\values-nl-rNL"
+     )
+    )
     if %%i==framework-res dir /b /a:d _INPUT_APK\framework-res\res
     call 03recompileAPK "_INPUT_APK\%%i"
     call 04rebuildusableAPK "_INPUT_APK\%%i.apk"
