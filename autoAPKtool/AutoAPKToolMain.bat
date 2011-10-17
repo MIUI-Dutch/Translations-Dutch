@@ -379,6 +379,29 @@ if exist %logD% DEL %logD%
 	set _LANGUAGE=Dutch
 ::
 ::
+::
+:: rename _INPUT_ROM\*.zip to wanted names
+for /f "tokens=1,2 delims=_" %%a in ('dir /b _INPUT_ROM\miuiandroid*.zip') do (
+ ::@echo %%a_%%b
+ ::@echo ren _INPUT_ROM\%%a_%%b miuinl_%%b
+ @ren _INPUT_ROM\%%a_%%b miuinl_%%b
+)
+for /f "tokens=1-4,5* delims=_" %%a in ('dir /b _INPUT_ROM\miui_xj*.zip') do (
+ @if '%%d'=='X-PART' (
+  ::@echo %%a_%%b_%%c_%%d_%%e
+  ::@echo ren _INPUT_ROM\%%a_%%b_%%c_%%d_%%e_%%f miuinl_%%b_%%c_%%d_%%e.zip
+  @ren _INPUT_ROM\%%a_%%b_%%c_%%d_%%e_%%f miuinl_%%b_%%c_%%d_%%e.zip
+ )
+)
+for /f "tokens=1-4,5* delims=_" %%a in ('dir /b _INPUT_ROM\miui_xj*.zip') do (
+ @if not '%%d'=='X-PART' (
+  ::@echo %%a_%%b_%%c_%%d_%%e_%%f
+  ::@echo ren _INPUT_ROM\%%a_%%b_%%c_%%d_%%e_%%f miuinl_%%b_%%c_%%d.zip
+  @ren _INPUT_ROM\%%a_%%b_%%c_%%d_%%e_%%f miuinl_%%b_%%c_%%d.zip
+ )
+)
+::
+::
 ::ifframework
 Set BeginTime=%time%
 if exist _FLASHABLES\system\app\*.apk del /q _FLASHABLES\system\app\*.apk
@@ -570,7 +593,7 @@ for /f %%r in ('dir /b _INPUT_ROM\*.zip') do (
   7za a -tzip "%~dp0_TEMP\%%r" "%~dp0_TEMP\%%~nr\system" -mx%complevel%
   @echo Signing "_TEMP\%%r" to _OUTPUT_ROM\%%~nr-signed.zip ... >>%logD%
   @echo Signing "_TEMP\%%r" to _OUTPUT_ROM\%%~nr-signed.zip ...
-  java -jar "_SIGN_ZIP\signapk.jar" "_SIGN_ZIP\testkey.x509.pem" "_SIGN_ZIP\testkey.pk8" "_TEMP\%%r" "_OUTPUT_ROM\%%~nr-signed.zip"
+  java -jar "_SIGN_ZIP\signapk.jar" "_SIGN_ZIP\testkey.x509.pem" "_SIGN_ZIP\testkey.pk8" "_TEMP\%%r" "_OUTPUT_ROM\%%~nr_Signed.zip"
   DEL "_TEMP\%%r"
  )
 )
