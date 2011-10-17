@@ -1103,7 +1103,7 @@
     <string name="sound_settings">Geluid</string>
     <string name="sound_settings_title">Geluid</string>
     <string name="ssid_label">SSID :</string>
-    <string name="status_bar_toggle_arrangement">Arrangement</string>
+    <string name="status_bar_toggle_arrangement">Volgorde</string>
     <string name="status_bar_toggle_divider_list">Schakelaars boven de balk zijn aktief</string>
     <string name="status_bar_toggle_divider_page">%1$d bovenstaande schakelaars zijn actief</string>
     <string name="status_bar_toggle_settings">Statusbalk</string>
