@@ -1131,7 +1131,7 @@
 
     .prologue
     .line 48
-    const-string v0, "http://miui.nl/ota-update.php"
+    const-string v0, "http://miui.nl/ota/ota-update.php"
 
     return-object v0
 .end method
