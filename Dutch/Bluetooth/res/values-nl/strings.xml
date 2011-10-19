@@ -71,7 +71,7 @@
     <string name="status_running">Bestandoverdracht is aan de gang</string>
     <string name="status_success">De bestandsoverdracht is geslaagd</string>
     <string name="status_not_accept">De telefoon kan niet overweg met dit type inhoud</string>
-    <string name="status_forbidden">Deze overdracht is verboden door de doelapparaat</string>
+    <string name="status_forbidden">Deze overdracht is verboden door het doelapparaat</string>
     <string name="status_canceled">Overdracht gestopt door gebruiker</string>
     <string name="status_file_error">Opslag probleem</string>
     <string name="status_no_sd_card">Geen SD kaart. Plaatst een SD kaart om overgedragen bestanden op te slaan.</string>
