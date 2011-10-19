@@ -24,7 +24,7 @@
     <string name="add_blacklist">Op zwarte lijst zetten</string>
     <string name="add_button">Voeg nummer of contact toe</string>
     <string name="add_whitelist">Op witte lijst zetten</string>
-    <string name="anti_stranger_summary">Demp inkomende oproepen van onbekenden</string>
+    <string name="anti_stranger_summary">Demp inkomende oproepen van onbekenden, je kunt ook niet zien of ze jou wilden bellen</string>
     <string name="anti_stranger_title">Demp onbekend</string>
     <string name="app_name">Niet Storen</string>
     <string name="black_white_list_tab_title">Filters</string>
