@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="app_name">Certificaat Installer</string>
-	<string name="cert_is_added">%s is ge?nstalleerd</string>
+	<string name="cert_is_added">%s is geïnstalleerd</string>
 	<string name="cert_missing_error">Installatie mislukt. Kan het certificaat bestand niet vinden</string>
-	<string name="cert_not_saved">Certificaat is niet ge?nstalleerd</string>
+	<string name="cert_not_saved">Certificaat is niet geïnstalleerd</string>
 	<string name="cert_read_error">Installatie mislukt. Kan het certificaat bestand niet lezen</string>
 	<string name="cert_too_large_error">Installatie mislukt. Certificaat is te groot</string>
 	<string name="credential_info">Het pakket bevat:</string>
@@ -17,9 +17,9 @@
 	<string name="name_empty_error">Voer een naam in</string>
 	<string name="no_cert_file_found">Geen certificaat-bestand gevonden op de SD-kaart</string>
 	<string name="no_cert_to_saved">Geen certificaat om te installeren</string>
-	<string name="one_cacrt">E�n CA certificaat</string>
-	<string name="one_usercrt">E�n gebruikers certificaat</string>
-	<string name="one_userkey">E�n gebruikers sleutel</string>
+	<string name="one_cacrt">Eén CA certificaat</string>
+	<string name="one_usercrt">Eén gebruikers certificaat</string>
+	<string name="one_userkey">Eén gebruikers sleutel</string>
 	<string name="p12_description">Certificaten in PKCS12 sleutelring</string>
 	<string name="password_empty_error">Voer het wachtwoord in</string>
 	<string name="password_error">Voer het juiste wchtwoord in</string>

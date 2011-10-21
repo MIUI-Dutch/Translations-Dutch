@@ -147,10 +147,10 @@
 	<string name="notification_filename_extras">\u0020en %d download</string>
 	<string name="notification_filename_separator">,\u0020</string>
 	<string name="ok">OK</string>
-	<string name="one_key_export">Eén toets Backup</string>
+	<string name="one_key_export">1 toets Backup</string>
 	<string name="one_key_export_message">Dit zal de browser data opslaan op de SD kaart... (/sdcard/miui_browser/backups/)</string>
 	<string name="one_key_export_summary">Backup browser data op SD kaart.</string>
-	<string name="one_key_import">??n toets Import</string>
+	<string name="one_key_import">1 toets Import</string>
 	<string name="one_key_import_message">Dit zal de data backup importeren.</string>
 	<string name="one_key_import_summary">Importeer browser data van de SD kaart.</string>
 	<string name="one_match">1 overeenkomst</string>
