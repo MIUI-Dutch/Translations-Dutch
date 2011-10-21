@@ -11,8 +11,8 @@
 	<string name="administrative_enable">Administratief ingeschakeld</string>
 	<string name="advanced_settings">Optionele instellingen</string>
 	<string name="advanced_settings_container">Geavanceerde instellingen container</string>
-	<string name="advanced_settings_hide">? Aanraken om te verbergen</string>
-	<string name="advanced_settings_show">? Aanraken om te tonen</string>
+	<string name="advanced_settings_hide">Aanraken om te verbergen</string>
+	<string name="advanced_settings_show">Aanraken om te tonen</string>
 	<string name="advertisements_disable">Advertenties uitgeschakeld</string>
 	<string name="advertisements_enable">Advertenties ingeschakeld</string>
 	<string name="alert_dialog_close">Sluit het profiel</string>

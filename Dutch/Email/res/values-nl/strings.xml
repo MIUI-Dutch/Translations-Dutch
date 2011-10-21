@@ -105,7 +105,7 @@
 	<string name="account_setup_options_mail_check_frequency_label">E-mail controle frequentie</string>
 	<string name="account_setup_options_mail_check_frequency_never">Nooit</string>
 	<string name="account_setup_options_mail_check_frequency_push">Automatisch (Push)</string>
-	<string name="account_setup_options_mail_window_1day">??n dag</string>
+	<string name="account_setup_options_mail_window_1day">Eén dag</string>
 	<string name="account_setup_options_mail_window_1month">??n maand</string>
 	<string name="account_setup_options_mail_window_1week">??n week</string>
 	<string name="account_setup_options_mail_window_2weeks">Twee weken</string>

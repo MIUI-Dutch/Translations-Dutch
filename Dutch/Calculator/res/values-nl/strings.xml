@@ -20,7 +20,7 @@
 	<string name="div">?</string>
 	<string name="dot">.</string>
 	<string name="e">e</string>
-	<string name="enter"></string>
+	<string name="enter">Enter</string>
 	<string name="equal">=</string>
 	<string name="error">Fout</string>
 	<string name="factorial">!</string>

@@ -17,9 +17,9 @@
 	<string name="name_empty_error">Voer een naam in</string>
 	<string name="no_cert_file_found">Geen certificaat-bestand gevonden op de SD-kaart</string>
 	<string name="no_cert_to_saved">Geen certificaat om te installeren</string>
-	<string name="one_cacrt">??n CA certificaat</string>
-	<string name="one_usercrt">??n gebruikers certificaat</string>
-	<string name="one_userkey">??n gebruikers sleutel</string>
+	<string name="one_cacrt">Eén CA certificaat</string>
+	<string name="one_usercrt">Eén gebruikers certificaat</string>
+	<string name="one_userkey">Eén gebruikers sleutel</string>
 	<string name="p12_description">Certificaten in PKCS12 sleutelring</string>
 	<string name="password_empty_error">Voer het wachtwoord in</string>
 	<string name="password_error">Voer het juiste wchtwoord in</string>
