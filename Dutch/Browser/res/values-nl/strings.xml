@@ -79,7 +79,7 @@
 	<string name="contextmenu_sharelink">Deel Link</string>
 	<string name="contextmenu_showpageinfo">Toon pagina info</string>
 	<string name="contextmenu_view_image">Toon afbeelding</string>
-	<string name="create_desktop_shortcut">creâr desktop shortcut</string>
+	<string name="create_desktop_shortcut">cre?r desktop shortcut</string>
 	<string name="do_not_save">Annuleer</string>
 	<string name="download_action_start">Start Download</string>
 	<string name="download_no_application_title">kan bestand niet openen</string>
@@ -147,10 +147,10 @@
 	<string name="notification_filename_extras">\u0020en %d download</string>
 	<string name="notification_filename_separator">,\u0020</string>
 	<string name="ok">OK</string>
-	<string name="one_key_export">êÇn toets Backup</string>
+	<string name="one_key_export">??n toets Backup</string>
 	<string name="one_key_export_message">Dit zal de browser data opslaan op de SD kaart... (/sdcard/miui_browser/backups/)</string>
 	<string name="one_key_export_summary">Backup browser data op SD kaart.</string>
-	<string name="one_key_import">êÇn toets Import</string>
+	<string name="one_key_import">??n toets Import</string>
 	<string name="one_key_import_message">Dit zal de data backup importeren.</string>
 	<string name="one_key_import_summary">Importeer browser data van de SD kaart.</string>
 	<string name="one_match">1 overeenkomst</string>
@@ -279,7 +279,7 @@
 	<string name="switch_to_reading_mode">Klik hier voor lees modus</string>
 	<string name="system_folder_one_click_launcher">Snelle toegang</string>
 	<string name="tip_enter_full_screen_mode">Raak linksonderin de hoek de knop aan om full screen te verlaten.</string>
-	<string name="toast_select_text">Selecteer tekst om te kopiâren.</string>
+	<string name="toast_select_text">Selecteer tekst om te kopi?ren.</string>
 	<string name="too_many_subwindows_dialog_message">Pagina\'s in een label kunnen geen meervoudige pop-up schermen openen.</string>
 	<string name="too_many_subwindows_dialog_title">Pop-up scherm is al open.</string>
 	<string name="top_search">Zoeken</string>

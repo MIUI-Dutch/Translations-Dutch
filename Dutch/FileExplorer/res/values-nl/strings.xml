@@ -54,7 +54,7 @@
 	<string name="notif_title">FTP Server</string>
 	<string name="operation_cancel">Annuleren</string>
 	<string name="operation_cancel_selectall">Alles deselecteren</string>
-	<string name="operation_copy">Kopi‰er</string>
+	<string name="operation_copy">Kopi?er</string>
 	<string name="operation_create_folder">Nieuwe map</string>
 	<string name="operation_create_folder_message">Voer naam van de map in</string>
 	<string name="operation_delete">Wis</string>
@@ -67,7 +67,7 @@
 	<string name="operation_move">Verplaats</string>
 	<string name="operation_moving">Verplaatsen...</string>
 	<string name="operation_paste">Plak</string>
-	<string name="operation_pasting">Kopi‰ren...</string>
+	<string name="operation_pasting">Kopi?ren...</string>
 	<string name="operation_refresh">Vernieuwen</string>
 	<string name="operation_remove">Wissen</string>
 	<string name="operation_rename">Hernoem</string>

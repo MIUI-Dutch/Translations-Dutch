@@ -24,6 +24,7 @@
 	<string name="old_format_convert_tip2">Je kan ook dit thema-bestand verwijderen, en dan de laatste versie format van dit thema-bestand downloaden.</string>
 	<string name="old_format_fail">Conversie is mislukt, klik om opnieuw te proberen. Download de laatste versie format als conversie niet lukt!</string>
 	<string name="old_format_title">Oud format bron gedetecteerd</string>
+	<string name="play_all_audio_effect">beluister audio effect (totaal: %1$s)</string>
 	<string name="resource_fail_to_show">Het thema pakket bevat niet de geschikte bronnen</string>
 	<string name="theme_activity_lable">Thema\'s</string>
 	<string name="theme_changed_failed_message">Thema toepassen is mislukt</string>
@@ -31,6 +32,7 @@
 	<string name="theme_changing_dialog_title">Configureren</string>
 	<string name="theme_component_title_alarm">Alarm</string>
 	<string name="theme_component_title_all">Thema\'s</string>
+	<string name="theme_component_title_audio_effect">AudioEffect</string>
 	<string name="theme_component_title_boot_animation">Opstart animatie</string>
 	<string name="theme_component_title_boot_audio">Opstart muziek</string>
 	<string name="theme_component_title_contact">Kiezer thema</string>

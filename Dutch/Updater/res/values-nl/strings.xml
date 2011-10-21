@@ -72,7 +72,7 @@
 	<string name="sdcard_is_not_present_dialog_title">SD kaart niet gevonden</string>
 	<string name="send_install_log">Verstuur install log</string>
 	<string name="send_install_log_error">Niet verstuurd</string>
-	<string name="sign_in_add_account_helper">Je telefoon heeft geen MIUI account geconfigureerd, cre‰er ‚‚n voor punten</string>
+	<string name="sign_in_add_account_helper">Je telefoon heeft geen MIUI account geconfigureerd, cre?er ??n voor punten</string>
 	<string name="sign_in_info">Deze upgrade je %1$s\n%2$s Gebruikers hebben %3$s downloads</string>
 	<string name="stable_version">Stabiel</string>
 	<string name="start_update">Begin update</string>

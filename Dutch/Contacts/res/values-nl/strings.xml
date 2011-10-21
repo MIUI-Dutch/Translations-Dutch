@@ -89,7 +89,7 @@
 	<string name="clearOneCallLogConfirmation">De oproep log word verwijderd, doorgaan?</string>
 	<string name="composer_failed_to_get_database_infomation">Kan databasegegevens niet ophalen</string>
 	<string name="composer_has_no_exportable_contact">Geen exporteerbaar contact. Mogelijk selecteert u niet-exporteerbare gegevens</string>
-	<string name="composer_not_initialized">vCard-editor niet ge‹nitialiseerd</string>
+	<string name="composer_not_initialized">vCard-editor niet ge?nitialiseerd</string>
 	<string name="config_export_dir">/sdcard/MIUI/contacten</string>
 	<string name="config_export_extensions_to_consider" />
 	<string name="config_export_file_extension">vcf</string>
@@ -149,7 +149,7 @@
 	<string name="dialer_empty_text_no_call_log">Geen gesprekslog</string>
 	<string name="dialer_empty_text_no_search_result">Geen items gevonden die aan de zoekcriteria voldoen</string>
 	<string name="dialer_item_click_guide_call">Bel dit nummer</string>
-	<string name="dialer_item_click_guide_title">Klik op oproep log, uw voorkeur isƒ?Ý</string>
+	<string name="dialer_item_click_guide_title">Klik op oproep log, uw voorkeur is???</string>
 	<string name="dialer_item_click_guide_view_contacts">Bekijk dit contact</string>
 	<string name="dialerDialpadHintText">Kies nummer om oproep toe te voegen</string>
 	<string name="dialog_export">Exporteer contacten</string>
@@ -165,13 +165,13 @@
 	<string name="editContactDescription">Contact wijzigen</string>
 	<string name="email">E-mail</string>
 	<string name="email_custom">E-mail naar %s</string>
-	<string name="email_home">E-mail (priv‚)</string>
+	<string name="email_home">E-mail (priv?)</string>
 	<string name="email_mobile">E-mail (mobiel)</string>
 	<string name="email_other">E-mail (overig)</string>
 	<string name="email_work">E-mail (zakelijk)</string>
 	<string name="emailLabelsGroup">E-mailadres</string>
 	<string name="eventLabelsGroup">Gebeurtenis</string>
-	<string name="export_success_message">Succesvol %d contacten ge‰xporteerd</string>
+	<string name="export_success_message">Succesvol %d contacten ge?xporteerd</string>
 	<string name="export_success_title">Exporten succesvol</string>
 	<string name="export_to_sdcard">Exporteren naar SD-kaart</string>
 	<string name="export_to_sim">Exporteren naar SIM-kaart</string>
@@ -241,7 +241,7 @@
 	<string name="locale_change_in_progress">Contacten bijwerken om taal te wijzigen.\n\nEven geduld...</string>
 	<string name="manage_groups">Beheer groepen</string>
 	<string name="map_custom">Adres %s weergeven</string>
-	<string name="map_home">Priv‚-adres weergeven</string>
+	<string name="map_home">Priv?-adres weergeven</string>
 	<string name="map_other">Ander adres weergeven</string>
 	<string name="map_work">Werkadres weergeven</string>
 	<string name="meid">MEID</string>
@@ -339,12 +339,12 @@
 	<string name="pref_contacts_photo_title">Contact foto instelling</string>
 	<string name="pref_enable_contact_photo">Toon contactafbeelding</string>
 	<string name="pref_import_and_export_title">Importeren/Exporteren</string>
-	<string name="pref_key_rebuild_t9_index_message">Recr‰er de T9 index data als u problemen ondervind met zoeken in contacten d.m.v. de nummerkiezer</string>
-	<string name="pref_key_rebuild_t9_index_title">Recre‰ren van T9 index data</string>
+	<string name="pref_key_rebuild_t9_index_message">Recr?er de T9 index data als u problemen ondervind met zoeken in contacten d.m.v. de nummerkiezer</string>
+	<string name="pref_key_rebuild_t9_index_title">Recre?ren van T9 index data</string>
 	<string name="pref_title_export">Exporteer contacten</string>
 	<string name="pref_title_import">Importeer contacten</string>
 	<string name="preferences_title">Voorkeuren</string>
-	<string name="private_num">Priv‚-nummer</string>
+	<string name="private_num">Priv?-nummer</string>
 	<string name="progress_shower_message">%s\n%s</string>
 	<string name="quick_contact_add_bl">Zwarte lijst</string>
 	<string name="quick_contact_add_live_contact">Toevoegen aan...</string>
@@ -412,7 +412,7 @@
 	<string name="simCard">SIM kaart</string>
 	<string name="simContacts_emptyLoading">Laden van SIM-kaart...</string>
 	<string name="simContacts_title">Contacten op SIM-kaart</string>
-	<string name="simExportCancelled">Kopi‰ren geannuleerd\n% contacten %s gekopi‰erd van SIM kaart.</string>
+	<string name="simExportCancelled">Kopi?ren geannuleerd\n% contacten %s gekopi?erd van SIM kaart.</string>
 	<string name="simExportLoadingAdn">Lezen van SIM kaart, dit kan even duren, geduld a.u.b.</string>
 	<string name="simExportNoSpace">Onvoldoende ruimte op de SIM kaart om %s contacten op te slaan. Er kunnen maximaal %s contacten worden opgeslagen</string>
 	<string name="sip_address">VOIP</string>
@@ -423,7 +423,7 @@
 	<string name="sms_custom">SMS naar %s</string>
 	<string name="sms_fax_home">SMS thuisfax</string>
 	<string name="sms_fax_work">SMS fax werk</string>
-	<string name="sms_home">SMS priv‚</string>
+	<string name="sms_home">SMS priv?</string>
 	<string name="sms_isdn">SMS ISDN</string>
 	<string name="sms_main">SMS hoofdnummer</string>
 	<string name="sms_mms">SMS MMS</string>
@@ -437,7 +437,7 @@
 	<string name="sms_work">SMS werk</string>
 	<string name="sms_work_mobile">SMS mobiel werk</string>
 	<string name="sms_work_pager">SMS pieper werk</string>
-	<string name="splitConfirmation">Weet u zeker dat u dit contact wilt opsplitsen in meerdere contacten: E‚n voor elke set van contactinformatie dat erin is samengevoegd</string>
+	<string name="splitConfirmation">Weet u zeker dat u dit contact wilt opsplitsen in meerdere contacten: E?n voor elke set van contactinformatie dat erin is samengevoegd</string>
 	<string name="splitConfirmation_title">Contact opsplitsen</string>
 	<string name="starredList">Sterren</string>
 	<string name="strequentList">Favorieten</string>
@@ -449,7 +449,7 @@
 	<string name="toast_for_saving_nickname">Wijzigingen opslaan</string>
 	<string name="unknown">Onbekend</string>
 	<string name="upgrade_in_progress">Contacten bijwerken.\n\nEven geduld...</string>
-	<string name="upgrade_out_of_memory">Contacten worden bijgewerkt.\n\nHet bijwerken gebruikt ongeveer %dMb van interne telefoon opslag.\n\nkies ‚‚n van de volgende opties:</string>
+	<string name="upgrade_out_of_memory">Contacten worden bijgewerkt.\n\nHet bijwerken gebruikt ongeveer %dMb van interne telefoon opslag.\n\nkies ??n van de volgende opties:</string>
 	<string name="upgrade_out_of_memory_retry">Opnieuw verversen</string>
 	<string name="upgrade_out_of_memory_uninstall">De-installeer enkele applicaties</string>
 	<string name="use_lunar_birthday">Gebruik maan kalender</string>

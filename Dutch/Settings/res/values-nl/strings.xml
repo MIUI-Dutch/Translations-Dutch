@@ -23,7 +23,7 @@
 	<string name="accessibility_settings_title">Toegankelijkheidsinstellingen</string>
 	<string name="active_device_admin_msg">Apparaatbeheerder</string>
 	<string name="activity_picker_label">Applicatie selecteren</string>
-	<string name="adb_warning_message">USB-foutopsporing is alleen bedoeld voor ontwikkelingsdoeleinden. Hiermee kunt u gegevens kopiA®ren tussen uw computer en uw apparaat, toepassingen op uw apparaat installeren zonder kennisgeving en loggegevens lezen</string>
+	<string name="adb_warning_message">USB-foutopsporing is alleen bedoeld voor ontwikkelingsdoeleinden. Hiermee kunt u gegevens kopiA?ren tussen uw computer en uw apparaat, toepassingen op uw apparaat installeren zonder kennisgeving en loggegevens lezen</string>
 	<string name="adb_warning_title">USB-foutopsporing inschakelen?</string>
 	<string name="add_device_admin">In-\nschakelen</string>
 	<string name="add_device_admin_msg">Apparaatbeheerder activeren?</string>
@@ -36,6 +36,7 @@
 	<string name="allow_mock_location">Namaaklocaties toestaan</string>
 	<string name="allow_mock_location_summary">Namaaklocaties toestaan</string>
 	<string name="animations_title">Animatie</string>
+	<string name="APKTOOL_DUMMY_05b6">false</string>
 	<string name="apn_apn">APN</string>
 	<string name="apn_auth_type">Verificatietype</string>
 	<string name="apn_auto_switch_dialog_message">Alleen de voorkeurs APN wordt gebruikt indien de auto omschakeling uit staat , Data verbinding kan verloren gaan.\nweet U zeker dat U dit wilt?</string>
@@ -62,7 +63,7 @@
 	<string name="app_factory_reset">Updates wissen</string>
 	<string name="app_factory_reset_dlg_text">Alle updates van Android-systeemtoepassingen wissen?</string>
 	<string name="app_factory_reset_dlg_title">Updates wissen</string>
-	<string name="app_forward_locked">Toepassing beveiligd tegen kopiA®ren</string>
+	<string name="app_forward_locked">Toepassing beveiligd tegen kopiA?ren</string>
 	<string name="app_install_location_summary">Voorkeurslocatie wijzigen voor nieuwe toepassingen</string>
 	<string name="app_install_location_title">Voorkeurslocatie</string>
 	<string name="app_name_label">Toepassing</string>
@@ -98,7 +99,7 @@
 	<string name="backlight_title">Automatische helderheid</string>
 	<string name="backup_data_summary">Back-up van huidige instellingen en toepassingsgegevens</string>
 	<string name="backup_data_title">Back-up mijn gegevens</string>
-	<string name="backup_erase_dialog_message">Stoppen met back-up van instellingen en alle kopi‰en op Google-server wissen?</string>
+	<string name="backup_erase_dialog_message">Stoppen met back-up van instellingen en alle kopi?en op Google-server wissen?</string>
 	<string name="backup_erase_dialog_title">Back-upinstellingen</string>
 	<string name="backup_section_title">Back-up en herstel op mobiel</string>
 	<string name="band_mode_failed">Niet geslaagd</string>
@@ -199,7 +200,7 @@
 	<string name="battery_info_status_unknown">Onbekend</string>
 	<string name="battery_info_technology_label">Batterijtechnologie:</string>
 	<string name="battery_info_temperature_label">Batterijtemperatuur:</string>
-	<string name="battery_info_temperature_units">Aø C</string>
+	<string name="battery_info_temperature_units">A? C</string>
 	<string name="battery_info_uptime">Tijd sinds opstarten:</string>
 	<string name="battery_info_voltage_label">Batterijvoltage:</string>
 	<string name="battery_info_voltage_units">mV</string>
@@ -258,7 +259,7 @@
 	<string name="bluetooth_device_info_connectButton_text">Turn on Bluetooth</string>
 	<string name="bluetooth_device_info_delete">Remove this device</string>
 	<string name="bluetooth_device_info_deviceInfo_text" />
-	<string name="bluetooth_device_info_no_alias">Type alias hereƒ?Ý</string>
+	<string name="bluetooth_device_info_no_alias">Type alias here???</string>
 	<string name="bluetooth_device_info_sdp">List supported services</string>
 	<string name="bluetooth_device_name">Naam apparaat</string>
 	<string name="bluetooth_devices">Bluetooth-apparaten</string>
@@ -304,7 +305,7 @@
 	<string name="bluetooth_quick_toggle_summary">Bluetooth inschakelen</string>
 	<string name="bluetooth_quick_toggle_title">Bluetooth</string>
 	<string name="bluetooth_remote_device">Bluetooth-apparaat</string>
-	<string name="bluetooth_scan_text">Empty buttonƒ?Ý</string>
+	<string name="bluetooth_scan_text">Empty button???</string>
 	<string name="bluetooth_settings">Bluetooth</string>
 	<string name="bluetooth_settings_summary">Verbindingen beheren, apparaatnaam en detecteerbaarheid instellen</string>
 	<string name="bluetooth_settings_text">Empty button</string>
@@ -352,7 +353,7 @@
 	<string name="choose_timezone">Tijdzone selecteren</string>
 	<string name="cit_ac_charger_in">AC lader aangesloten</string>
 	<string name="cit_ac_charger_out">AC lader ontkoppeld</string>
-	<string name="cit_accelermeter_sensor_check_summary">Het scherm toont X, Y, Z, drie richtingen van de versnelling (Let op: als de telefoon bewogen wordt zullen de waardes veranderen op basis van scherm ori‰ntatie.)</string>
+	<string name="cit_accelermeter_sensor_check_summary">Het scherm toont X, Y, Z, drie richtingen van de versnelling (Let op: als de telefoon bewogen wordt zullen de waardes veranderen op basis van scherm ori?ntatie.)</string>
 	<string name="cit_accelermeter_sensor_check_title">11. Check Accelerometer</string>
 	<string name="cit_audio_loopback_check_summary">Controleer de microfoon audio hardware instellingen voor hands free en tijdens oproep</string>
 	<string name="cit_audio_loopback_check_title">18. Microfoon</string>
@@ -408,7 +409,7 @@
 	<string name="cit_keyboard_test_title">3. Hardware knoppen</string>
 	<string name="cit_light_sensor_check_summary">Toont de DAC waarde van de licht sensor</string>
 	<string name="cit_light_sensor_check_title">14. Lichtsensor</string>
-	<string name="cit_magnetic_sensor_check_summary">Toont de huidige magneetveldsensor waardes in X, Y, Z ori‰ntatie</string>
+	<string name="cit_magnetic_sensor_check_summary">Toont de huidige magneetveldsensor waardes in X, Y, Z ori?ntatie</string>
 	<string name="cit_magnetic_sensor_check_title">12. Kompas</string>
 	<string name="cit_name">Telefoon test</string>
 	<string name="cit_pass">Doorlopen</string>
@@ -506,7 +507,7 @@
 	<string name="credentials_reset">Opslag wissen</string>
 	<string name="credentials_reset_hint">Alle aanmeldingsgegevens wissen en wachtwoord opnieuw instellen?</string>
 	<string name="credentials_reset_summary">Inhoud opslag aanmeldingsgegevens wissen en wachtwoord herstellen</string>
-	<string name="credentials_reset_warning">Geef het juiste wachtwoord in. E‚n poging over voordat opslag aanmeldingsgegevens wordt gewist</string>
+	<string name="credentials_reset_warning">Geef het juiste wachtwoord in. E?n poging over voordat opslag aanmeldingsgegevens wordt gewist</string>
 	<string name="credentials_reset_warning_plural">Geef het juiste wachtwoord in. %1$d pogingen over voordat opslag aanmeldingsgegevens wordt gewist</string>
 	<string name="credentials_set_password">Wachtwoord instellen</string>
 	<string name="credentials_set_password_summary">Wachtwoord opslag aanmeldingsgegevens instellen en wijzigen</string>
@@ -616,7 +617,7 @@
 	<string name="filter_apps_onsdcard">USB-opslag</string>
 	<string name="filter_apps_running">Actief</string>
 	<string name="filter_apps_third_party">Gedownload</string>
-	<string name="font_size_preview_text">Servez Aÿ ce monsieur une biA"re et des kiwis.</string>
+	<string name="font_size_preview_text">Servez A? ce monsieur une biA"re et des kiwis.</string>
 	<string name="font_size_save">OK</string>
 	<string name="font_size_settings_summary">Lettergrootte verandering heeft effect in de telefoon, berichten en contacten applicatie</string>
 	<string name="font_size_settings_title">Lettergrootte</string>
@@ -801,7 +802,7 @@
 	<string name="lpa_decode">Low-power audio speler</string>
 	<string name="lpa_decode_off_hint">Uitzetten van low-power audio speler zal muziek spectrum en equalizer actief maken, maar het batterij verbruik verhogen.</string>
 	<string name="lpa_decode_on_hint">Gebruik van low-power audio speler bespaart batterij verbruik, maar zet muziek spectrum en equalizer uit. Klik OK voor herstart om dit aan te zetten.</string>
-	<string name="lpa_decode_summary">Be‹nvloed batterij verbruik, muziek spectrum en equalizer; Reboot vereist</string>
+	<string name="lpa_decode_summary">Be?nvloed batterij verbruik, muziek spectrum en equalizer; Reboot vereist</string>
 	<string name="macaddr_label">MAC addr :</string>
 	<string name="main_running_process_description">Hoofdproces in gebruik</string>
 	<string name="manage_applications_title">Beheer applicaties</string>
@@ -839,9 +840,6 @@
 	<string name="menu_stats_refresh">Vernieuwen</string>
 	<string name="menu_stats_total">Totaal gebruik</string>
 	<string name="menu_stats_unplugged">%1$s sinds uitschakelen</string>
-	<string name="miui_copyright_title">Copyright</string>
-	<string name="miui_privacy_policy_title">Privacy regelement</string>
-	<string name="miui_user_agreement_title">Gebruikers overeenkomst</string>
 	<string name="mms_kept_in_memory">Bericht in geheugen</string>
 	<string name="mms_settings_title">Berichten</string>
 	<string name="mms_vibrate_abbreviation">Berichten</string>
@@ -1060,7 +1058,7 @@
 	<string name="sensor_light">Licht Sensor</string>
 	<string name="sensor_linear_acceleration">Linear Acceleratie Sensor</string>
 	<string name="sensor_magnetic_field">Magnetisch Veld Sensor</string>
-	<string name="sensor_orientation">Ori‰ntatie Sensor</string>
+	<string name="sensor_orientation">Ori?ntatie Sensor</string>
 	<string name="sensor_pressure">Druk Sensor</string>
 	<string name="sensor_proximity">Nabijheids Sensor</string>
 	<string name="sensor_rotation_vector">Rotatie Vector Sensor</string>
@@ -1081,7 +1079,6 @@
 	<string name="settings_license_activity_unavailable">Er is een probleem met het laden van de licenties</string>
 	<string name="settings_safetylegal_activity_loading">Laden</string>
 	<string name="settings_safetylegal_activity_title">Beveiligingsgegevens</string>
-	<string name="settings_safetylegal_activity_unreachable">Uw telefoon is niet verbonden met de gegevensservice. Als u deze informatie wilt weergeven, gaat u naar %s vanaf een computer met internettoegang</string>
 	<string name="settings_safetylegal_title">Beveiligingsgegevens</string>
 	<string name="settings_shortcut">Instellingen</string>
 	<string name="show_background_processes">Processen in cache tonen</string>

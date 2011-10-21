@@ -17,7 +17,7 @@
 	<string name="digit7">7</string>
 	<string name="digit8">8</string>
 	<string name="digit9">9</string>
-	<string name="div">ö</string>
+	<string name="div">?</string>
 	<string name="dot">.</string>
 	<string name="e">e</string>
 	<string name="enter"></string>
@@ -29,11 +29,11 @@
 	<string name="ln">ln</string>
 	<string name="minus">-</string>
 	<string name="mul">x</string>
-	<string name="pi">ã</string>
+	<string name="pi">?</string>
 	<string name="plus">+</string>
 	<string name="power">^</string>
 	<string name="rightParen">)</string>
 	<string name="sin">sin</string>
-	<string name="sqrt">û</string>
+	<string name="sqrt">?</string>
 	<string name="tan">tan</string>
 </resources>

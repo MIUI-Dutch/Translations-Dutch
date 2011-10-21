@@ -66,7 +66,7 @@
 	<string name="context_menu_browse_web">Browser</string>
 	<string name="context_menu_contact">Contact: %1$s</string>
 	<string name="context_menu_copy">Kopie</string>
-	<string name="context_menu_copy_notice">Tekst naar het klembord gekopi‰erd</string>
+	<string name="context_menu_copy_notice">Tekst naar het klembord gekopi?erd</string>
 	<string name="context_menu_dial">Bel</string>
 	<string name="context_menu_new_contact">Nieuw Contact</string>
 	<string name="context_menu_send_mail">Stuur E-mail</string>
@@ -77,7 +77,7 @@
 	<string name="conversation_style">tekstballon</string>
 	<string name="converting_to_picture_message">Converteren naar MMS-bericht...</string>
 	<string name="converting_to_text_message">Converteren naar SMS-bericht...</string>
-	<string name="copy_message_text">Berichttekst kopiA®ren</string>
+	<string name="copy_message_text">Berichttekst kopiA?ren</string>
 	<string name="copy_to_sdcard">Bijlage gekoppeld aan SD-kaart</string>
 	<string name="copy_to_sdcard_fail">Bijlage niet gekopieerd naar SD-kaart</string>
 	<string name="copy_to_sdcard_success">Bijlage gekopieerd naar SD-kaart</string>
@@ -316,7 +316,7 @@
 	<string name="send_to_index_contact">Verzenden %1$s vanf %2$s...</string>
 	<string name="sent_label">Verzonden:</string>
 	<string name="set">Instellen</string>
-	<string name="sim_copy_to_phone_memory">KopiA®ren naar telefoongeheugen</string>
+	<string name="sim_copy_to_phone_memory">KopiA?ren naar telefoongeheugen</string>
 	<string name="sim_delete">Wissen</string>
 	<string name="sim_empty">Geen berichten</string>
 	<string name="sim_full_body">Bericht wissen om ruimte te maken voor meer</string>
@@ -365,6 +365,7 @@
 	<string name="unsupported_media_format">Niet ondersteund %1$s formaat</string>
 	<string name="update_failed">Update mislukt</string>
 	<string name="view">Tonen</string>
+	<string name="view_bookmark">Toon origineel bericht</string>
 	<string name="view_delivery_report">Ontvangstbevestiging</string>
 	<string name="view_message_details">Berichtdetails tonen</string>
 	<string name="view_slideshow">Diashow tonen</string>

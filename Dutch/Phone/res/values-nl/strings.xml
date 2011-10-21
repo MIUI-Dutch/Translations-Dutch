@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="absent_num">Nummer niet aanwezig</string>
+	<string name="add_button">Toevoegen</string>
 	<string name="add_fdn_contact">FDN toevoegen</string>
 	<string name="add_sip_account">Account toevoegen</string>
 	<string name="add_vm_number_str">Nummer toevoegen</string>
@@ -20,9 +21,6 @@
 	<string name="alert_dialog_no">Nee</string>
 	<string name="alert_dialog_ok">Ok</string>
 	<string name="alert_dialog_yes">Ja</string>
-	<string name="allow_3rd_app_listen_phone_event_reboot_prompt">Herstart nodig om zeker te zijn dat afluisteren juist ingesteld is bij aan- en uitzetten.\nDDoorgaan?</string>
-	<string name="allow_3rd_app_listen_phone_event_summary">Sta apps van derden toe om gesprekken te verwerken</string>
-	<string name="allow_3rd_app_listen_phone_event_title">Derde partij telefoon app</string>
 	<string name="always_enable_mms">Altijd MMS ontvangen</string>
 	<string name="always_enable_mms_summary">Ook MMS berichten als data uit staat</string>
 	<string name="answer">Antwoorden</string>
@@ -115,8 +113,11 @@
 	<string name="change_num">Wijzig</string>
 	<string name="change_pin">SIM PIN veranderen</string>
 	<string name="change_pin2">Verander PIN2</string>
+	<string name="check_all">Selecteer alles</string>
+	<string name="check_nothing">Deselecteer alles</string>
 	<string name="close_dialog">Ok</string>
 	<string name="close_profile">Sluiten</string>
+	<string name="confirm_delete_message_title">Je wist de geseleteerde %d aangepaste berichten.</string>
 	<string name="confirm_pin_hint">Nieuwe PIN bevestigen</string>
 	<string name="confirm_pin2_hint">Nieuwe PIN2 bevestigen</string>
 	<string name="connect_disconnect_vibrate_none">Niet virbreren</string>
@@ -131,6 +132,8 @@
 	<string name="crystaltalk_title">Oproep audio</string>
 	<string name="current_areacode">Huidge regio code</string>
 	<string name="current_areacode_sum">Regiocode of roaming regiocode. Bijvoorbeeld:010</string>
+	<string name="custom_location_location_hint">Naam</string>
+	<string name="custom_location_number_hint">Gebiedscode zoals 010, groepnummers zoals 68#####</string>
 	<string name="data_enable_summary">Internet over het mobiel netwerk</string>
 	<string name="data_enabled">Dataverbinding</string>
 	<string name="default_port">5060</string>
@@ -138,10 +141,11 @@
 	<string name="default_transport">UDP</string>
 	<string name="deleteAllSimContacts">Alle SIM contacten wissen</string>
 	<string name="deleteAllSimContactsText">Alle SIM contacten gewist</string>
-	<string name="deleteContactSuccess">SIM contact gewist</string>
+	<string name="deleteContactSuccess">Contact succesvol gewist van SIM kaart</string>
 	<string name="deleteSimContactConfirmTitle">Wis contact</string>
 	<string name="deleteSimEntry">Wissen</string>
 	<string name="deleting_fdn_contact">Bezig met FDN wissen.</string>
+	<string name="deleting_message">wissen...</string>
 	<string name="dial_emergency_empty_error">Oproep niet verstuurd, a.u.b. alleen noodnummers kiezen!</string>
 	<string name="dial_emergency_error">Oproep niet verstuurd, %s is geen noodnummer!</string>
 	<string name="dialer_click_entries_call">Bel</string>
@@ -165,6 +169,7 @@
 	<string name="dtmf_tones_title">DTMF Tonen</string>
 	<string name="dtmfDialpadHandleLabel">Beltoetsenbord</string>
 	<string name="ecm_exit_dialog">EcmExitVenster</string>
+	<string name="edit_custom_location_title">Aanpassen van regionale belcode, nummer belcode, wildcards # toegestaan</string>
 	<string name="edit_fdn_contact">FDN bewerken</string>
 	<string name="editSimContact">Wijzig SIM contact</string>
 	<string name="editSimEntry">Wijzig</string>
@@ -234,7 +239,7 @@
 	<string name="general_news_settings">Algemeen nieuws</string>
 	<string name="get_smsc_address_error">Fout bij benaderen SMS centrale, probeer het later opnieuw.</string>
 	<string name="get_smsc_address_timeout">Time out bij benaderen SMS centrale, Probeer het later opnieuw.</string>
-	<string name="goPrivate">Ga priv‚</string>
+	<string name="goPrivate">Ga priv?</string>
 	<string name="gsm_umts_options">GSM/UMTS Opties</string>
 	<string name="hac_mode_summary">Gehoorapparaat modus inschakelen</string>
 	<string name="hac_mode_title">Gehoorapparaat</string>
@@ -331,7 +336,7 @@
 	<string name="no_change">Geen veranderingen aangebracht.</string>
 	<string name="no_internet_available">Om een internet oproep te plaatsen, controleer je internet verbinding eerst</string>
 	<string name="no_internet_available_title">Geen Internet verbinding</string>
-	<string name="no_sip_account_found">Er zijn geen internet bel accounts op deze telefoon. ‚‚n toevoegen?</string>
+	<string name="no_sip_account_found">Er zijn geen internet bel accounts op deze telefoon. ??n toevoegen?</string>
 	<string name="no_sip_account_found_title">Geen ineternet bel account</string>
 	<string name="no_vm_number">Voicemail nummer missend</string>
 	<string name="no_vm_number_msg">Er is geen voicemail nummer opgeslagen op de SIM kaart.</string>
@@ -356,6 +361,10 @@
 	<string name="notification_voicemail_title">Nieuwe voicemail</string>
 	<string name="notification_voicemail_title_count">Nieuwe voicemail (%d)</string>
 	<string name="number">Nummer</string>
+	<string name="number_type">Nummer type</string>
+	<string name="number_type_jituan">Groepsnummer</string>
+	<string name="number_type_mob">Mobiele telefoon</string>
+	<string name="number_type_tel">Vaste telefoon</string>
 	<string name="ok">Ok</string>
 	<string name="old_pin_hint">Oude PIN</string>
 	<string name="old_pin2_hint">Oude PIN2</string>
@@ -431,7 +440,10 @@
 	<string name="predefined_hangup_sms_body">Ik ben niet beschikbaar, ik bel je later.</string>
 	<string name="predefined_hangup_sms_summary">Het standaard bericht wanneer u kiest voor de optie "Reageer met SMS" bij een inkomende oproep</string>
 	<string name="predefined_hangup_sms_title">SMS ophang bericht</string>
+	<string name="pref_custom_location_summary">Wijzig de regionale belcode en nummer belcode</string>
+	<string name="pref_custom_location_title">Wijzig belcode</string>
 	<string name="pref_dialer_list_title">Instellingen gesprekslog</string>
+	<string name="pref_edit_custom_location_title">Wijzig</string>
 	<string name="pref_more_settings_title">Meer instellingen</string>
 	<string name="pref_outgoing_call_title">Uitgaande oproepen</string>
 	<string name="prefered_network_type_pref_entries_3g_prefered">Bij voorkeur 3G</string>
@@ -442,7 +454,7 @@
 	<string name="preferred_network_mode_summary">Verander het netwerk werkings modus</string>
 	<string name="preferred_network_mode_title">Netwerk modus</string>
 	<string name="primary_account_summary_with">Primair account. %s</string>
-	<string name="private_num">Priv‚ nummer</string>
+	<string name="private_num">Priv? nummer</string>
 	<string name="progress_dialog_exiting_ecm">Verlaten van noodoproep modus</string>
 	<string name="proxy_address">Proxy adres</string>
 	<string name="proxy_address_title">Uitgaand proxy-adres</string>
@@ -471,6 +483,7 @@
 	<string name="registration_status_server_unreachable">Account registratie mislukt: Controleer de servernaam</string>
 	<string name="registration_status_still_trying">Nog steeds proberen...</string>
 	<string name="remember_my_choice">Altijd gebruik maken van Internet gesprekken</string>
+	<string name="remove">Wis</string>
 	<string name="remove_sip_account">Account wissen</string>
 	<string name="removing_account">Account aan het wissen...</string>
 	<string name="requesting_unlock">Aanvragen netwerk ontgrendeling.</string>

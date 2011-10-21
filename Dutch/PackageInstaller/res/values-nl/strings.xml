@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="app_name">Pakket Installer</string>
-	<string name="app_not_found_dlg_text">De applicatie is niet gevonden in de lijst van ge‹nstalleerde applicaties.</string>
+	<string name="app_not_found_dlg_text">De applicatie is niet gevonden in de lijst van ge?nstalleerde applicaties.</string>
 	<string name="app_not_found_dlg_title">Applicatie niet gevonden</string>
 	<string name="cancel">Annuleren</string>
 	<string name="dlg_app_replacement_statement">De applicatie die je installeert zal de andere applicatie vervangen.\n\nAlle vorige gebruiker gegevens worden opgeslagen.</string>
@@ -11,14 +11,15 @@
 	<string name="done">Klaar</string>
 	<string name="install">Installeer</string>
 	<string name="install_confirm_question">Wil je deze applicatie installeren?</string>
-	<string name="install_done">Applicatie ge‹nstalleerd</string>
-	<string name="install_failed">Applicatie niet ge‹nstalleerd</string>
-	<string name="install_failed_msg">%1$s kan niet worden ge‹nstalleerd op deze telefoon</string>
+	<string name="install_done">Applicatie ge?nstalleerd</string>
+	<string name="install_failed">Applicatie niet ge?nstalleerd</string>
+	<string name="install_failed_msg">%1$s kan niet worden ge?nstalleerd op deze telefoon</string>
 	<string name="installing">Installeren.</string>
 	<string name="launch">Open</string>
+	<string name="lift_ban">Ban opheffen</string>
 	<string name="manage_applications">Het beheer van applicaties</string>
 	<string name="ok">OK</string>
-	<string name="out_of_space_dlg_text">%1$s kan niet worden ge‹nstalleerd. Maak ruimte vrij en probeer het opnieuw.</string>
+	<string name="out_of_space_dlg_text">%1$s kan niet worden ge?nstalleerd. Maak ruimte vrij en probeer het opnieuw.</string>
 	<string name="out_of_space_dlg_title">Geen ruimte meer</string>
 	<string name="Parse_error_dlg_text">Er is een probleem met het lezen van het installatie pakket</string>
 	<string name="Parse_error_dlg_title">Leesfout</string>

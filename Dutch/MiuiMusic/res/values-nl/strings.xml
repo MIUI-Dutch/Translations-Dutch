@@ -99,7 +99,7 @@
 	<string name="load_category_in_process">Lijst ontvangen</string>
 	<string name="loading">Laden...</string>
 	<string name="local_search_empty">Uw zoekopdracht leverde geen resultaten op</string>
-	<string name="lpa_off_hint">Om de equalizer te gebruiken moet low-power audio play uitzetten, wijzigen in Instellingen -> Systeem -> Accu. Het batterijgebruik zal hierdoor m‚‚r worden.</string>
+	<string name="lpa_off_hint">Om de equalizer te gebruiken moet low-power audio play uitzetten, wijzigen in Instellingen -> Systeem -> Accu. Het batterijgebruik zal hierdoor m??r worden.</string>
 	<string name="lrc_progress_modify">Bewerk lyric snelheid</string>
 	<string name="lrc_progress_modify_helper">Bewerk lyric weergave</string>
 	<string name="lrc_search_failed">Lyrics niet gevonden!</string>
@@ -108,7 +108,7 @@
 	<string name="lyric_display_settings">Toon lyrics</string>
 	<string name="lyric_download">Download Lyrics</string>
 	<string name="lyric_open_other_connect">Download lyrics via mobiele internetconnectie</string>
-	<string name="lyricPickerNotFoundText">Lyric picker niet ge-‹nstalleerd op dit toestel.</string>
+	<string name="lyricPickerNotFoundText">Lyric picker niet ge-?nstalleerd op dit toestel.</string>
 	<string name="max_time">90</string>
 	<string name="media_player_quit">Afsluiten</string>
 	<string name="media_player_settings">Instellingen</string>

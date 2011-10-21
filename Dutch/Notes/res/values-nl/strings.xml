@@ -4,17 +4,16 @@
 	<string name="alert_message_delete_note">Wissen bevestigen?</string>
 	<string name="alert_message_delete_notes">Bevestig wissen van de geselecteerde %d notities?</string>
 	<string name="alert_title_delete">Verwijder geselecteerde notitie</string>
+	<string name="APKTOOL_DUMMY_0065">false</string>
 	<string name="app_name">Notities</string>
 	<string name="app_widget2x2">Notities 2x2</string>
 	<string name="app_widget4x4">Notities 4x4</string>
-	<string name="button_cancel">Annuleer</string>
 	<string name="button_check">Selecteer alles</string>
 	<string name="button_check_none">Deselecteer alles</string>
-	<string name="button_clear">Annuleer</string>
 	<string name="button_delete">Wissen</string>
 	<string name="button_move">Verplaats</string>
-	<string name="button_set">Instellingen</string>
 	<string name="call_record_folder_name">Gespreksgegevens</string>
+	<string name="delete_remind_time_message">Herinnering succesvol gewist</string>
 	<string name="error_note_empty_for_clock">Sorry, kan de klok niet instellen op een lege notitie</string>
 	<string name="error_note_empty_for_send_to_desktop">Sorry, kan geen lege notitie verzenden naar homescreen</string>
 	<string name="error_note_not_exist">De notitie bestaat niet</string>
@@ -50,6 +49,7 @@
 	<string name="menu_list_mode">Voer checklist in</string>
 	<string name="menu_move_parent_folder">Bovenliggende map</string>
 	<string name="menu_normal_mode">Verlaat checklist</string>
+	<string name="menu_remove_remind">Wis herinnering</string>
 	<string name="menu_search">Zoeken</string>
 	<string name="menu_send_to_desktop">Maak snelkoppeling op homescreen</string>
 	<string name="menu_setting">Instellingen</string>
@@ -65,6 +65,7 @@
 	<string name="notealert_enter">Neem een kijkje</string>
 	<string name="notealert_ok">Heb het</string>
 	<string name="noteedit_use_alert_time_error">Tijd instellen mislukt</string>
+	<string name="noteedit_use_alert_time_success">Herinnering succesvol opgeslagen</string>
 	<string name="notelist_menu_new">Notitie toevoegen</string>
 	<string name="notelist_string_info">...</string>
 	<string name="preferences_account_summary">Synchroniseer notities met google task</string>

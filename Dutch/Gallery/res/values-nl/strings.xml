@@ -9,9 +9,10 @@
 	<string name="apply_pic_for">Foto gebruiken als:</string>
 	<string name="bookmark">Favorieten</string>
 	<string name="camera_folder_display_name">Camera foto\'s</string>
-	<string name="cancel">Annuleren</string>
 	<string name="cancel_bookmark">Wis uit favorieten</string>
 	<string name="cancel_hidden">Zichtbaar maken</string>
+	<string name="clear_thumbnail_cache">Wis thumbnail cache</string>
+	<string name="clear_thumbnail_cache_confirm">Thumbnail cache wordt gewist. Gallery zoekt media bestanden hersteld thumbnails voor later gebruik</string>
 	<string name="confirm">Ok</string>
 	<string name="confirm_delete_file">Bestand zal gewist worden van SD kaart</string>
 	<string name="confirm_delete_folder">Wis bestanden in geselecteerde map</string>
@@ -72,7 +73,6 @@
 	<string name="no">Nee</string>
 	<string name="no_file">Geen afbeeldingen of video bestanden</string>
 	<string name="no_files">Geen bestanden beschikbaar</string>
-	<string name="ok">OK</string>
 	<string name="open_map">Open Map</string>
 	<string name="open_single_image_failure">Kan afbeelding niet laden</string>
 	<string name="operation_cancel">Verlaat</string>
@@ -114,12 +114,9 @@
 	<string name="select_photo_hint">Tik om afbeelding te selecteren</string>
 	<string name="send">Versturen</string>
 	<string name="send_multiple_files_hint_format">Stuur bestanden (totaal %s)</string>
-	<string name="send_single_image_hint_format">Stuur afbeelding (grootte %s)</string>
-	<string name="send_single_video_hint_format">Stuur video (grootte %s)</string>
 	<string name="sending_image_title">Afbeelding versturen (grootte %s)</string>
 	<string name="sending_video_title">Video versturen (grootte %s)</string>
 	<string name="set_as_folder_cover">Stel in als map cover</string>
-	<string name="set_contact_photo">Contactabeelding</string>
 	<string name="set_lock_or_wallpaper">Instellen als lock achtergrond</string>
 	<string name="set_lockscreen">lock achtergrond</string>
 	<string name="set_lockscreen_failure">Kan vergrendelscherm achtergrond niet toepassen!</string>
