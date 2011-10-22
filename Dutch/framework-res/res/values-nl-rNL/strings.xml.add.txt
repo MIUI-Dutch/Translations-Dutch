@@ -1,0 +1,15 @@
+    <string name="permlab_read_call_state">read call state</string>
+    <string name="permdesc_read_call_state">Allow an application to read call state.</string>
+    <string name="permlab_record_calls">record calls</string>
+    <string name="permdesc_record_calls">Allow an application to record calls.</string>
+    <string name="permlab_modify_audio_settings_during_call">manipulate audio settings during call</string>
+    <string name="permdesc_modify_audio_settings_during_call">Allow an application to manipulate audio settings during call.</string>
+    <string name="safetylegal_activity_unreachable">Your phone is not connected to a data service. To view this information now, go to %s from any computer connected to the Internet.</string>
+    <string name="miui_copyright_title">Copyright</string>
+    <string name="miui_user_agreement_title">User agreement</string>
+    <string name="miui_privacy_policy_title">Privacy policy</string>
+    <string name="user_agreement1">You will use the system and online services provided by Xiaomi, please read</string>
+    <string name="user_agreement2">\u0020User agreement</string>
+    <string name="user_agreement3">\u0020and\u0020</string>
+    <string name="user_agreement4">Privacy policy</string>
+    <string name="user_agreement5">，Click OK shows that you agree to and are willing to comply with the above content, click Cancel to exit.</string>
