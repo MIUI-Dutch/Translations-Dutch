@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="act_action_accept_accept">Accepteer</string>
-    <string name="act_action_accept_mute">Demp berichten</string>
+    <string name="act_action_accept_mute">Filter berichten</string>
     <string name="act_action_accept_reject">Weiger berichten</string>
-    <string name="act_action_mute_accept">Demp oproepen</string>
-    <string name="act_action_mute_mute">Demp oproepen en berichten</string>
-    <string name="act_action_mute_reject">Demp oproepen, weiger berichten</string>
+    <string name="act_action_mute_accept">Filter oproepen</string>
+    <string name="act_action_mute_mute">Filter oproepen en berichten</string>
+    <string name="act_action_mute_reject">Filter oproepen, weiger berichten</string>
     <string name="act_action_reject_accept">Weiger oproepen</string>
-    <string name="act_action_reject_mute">Weiger oproepen, demp berichten</string>
+    <string name="act_action_reject_mute">Weiger oproepen, filter berichten</string>
     <string name="act_action_reject_reject">Weiger oproepen en berichten</string>
     <string name="act_call">Opties geblokkeerde oproepen</string>
     <string name="act_del_ms">Berichten niet tonen</string>
@@ -17,15 +17,15 @@
     <string name="act_ignore_call">Oproepen negeren</string>
     <string name="act_ignore_ms">Berichten negeren</string>
     <string name="act_ms">Opties geblokkeerde berichten</string>
-    <string name="act_mute_call">Demp oproep</string>
-    <string name="act_mute_call_summary">De inkomende oproep word gedempt maar is later terug te zien in de gesprekslog</string>
-    <string name="act_mute_ms">Demp berichten</string>
+    <string name="act_mute_call">Filter oproep</string>
+    <string name="act_mute_call_summary">De inkomende oproep word gefilterd maar is later terug te zien in de gesprekslog</string>
+    <string name="act_mute_ms">Filter berichten</string>
     <string name="act_mute_ms_summary">Bij berichten van geblokkeerde contacten word er geen meldingsgeliuid afgespeeld maar u kunt het bericht later bekijken</string>
     <string name="add_blacklist">Op zwarte lijst zetten</string>
     <string name="add_button">Voeg nummer of contact toe</string>
     <string name="add_whitelist">Op witte lijst zetten</string>
-    <string name="anti_stranger_summary">Demp inkomende oproepen van onbekenden, je kunt ook niet zien of ze jou wilden bellen</string>
-    <string name="anti_stranger_title">Demp onbekend</string>
+    <string name="anti_stranger_summary">Filter inkomende oproepen van onbekenden, je kunt ook niet zien of ze jou wilden bellen</string>
+    <string name="anti_stranger_title">Filter onbekenden</string>
     <string name="app_name">Niet Storen</string>
     <string name="black_white_list_tab_title">Filters</string>
     <string name="call_log_tab_title">Oproepen</string>
@@ -60,7 +60,7 @@
     <string name="fw_blocked">Resultaten</string>
     <string name="fw_blocked_count">%d oproepen en %d berichten</string>
     <string name="fw_call">Oproepen geblokkeerd: %s (%d)</string>
-    <string name="fw_call_muted">Oproep gedempt</string>
+    <string name="fw_call_muted">Oproep gefilterd</string>
     <string name="fw_call_rejected">Oproep geblokkeerd</string>
     <string name="fw_clear_all_keyword">Wis alle trefwoorden</string>
     <string name="fw_clear_blacklist">Wis zwarte lijst</string>
@@ -84,7 +84,7 @@
     <string name="fw_ms">Berichten geblokkeerd: %s (%d)</string>
     <string name="fw_ms_filtered">Filter berichten</string>
     <string name="fw_ms_imported">Berichten importeren</string>
-    <string name="fw_ms_muted">Demp berichten</string>
+    <string name="fw_ms_muted">Filter berichten</string>
     <string name="fw_ms_rejected">Berichten geblokkeerd</string>
     <string name="fw_no_effect">Niet-Storen inactief</string>
     <string name="fw_notes_hint">Opmerking (optioneel)</string>
