@@ -560,7 +560,7 @@ for /f %%r in ('dir /b _INPUT_ROM\*.zip') do (
       copy /y  "_TRANSLATE\%_LANGUAGE%\%%i\res\values-nl\*.*" "_INPUT_APK\%%i\res\values-nl-rNL"
      )
     )
-    if %%i==framework-res dir /b /a:d _INPUT_APK\framework-res\res
+    ::if %%i==framework-res dir /b /a:d _INPUT_APK\framework-res\res
     call 03recompileAPK "_INPUT_APK\%%i"
     call 04rebuildusableAPK "_INPUT_APK\%%i.apk"
     call 06buildflashable "_OUT_APK\%%i.apk"
@@ -594,7 +594,6 @@ for /f %%r in ('dir /b _INPUT_ROM\*.zip') do (
   @echo Signing "_TEMP\%%r" to _OUTPUT_ROM\%%~nr-signed.zip ... >>%logD%
   @echo Signing "_TEMP\%%r" to _OUTPUT_ROM\%%~nr-signed.zip ...
   java -jar "_SIGN_ZIP\signapk.jar" "_SIGN_ZIP\testkey.x509.pem" "_SIGN_ZIP\testkey.pk8" "_TEMP\%%r" "_OUTPUT_ROM\%%~nr_Signed.zip"
-  DEL "_TEMP\%%r"
  )
 )
 for %%i IN (framework-res %DoSpecial%) DO (
@@ -632,21 +631,18 @@ pause
 cls
 goto restart
 :installtranslation
+set _LANGUAGE=Dutch
 if exist %logD% DEL %logD%
-set TRNSLTN=
-set /P TRNSLTN=Drag Translation Folder here to install additional translation(s): %=%
-if '%TRNSLTN%'=='' goto :installtranslation
 @echo installing additional translation(s)...
 :: for loop to copy additional translation folders
-FOR /f %%F IN ('dir /b /a:d %TRNSLTN%') DO (
+FOR /f %%F IN ('dir /b /a:d "_INPUT_APK"') DO (
 @echo [*] %%F >>%logD%
 @echo copying %%F... >>%logD%
-xcopy /e /f /i /y %TRNSLTN%\%%F _INPUT_APK\%%F\
+@echo xcopy /e /f /i /y "_TRANSLATE\%_LANGUAGE%\%%F" "_INPUT_APK\%%F"
+xcopy /e /f /i /y "_TRANSLATE\%_LANGUAGE%\%%F" "_INPUT_APK\%%F"
 )
 notepad %logD%
 @echo DONE
-pause
-cls
 goto restart
 :removeunnes
 if exist _INPUT_APK\gmail rd /s /q _INPUT_APK\gmail
