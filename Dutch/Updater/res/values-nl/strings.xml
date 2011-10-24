@@ -53,7 +53,7 @@
       <string name="moving_data_to_sdcard_message">Data wordt verplaatst naar SD kaart</string>
       <string name="moving_data_to_sdcard_progress_format">Verplaatst %1$dKb van %2$dKb</string>
       <string name="network_error">Kan niet verbinden, netwerk problemen of server is bezig</string>
-      <string name="new_update_content_title">Nieuwe update: %s</string>
+      <string name="new_update_content_title">Nieuwe versie:%s</string>
       <string name="new_updates_found_body">Zoek nieuwe versie</string>
       <string name="new_updates_found_notification_title">Nieuw systeem update, upgrade!</string>
       <string name="new_updates_found_title">Zoek een update!</string>
@@ -86,7 +86,7 @@
       <string name="update_success">Gefeliciteerd, systeem update succesvol</string>
       <string name="update_success_body">Systeem is succesvol voorzien van %s</string>
       <string name="update_success_title">Update succesvol!</string>
-      <string name="verify_and_apply_dialog_message">MD5 controle bestanden worden toegepast</string>
+      <string name="verify_and_apply_dialog_message">MD5 controle bestanden</string>
       <string name="verify_and_apply_dialog_title">Controleren en toepassen van update</string>
       <string name="view_details">Bekijk details</string>
       <string name="view_install_log">Toon Log</string>
