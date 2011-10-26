@@ -10,19 +10,20 @@
         <item>Recorder</item>
         <item>Browser</item>
         <item>Camera</item>
-        <item>Bestands beheer</item>
+        <item>Bestanden</item>
     </string-array>
     <string-array name="system_data_label">
         <item>Contacten</item>
+        <item>Oproep Log</item>
         <item>Berichten</item>
-        <item>SMS en MMS</item>
         <item>Systeem Instellingen</item>
         <item>Wi-Fi Instellingen</item>
-        <item>Layout Desktop</item>
+        <item>Desktop lay-out</item>
         <item>Alarm Instellingen</item>
         <item>Notities</item>
-        <item>Block Settings</item>
+        <item>Niet Storen</item>
         <item>Huidig thema</item>
+        <item>Machtigingen</item>
     </string-array>
     <string-array name="app_type_desc">
         <item>(Gegevens)</item>
@@ -31,8 +32,8 @@
     </string-array>
     <string-array name="cloud_data_label">
         <item>Contacten</item>
-        <item>Oproepen Logs</item>
-        <item>SMS</item>
+        <item>Oproep Log</item>
+        <item>Berichten</item>
         <item>Wi-Fi Instellingen</item>
         <item>Notities</item>
     </string-array>

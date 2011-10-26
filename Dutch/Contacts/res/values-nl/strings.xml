@@ -91,7 +91,7 @@
       <string name="composer_has_no_exportable_contact">Geen exporteerbaar contact. Mogelijk selecteert u niet-exporteerbare gegevens</string>
       <string name="composer_not_initialized">vCard-editor niet geïnitialiseerd</string>
       <string name="config_export_dir">/sdcard/MIUI/contacten</string>
-       <string name="config_export_extensions_to_consider" />
+          <string name="config_export_extensions_to_consider" />
       <string name="config_export_file_extension">vcf</string>
       <string name="config_export_file_prefix">(</string>
       <string name="config_export_file_suffix">)</string>

@@ -23,14 +23,11 @@
       <string name="fmradio_clear_confirm_msg">Alle opgeslagen radio stations worden gewist, doorgaan met scan?</string>
       <string name="fmradio_found_format">%s MHz...</string>
       <string name="fmradio_found_station">%d station(s) gevonden</string>
-      <string name="fmradio_in_calling_at_begin">Radio gestopt tijdens oproep</string>
+      <string name="fmradio_music_playing_in_listen">Radio heeft gedetecteerd dat een andere media applicatie opgestart is en wordt nu afgeslotent</string>
       <string name="fmradio_no_headset_at_begin">Sluit koptelefoon aan voor gebruik van de radio</string>
       <string name="fmradio_no_headset_in_listen">Koptelefoon is verwijderd, radio word automatisch afgesloten</string>
-      <string name="fmradio_on_airplane_mode_in_listen">Vliegtuig-modus, de radio is afgesloten</string>
       <string name="fmradio_scan_begin_msg">Start scan</string>
       <string name="fmradio_service_label">Radio</string>
-      <string name="fmradio_start_error">Start radio mislukt</string>
-      <string name="fmradio_stop_unexpected">Onbekende fout, radio is afgesloten</string>
       <string name="fmradio_waiting_for_power_on">Start radio, moment...</string>
       <string name="frequency">Frequentie:</string>
       <string name="frequency_already_exist">Radio frequentie bestaat al, nogmaals</string>

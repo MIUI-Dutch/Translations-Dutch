@@ -62,7 +62,7 @@
       <string name="sync_menu_sync_cancel">Synchronisatie annuleren</string>
       <string name="sync_menu_sync_now">Nu synchroniseren</string>
       <string name="sync_one_time_sync">Aanraken om nu te synchroniseren\n%1$s</string>
-       <string name="sync_plug" />
+             <string name="sync_plug" />
       <string name="sync_really_delete">De items wissen.</string>
       <string name="sync_settings">Account- en synchronisatie instellingen</string>
       <string name="sync_too_many_deletes">Wis-limiet overschreden</string>

@@ -66,8 +66,8 @@
       <string name="pref_screen_transformation_type_title">Selecteer scherm overgangseffect</string>
       <string name="preferences_general_title">Standaard instellingen</string>
       <string name="preferences_title">Launcher instellingen</string>
-       <string name="process" />
-       <string name="sharedUserId" />
+          <string name="process" />
+          <string name="sharedUserId" />
       <string name="sort_by_abc">Sorteer op alfabet</string>
       <string name="sort_by_frequency">Sorteer op gebruik</string>
       <string name="sort_by_not_defined">Sorteer standaard</string>

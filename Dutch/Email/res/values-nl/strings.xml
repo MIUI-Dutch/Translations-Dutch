@@ -56,7 +56,7 @@
       <string name="account_setup_check_settings_check_incoming_msg">Controleren van instellingen inkomende server…</string>
       <string name="account_setup_check_settings_check_outgoing_msg">Controleren van instellingen uitgaande server…</string>
       <string name="account_setup_check_settings_retr_info_msg">Ophalen account informatie…</string>
-       <string name="account_setup_check_settings_title" />
+          <string name="account_setup_check_settings_title" />
       <string name="account_setup_exchange_server_label">Server</string>
       <string name="account_setup_exchange_ssl_label">Gebruik beveiligde verbinding (SSL)</string>
       <string name="account_setup_exchange_title">Server instellingen</string>
