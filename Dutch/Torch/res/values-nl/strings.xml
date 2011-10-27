@@ -9,7 +9,7 @@
     <string name="warning">Waarschuwing: de LED laten branden kan oververhitting veroorzaken.\n\nVolle sterkte \'altijd aan\' is 1/2 uur getest, maar er is kans om de LED hiermee te beschadigen.\n</string>
     <string name="license">Originele code van Nexus One Torch door Ben Buxton, onder GPL, v3.\nhttp://n1torch.googlecode.com/\n\nDank aan David Prieto voor het nieuwe design.\n\nAangepast voor CyanogenMod door Steve Kondik.\n\n</string>
     <string name="warning_label">Waarschuwing</string>
-    <string name="brightwarn">Volle sterkte is succesvol getest gedurende een 1/2 uur, maar de LED wordt dan zeer heet en begon te flikkeren bij 45 minuten. Langdurige effecten zijn niet bekend.\n\nDit wordt nog niet gesupport door de widget.\n\nKlik \'Accepteer\' voor gebruik op eigen risico.</string>
+    <string name="brightwarn">Volle sterkte is succesvol getest gedurende een 1/2 uur, maar de LED wordt dan zeer heet en begon te flikkeren bij 45 minuten. Langdurige effecten zijn niet bekend.\n\nDit wordt nog niet gesupport door de widget.\n\nKlik \'Accepteer\' voor gebruik op eigen risico</string>
     <string name="brightwarn_title">Hoge helderheid \'Aan\' toets!</string>
     <string name="brightwarn_negative">Bedankt</string>
     <string name="brightwarn_accept">Accepteer</string>

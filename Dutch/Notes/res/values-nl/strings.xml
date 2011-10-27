@@ -19,7 +19,7 @@
    <string name="error_sdcard_export">Exporteren mislukt, controleer SD-kaart</string>
    <string name="error_sdcard_unmounted">SD-kaart bezig, niet beschikbaar</string>
    <string name="error_sync_cancelled">Sync is geannuleerd</string>
-   <string name="error_sync_internal">Sync misluk,t er is een interne fout opgetreden</string>
+   <string name="error_sync_internal">Sync mislukt er is een interne fout opgetreden</string>
    <string name="error_sync_network">Sync mislukt controleer uw netwerk en account instellingen</string>
    <string name="failed_sdcard_export">Exporteren mislukt</string>
    <string name="file_name_txt_format">notities_%s.txt</string>
@@ -66,7 +66,7 @@
    <string name="noteedit_use_alert_time_error">Tijd instellen mislukt</string>
    <string name="noteedit_use_alert_time_success">Herinneringstijd opgeslagen</string>
    <string name="notelist_menu_new">Notitie toevoegen</string>
-   <string name="notelist_string_info">...</string>
+   <string name="notelist_string_info">..</string>
    <string name="preferences_account_summary">Synchroniseer notities met google task</string>
    <string name="preferences_account_title">Sync account instellingen</string>
    <string name="preferences_add_account">Account toevoegen</string>
@@ -76,7 +76,7 @@
    <string name="preferences_button_sync_immediately">Sync nu</string>
    <string name="preferences_dialog_change_account_title">Huidig account %1$s</string>
    <string name="preferences_dialog_change_account_warn_msg">Alle sync gerelateerde informatie wordt verwijderd, dit kan leiden tot dubbele items</string>
-   <string name="preferences_dialog_select_account_tips">Selecteer een google account. Lokale notities worden gesynced met google task.</string>
+   <string name="preferences_dialog_select_account_tips">Selecteer een google account. Lokale notities worden gesynced met google task</string>
    <string name="preferences_dialog_select_account_title">Sync notities</string>
    <string name="preferences_last_sync_time">Laatste sync %1$s</string>
    <string name="preferences_last_sync_time_format">yyyy-MM-dd hh:mm:ss</string>
@@ -93,13 +93,13 @@
    <string name="search_setting_description">Tekst in uw notities</string>
    <string name="success_sdcard_export">Exporteren succesvol</string>
    <string name="success_sync_account">Synchronisatie succesvol met account %1$s</string>
-   <string name="sync_progress_init_list">Ophalen van externe notitielijst...</string>
-   <string name="sync_progress_login">Inloggen op %1$s...</string>
-   <string name="sync_progress_syncing">Lokale notities synchroniseren met Google Task...</string>
+   <string name="sync_progress_init_list">Ophalen van externe notitielijst..</string>
+   <string name="sync_progress_login">Inloggen op %1$s..</string>
+   <string name="sync_progress_syncing">Lokale notities synchroniseren met Google Task..</string>
    <string name="ticker_cancel">Synchronisatie geannuleerd</string>
    <string name="ticker_fail">Synchronisatie mislukt</string>
    <string name="ticker_success">Synchronisatie succesvol</string>
-   <string name="ticker_syncing">Synchroniseren notities...</string>
-   <string name="widget_havenot_content">Geen bijbehorende notitie gevonden, klik om te bijbehorende notitie te maken.</string>
+   <string name="ticker_syncing">Synchroniseren notities..</string>
+   <string name="widget_havenot_content">Geen bijbehorende notitie gevonden, klik om te bijbehorende notitie te maken</string>
    <string name="widget_under_visit_mode">Prive modus, kan de inhoud van de opmerking niet zien</string>
 </resources>

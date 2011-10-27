@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-      <string name="airplane_mode_toggleable_radios">bluetooth,wifi</string>
+      <string name="airplane_mode_toggleable_radios">bluetooth,Wi-Fi</string>
       <string name="app_label">Beheer opslag</string>
-      <string name="def_airplane_mode_radios">cell,bluetooth,wifi,wimax</string>
+      <string name="def_airplane_mode_radios">cell,bluetooth,Wi-Fi,wimax</string>
       <string name="def_backup_transport">android/com.android.internal.backup.LocalTransport</string>
       <string name="def_car_dock_sound">/system/media/audio/ui/Dock.ogg</string>
       <string name="def_car_undock_sound">/system/media/audio/ui/Undock.ogg</string>

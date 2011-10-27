@@ -6,7 +6,7 @@
       <string name="backup_preference_title">Backup huidig thema</string>
       <string name="backup_theme_dialog_message">Backup huidige thema naar:\n SD Kaart\n Loc: \\MIUI\\theme\\backup\n Naam: backup.mtz</string>
       <string name="backup_theme_dialog_ok">Backup</string>
-      <string name="backup_theme_progress_message">Bezig met backup...</string>
+      <string name="backup_theme_progress_message">Bezig met backup..</string>
       <string name="backup_theme_success_message">Thema met succes gebackupt</string>
       <string name="component_category_ringtone_title">Ringtonen</string>
       <string name="component_category_style_title">Stylen</string>
@@ -21,7 +21,7 @@
       <string name="lockscreen_wallpaper">Lock achtergrond</string>
       <string name="new_format_convert">Converteer %s naar nieuw format</string>
       <string name="old_format_convert_tip1">Dit Thema is niet van het laatste format en kan niet direct gebruikt worden, de conversie duurt lang, doorgaan met conversie?</string>
-      <string name="old_format_convert_tip2">Je kan ook dit thema-bestand verwijderen, en dan de laatste versie format van dit thema-bestand downloaden.</string>
+      <string name="old_format_convert_tip2">Je kan ook dit thema-bestand verwijderen, en dan de laatste versie format van dit thema-bestand downloaden</string>
       <string name="old_format_fail">Conversie is mislukt, klik om opnieuw te proberen. Download de laatste versie format als conversie niet lukt!</string>
       <string name="old_format_title">Oud format bron gedetecteerd</string>
       <string name="play_all_audio_effect">Audio effect (totaal: %1$s)</string>

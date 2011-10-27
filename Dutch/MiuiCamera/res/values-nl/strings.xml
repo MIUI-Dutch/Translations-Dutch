@@ -2,9 +2,9 @@
 <resources>
       <string name="access_sd_fail">Geen toegang tot geheugenkaart</string>
       <string name="anti_shake">Anti shake</string>
-      <string name="anti_shake_time_expired">Tijd verstreken, foto wordt direct genomen.</string>
+      <string name="anti_shake_time_expired">Tijd verstreken, foto wordt direct genomen</string>
       <string name="burst">Burst</string>
-      <string name="burst_reach_count_limit">Burst count limiet bereikt.</string>
+      <string name="burst_reach_count_limit">Burst count limiet bereikt</string>
       <string name="camera_error_title">Camera fout</string>
       <string name="camera_label">Camera</string>
       <string name="camera_settings">Camera instellingen</string>
@@ -20,7 +20,7 @@
       <string name="gallery_camera_bucket_name">Camera afbeeldingen</string>
       <string name="gallery_camera_videos_bucket_name">Camera video\'s</string>
       <string name="image_file_name_format">\'IMG\'_ddMMyyyy_HHmmss</string>
-      <string name="not_enough_space">SD kaart is vol.</string>
+      <string name="not_enough_space">SD kaart is vol</string>
       <string name="pref_camera_antibanding">Bewegingsonscherpte reductie</string>
       <string name="pref_camera_antibanding_50hz">50 Hz</string>
       <string name="pref_camera_antibanding_60hz">60 Hz</string>

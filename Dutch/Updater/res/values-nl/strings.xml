@@ -13,7 +13,7 @@
       <string name="apply_update_guide">Updaten in de achtergrond, heeft geen invloed op gebruik</string>
       <string name="apply_update_refuse">Systeem update is bezig, stoppen en later uitvoeren?</string>
       <string name="apply_upload_info_message">Update toepassen?</string>
-      <string name="apply_upload_info_message_manually">Uitschakelen, start Recovery handmatig om de update toe te passen op SD kaart, in de %s. Als je een backup wilt, backup en ga terug naar systeem update.</string>
+      <string name="apply_upload_info_message_manually">Uitschakelen, start Recovery handmatig om de update toe te passen op SD kaart, in de %s. Als je een backup wilt, backup en ga terug naar systeem update</string>
       <string name="applying_rom_message">Toepassen ROM</string>
       <string name="applying_update">Updaten</string>
       <string name="boot_recovery">Herstart recovery</string>
@@ -31,7 +31,7 @@
       <string name="download_current_rom">Download laatste versie van de volledige ROM</string>
       <string name="download_ota_rom">Download OTA (%s)</string>
       <string name="download_whole_rom">Volledige ROM (%s) downloaden</string>
-      <string name="downloading_description">Downloaden...</string>
+      <string name="downloading_description">Downloaden..</string>
       <string name="emegency_update_helper">Systeem kan na installeren van de patch een reboot hebben voor de telefoon</string>
       <string name="emegency_update_size">Grootte: %s</string>
       <string name="emegency_version">Bijwerken</string>
@@ -62,7 +62,7 @@
       <string name="no_updates_found">Heeft geen updates gevonden</string>
       <string name="no_updates_warning">Heeft geen enkele update gevonden</string>
       <string name="no_updates_warning2">Heeft geen enkele update gevonden!</string>
-      <string name="page_error">Geen toegang tot MIUI, mobiele netwerk tijdelijk niet beschikbaar.</string>
+      <string name="page_error">Geen toegang tot MIUI, mobiele netwerk tijdelijk niet beschikbaar</string>
       <string name="page_error_title">Toegangsfout</string>
       <string name="page_reload">Ververs pagina</string>
       <string name="reboot_to_new_system">Herstart voor nieuwe versie</string>

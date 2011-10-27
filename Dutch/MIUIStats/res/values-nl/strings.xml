@@ -3,7 +3,7 @@
       <string name="app_name">MIUI Stats</string>
       <string name="main_btn_preview">Voorbeeld</string>
       <string name="main_btn_save">Opslaan</string>
-      <string name="main_desc">Wanneer deze optie ingeschakeld is geeft dit de ontwikkelaars van MIUI de mogelijkheid om unieke installaties op toestellen te volgen. Deze informatie bevat een unieke identificatie, maar verstuurd geen gebruikersgegevens. Data wordt elke keer wanneer het toestel opstart verzonden. Voor een voorbeeld van de gegevens welke verzonden worden klik onderin het scherm op \'Voorbeeld\'.</string>
+      <string name="main_desc">Wanneer deze optie ingeschakeld is geeft dit de ontwikkelaars van MIUI de mogelijkheid om unieke installaties op toestellen te volgen. Deze informatie bevat een unieke identificatie, maar verstuurd geen gebruikersgegevens. Data wordt elke keer wanneer het toestel opstart verzonden. Voor een voorbeeld van de gegevens welke verzonden worden klik onderin het scherm op \'Voorbeeld\'</string>
       <string name="main_link">&lt;a href=http://miuiandroid.com/miui-stats-opt-in-information/>Learn More&lt;/a></string>
       <string name="main_optin">Sta verzenden van anonieme statistieken toe</string>
       <string name="main_show_stats">Statistieken</string>

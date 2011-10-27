@@ -22,7 +22,7 @@
       <string name="cut">Knippen</string>
       <string name="damaged_file">Beschadigd bestand</string>
       <string name="delete">Wissen</string>
-      <string name="deleting_files">Bestanden wissen...</string>
+      <string name="deleting_files">Bestanden wissen..</string>
       <string name="details_hms">%1$d:%2$02d:%3$02d</string>
       <string name="details_ms">%1$02d:%2$02d</string>
       <string name="disallowed_operation">Draaien niet mogelijk</string>
@@ -56,8 +56,8 @@
       <string name="info_rescan_sdcard_finished">Scan van SD kaart voltooid</string>
       <string name="internal_camera_folder_display_name">MIUI Camera Shots</string>
       <string name="internal_miui_capture_screen_folder_display_name">Schermafdrukken</string>
-      <string name="loading_files">Bestanden laden...</string>
-      <string name="loading_video">Video laden...</string>
+      <string name="loading_files">Bestanden laden..</string>
+      <string name="loading_video">Video laden..</string>
       <string name="lockscreen_set">MIUI Vergrendelscherm galerij</string>
       <string name="menu_item_sort">Sorteren op:</string>
       <string name="menu_item_sort_date">Datum</string>
@@ -78,7 +78,7 @@
       <string name="operation_cancel">Verlaat</string>
       <string name="operation_delete">Wissen</string>
       <string name="operation_delete_confirm_message">Bestand wissen?</string>
-      <string name="operation_deleting">Wissen...</string>
+      <string name="operation_deleting">Wissen..</string>
       <string name="operation_info">Info</string>
       <string name="operation_refresh">Ververs</string>
       <string name="operation_rename">Hernoem</string>
@@ -96,15 +96,15 @@
       <string name="resume_playing_restart">Opnieuw afspelen</string>
       <string name="resume_playing_resume">Afspelen</string>
       <string name="resume_playing_title">Verder afspelen</string>
-      <string name="running_face_detection">Gezichtsherkenning bezig...</string>
+      <string name="running_face_detection">Gezichtsherkenning bezig..</string>
       <string name="save">Opslaan</string>
       <string name="save_pic_error">Kan afbeelding niet bewaren!</string>
       <string name="save_pic_to_success">Afbeelding met succes bewaard!</string>
       <string name="save_to_hint">Opslaan in %s</string>
       <string name="save_to_sdcard">Bewaar op SD kaart</string>
-      <string name="saving_image">Afbeelding opslaan...</string>
-      <string name="saving_lockscreen">lock achtergrond opslaan...</string>
-      <string name="saving_wallpaper">Wallpaper opslaan...</string>
+      <string name="saving_image">Afbeelding opslaan..</string>
+      <string name="saving_lockscreen">lock achtergrond opslaan..</string>
+      <string name="saving_wallpaper">Wallpaper opslaan..</string>
       <string name="screen_saver_wallpaper">lock achtergrond</string>
       <string name="sd_folder">SD Kaart</string>
       <string name="select_all">Alles selecteren</string>
@@ -141,7 +141,7 @@
       <string name="sort_by_update_time">Laatste update tijd</string>
       <string name="sort_by_update_time_reverse">Oudste update tijd</string>
       <string name="support_gif_animation">.gif ondersteuning</string>
-      <string name="support_gif_animation_summary">Gif afbeeldingen fullscreen bekijken met animatie. Dit kan invloed hebben op prestaties en verbruikt meer geheugen.</string>
+      <string name="support_gif_animation_summary">Gif afbeeldingen fullscreen bekijken met animatie. Dit kan invloed hebben op prestaties en verbruikt meer geheugen</string>
       <string name="support_reflection">Schakel reflectie in</string>
       <string name="tab_all_folders_title">Alle mappen</string>
       <string name="tab_favorite_title">Favorieten</string>

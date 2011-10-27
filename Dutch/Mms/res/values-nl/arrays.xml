@@ -4,82 +4,82 @@
         <item>:-D</item>
         <item>;-)</item>
         <item>%-)</item>
-        <item>n_n</item>
+        <item>∩_∩</item>
         <item>;-></item>
         <item>\@=</item>
         <item>:-(</item>
         <item>;-(</item>
-        <item>??</item>
+        <item>∠※</item>
         <item>:-x</item>
         <item>:-></item>
         <item>B-)</item>
-        <item>*^?^*</item>
-        <item>?^~^?</item>
+        <item>*^‧^*</item>
+        <item>○^~^○</item>
         <item>:-P</item>
         <item>:-)</item>
         <item>:-*</item>
         <item>:-/</item>
         <item>:-@</item>
-        <item>�?�/~</item>
+        <item>°ο°/~</item>
         <item>:-@</item>
         <item>:-O</item>
-        <item>???</item>
+        <item>⊙⊙?</item>
         <item>~o~/~</item>
         <item>:-J</item>
-        <item>?_?</item>
-        <item>\@?@</item>
-        <item>^?^</item>
-        <item>?^?</item>
+        <item>→_→</item>
+        <item>\@ο@</item>
+        <item>^人^</item>
+        <item>人^人</item>
         <item>^_^)Y</item>
-        <item>ok</item>
-        <item>-?o-?</item>
+        <item>ōk</item>
+        <item>-ิo-ิ</item>
     </string-array>
     <string-array name="extend_smiley_texts">
-        <item>::>_&amp;amp;lt;::</item>
-        <item>&amp;amp;lt;_>���</item>
+        <item>::>_&amp;amp;amp;lt;::</item>
+        <item>&amp;amp;amp;lt;_>¦¦¦</item>
         <item>~~~^_^~~~</item>
-        <item>~~~(>_&amp;amp;lt;)~~~</item>
-        <item>???e???</item>
+        <item>~~~(>_&amp;amp;amp;lt;)~~~</item>
+        <item>╮〔╯ε╰〕╭</item>
         <item>^_^/~~</item>
-        <item>on_no</item>
-        <item>�?�/~</item>
+        <item>o∩_∩o</item>
+        <item>°ο°/~</item>
         <item>^_^)Y</item>
-        <item>-?o-?</item>
+        <item>-ิo-ิ</item>
         <item>^(oo)^</item>
         <item>~o~/~</item>
         <item>*^o^*</item>
-        <item>`_���</item>
-        <item>?^~^?</item>
+        <item>ˋ_ˊ¦¦</item>
+        <item>○^~^○</item>
         <item>\#^_^</item>
-        <item>^?^</item>
-        <item>?^?</item>
-        <item>^?^</item>
-        <item>?-?</item>
-        <item>p_p</item>
-        <item>\@?@</item>
+        <item>^口^</item>
+        <item>人^人</item>
+        <item>^人^</item>
+        <item>一-一</item>
+        <item>π_π</item>
+        <item>\@ο@</item>
         <item>:-x</item>
         <item>T_T</item>
-        <item>Orz</item>
+        <item>Ｏrz</item>
         <item>:-P</item>
         <item>:-O</item>
-        <item>???</item>
-        <item>?^?</item>
-        <item>?_?</item>
+        <item>︶︿︶</item>
+        <item>╯^╰</item>
+        <item>〒_〒</item>
         <item>;-(</item>
         <item>:-(</item>
         <item>;-></item>
-        <item>n_n</item>
+        <item>∩_∩</item>
         <item>%-)</item>
-        <item>?_?</item>
-        <item>�^�</item>
-        <item>???</item>
-        <item>?.?</item>
+        <item>→_→</item>
+        <item>¯^¯</item>
+        <item>⊙⊙?</item>
+        <item>⊙.⊙</item>
         <item>:-@</item>
         <item>;-)</item>
-        <item>^�^</item>
+        <item>^÷^</item>
         <item>:-@</item>
-        <item>?_?</item>
-        <item>`^�</item>
+        <item>╰_╯</item>
+        <item>ˋ^ˊ</item>
         <item>:-/</item>
         <item>:-*</item>
         <item>:-)</item>
@@ -90,8 +90,8 @@
         <item>B-)</item>
         <item>b_d</item>
         <item>:P</item>
-        <item>ok</item>
-        <item>??</item>
+        <item>ōk</item>
+        <item>∠※</item>
         <item>:-J</item>
         <item>:)</item>
         <item>:(</item>
@@ -137,7 +137,6 @@
         <item>vnd.android.cursor.item/postal-address_v2</item>
         <item>vnd.android.cursor.item/note</item>
     </string-array>
-    <item type="array" name="APKTOOL_DUMMY_0006">false</item>
     <string-array name="select_dialog_items">
         <item>1 seconde</item>
         <item>2 seconden</item>
@@ -149,6 +148,6 @@
         <item>8 seconden</item>
         <item>9 seconden</item>
         <item>10 seconden</item>
-        <item>Anders�</item>
+        <item>Anders…</item>
     </string-array>
 </resources>

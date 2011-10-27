@@ -66,7 +66,7 @@
       <string name="monthly_on_day">Maandelijks (op dag %s)</string>
       <string name="monthly_on_day_count">Maandelijks (elke %1$s %2$s)</string>
       <string name="no">Nee</string>
-      <string name="no_calendars_found">Je hebt geen agenda\'s.</string>
+      <string name="no_calendars_found">Je hebt geen agenda\'s</string>
       <string name="no_syncable_calendars">Geen agenda\'s</string>
       <string name="no_title_label">(Geen titel)</string>
       <string name="not_synced_not_visible">niet gesynchroniseerd, niet zichtbaar</string>
@@ -104,8 +104,8 @@
       <string name="saving_event">Afspraak opgeslagen</string>
       <string name="show_agenda_view">Toon agenda</string>
       <string name="show_day_view">Toon dag</string>
-      <string name="show_newer_events">Toon gebeutenissen tot en met %1$s. Tik om te zoeken naar meer.</string>
-      <string name="show_older_events">Toon afspraak sinds %1$s. Tik om te zoeken naar meer.</string>
+      <string name="show_newer_events">Toon gebeutenissen tot en met %1$s. Tik om te zoeken naar meer</string>
+      <string name="show_older_events">Toon afspraak sinds %1$s. Tik om te zoeken naar meer</string>
       <string name="snooze_all_label">Snooze alles</string>
       <string name="synced_not_visible">gesynchroniseerd, niet zichtbaar</string>
       <string name="synced_visible">gesynchroniseerd, zichtbaar</string>

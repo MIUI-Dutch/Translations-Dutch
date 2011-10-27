@@ -2,7 +2,7 @@
 <resources>
       <string name="application_name">Live Achtergronden Kiezer</string>
       <string name="configure_wallpaper">Instellingen…</string>
-      <string name="live_wallpaper_empty">Geen live achtergronden.</string>
+      <string name="live_wallpaper_empty">Geen live achtergronden</string>
       <string name="live_wallpaper_loading">Laden live achtergrond…</string>
       <string name="live_wallpaper_picker_title">Live achtergronden</string>
       <string name="live_wallpaper_preview_title">Live achtergronden preview</string>

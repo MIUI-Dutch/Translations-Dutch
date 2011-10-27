@@ -25,7 +25,7 @@
       <string name="gadget_clock_22_label">Widget 2x2</string>
       <string name="gadget_clock_24_label">Widget 2x4</string>
       <string name="gadget_error_text">Probleem met laden widget</string>
-      <string name="gadget_load_error">Widget laden...</string>
+      <string name="gadget_load_error">Widget laden..</string>
       <string name="gadget_photo_22_label">Widget 2x2</string>
       <string name="gadget_photo_24_label">Widget 2x4</string>
       <string name="gadget_photo_44_label">Widget 4x4</string>

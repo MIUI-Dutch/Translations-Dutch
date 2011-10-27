@@ -10,7 +10,7 @@
       <string name="auth_notif_title">Sessie Sleutel</string>
       <string name="bluetooth_share_file_name">bluetooth_inhoud_delen</string>
       <string name="bt_enable_cancel">Annuleer</string>
-      <string name="bt_enable_line1">Om Bluetooth te gebruiken, moet je Bluetooth aanzetten.</string>
+      <string name="bt_enable_line1">Om Bluetooth te gebruiken, moet je Bluetooth aanzetten</string>
       <string name="bt_enable_line2">Bluetooth nu aanzetten?</string>
       <string name="bt_enable_ok">Zet aan</string>
       <string name="bt_enable_title">Bluetooth</string>
@@ -18,8 +18,8 @@
       <string name="bt_share_picker_label">Bluetooth</string>
       <string name="bt_sm_2_1">Er is niet genoeg ruimte op de SD kaart om bestand \"%1$s\" op te slaan</string>
       <string name="bt_sm_2_2">Ruimte nodig: %1$s</string>
-      <string name="bt_toast_1">Het bestand wordt ontvangen. Controleer de vooruitgang in het meldingsvenster.</string>
-      <string name="bt_toast_2">Het bestand wordt niet ontvangen.</string>
+      <string name="bt_toast_1">Het bestand wordt ontvangen. Controleer de vooruitgang in het meldingsvenster</string>
+      <string name="bt_toast_2">Het bestand wordt niet ontvangen</string>
       <string name="bt_toast_3">Ontvangen bestand van \"%1$s\" gestopt</string>
       <string name="bt_toast_4">Bestand sturen naar \"%1$s\"</string>
       <string name="bt_toast_5">Sturen %1$s bestanden naar \"%2$s\"</string>
@@ -42,11 +42,11 @@
       <string name="download_ok">Verberg</string>
       <string name="download_succ_line5">Bestand ontvangen</string>
       <string name="download_succ_ok">Open</string>
-      <string name="download_success">%1$s Ontvangen.</string>
+      <string name="download_success">%1$s Ontvangen</string>
       <string name="download_title">Bestandoverdracht</string>
       <string name="enabling_progress_content">Bluetooth aanzetten…</string>
       <string name="enabling_progress_title">Even geduld aub…</string>
-      <string name="ErrorTooManyRequests">Te veel verzoeken. Probeer later opnieuw.</string>
+      <string name="ErrorTooManyRequests">Te veel verzoeken. Probeer later opnieuw</string>
       <string name="hello">Hallo Wereld, TestActiviteit</string>
       <string name="inbound_history_title">Inkomende overdrachten</string>
       <string name="inbound_noti_title">Bluetooth delen: Ontvangen bestanden</string>
@@ -61,10 +61,10 @@
       <string name="incoming_file_toast_msg">Er is een inkomend bestand van een ander apparaat, bevestig dat u dit bestand wilt ontvangen</string>
       <string name="insert_record">Plaats record</string>
       <string name="localPhoneName">Mijn naam</string>
-      <string name="no_transfers">Overdracht geschiedenis is leeg.</string>
+      <string name="no_transfers">Overdracht geschiedenis is leeg</string>
       <string name="not_exist_file">Bestand bestaat niet</string>
       <string name="not_exist_file_desc">Het bestand bestaat niet! \n</string>
-      <string name="noti_caption">%1$s geslaagd, %2$s mislukt.</string>
+      <string name="noti_caption">%1$s geslaagd, %2$s mislukt</string>
       <string name="notification_received">Bluetooth share: Ontvangen %1$s</string>
       <string name="notification_received_fail">Bluetooth share: Bestand %1$s niet ontvangen</string>
       <string name="notification_receiving">Bluetooth share: Ontvangen %1$s</string>
@@ -85,8 +85,8 @@
       <string name="pbap_notif_title">PBAP verzoek</string>
       <string name="pbap_session_key_dialog_header">Bluetooth sessie sleutel nodig</string>
       <string name="pbap_session_key_dialog_title">Type sessie sleutel voor %1$s</string>
-      <string name="permdesc_bluetoothShareManager">Staat de Applicatie toe om toegang te krijgen tot de BluetoothShare manager en bestanden over te brengen.</string>
-      <string name="permlab_bluetoothShareManager">Toegang download manager.</string>
+      <string name="permdesc_bluetoothShareManager">Staat de Applicatie toe om toegang te krijgen tot de BluetoothShare manager en bestanden over te brengen</string>
+      <string name="permlab_bluetoothShareManager">Toegang download manager</string>
           <string name="process" />
           <string name="sharedUserId" />
       <string name="start_server">Start TCP server</string>
@@ -94,14 +94,14 @@
       <string name="status_connection_error">Verbindingsfout</string>
       <string name="status_file_error">Opslag probleem</string>
       <string name="status_forbidden">Deze overdracht is verboden door het doelapparaat</string>
-      <string name="status_no_sd_card">Geen SD kaart. Plaatst een SD kaart om overgedragen bestanden op te slaan.</string>
+      <string name="status_no_sd_card">Geen SD kaart. Plaatst een SD kaart om overgedragen bestanden op te slaan</string>
       <string name="status_not_accept">De telefoon kan niet overweg met dit type inhoud</string>
       <string name="status_pending">Bestandsoverdracht nog niet gestart</string>
       <string name="status_protocol_error">De aanvraag kan niet correct worden behandeld</string>
       <string name="status_running">Bestandoverdracht is aan de gang</string>
       <string name="status_success">De bestandsoverdracht is geslaagd</string>
       <string name="status_unknown_error">Onbekende fout</string>
-      <string name="transfer_clear_dlg_msg">Alle items worden gewist van de lijst.</string>
+      <string name="transfer_clear_dlg_msg">Alle items worden gewist van de lijst</string>
       <string name="transfer_clear_dlg_title">Wissen</string>
       <string name="transfer_menu_clear">Wissen van de lijst</string>
       <string name="transfer_menu_clear_all">Wis lijst</string>
@@ -113,7 +113,7 @@
       <string name="unknownNumber">Onbekend</string>
       <string name="update_record">Bevestig record</string>
       <string name="upload_fail_cancel">Sluiten</string>
-      <string name="upload_fail_line1">Het bestand is niet verzonden naar \"%1$s\".</string>
+      <string name="upload_fail_line1">Het bestand is niet verzonden naar \"%1$s\"</string>
       <string name="upload_fail_line1_2">Bestand: %1$s</string>
       <string name="upload_fail_ok">Probeer opnieuw</string>
       <string name="upload_line1">Aan: \"%1$s\"</string>
@@ -121,5 +121,5 @@
       <string name="upload_line5">Bestand verzenden…</string>
       <string name="upload_succ_line5">Bestand verzonden</string>
       <string name="upload_succ_ok">OK</string>
-      <string name="upload_success">%1$s Verzonden.</string>
+      <string name="upload_success">%1$s Verzonden</string>
 </resources>

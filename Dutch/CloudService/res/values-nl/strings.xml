@@ -27,7 +27,7 @@
       <string name="invalid_vercode">Geef verificatie code</string>
       <string name="login_account_suggestion1">Computer user, visit:</string>
       <string name="login_account_suggestion2">MIUI account, u kunt er ook een maken op miui.com</string>
-      <string name="loging_on">Inloggen...</string>
+      <string name="loging_on">Inloggen..</string>
       <string name="logon">Log in</string>
       <string name="mobile">Mobiel</string>
       <string name="mobile_hint_text">Toets correct telefoon nummer</string>
@@ -46,7 +46,7 @@
       <string name="service_disabled">Service inactief</string>
       <string name="service_name">MIUI Account management</string>
       <string name="service_unavailable">Service niet beschikbaar</string>
-      <string name="settings_safetylegal_activity_unreachable">Je telefoon heeft geen data verbinding. Om deze informatie te zien, ga naar %s vanuit iedere computer met een internet verbinding.</string>
+      <string name="settings_safetylegal_activity_unreachable">Je telefoon heeft geen data verbinding. Om deze informatie te zien, ga naar %s vanuit iedere computer met een internet verbinding</string>
       <string name="show_password">Toon wachtwoord</string>
       <string name="succeed">Compleet</string>
       <string name="terms_not_agreed">Je moet de voorwaarden accepteren om te registreren</string>
