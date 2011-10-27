@@ -4,7 +4,7 @@
       <string name="apply_lockscreen_paper_tips">Lockscreen thema al ingebruik, nieuw lockscreen voorbeeld wellicht niet zichtbaar!</string>
       <string name="apply_theme_no_select_message">Geen modules geselecteerd</string>
       <string name="backup_preference_title">Backup huidig thema</string>
-      <string name="backup_theme_dialog_message">Backup huidige thema naar:\n SD Kaart\n Loc: \\MIUI\\theme\\backup\n Naam: backup.mtz</string>
+      <string name="backup_theme_dialog_message">Backup huidige thema naar:\n SD-kaart\n Loc: \\MIUI\\theme\\backup\n Naam: backup.mtz</string>
       <string name="backup_theme_dialog_ok">Backup</string>
       <string name="backup_theme_progress_message">Bezig met backup..</string>
       <string name="backup_theme_success_message">Thema met succes gebackupt</string>
@@ -50,7 +50,7 @@
       <string name="theme_component_title_wallpaper">Achtergronden</string>
       <string name="theme_description_title_customized">Aangepast</string>
       <string name="theme_description_title_default">Standaard</string>
-      <string name="theme_import">Importeer thema van SD kaart</string>
+      <string name="theme_import">Importeer thema van SD-kaart</string>
       <string name="theme_select_others">Overige</string>
       <string name="third_party_pickers_activity_title">%1$s instellen</string>
       <string name="wallpaper_settings">Achtergrond kiezen</string>

@@ -467,7 +467,7 @@
       <string name="radio_off_error">A.u.b. radio aanzetten alvorens deze instellingen te bekijken</string>
       <string name="reading_settings">Lezen van instellingen…</string>
       <string name="recordCall_sample_prefix">MIUI_Opname</string>
-      <string name="recordCall_sd_error">SD kaart toegangsfout</string>
+      <string name="recordCall_sd_error">SD-kaart toegangsfout</string>
       <string name="regional_disable">Regionaal nieuws uitgeschakeld</string>
       <string name="regional_enable">Regionaal nieuws ingeschakeld</string>
       <string name="register_automatically">Automatische registratie..</string>

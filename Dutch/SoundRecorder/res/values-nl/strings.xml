@@ -41,7 +41,7 @@
       <string name="record_list">Record lijst</string>
       <string name="recording">Opnemen</string>
       <string name="recording_stopped">Opnemen gestopt</string>
-      <string name="sd_card_not_available">SD kaart niet beschikbaar</string>
+      <string name="sd_card_not_available">SD-kaart niet beschikbaar</string>
       <string name="second">%d seconden</string>
       <string name="storage_is_full">Opslag is vol</string>
       <string name="timer_format">%02d:%02d</string>

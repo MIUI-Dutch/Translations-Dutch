@@ -309,7 +309,7 @@
       <string name="noContactHelpTextAccountsInfo">Sync Google, Exchange contacten</string>
       <string name="noContactHelpTextAddMember">Lid toevoegen</string>
       <string name="noContactHelpTextAddStarred">Contact toevoegen</string>
-      <string name="noContactHelpTextImportSD">Importeer contacten van SD kaart</string>
+      <string name="noContactHelpTextImportSD">Importeer contacten van SD-kaart</string>
       <string name="noContactHelpTextImportSim">Importeer contacten van SIM kaart</string>
       <string name="noContactHelpTextImportXiaomiAccount">Herstel van online backup</string>
       <string name="noContactHelpTextImportXiaomiAccountInfo">Herstel data uit backup gemaakt in Xiaomi account of MiTalk</string>

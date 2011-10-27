@@ -84,9 +84,9 @@
       <string name="download_action_start">Start Download</string>
       <string name="download_no_application_title">kan bestand niet openen</string>
       <string name="download_no_sdcard_dlg_msg">Geheugen kaart moet geladen zijn voor je %s kan downloaden</string>
-      <string name="download_no_sdcard_dlg_title">Geen SD kaart</string>
+      <string name="download_no_sdcard_dlg_title">Geen SD-kaart</string>
       <string name="download_sdcard_busy_dlg_msg">Geheugen kaart is bezig. Sluit de geheuegen kaart en probeer opnieuw</string>
-      <string name="download_sdcard_busy_dlg_title">SD kaart bezig</string>
+      <string name="download_sdcard_busy_dlg_title">SD-kaart bezig</string>
       <string name="download_unknown_title">&lt;geen titel></string>
       <string name="edit_bookmarkfolder_header">Bewerk map</string>
       <string name="email_body">Website feedback: \n%s\n AUB geef je feedback: \n\n</string>
@@ -95,14 +95,14 @@
       <string name="exit_confirmation">Vraag me niet weer</string>
       <string name="exit_text_selection">Verlaat tekst selectie</string>
       <string name="expires_on">Geldig tot:</string>
-      <string name="export_bookmark_failure">Epic Fout! Bladwijzer is niet geexporteerd naar de SD kaart!</string>
+      <string name="export_bookmark_failure">Epic Fout! Bladwijzer is niet geexporteerd naar de SD-kaart!</string>
       <string name="export_bookmark_sucess">Bladwijzer is succesvol geexporteerd naar de DS kaart!</string>
       <string name="exported_bookmark_file_name">Mijn Favorieten</string>
       <string name="exported_data_file_name">Mijn Data</string>
       <string name="feedback">Feedback</string>
       <string name="few_match">%d/%d</string>
       <string name="file_picker_new_folder">Nieuwe map</string>
-      <string name="file_picker_sdcard_not_found">SD kaart niet gevonden, controleer of je toestel is verbonden met je PC</string>
+      <string name="file_picker_sdcard_not_found">SD-kaart niet gevonden, controleer of je toestel is verbonden met je PC</string>
       <string name="find_dot">Vind op pagina</string>
       <string name="forum_post_empty">Inhoud kan niet leeg zijn!</string>
       <string name="forum_post_info">\\n\\n\\n[size=2][color=Silver]Verzonden van MIUI Browser[/color][/size]</string>
@@ -148,11 +148,11 @@
       <string name="notification_filename_separator">,\u0020</string>
       <string name="ok">OK</string>
       <string name="one_key_export">Één toets Backup</string>
-      <string name="one_key_export_message">Dit zal de browser data opslaan op de SD kaart... (/sdcard/miui_browser/backups/)</string>
-      <string name="one_key_export_summary">Backup browser data op SD kaart</string>
+      <string name="one_key_export_message">Dit zal de browser data opslaan op de SD-kaart... (/sdcard/miui_browser/backups/)</string>
+      <string name="one_key_export_summary">Backup browser data op SD-kaart</string>
       <string name="one_key_import">Één toets Import</string>
       <string name="one_key_import_message">Dit zal de data backup importeren</string>
-      <string name="one_key_import_summary">Importeer browser data van de SD kaart</string>
+      <string name="one_key_import_summary">Importeer browser data van de SD-kaart</string>
       <string name="one_match">1 overeenkomst</string>
       <string name="open_link_background">Link geopend op de achtergrond</string>
       <string name="org_name">Organizatie:</string>

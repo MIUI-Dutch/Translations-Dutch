@@ -10,8 +10,8 @@
       <string name="dismount_storage">Niet koppelen</string>
       <string name="label_view">Toon</string>
       <string name="mount_storage">Koppelen</string>
-      <string name="move_data_to_sdcard_message">Verplaatst data als schermafdruk, afbeeldingen enz. van intern geheugen naar SD kaart. Voor dagelijks gebruik is het beter om de SD kaart steeds in de telefoon te houden</string>
-      <string name="move_data_to_sdcard_title">Data naar SD kaart verplaatsen</string>
+      <string name="move_data_to_sdcard_message">Verplaatst data als schermafdruk, afbeeldingen enz. van intern geheugen naar SD-kaart. Voor dagelijks gebruik is het beter om de SD-kaart steeds in de telefoon te houden</string>
+      <string name="move_data_to_sdcard_title">Data naar SD-kaart verplaatsen</string>
       <string name="return_to_incall_screen">Klik voor terug naar de oproep</string>
       <string name="status_bar_clear_all_button">Wissen</string>
       <string name="status_bar_date_format">EEE, d MMMM,</string>

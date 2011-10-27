@@ -219,8 +219,8 @@
       <string name="message_view_invite_view">Toon in kalender »</string>
       <string name="message_view_show_pictures_action">Toon afbeelding</string>
       <string name="message_view_show_pictures_instructions">Selecteer \"Toon afbeelding\" naar ingesloten afbeeldingen weergeven</string>
-      <string name="message_view_status_attachment_not_saved">Kan de bijlage niet opslaan op SD kaart</string>
-      <string name="message_view_status_attachment_saved">Bijlage opgeslagen op SD kaart als %s</string>
+      <string name="message_view_status_attachment_not_saved">Kan de bijlage niet opslaan op SD-kaart</string>
+      <string name="message_view_status_attachment_saved">Bijlage opgeslagen op SD-kaart als %s</string>
       <string name="message_view_to_label">Aan:</string>
       <string name="move_to_newer">Volgende</string>
       <string name="move_to_older">Vorige</string>

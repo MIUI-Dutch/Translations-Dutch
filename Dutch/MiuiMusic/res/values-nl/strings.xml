@@ -30,13 +30,13 @@
       <string name="create_text">Ok</string>
       <string name="custom">Nieuwe EQ instelling</string>
       <string name="default_time">30 min</string>
-      <string name="delete_album_desc">Hele album “%s” zal worden gewist van de SD kaart</string>
-      <string name="delete_artist_desc">alle %s nummers worden van de SD kaart gewist</string>
+      <string name="delete_album_desc">Hele album “%s” zal worden gewist van de SD-kaart</string>
+      <string name="delete_artist_desc">alle %s nummers worden van de SD-kaart gewist</string>
       <string name="delete_confirm_button_text">Ok</string>
       <string name="delete_from_favorite">Verwijderen uit favorieten</string>
       <string name="delete_item">Wissen</string>
       <string name="delete_playlist_menu">Afspeellijst wissen</string>
-      <string name="delete_song_desc">“%s” zal permanent worden gewist van de SD kaart</string>
+      <string name="delete_song_desc">“%s” zal permanent worden gewist van de SD-kaart</string>
       <string name="delete_song_item">Wis nummer</string>
       <string name="donot_ask_me_agaion">Niet opnieuw vragen</string>
       <string name="download">Download</string>
@@ -172,7 +172,7 @@
       <string name="ringtone_set">“%s” toegevoegd en ingesteld als ringtoon</string>
       <string name="save">Opslaan</string>
       <string name="save_as_playlist">Opslaan als afspeellijst</string>
-      <string name="scanning">Scannen van SD kaart..</string>
+      <string name="scanning">Scannen van SD-kaart..</string>
       <string name="screen_bright_wake">Laat scherm aan</string>
       <string name="screen_bright_wake_summary">Laat scherm aan wanneer u zich in de muziek applicatie bevind</string>
       <string name="search_failed">Zoeken mislukt, controleer netwerkverbinding</string>

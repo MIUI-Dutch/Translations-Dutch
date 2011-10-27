@@ -1183,12 +1183,12 @@
       <string name="scene_headset">Headset</string>
       <string name="scene_sco">Bluetooth Headset</string>
       <string name="screen_lock">Schermvergrendeling</string>
-      <string name="sd_not_available">SD kaart niet beschikbaar, controleer of hij geplaatst is</string>
-      <string name="sd_not_available_low_internal_storage">SD kaart niet beschikbaar, weinig ruimte op interne opslag</string>
+      <string name="sd_not_available">SD-kaart niet beschikbaar, controleer of hij geplaatst is</string>
+      <string name="sd_not_available_low_internal_storage">SD-kaart niet beschikbaar, weinig ruimte op interne opslag</string>
       <string name="sd_not_available_saved_to_internal_storage">Opgeslagen op interne opslag</string>
-      <string name="sd_not_available_use_internal_storage">SD kaart niet beschikbaar, opgeslagen op interne opslag</string>
+      <string name="sd_not_available_use_internal_storage">SD-kaart niet beschikbaar, opgeslagen op interne opslag</string>
       <string name="sdcard_status_changed_dialog_message">Afsluiten.\nHeropen om de lijst te verversen</string>
-      <string name="sdcard_status_changed_dialog_title">SD kaart status gewijzigd</string>
+      <string name="sdcard_status_changed_dialog_title">SD-kaart status gewijzigd</string>
       <string name="search_go">Zoeken</string>
       <string name="second">sec</string>
       <string name="seconds">seconden</string>

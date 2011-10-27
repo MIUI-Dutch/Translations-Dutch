@@ -114,9 +114,9 @@
       <string name="sc_service_unavailable">Online service niet beschikbaar</string>
       <string name="sc_unaccess_password_file">Wi-Fi wachtwoord niet opslaan</string>
       <string name="sc_unauthorized">Certificering niet geldig</string>
-      <string name="sdcard_no_enough_space">Niet genoeg vrije ruimte op SD kaart</string>
-      <string name="sdcard_no_enough_space_warning">SD kaart ruimte is minimaal, backup kan mislukken, doorgaan?</string>
-      <string name="sdcard_unmounted">SD kaart niet beschikbaar!</string>
+      <string name="sdcard_no_enough_space">Niet genoeg vrije ruimte op SD-kaart</string>
+      <string name="sdcard_no_enough_space_warning">SD-kaart ruimte is minimaal, backup kan mislukken, doorgaan?</string>
+      <string name="sdcard_unmounted">SD-kaart niet beschikbaar!</string>
       <string name="select_all">Selecteer alles</string>
       <string name="service_stoped">Service gestopt</string>
       <string name="settings_summary">Backup telefoon- en bericht instellingen</string>

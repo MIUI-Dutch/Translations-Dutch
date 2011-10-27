@@ -13,7 +13,7 @@
       <string name="apply_update_guide">Updaten in de achtergrond, heeft geen invloed op gebruik</string>
       <string name="apply_update_refuse">Systeem update is bezig, stoppen en later uitvoeren?</string>
       <string name="apply_upload_info_message">Update toepassen?</string>
-      <string name="apply_upload_info_message_manually">Uitschakelen, start Recovery handmatig om de update toe te passen op SD kaart, in de %s. Als je een backup wilt, backup en ga terug naar systeem update</string>
+      <string name="apply_upload_info_message_manually">Uitschakelen, start Recovery handmatig om de update toe te passen op SD-kaart, in de %s. Als je een backup wilt, backup en ga terug naar systeem update</string>
       <string name="applying_rom_message">Toepassen ROM</string>
       <string name="applying_update">Updaten</string>
       <string name="boot_recovery">Herstart recovery</string>
@@ -48,9 +48,9 @@
       <string name="mione_update_fail_title">Update mislukt</string>
       <string name="mione_update_success_description">MI-ONE update is succesvol</string>
       <string name="mione_update_success_title">Update compleet</string>
-      <string name="move_data_to_sdcard_not_enough_space_message">Niet genoeg ruimte op SD kaart om %dMB data te verplaatsen</string>
-      <string name="move_data_to_sdcard_title">Move data naar SD kaart</string>
-      <string name="moving_data_to_sdcard_message">Data wordt verplaatst naar SD kaart</string>
+      <string name="move_data_to_sdcard_not_enough_space_message">Niet genoeg ruimte op SD-kaart om %dMB data te verplaatsen</string>
+      <string name="move_data_to_sdcard_title">Move data naar SD-kaart</string>
+      <string name="moving_data_to_sdcard_message">Data wordt verplaatst naar SD-kaart</string>
       <string name="moving_data_to_sdcard_progress_format">Verplaatst %1$dKb van %2$dKb</string>
       <string name="network_error">Kan niet verbinden, netwerk problemen of server is bezig</string>
       <string name="new_update_content_title">Nieuwe versie:%s</string>
@@ -66,10 +66,10 @@
       <string name="page_error_title">Toegangsfout</string>
       <string name="page_reload">Ververs pagina</string>
       <string name="reboot_to_new_system">Herstart voor nieuwe versie</string>
-      <string name="sdcard_has_no_space_dialog_body">SD Kaart heeft te weinig vrije ruimte. Maak ruimte vrij voor je de update download</string>
-      <string name="sdcard_has_no_space_dialog_title">SD Kaart heeft te weinig vrije ruimte</string>
-      <string name="sdcard_is_not_present_dialog_body">Je hebt een SD kaart nodig om de update te kunnen downloaden</string>
-      <string name="sdcard_is_not_present_dialog_title">SD kaart niet gevonden</string>
+      <string name="sdcard_has_no_space_dialog_body">SD-kaart heeft te weinig vrije ruimte. Maak ruimte vrij voor je de update download</string>
+      <string name="sdcard_has_no_space_dialog_title">SD-kaart heeft te weinig vrije ruimte</string>
+      <string name="sdcard_is_not_present_dialog_body">Je hebt een SD-kaart nodig om de update te kunnen downloaden</string>
+      <string name="sdcard_is_not_present_dialog_title">SD-kaart niet gevonden</string>
       <string name="send_install_log">Verstuur install log</string>
       <string name="send_install_log_error">Niet verstuurd</string>
       <string name="sign_in_add_account_helper">Je telefoon heeft geen MIUI account geconfigureerd, creëer één voor punten</string>

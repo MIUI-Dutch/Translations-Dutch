@@ -20,7 +20,7 @@
       <string name="gallery_camera_bucket_name">Camera afbeeldingen</string>
       <string name="gallery_camera_videos_bucket_name">Camera video\'s</string>
       <string name="image_file_name_format">\'IMG\'_ddMMyyyy_HHmmss</string>
-      <string name="not_enough_space">SD kaart is vol</string>
+      <string name="not_enough_space">SD-kaart is vol</string>
       <string name="pref_camera_antibanding">Bewegingsonscherpte reductie</string>
       <string name="pref_camera_antibanding_50hz">50 Hz</string>
       <string name="pref_camera_antibanding_60hz">60 Hz</string>
@@ -115,7 +115,7 @@
       <string name="pref_video_quality_high">Hoog (30m)</string>
       <string name="pref_video_quality_low">Laag (30m)</string>
       <string name="pref_video_quality_mms">MMS (Laag, 30s)</string>
-      <string name="preparing_sd">Voorbereiden SD kaart…</string>
+      <string name="preparing_sd">Voorbereiden SD-kaart…</string>
       <string name="removed">Verwijderd</string>
       <string name="restore_title">Herstel standaard</string>
       <string name="review_cancel">Annuleer</string>
@@ -126,7 +126,7 @@
       <string name="send_method">Stuur naar</string>
       <string name="setting">Instelling</string>
       <string name="silence">Geen geluid</string>
-      <string name="spaceIsLow_content">SD kaart bijna vol, verlaag de kwaliteit of verwijder bestanden</string>
+      <string name="spaceIsLow_content">SD-kaart bijna vol, verlaag de kwaliteit of verwijder bestanden</string>
       <string name="switch_to_camera">Camera</string>
       <string name="switch_to_camera_lable">Wissel naar camera</string>
       <string name="switch_to_video">Video</string>

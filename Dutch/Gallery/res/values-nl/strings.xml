@@ -14,9 +14,9 @@
       <string name="clear_thumbnail_cache">Wis thumbnail cache</string>
       <string name="clear_thumbnail_cache_confirm">Thumbnail cache wordt gewist. Gallery voert een rescan media bestanden uit om thumbnails later te gebruiken</string>
       <string name="confirm">Ok</string>
-      <string name="confirm_delete_file">Bestand zal gewist worden van SD kaart</string>
+      <string name="confirm_delete_file">Bestand zal gewist worden van SD-kaart</string>
       <string name="confirm_delete_folder">Wis bestanden in geselecteerde map</string>
-      <string name="confirm_delete_selected_files">Geselecteerde bestanden zullen gewist worden van SD kaart</string>
+      <string name="confirm_delete_selected_files">Geselecteerde bestanden zullen gewist worden van SD-kaart</string>
       <string name="confirm_know">OK</string>
       <string name="contact_photo">Als contactafbeelding</string>
       <string name="cut">Knippen</string>
@@ -53,7 +53,7 @@
       <string name="image_size_threshold_dialog_title">Grenswaarde (K)</string>
       <string name="image_size_threshold_summary">Afbeeldingsgrootte mag niet meer zijn dan grenswaarde</string>
       <string name="info">Info</string>
-      <string name="info_rescan_sdcard_finished">Scan van SD kaart voltooid</string>
+      <string name="info_rescan_sdcard_finished">Scan van SD-kaart voltooid</string>
       <string name="internal_camera_folder_display_name">MIUI Camera Shots</string>
       <string name="internal_miui_capture_screen_folder_display_name">Schermafdrukken</string>
       <string name="loading_files">Bestanden laden..</string>
@@ -90,7 +90,7 @@
       <string name="play_video">Video afspelen</string>
       <string name="rename_failed">Hernoemen mislukt</string>
       <string name="rename_failed_duplicated_name">Naam bestaat al, voer een andere naam in</string>
-      <string name="rescan_sdcard">Herscan SD kaart</string>
+      <string name="rescan_sdcard">Herscan SD-kaart</string>
       <string name="reset_folder_cover">Reset map cover</string>
       <string name="resume_playing_message">Vanaf %s verder afspelen?</string>
       <string name="resume_playing_restart">Opnieuw afspelen</string>
@@ -101,12 +101,12 @@
       <string name="save_pic_error">Kan afbeelding niet bewaren!</string>
       <string name="save_pic_to_success">Afbeelding met succes bewaard!</string>
       <string name="save_to_hint">Opslaan in %s</string>
-      <string name="save_to_sdcard">Bewaar op SD kaart</string>
+      <string name="save_to_sdcard">Bewaar op SD-kaart</string>
       <string name="saving_image">Afbeelding opslaan..</string>
       <string name="saving_lockscreen">lock achtergrond opslaan..</string>
       <string name="saving_wallpaper">Wallpaper opslaan..</string>
       <string name="screen_saver_wallpaper">lock achtergrond</string>
-      <string name="sd_folder">SD Kaart</string>
+      <string name="sd_folder">SD-kaart</string>
       <string name="select_all">Alles selecteren</string>
       <string name="select_file_hint">Tik om bestanden te selecteren</string>
       <string name="select_frame">Lijst</string>
@@ -145,7 +145,7 @@
       <string name="support_reflection">Schakel reflectie in</string>
       <string name="tab_all_folders_title">Alle mappen</string>
       <string name="tab_favorite_title">Favorieten</string>
-      <string name="tab_folder_tree_title">SD Kaart</string>
+      <string name="tab_folder_tree_title">SD-kaart</string>
       <string name="turn_left">Linksom draaien</string>
       <string name="turn_right">Rechtsom draaien</string>
       <string name="unknown_location">niet beschikbaar</string>
