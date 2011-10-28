@@ -12,7 +12,7 @@
    <string name="auto_backup_interval_min">Dagelijks</string>
    <string name="auto_backup_only_wifi">Alleen met Wi-Fi</string>
    <string name="auto_backup_open">Inschakelen automatisch backup</string>
-   <string name="auto_backup_progress">Automatische backup bezig..</string>
+   <string name="auto_backup_progress">Automatische backup bezig...</string>
    <string name="auto_backup_setting_title">Automatisch backup instellingen</string>
    <string name="auto_backup_time">Geplande backup</string>
    <string name="backup_delete">Wis:</string>
@@ -25,7 +25,7 @@
    <string name="backup_items_app_tailer">\u0020Applicatie data</string>
    <string name="backup_items_sysdata_tailer">\u0020Systeem data</string>
    <string name="backup_new">Nieuw:</string>
-   <string name="backup_progress">Backup..</string>
+   <string name="backup_progress">Backup...</string>
    <string name="backup_recently">\u0020(laatste)</string>
    <string name="backup_report">Backup rapport</string>
    <string name="backup_update">Wijzig</string>
@@ -53,8 +53,8 @@
    <string name="cloud_restore_guide">Klik Start om data te herstellen\n U kunt ook %s herstellen in Backup</string>
    <string name="cloud_restore_title">Herstel online backup data</string>
    <string name="cloud_restore_window_title">Online data herstel</string>
-   <string name="cloud_search">Zoek online..</string>
-   <string name="compute_backup_info">Zoek online backup informatie..</string>
+   <string name="cloud_search">Zoek online...</string>
+   <string name="compute_backup_info">Zoek online backup informatie...</string>
    <string name="compute_delete_contact_info">Zoek contacten informatie</string>
    <string name="contact_title">Contacten</string>
    <string name="current_account">Inlog account: %s</string>
@@ -65,7 +65,7 @@
    <string name="delete">Wis</string>
    <string name="delete_backup">Backup wissen</string>
    <string name="delete_backup_confirm">Geselecteerde backup wordt gewist, doorgaan?</string>
-   <string name="delete_backup_process">Wissen van backup..</string>
+   <string name="delete_backup_process">Wissen van backup...</string>
    <string name="delete_failed_backup_confirm">Backup bevat een fout, kan niet herstellen van deze backup</string>
    <string name="dir_date_format">yyyy-MM-dd_HH-mm-ss</string>
    <string name="findlost_contact">Herstel contacten</string>
@@ -90,9 +90,9 @@
    <string name="nothing_searched">Geen zoek resultaten</string>
    <string name="progress_backup_hint">Backup van:\u0020</string>
    <string name="progress_restore_hint">Herstel van:\u0020</string>
-   <string name="prompt_reading">Lezen..</string>
-   <string name="prompt_sending">Uploaden..</string>
-   <string name="prompt_writing">Opslaan..</string>
+   <string name="prompt_reading">Lezen...</string>
+   <string name="prompt_sending">Uploaden...</string>
+   <string name="prompt_writing">Opslaan...</string>
    <string name="refresh">Verversen</string>
    <string name="restore_contact">Herstel contacten</string>
    <string name="restore_contact_content">Herstellen van contacten kan duplicaten veroorzaken, doorgaan?\nOpmerking: u kunt contacten samenvoegen bij contact instellingen</string>
@@ -100,7 +100,7 @@
    <string name="restore_counts">Herstel:</string>
    <string name="restore_finished">Herstellen voltooid</string>
    <string name="restore_launcher_layout_hit">(Opmerking: widgets worden niet hersteld)</string>
-   <string name="restore_progress">Herstellen..</string>
+   <string name="restore_progress">Herstellen...</string>
    <string name="restore_report">Herstel rapport</string>
    <string name="restore_telephony_hit">(Opmerking: Het herstelproces zal de telefoon applicatie opnieuw opstarten)</string>
    <string name="retry">Opnieuw</string>
@@ -123,7 +123,7 @@
    <string name="sms_title">Berichten</string>
    <string name="start_backup">Start Backup</string>
    <string name="start_restore">Herstellen</string>
-   <string name="task_backup_cancel_progress">Bezig met annuleren..</string>
+   <string name="task_backup_cancel_progress">Bezig met annuleren...</string>
    <string name="task_backup_failed">Backup mislukt</string>
    <string name="task_backup_finished_local">Backup compleet</string>
    <string name="task_backup_succeed">Backup geslaagd</string>
@@ -141,7 +141,7 @@
    <string name="task_pre_running">Voorbewerking</string>
    <string name="task_progress">Voortgang</string>
    <string name="task_restore_cancel_dialog">Herstel is niet compleet\nannuleren kan leiden tot dataverlies</string>
-   <string name="task_restore_cancel_progress">Annuleren..</string>
+   <string name="task_restore_cancel_progress">Annuleren...</string>
    <string name="task_restore_failed">Herstellen mislukt</string>
    <string name="task_restore_finished_local">Herstel compleet</string>
    <string name="task_restore_succeed">Herstellen geslaagd</string>

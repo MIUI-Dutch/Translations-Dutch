@@ -102,7 +102,7 @@
    <string name="backup_erase_dialog_title">Back-upinstellingen</string>
    <string name="backup_section_title">Back-up en herstel op mobiel</string>
    <string name="band_mode_failed">Niet geslaagd</string>
-   <string name="band_mode_loading">Bandlijst laden..</string>
+   <string name="band_mode_loading">Bandlijst laden...</string>
    <string name="band_mode_set">Ingesteld</string>
    <string name="band_mode_succeeded">Voltooid</string>
    <string name="band_mode_title">GSM/UMTS-band instellen</string>
@@ -113,7 +113,7 @@
    <string name="battery_auto_saving_category_practise">Verleng uw batterijduur</string>
    <string name="battery_auto_saving_category_rule">Batterij besparingsinstellingen</string>
    <string name="battery_auto_saving_practise">Tips voor het verlengen batterijduur</string>
-   <string name="battery_auto_saving_practise_more">Meer stroom besparende tips..</string>
+   <string name="battery_auto_saving_practise_more">Meer stroom besparende tips...</string>
    <string name="battery_auto_saving_practise_summary">1.Beperk het aantal apps op de achtergrond. \n2.Tenzij er weinig licht is, is maximale helderheid instellen niet nodig. \n3.Denk aan het instellen van vliegtuig-modus tijdens de nacht</string>
    <string name="battery_auto_saving_rule_apn">Dataverbinding uitschakelen</string>
    <string name="battery_auto_saving_rule_apn_summary">Verbetering batterijverbruik hoog</string>
@@ -235,9 +235,9 @@
    <string name="bluetooth_ask_enablement_and_lasting_discovery">Applicatie op uw apparaat vraagt toestemming om Bluetooth in te schakelen en uw apparaat zichtbaar te maken voor andere apparaten. Toestaan?</string>
    <string name="bluetooth_ask_lasting_discovery">Applicatie op uw apparaat vraagt toestemming om uw apparaat altijd zichtbaar te maken voor andere apparaten. Toestaan?</string>
    <string name="bluetooth_confirm_passkey_msg">Bevestig sleutel is %2$s om te koppelen met %1$s</string>
-   <string name="bluetooth_connect_specific_profiles_title">Verbinden met..</string>
+   <string name="bluetooth_connect_specific_profiles_title">Verbinden met...</string>
    <string name="bluetooth_connected">Verbonden</string>
-   <string name="bluetooth_connecting">Verbinden..</string>
+   <string name="bluetooth_connecting">Verbinden...</string>
    <string name="bluetooth_connecting_error_message">Kan niet verbinden met %1$s</string>
    <string name="bluetooth_connection_dialog_text">wil je verbinding maken met \"%1$s\"?</string>
    <string name="bluetooth_connection_notif_message">kies om te verbinden met \"%1$s\"</string>
@@ -248,7 +248,7 @@
    <string name="bluetooth_device_advanced_profile_header_title">Profielen</string>
    <string name="bluetooth_device_advanced_title">Opties %1$s</string>
    <string name="bluetooth_device_context_connect">Verbinden</string>
-   <string name="bluetooth_device_context_connect_advanced">Opties..</string>
+   <string name="bluetooth_device_context_connect_advanced">Opties...</string>
    <string name="bluetooth_device_context_disconnect">Verbinding verbreken</string>
    <string name="bluetooth_device_context_disconnect_unpair">Verbinding en koppeling verbreken</string>
    <string name="bluetooth_device_context_pair_connect">Koppelen en verbinden</string>
@@ -264,7 +264,7 @@
    <string name="bluetooth_devices">Bluetooth-apparaten</string>
    <string name="bluetooth_disconnect_blank">Verbinding met >%1$s wordt verbroken</string>
    <string name="bluetooth_disconnected">Verbinding verbroken</string>
-   <string name="bluetooth_disconnecting">Verbinding wordt verbroken..</string>
+   <string name="bluetooth_disconnecting">Verbinding wordt verbroken...</string>
    <string name="bluetooth_display_passkey_msg">Geef %2$s in op %1$s om te koppelen</string>
    <string name="bluetooth_dock_settings_a2dp">Muziek, beltoon, alarmen (stille stand)</string>
    <string name="bluetooth_dock_settings_headset">Als luidspreker</string>
@@ -288,7 +288,7 @@
    <string name="bluetooth_opp_profile_summary_connected">Verbonden voor leveren van OPP-service</string>
    <string name="bluetooth_opp_profile_summary_not_connected">Niet verbonden met OPP-service</string>
    <string name="bluetooth_paired">Gekoppeld maar niet verbonden</string>
-   <string name="bluetooth_pairing">Koppelen..</string>
+   <string name="bluetooth_pairing">Koppelen...</string>
    <string name="bluetooth_pairing_accept">OK</string>
    <string name="bluetooth_pairing_decline">Weigeren</string>
    <string name="bluetooth_pairing_device_down_error_message">Kan communicatie met %1$s niet tot stand brengen</string>
@@ -312,7 +312,7 @@
    <string name="bluetooth_summary_connected_to_a2dp">Verbonden met media-audio</string>
    <string name="bluetooth_summary_connected_to_a2dp_headset">Verbonden met telefoon- en media-audio</string>
    <string name="bluetooth_summary_connected_to_headset">Verbonden met telefoonaudio</string>
-   <string name="bluetooth_turning_on">Bluetooth inschakelen..</string>
+   <string name="bluetooth_turning_on">Bluetooth inschakelen...</string>
    <string name="bluetooth_unknown" />
    <string name="bluetooth_visibility">Zichtbaar</string>
    <string name="bluetooth_visibility_timeout">Time-out zichtbaar</string>
@@ -365,10 +365,10 @@
    <string name="cit_bluetooth_address_open_error">Kan geen Bluetooth-apparaat vinden of het adres niet vinden</string>
    <string name="cit_bluetooth_not_support">Telefoon ondersteunt geen Bluetooth</string>
    <string name="cit_bluetooth_scan_retry">Opnieuw scannen</string>
-   <string name="cit_bluetooth_scanning">Bluetooth-apparaat aan het scannen, wachten..</string>
+   <string name="cit_bluetooth_scanning">Bluetooth-apparaat aan het scannen, wachten...</string>
    <string name="cit_bluetooth_scanning_bluetooth_done">Scan is voltooid, geen Bluetooth apparaat gevonden</string>
    <string name="cit_bluetooth_scanning_bluetooth_error">Fout met verbinden van Bluetooth-apparaat, kan het apparaat niet aansluiten</string>
-   <string name="cit_bluetooth_scanning_opening_bluetooth">Bluetooth-apparaat aansluiten..</string>
+   <string name="cit_bluetooth_scanning_opening_bluetooth">Bluetooth-apparaat aansluiten...</string>
    <string name="cit_charger_current">Huidige lading：%dmA</string>
    <string name="cit_charger_current_check_summary">Dit toont de huidige oplaadsterkte</string>
    <string name="cit_charger_current_check_title">24. Huidige laadt status</string>
@@ -414,7 +414,7 @@
    <string name="cit_pass">Doorlopen</string>
    <string name="cit_play_sd_mp3_summary">De test zal music.mp3 afspelen in de root van de SD-kaart</string>
    <string name="cit_play_sd_mp3_title">16. SD MP3</string>
-   <string name="cit_playing_sd_mp3">Speelt music.mp3..</string>
+   <string name="cit_playing_sd_mp3">Speelt music.mp3...</string>
    <string name="cit_pointer_location_title">4. Touch screen</string>
    <string name="cit_proximity_sensor_check_summary">Bedek de nabijheidssensor met je vinger, de aangegeven waarden is tot het dichtstbijzijnde (0,0) naar verste, test is succesvol wanneer de waarde wordt weergegeven</string>
    <string name="cit_proximity_sensor_check_title">13. Nabijheidsensor</string>
@@ -465,7 +465,7 @@
    <string name="cit_wifi_ap_scan_check_summary">Toont een lijst van alle beschikbare Wi-Fi AccessPoints</string>
    <string name="cit_wifi_ap_scan_check_title">8. Wi-Fi AP scan</string>
    <string name="cit_wifi_ap_scan_retry">Opnieuw scannen</string>
-   <string name="cit_wifi_ap_scanning">Scannen AP..</string>
+   <string name="cit_wifi_ap_scanning">Scannen AP...</string>
    <string name="clear_activities">Standaardinstellingen wissen</string>
    <string name="clear_cache_btn_text">Buffer leegmaken</string>
    <string name="clear_data_dlg_text">Alle gegevens die u in deze toepassing hebt opgeslagen, worden permanent verwijderd</string>
@@ -480,7 +480,7 @@
    <string name="compatibility_mode_summery_on">Deze applicatie draait in de compatibiliteitsmodus</string>
    <string name="compatibility_mode_toggle_off">Zet uit</string>
    <string name="compatibility_mode_toggle_on">Zet aan</string>
-   <string name="computing_size">Berekenen..</string>
+   <string name="computing_size">Berekenen...</string>
    <string name="config_list_label">Ingestelde Netwerken</string>
    <string name="contacts_kept_in_memory">Contacten gebeld</string>
    <string name="contributors_title">Bijdragen</string>
@@ -719,7 +719,7 @@
    <string name="light_filter_window_title">Vensterlengte</string>
    <string name="light_levels_dim_summary">Gebruik dit om het scherm dim level in te stellen</string>
    <string name="light_levels_dim_title">Scherm dim level</string>
-   <string name="light_levels_editor_title">Edit andere levels..</string>
+   <string name="light_levels_editor_title">Edit andere levels...</string>
    <string name="light_levels_enabled_title">Gebruik aangepaste</string>
    <string name="light_levels_title">Licht waardes</string>
    <string name="link_speed_label">Link Speed:</string>
@@ -750,8 +750,8 @@
    <string name="lock_example_message">Verbind ten minste vier stippen met elkaar. Selecteer Volgende wanneer u klaar bent om uw eigen patroon te tekenen</string>
    <string name="lock_example_title">Voorbeeldpatroon</string>
    <string name="lock_intro_message" />
-   <string name="lock_settings_picker_title">Instell. ontgrendelen scherm</string>
-   <string name="lock_settings_title">Instell. ontgrendelen scherm</string>
+   <string name="lock_settings_picker_title">Instellingen ontgrendelen scherm</string>
+   <string name="lock_settings_title">Instellingen ontgrendelen scherm</string>
    <string name="lock_sounds_enable_summary_off">Geluiden afspelen bij ver-/ontgrendelen scherm</string>
    <string name="lock_sounds_enable_summary_on">Geluiden afspelen bij ver-/ontgrendelen scherm</string>
    <string name="lock_sounds_enable_title">Geluid schermvergrendeling</string>
@@ -812,6 +812,7 @@
    <string name="manageapplications_settings_title">Toepassingen beheren</string>
    <string name="master_clear_button_text">Telefoon opnieuw instellen</string>
    <string name="master_clear_desc">Alle gegevens worden gewist uit het apparaatgeheugen, zoals Google-account, systeem- en toepassingsgegevens, instellingen en gedownloade toepassingen.\n\nAls u alle gegevens op deze telefoon wilt wissen, moet de SD-kaart opnieuw worden geformatteerd</string>
+   <string name="master_clear_final_button_text">Wis alles</string>
    <string name="master_clear_final_desc">Telefoon opnieuw instellen en alle gegevens en toepassingen wissen? Actie kan niet worden teruggedraaid!</string>
    <string name="master_clear_gesture_explanation">Teken uw ontgrendelpatroon om opnieuw instellen van telefoon te bevestigen</string>
    <string name="master_clear_gesture_prompt">Ontgrendelpatroon tekenen</string>
@@ -849,7 +850,7 @@
    <string name="move_app_failed_dlg_title">Toepassing verplaatsen</string>
    <string name="move_app_to_internal">Verpl. naar telefoon</string>
    <string name="move_app_to_sdcard">Verplaats naar SD-kaart</string>
-   <string name="moving">Verplaatsen..</string>
+   <string name="moving">Verplaatsen...</string>
    <string name="multi_touch_points_category_title">Multi-touch points</string>
    <string name="multi_touch_points_preference">Herstart om te activeren</string>
    <string name="music_volume_summary">Music, video, games and other media volume instelling</string>
@@ -1004,7 +1005,7 @@
    <string name="reboot">Herstarten</string>
    <string name="recognizer_settings_title">Instellingen spraakherkenning</string>
    <string name="recognizer_title">Spraakherkenning</string>
-   <string name="recompute_size">Grootte herberekenen..</string>
+   <string name="recompute_size">Grootte herberekenen...</string>
    <string name="remove_device_admin">Uitschakelen</string>
    <string name="reset_all_volume_title">Herstel standaard volume</string>
    <string name="reset_volume_success">Volume instelling succesvol hersteld</string>
@@ -1033,8 +1034,8 @@
    <string name="sd_card_storage">SD-kaart</string>
    <string name="sd_eject">Ontkoppel SD-kaart</string>
    <string name="sd_eject_summary">SD-kaart loskoppelen</string>
-   <string name="sd_ejecting_summary">Ontkoppelen..</string>
-   <string name="sd_ejecting_title">SD-kaart ontkoppelen..</string>
+   <string name="sd_ejecting_summary">Ontkoppelen...</string>
+   <string name="sd_ejecting_title">SD-kaart ontkoppelen...</string>
    <string name="sd_ext_memory">A2SD</string>
    <string name="sd_format">Indeling SD-kaart</string>
    <string name="sd_insert_summary">SD-kaart aansluiten</string>
@@ -1068,12 +1069,12 @@
    <string name="service_manage">Instellingen</string>
    <string name="service_manage_description">%1$s in gebruik. Tik op Instellingen om deze te beheren</string>
    <string name="service_process_name">%1$s</string>
-   <string name="service_restarting">Opnieuw starten..</string>
+   <string name="service_restarting">Opnieuw starten...</string>
    <string name="service_started_by_app">Gestart door toepassing: tik om te stoppen</string>
    <string name="service_stop">Stoppen</string>
    <string name="service_stop_description">Service gestart door toepassing. Mogelijk werkt toepassing niet goed als u de service stopzet</string>
    <string name="settings_label">Instellingen</string>
-   <string name="settings_license_activity_loading">Laden..</string>
+   <string name="settings_license_activity_loading">Laden...</string>
    <string name="settings_license_activity_title">Open source-licenties</string>
    <string name="settings_license_activity_unavailable">Er is een probleem met het laden van de licenties</string>
    <string name="settings_safetylegal_activity_loading">Laden</string>
@@ -1110,7 +1111,7 @@
    <string name="status_bar_toggle_style">Statusbalk stijl</string>
    <string name="status_bar_toggle_style_compact">Compact</string>
    <string name="status_bar_toggle_style_single_page">Rooster</string>
-   <string name="status_bar_toggle_waiting">Instellen..</string>
+   <string name="status_bar_toggle_waiting">Instellen...</string>
    <string name="status_bt_address">Bluetooth-adres</string>
    <string name="status_data_state">Status mobiel netwerk</string>
    <string name="status_imei">IMEI</string>
@@ -1272,8 +1273,8 @@
    <string name="vpn_connect_hint">Verbinden met netwerk</string>
    <string name="vpn_connect_to">Verbinden met</string>
    <string name="vpn_connected">Verbonden</string>
-   <string name="vpn_connecting">Verbinden..</string>
-   <string name="vpn_disconnecting">Verbinding wordt verbroken..</string>
+   <string name="vpn_connecting">Verbinden...</string>
+   <string name="vpn_disconnecting">Verbinding wordt verbroken...</string>
    <string name="vpn_dns_search_list">DNS-zoekdomeinen</string>
    <string name="vpn_dns_search_list_title">DNS-zoekdomeinen</string>
    <string name="vpn_edit_title_add">\'%s\' VPN toevoegen</string>
@@ -1383,7 +1384,7 @@
    <string name="wifi_menu_connect">Verbinden met netwerk</string>
    <string name="wifi_menu_forget">Netwerk vergeten</string>
    <string name="wifi_menu_modify">Netwerkinstellingen wijzigen</string>
-   <string name="wifi_menu_scan">Scannen..</string>
+   <string name="wifi_menu_scan">Scannen...</string>
    <string name="wifi_netmask">Netmasker</string>
    <string name="wifi_not_in_range">Niet in bereik</string>
    <string name="wifi_notify_open_networks">Netwerkmelding</string>
@@ -1413,7 +1414,7 @@
    <string name="wifi_signal">Signaalsterkte</string>
    <string name="wifi_speed">Koppelingssnelheid</string>
    <string name="wifi_ssid">Netwerk-SSID</string>
-   <string name="wifi_starting">Inschakelen..</string>
+   <string name="wifi_starting">Inschakelen...</string>
    <string name="wifi_state_disabled">Disabled</string>
    <string name="wifi_state_disabling">Disabling</string>
    <string name="wifi_state_enabled">Enabled</string>
@@ -1423,7 +1424,7 @@
    <string name="wifi_status">Status</string>
    <string name="wifi_status_test">Wi-Fi Status</string>
    <string name="wifi_stop">Wi-Fi uitschakelen</string>
-   <string name="wifi_stopping">Uitschakelen..</string>
+   <string name="wifi_stopping">Uitschakelen...</string>
    <string name="wifi_tether_checkbox_text">Hotspot</string>
    <string name="wifi_tether_configure_ap_text">Hotspot configureren</string>
    <string name="wifi_tether_configure_ssid_default">AndroidAP</string>
@@ -1449,7 +1450,7 @@
    <string name="wifi_wps_pbc_found">PBC verwerking gestart</string>
    <string name="wifi_wps_pin">WPS PIN-verbinding</string>
    <string name="wifi_wps_pin_found">PIN verwerking gestart</string>
-   <string name="wifi_wps_processing">WPS verwerken..</string>
+   <string name="wifi_wps_processing">WPS verwerken...</string>
    <string name="wifi_wps_show_pin">Toon pin-nummer</string>
    <string name="wifi_wps_ssid">Selecteer SSID</string>
    <string name="wifi_wps_start">Start</string>

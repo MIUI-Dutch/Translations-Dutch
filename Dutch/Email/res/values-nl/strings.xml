@@ -248,9 +248,9 @@
    <string name="security_notification_ticker_fmt">Account \"%s\" vereist een beveiligings instelling update</string>
    <string name="send_action">Verzenden</string>
    <string name="set_star_action">Ster toevoegen</string>
-   <string name="status_loading_more">Berichten laden..</string>
+   <string name="status_loading_more">Berichten laden...</string>
    <string name="status_network_error">Verbindingsfout</string>
-   <string name="status_sending_messages">Berichten verzenden..</string>
+   <string name="status_sending_messages">Berichten verzenden...</string>
    <string name="system_account_create_failed">De accountManager kan het account niet creeeren; probeer opnieuw</string>
    <string name="unread_action">Ongelezen</string>
    <string name="upgrade_accounts_error">Kan account niet upgraden</string>

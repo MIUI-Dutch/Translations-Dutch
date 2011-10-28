@@ -31,7 +31,7 @@
    <string name="download_current_rom">Download laatste versie van de volledige ROM</string>
    <string name="download_ota_rom">Download OTA (%s)</string>
    <string name="download_whole_rom">Volledige ROM (%s) downloaden</string>
-   <string name="downloading_description">Downloaden..</string>
+   <string name="downloading_description">Downloaden...</string>
    <string name="emegency_update_helper">Systeem kan na installeren van de patch een reboot hebben voor de telefoon</string>
    <string name="emegency_update_size">Grootte: %s</string>
    <string name="emegency_version">Bijwerken</string>
@@ -85,6 +85,7 @@
    <string name="test_version">Beta</string>
    <string name="update_success">Gefeliciteerd, systeem update succesvol</string>
    <string name="update_success_body">Systeem is succesvol voorzien van %s</string>
+   <string name="update_success_body_title">Succesvolle update naar</string>
    <string name="update_success_title">Update succesvol!</string>
    <string name="verify_and_apply_dialog_message">MD5 controle bestanden</string>
    <string name="verify_and_apply_dialog_title">Controleren en toepassen van update</string>

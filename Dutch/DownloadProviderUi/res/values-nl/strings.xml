@@ -37,7 +37,7 @@
    <string name="download_waiting_for_wifi">Wacht op Wi-Fi verbinding</string>
    <string name="download_waiting_to_retry">Wachten om opnieuw te proberen</string>
    <string name="download_when_network_connected">Download wanneer een mobiel netwerk beschikbaar is</string>
-   <string name="downloads_operating">Bezig..</string>
+   <string name="downloads_operating">Bezig...</string>
    <string name="keep_queued_download">Houden</string>
    <string name="menu_enter_edit_mode">Bewerken</string>
    <string name="menu_exit_edit_mode">Sluit</string>

@@ -48,7 +48,7 @@
    <string name="check_nothing">Deselecteer alles</string>
    <string name="chenghu_disable_mms">Ongeldig MMS adres</string>
    <string name="class_0_message_activity">Klasse 0-bericht</string>
-   <string name="compressing">Foto te groot. Comprimeren..</string>
+   <string name="compressing">Foto te groot. Comprimeren...</string>
    <string name="confirm">Bevestigen</string>
    <string name="confirm_clear_search_text">Zoekgeschiedenis wordt gewist</string>
    <string name="confirm_clear_search_title">Wis</string>
@@ -75,8 +75,8 @@
    <string name="context_menu_view_mms">Bekijk MMS</string>
    <string name="conversation_list_empty_text">Geen bericht</string>
    <string name="conversation_style">tekstballon</string>
-   <string name="converting_to_picture_message">Converteren naar MMS-bericht..</string>
-   <string name="converting_to_text_message">Converteren naar SMS-bericht..</string>
+   <string name="converting_to_picture_message">Converteren naar MMS-bericht...</string>
+   <string name="converting_to_text_message">Converteren naar SMS-bericht...</string>
    <string name="copy_message_text">Berichttekst kopiëren</string>
    <string name="copy_to_sdcard">Bijlage gekoppeld aan SD-kaart</string>
    <string name="copy_to_sdcard_fail">Bijlage niet gekopieerd naar SD-kaart</string>
@@ -122,7 +122,7 @@
    <string name="failed_to_resize_image">Foto niet vergroot/verkleind</string>
    <string name="fdn_check_failure">U kan alleen berichten sturen naar uw ingestelde nummers</string>
    <string name="festival_sms_category_count_format">(%s)</string>
-   <string name="festival_sms_loading">Laden..</string>
+   <string name="festival_sms_loading">Laden...</string>
    <string name="festival_sms_push">Aanbevolen</string>
    <string name="festival_sms_sdcard_unready">Kan de lijst niet laden, zorg ervoor dat de SD-kaart is geplaatst</string>
    <string name="fetion_prefix">[Open]</string>
@@ -145,7 +145,7 @@
    <string name="layout_bottom">Indeling (onderkant)</string>
    <string name="layout_selector_title">Indeling diashow</string>
    <string name="layout_top">Indeling (bovenkant)</string>
-   <string name="loading_contacts">Contacten laden..</string>
+   <string name="loading_contacts">Contacten laden...</string>
    <string name="me">Ik</string>
    <string name="menu_add_address_to_contacts">%s toevoegen aan contacten</string>
    <string name="menu_add_to_contacts">Voeg toe aan contacten</string>
@@ -264,7 +264,7 @@
    <string name="pref_title_wake_up_screen">Schakel scherm in</string>
    <string name="prefDefault_ringtone_repeat">1</string>
    <string name="preferences_title">Instellingen</string>
-   <string name="prepare_send">Voorbereiden om te sturen..</string>
+   <string name="prepare_send">Voorbereiden om te sturen...</string>
    <string name="preview">Voorbeeld</string>
    <string name="preview_slideshow">Voorbeeld</string>
    <string name="priority_high">Hoog</string>
@@ -278,7 +278,7 @@
    <string name="recent_contact_list_title">Recent</string>
    <string name="recipient_editor_count_format">Totaal: %d contact(en)</string>
    <string name="recipient_label">Ontvanger:</string>
-   <string name="refreshing">Vernieuwen..</string>
+   <string name="refreshing">Vernieuwen...</string>
    <string name="remove">Wissen</string>
    <string name="remove_music">Muziek verwijderen</string>
    <string name="remove_picture">Foto verwijderen</string>
@@ -313,7 +313,7 @@
    <string name="send_signature_confirm_dialog_title">Bevestiging van verzending</string>
    <string name="send_to">Aan:</string>
    <string name="send_to_count">%1$s bericht succesvol verzonden</string>
-   <string name="send_to_index_contact">Verzenden %1$s vanf %2$s..</string>
+   <string name="send_to_index_contact">Verzenden %1$s vanf %2$s...</string>
    <string name="sent_label">Verzonden:</string>
    <string name="set">Instellen</string>
    <string name="sim_copy_to_phone_memory">Kopiëren naar telefoongeheugen</string>

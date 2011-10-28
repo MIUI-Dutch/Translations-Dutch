@@ -5,7 +5,7 @@
    <string name="add_to_playlist">Toevoegen aan afspeellijst</string>
    <string name="album_display_settings">Toon album</string>
    <string name="album_download">Download Album cover</string>
-   <string name="album_downloading">Downloaden..</string>
+   <string name="album_downloading">Downloaden...</string>
    <string name="album_search_failed">Album covers niet gevonden!</string>
    <string name="album_search_result">Cover zoekresultaten</string>
    <string name="albumPickerNotFoundText">Album picker niet gevonden</string>
@@ -17,7 +17,7 @@
    <string name="artists_title">Artiest</string>
    <string name="batch_operation_confirm">Bevestig om %1$s van %2$d nummers te downloaden</string>
    <string name="batch_operation_one_song_confirm">Bevestig om dit nummer te %s?</string>
-   <string name="buffering">Buffering..</string>
+   <string name="buffering">Buffering...</string>
    <string name="cancel">Annuleer</string>
    <string name="cancel_sleep_mode">Slaapmodus geannuleerd</string>
    <string name="clear_search_history">Wis Zoekhistorie</string>
@@ -47,7 +47,7 @@
    <string name="download_batch">Download alles</string>
    <string name="download_batch_start">Downloaden starten</string>
    <string name="download_done">Gedownload</string>
-   <string name="download_lyric_settings">Lyrics auto downloaden</string>
+   <string name="download_lyric_settings">Songteksten auto downloaden</string>
    <string name="download_lyric_summary">(laag dataverbruik)</string>
    <string name="download_no_application_title">Kan bestand niet openen</string>
    <string name="download_processing">Downloaden</string>
@@ -97,17 +97,17 @@
    <string name="listen_to_online_summary">(hoog dataverbruik)</string>
    <string name="load_category_failed">Lijst laden mislukt, klik op opnieuw om nogmaals te proberen</string>
    <string name="load_category_in_process">Lijst ontvangen</string>
-   <string name="loading">Laden..</string>
+   <string name="loading">Laden...</string>
    <string name="local_search_empty">Uw zoekopdracht leverde geen resultaten op</string>
    <string name="lpa_off_hint">Om de equalizer te gebruiken moet low-power audio play uitzetten, wijzigen in Instellingen -> Systeem -> Accu. Het batterijgebruik zal hierdoor méér worden</string>
    <string name="lrc_progress_modify">Bewerk lyric snelheid</string>
    <string name="lrc_progress_modify_helper">Bewerk lyric weergave</string>
-   <string name="lrc_search_failed">Lyrics niet gevonden!</string>
-   <string name="lrc_searching">Zoeken Naar Lyrics..</string>
-   <string name="lrc_select">Selecteer Lyrics</string>
-   <string name="lyric_display_settings">Toon lyrics</string>
-   <string name="lyric_download">Download Lyrics</string>
-   <string name="lyric_open_other_connect">Download lyrics via mobiele internetconnectie</string>
+   <string name="lrc_search_failed">Songteksten niet gevonden!</string>
+   <string name="lrc_searching">Zoeken Naar Songteksten...</string>
+   <string name="lrc_select">Selecteer Songteksten</string>
+   <string name="lyric_display_settings">Toon songteksten</string>
+   <string name="lyric_download">Download Songteksten</string>
+   <string name="lyric_open_other_connect">Download songteksten via mobiele internetconnectie</string>
    <string name="lyricPickerNotFoundText">Lyric picker niet ge-ïnstalleerd op dit toestel</string>
    <string name="max_time">90</string>
    <string name="media_player_quit">Afsluiten</string>
@@ -157,7 +157,7 @@
    <string name="refresh">Vernieuwen</string>
    <string name="refresh_finish">Vernieuwen voltooid</string>
    <string name="refresh_start">Start Vernieuwen</string>
-   <string name="refreshing">Vernieuwen..</string>
+   <string name="refreshing">Vernieuwen...</string>
    <string name="remove_from">Wis</string>
    <string name="remove_from_playlist">Wissen van afspeellijst</string>
    <string name="rename_playlist_menu">Afspeellijst hernoemen</string>
@@ -172,7 +172,7 @@
    <string name="ringtone_set">“%s” toegevoegd en ingesteld als ringtoon</string>
    <string name="save">Opslaan</string>
    <string name="save_as_playlist">Opslaan als afspeellijst</string>
-   <string name="scanning">Scannen van SD-kaart..</string>
+   <string name="scanning">Scannen van SD-kaart...</string>
    <string name="screen_bright_wake">Laat scherm aan</string>
    <string name="screen_bright_wake_summary">Laat scherm aan wanneer u zich in de muziek applicatie bevind</string>
    <string name="search_failed">Zoeken mislukt, controleer netwerkverbinding</string>
@@ -212,7 +212,7 @@
    <string name="start_play_shuffle">Start shuffle play</string>
    <string name="stop_when_wifi_disconnect">Wi-Fi is uitgeschakeld, online nummers afspelen onderbroken, dit kan in de instellingen gewijzigd worden</string>
    <string name="submit_feedback">Feedback versturen</string>
-   <string name="sync_now">Sync..</string>
+   <string name="sync_now">Sync...</string>
    <string name="to_album">Albums</string>
    <string name="to_artist">Artiesten</string>
    <string name="to_search">Zoeken</string>
@@ -222,7 +222,7 @@
    <string name="unknown_album_name">Onbekend album</string>
    <string name="unknown_artist_name">Onbekende artiest</string>
    <string name="upgrade_detail">Nieuwe versie updaten</string>
-   <string name="upgrade_downloading">Update aan het downloaden..</string>
+   <string name="upgrade_downloading">Update aan het downloaden...</string>
    <string name="upgrade_failed">Update mislukt, probeer opnieuw</string>
    <string name="upgrade_no">Nu niet updaten</string>
    <string name="upgrade_title">Software upgrade</string>
@@ -233,8 +233,8 @@
    <string name="url_feedback">http://sj.xiaomi.com/miniphp/ajax.php</string>
    <string name="url_update">http://xshare.api.xiaomi.com/player</string>
    <string name="use_local_album">Gebruik opgeslagen covers</string>
-   <string name="use_local_lyric">Gebruik opgeslagen lyrics</string>
+   <string name="use_local_lyric">Gebruik opgeslagen songteksten</string>
    <string name="widget_1x">Muziek_1x</string>
-   <string name="working_playlists">Afspeellijsten..</string>
+   <string name="working_playlists">Afspeellijsten...</string>
    <string name="zero_count">(0)</string>
 </resources>

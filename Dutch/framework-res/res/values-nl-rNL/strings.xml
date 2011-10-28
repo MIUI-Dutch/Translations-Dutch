@@ -536,7 +536,7 @@
    <string name="light_snow" />
    <string name="literal_or_with_leading_trailing_space">of</string>
    <string name="literal_unknown">onbekend</string>
-   <string name="loading">Laden..</string>
+   <string name="loading">Laden...</string>
    <string name="locale_replacement" />
    <string name="lock_pattern_view_aspect">vierkant</string>
    <string name="lock_screen_date">EEEE, d MMMM</string>
@@ -548,7 +548,7 @@
    <string name="lockscreen_emergency_call">Noodoproep</string>
    <string name="lockscreen_failed_attempts_almost_glogin">U heeft uw ontgrendelingspatroon %d keer onjuist getekend. Na nog eens %d mislukte pogingen, wordt u gevraagd om uw telefoon te ontgrendelen met uw Google aanmelding.\n\n Probeer het over %d seconden opnieuw</string>
    <string name="lockscreen_forgot_pattern_button_text">Patroon vergeten?</string>
-   <string name="lockscreen_glogin_checking_password">Controleren..</string>
+   <string name="lockscreen_glogin_checking_password">Controleren...</string>
    <string name="lockscreen_glogin_forgot_pattern">Account ontgrendelen</string>
    <string name="lockscreen_glogin_instructions">Om te ontgrendelen, moet U zich eerst bij uw Google-account aanmelden</string>
    <string name="lockscreen_glogin_invalid_input">Gebruikersnaam of wachtwoord ongeldig</string>
@@ -573,7 +573,7 @@
    <string name="lockscreen_sim_locked_message">SIM-kaart is vergrendeld</string>
    <string name="lockscreen_sim_puk_locked_instructions">Raadpleeg de gebruikershandleiding of neem contact op met de klantenservice</string>
    <string name="lockscreen_sim_puk_locked_message">SIM-kaart is vergrendeld met PUK-code</string>
-   <string name="lockscreen_sim_unlock_progress_dialog_message">SIM-kaart ontgrendelen..</string>
+   <string name="lockscreen_sim_unlock_progress_dialog_message">SIM-kaart ontgrendelen...</string>
    <string name="lockscreen_sms_bottom_hint">Schuif omlaag om SMS te openen</string>
    <string name="lockscreen_sound_off_label">Geluid uit</string>
    <string name="lockscreen_sound_on_label">Geluid aan</string>
@@ -731,6 +731,7 @@
    <string name="online_latest">Laatste</string>
    <string name="online_latest_short">Laatste</string>
    <string name="online_no_network">Niet mogelijk om te verbinden met het netwerk</string>
+   <string name="online_search_hint">Zoek naar online bron</string>
    <string name="open_data_for_agps">Network A-GPS positionering AAN, gaat automatisch uit na 60 seconden</string>
    <string name="open_permission_deny">U heeft geen toestemming om deze pagina te openen</string>
    <string name="openvpn_vpn_description">OpenVPN SSL VPN</string>
@@ -1098,11 +1099,11 @@
    <string name="preposition_for_time">om %s</string>
    <string name="preposition_for_year">in %s</string>
    <string name="private_num">Privé nummer</string>
-   <string name="progress_erasing">SD-kaart wissen..</string>
-   <string name="progress_unmounting">SD-kaart ontkoppelen..</string>
+   <string name="progress_erasing">SD-kaart wissen...</string>
+   <string name="progress_unmounting">SD-kaart ontkoppelen...</string>
    <string name="PwdMmi">Wachtwoordwijziging</string>
    <string name="reboot_confirm">De telefoon wordt herstart. Doorgaan?</string>
-   <string name="reboot_progress">Herstarten..</string>
+   <string name="reboot_progress">Herstarten...</string>
    <string name="recent_tasks_title">Recent</string>
    <string name="relative_time">%1$s, %2$s</string>
    <string name="remember_choice">Niet opnieuw vragen</string>
@@ -1215,7 +1216,7 @@
    <string name="settings_separator">,</string>
    <string name="short_format_month">%b</string>
    <string name="shutdown_confirm">Uw telefoon wordt uitgeschakeld</string>
-   <string name="shutdown_progress">Uitschakelen..</string>
+   <string name="shutdown_progress">Uitschakelen...</string>
    <string name="silent_mode">Stille modus</string>
    <string name="sipAddressTypeCustom">Aangepast</string>
    <string name="sipAddressTypeHome">Startpagina</string>

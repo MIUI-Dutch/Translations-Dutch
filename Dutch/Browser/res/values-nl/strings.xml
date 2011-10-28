@@ -66,7 +66,7 @@
    <string name="contextmenu_bookmark_thislink">Aan bladwijzers toevoegen</string>
    <string name="contextmenu_copy">Kopie</string>
    <string name="contextmenu_copylink">Kopieer URL</string>
-   <string name="contextmenu_dial_dot">Bellen ..</string>
+   <string name="contextmenu_dial_dot">Bellen ...</string>
    <string name="contextmenu_download_image">Afbeelding opslaan</string>
    <string name="contextmenu_map">Kaart om</string>
    <string name="contextmenu_openlink">Open In zelfde scherm</string>
@@ -124,7 +124,7 @@
    <string name="http">http://</string>
    <string name="import_bookmark_failure">Bladwijzer importeren MISLUKT!</string>
    <string name="import_bookmark_sucess">Bladwijzer succesvol geimporteerd!</string>
-   <string name="importing_favorite_files">Importeren Data ..</string>
+   <string name="importing_favorite_files">Importeren Data ...</string>
    <string name="issued_by">Uitgever:</string>
    <string name="issued_on">Uitgifte tijd:</string>
    <string name="issued_to">Afgegeven aan:</string>
@@ -241,7 +241,7 @@
    <string name="pref_text_size_dialogtitle">Tekst Grootte</string>
    <string name="pref_user_agent">Gebruikersagent</string>
    <string name="pref_wap_support">WAP Support</string>
-   <string name="progress_dialog_setting_wallpaper">Instellen Wallpaper ..</string>
+   <string name="progress_dialog_setting_wallpaper">Instellen Wallpaper ...</string>
    <string name="reading_cached">Heeft %d pagina\'s opgeslagen</string>
    <string name="reading_cached_page_number">Pagina is gedownload, consumeert geen stroom</string>
    <string name="reading_data_not_available">Kan huidige pagina mode niet lezen, terugkeren</string>

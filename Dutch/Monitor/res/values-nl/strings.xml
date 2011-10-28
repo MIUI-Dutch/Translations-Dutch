@@ -28,7 +28,7 @@
    <string name="input_max_traffic">Geef datalimiet op</string>
    <string name="input_monitor_starting_date">Geef start datum op</string>
    <string name="input_used_traffic">Opgegeven datagebruik</string>
-   <string name="loading_apps_list">Programmalijst laden, wacht aub..</string>
+   <string name="loading_apps_list">Programmalijst laden, wacht aub...</string>
    <string name="loading_apps_list_failed">Programmalijst laden mislukt</string>
    <string name="max_traffic_monthly">Max maandelijks 2G/3G</string>
    <string name="menu_display_system_app">Toon systeem apps</string>

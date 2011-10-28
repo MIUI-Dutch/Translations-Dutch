@@ -6,7 +6,7 @@
    <string name="backup_preference_title">Backup huidig thema</string>
    <string name="backup_theme_dialog_message">Backup huidige thema naar:\n SD-kaart\n Loc: \\MIUI\\theme\\backup\n Naam: backup.mtz</string>
    <string name="backup_theme_dialog_ok">Backup</string>
-   <string name="backup_theme_progress_message">Bezig met backup..</string>
+   <string name="backup_theme_progress_message">Bezig met backup...</string>
    <string name="backup_theme_success_message">Thema met succes gebackupt</string>
    <string name="component_category_ringtone_title">Ringtonen</string>
    <string name="component_category_style_title">Stylen</string>

@@ -35,7 +35,7 @@
    <string name="enable_alarm">Alarm</string>
    <string name="every_day">elke dag</string>
    <string name="full_wday_month_day_no_year">EEEE, MMMM d</string>
-   <string name="gallery_button_description">Galerij</string>
+   <string name="gallery_button_description">Gallerij</string>
    <string name="home_button_description">Launcher</string>
    <string name="hour">1 uur</string>
    <string name="hours">%s uren</string>

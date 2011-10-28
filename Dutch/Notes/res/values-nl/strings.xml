@@ -54,7 +54,7 @@
    <string name="menu_setting">Instellingen</string>
    <string name="menu_share">Delen</string>
    <string name="menu_sync">Sync</string>
-   <string name="menu_sync_cancel">      <string name="menu_sync_cancel">Annuleer synchronisatie< /string></string>
+   <string name="menu_sync_cancel">Annuleer synchronisatie</string>
    <string name="menu_title_select_folder">Selecteer map</string>
    <string name="note_alert_expired">Verlopen</string>
    <string name="note_link_email">Stuur email</string>
@@ -66,13 +66,13 @@
    <string name="noteedit_use_alert_time_error">Tijd instellen mislukt</string>
    <string name="noteedit_use_alert_time_success">Herinneringstijd ingesteld</string>
    <string name="notelist_menu_new">Notitie toevoegen</string>
-   <string name="notelist_string_info">..</string>
+   <string name="notelist_string_info">...</string>
    <string name="preferences_account_summary">Synchronisatie van notities met google task</string>
    <string name="preferences_account_title">Synchronisatie account instellingen</string>
    <string name="preferences_add_account">Account toevoegen</string>
    <string name="preferences_bg_random_appear_summary">Wisselende achtergrond voor notities</string>
    <string name="preferences_bg_random_appear_title">Random achtergrondkleur</string>
-   <string name="preferences_button_sync_cancel">      <string name="preferences_button_sync_cancel">Annuleer synchronisatie< /string></string>
+   <string name="preferences_button_sync_cancel">Annuleer synchronisatie</string>
    <string name="preferences_button_sync_immediately">Synchronisatie direct</string>
    <string name="preferences_dialog_change_account_title">Huidig account %1$s</string>
    <string name="preferences_dialog_change_account_warn_msg">Alle synchronisatie gerelateerde informatie wordt verwijderd, dit kan leiden tot dubbele items</string>
@@ -93,13 +93,13 @@
    <string name="search_setting_description">Tekst in uw notities</string>
    <string name="success_sdcard_export">Exporteren succesvol</string>
    <string name="success_sync_account">Synchronisatie succesvol met account %1$s</string>
-   <string name="sync_progress_init_list">Ophalen van externe notitielijst..</string>
-   <string name="sync_progress_login">Inloggen op %1$s..</string>
-   <string name="sync_progress_syncing">Lokale notities synchroniseren met Google Task..</string>
+   <string name="sync_progress_init_list">Ophalen van externe notitielijst...</string>
+   <string name="sync_progress_login">Inloggen op %1$s...</string>
+   <string name="sync_progress_syncing">Lokale notities synchroniseren met Google Task...</string>
    <string name="ticker_cancel">Synchronisatie geannuleerd</string>
    <string name="ticker_fail">Synchronisatie mislukt</string>
    <string name="ticker_success">Synchronisatie succesvol</string>
-   <string name="ticker_syncing">Synchroniseren notities..</string>
+   <string name="ticker_syncing">Synchroniseren notities...</string>
    <string name="widget_havenot_content">Geen bijbehorende notitie gevonden, klik om te bijbehorende notitie te maken</string>
    <string name="widget_under_visit_mode">Prive modus, kan de inhoud van de opmerking niet zien</string>
 </resources>
