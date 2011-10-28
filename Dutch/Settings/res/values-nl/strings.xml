@@ -257,7 +257,7 @@
    <string name="bluetooth_device_info_alias">Apparaat alias</string>
    <string name="bluetooth_device_info_connectButton_text">Bluetooth aanzetten</string>
    <string name="bluetooth_device_info_delete">Verwijder dit apparaat</string>
-        <string name="bluetooth_device_info_deviceInfo_text" />
+   <string name="bluetooth_device_info_deviceInfo_text" />
    <string name="bluetooth_device_info_no_alias">Type alias hier</string>
    <string name="bluetooth_device_info_sdp">Lijst ondersteunde services</string>
    <string name="bluetooth_device_name">Naam apparaat</string>
@@ -313,7 +313,7 @@
    <string name="bluetooth_summary_connected_to_a2dp_headset">Verbonden met telefoon- en media-audio</string>
    <string name="bluetooth_summary_connected_to_headset">Verbonden met telefoonaudio</string>
    <string name="bluetooth_turning_on">Bluetooth inschakelen..</string>
-        <string name="bluetooth_unknown" />
+   <string name="bluetooth_unknown" />
    <string name="bluetooth_visibility">Zichtbaar</string>
    <string name="bluetooth_visibility_timeout">Time-out zichtbaar</string>
    <string name="bluetooth_visibility_timeout_summary">Instellen hoe lang het apparaat zichtbaar is voor</string>
@@ -749,7 +749,7 @@
    <string name="location_title">Mijn locatie</string>
    <string name="lock_example_message">Verbind ten minste vier stippen met elkaar. Selecteer Volgende wanneer u klaar bent om uw eigen patroon te tekenen</string>
    <string name="lock_example_title">Voorbeeldpatroon</string>
-        <string name="lock_intro_message" />
+   <string name="lock_intro_message" />
    <string name="lock_settings_picker_title">Instell. ontgrendelen scherm</string>
    <string name="lock_settings_title">Instell. ontgrendelen scherm</string>
    <string name="lock_sounds_enable_summary_off">Geluiden afspelen bij ver-/ontgrendelen scherm</string>
@@ -782,9 +782,9 @@
    <string name="lockpattern_continue_button_text">Doorgaan</string>
    <string name="lockpattern_need_to_confirm">Teken patroon nogmaals ter bevestiging:</string>
    <string name="lockpattern_need_to_unlock">Opgeslagen patroon bevestigen</string>
-        <string name="lockpattern_need_to_unlock_footer" />
+   <string name="lockpattern_need_to_unlock_footer" />
    <string name="lockpattern_need_to_unlock_wrong">Probeer het opnieuw:</string>
-        <string name="lockpattern_need_to_unlock_wrong_footer" />
+   <string name="lockpattern_need_to_unlock_wrong_footer" />
    <string name="lockpattern_pattern_confirmed_header">Nieuw ontgrendelpatroon:</string>
    <string name="lockpattern_pattern_entered_header">Patroon vastgelegd!</string>
    <string name="lockpattern_recording_incorrect_too_short">Verbind ten minste %d stippen met elkaar. Probeer het opnieuw:</string>
@@ -1235,7 +1235,7 @@
    <string name="user_dict_settings_context_menu_edit_title">Wijzigen</string>
    <string name="user_dict_settings_edit_dialog_title">Woord bewerken</string>
    <string name="user_dict_settings_empty_text">Het gebruikerswoordenboek bevat geen woorden. U kunt een woord toevoegen via het menu</string>
-        <string name="user_dict_settings_summary" />
+   <string name="user_dict_settings_summary" />
    <string name="user_dict_settings_title">Gebruikerswoordenboek</string>
    <string name="user_dict_settings_titlebar">Gebruikerswoordenboek</string>
    <string name="version_text">Versie %1$s</string>
