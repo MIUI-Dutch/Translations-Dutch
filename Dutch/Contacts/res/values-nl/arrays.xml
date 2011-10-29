@@ -24,9 +24,9 @@
         <item>@string/callrecordview_menu_show_stranger</item>
     </array>
     <string-array name="click_shortcut_entries">
-        <item>Call</item>
-        <item>View contact</item>
-        <item>Contact photo</item>
+        <item>Bellen</item>
+        <item>Contact weergeven</item>
+        <item>Pasfoto weergeven</item>
     </string-array>
     <string-array name="click_shortcut_values">
         <item>0</item>
