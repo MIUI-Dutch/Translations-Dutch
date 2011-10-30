@@ -5,7 +5,7 @@
    <string name="apply_buddy_update_info_message">Klik toepassen, de telefoon reboot en past de updates toe</string>
    <string name="apply_existing_update_md5error_title">MD5 komt niet overeen</string>
    <string name="apply_later_button_text">Later toepassen</string>
-   <string name="apply_now_button_text">Nu aanvragen</string>
+   <string name="apply_now_button_text">Nu toepassen</string>
    <string name="apply_unable_to_reboot_toast">Kan niet in recovery modus opstarten</string>
    <string name="apply_update_dialog_cancel_button">Annuleer update</string>
    <string name="apply_update_dialog_update_button">Update</string>

@@ -5,7 +5,7 @@
    <string name="already_saved">Foto reeds bewaard in %s</string>
    <string name="already_select">Geselecteerd %s</string>
    <string name="animation_set">Animatie instellingen</string>
-   <string name="app_name">MIUI Gallerij</string>
+   <string name="app_name">MIUI Galerij</string>
    <string name="apply_pic_for">Foto gebruiken als:</string>
    <string name="bookmark">Favorieten</string>
    <string name="camera_folder_display_name">Camera foto\'s</string>
@@ -39,10 +39,10 @@
    <string name="file_info_title">Naam:</string>
    <string name="filter_small_image">Kleine afbeeldingen filteren</string>
    <string name="folder">Map</string>
-   <string name="gadget22_title">Gallerij (2x2)</string>
-   <string name="gadget24_title">Gallerij (2x4)</string>
-   <string name="gadget44_title">Gallerij (4x4)</string>
-   <string name="gallery_save_folder">/MIUI/MIUIGallerij</string>
+   <string name="gadget22_title">Galerij (2x2)</string>
+   <string name="gadget24_title">Galerij (2x4)</string>
+   <string name="gadget44_title">Galerij (4x4)</string>
+   <string name="gallery_save_folder">/MIUI/MIUIGalerij</string>
    <string name="general_category">Algemeen</string>
    <string name="global_setting">Instellingen</string>
    <string name="how_many_pics">%d afbeeldingen</string>
@@ -58,7 +58,7 @@
    <string name="internal_miui_capture_screen_folder_display_name">Schermafdrukken</string>
    <string name="loading_files">Bestanden laden...</string>
    <string name="loading_video">Video laden...</string>
-   <string name="lockscreen_set">MIUI Vergrendelscherm Gallerij</string>
+   <string name="lockscreen_set">MIUI Vergrendelscherm Galerij</string>
    <string name="menu_item_sort">Sorteren op</string>
    <string name="menu_item_sort_date">Datum</string>
    <string name="menu_item_sort_name">Naam</string>
