@@ -152,7 +152,7 @@
    <string name="unselect_all">Wis alles</string>
    <string name="video_property">Eigenschappen video</string>
    <string name="wallpaper">Achtergrond</string>
-   <string name="wallpaper_set">MIUI Achtergrondgallerij</string>
+   <string name="wallpaper_set">MIUI Achtergrondgalerij</string>
    <string name="warn">Waarschuwing</string>
    <string name="warning_rescan_sdcard">Scan SD opnieuw voor meer muziek, foto\'s, video\'s. Bevestigen?</string>
 </resources>
