@@ -812,7 +812,6 @@
    <string name="manageapplications_settings_title">Toepassingen beheren</string>
    <string name="master_clear_button_text">Telefoon opnieuw instellen</string>
    <string name="master_clear_desc">Alle gegevens worden gewist uit het apparaatgeheugen, zoals Google-account, systeem- en toepassingsgegevens, instellingen en gedownloade toepassingen.\n\nAls u alle gegevens op deze telefoon wilt wissen, moet de SD-kaart opnieuw worden geformatteerd</string>
-   <string name="master_clear_final_button_text">Wis alles</string>
    <string name="master_clear_final_desc">Telefoon opnieuw instellen en alle gegevens en toepassingen wissen? Actie kan niet worden teruggedraaid!</string>
    <string name="master_clear_gesture_explanation">Teken uw ontgrendelpatroon om opnieuw instellen van telefoon te bevestigen</string>
    <string name="master_clear_gesture_prompt">Ontgrendelpatroon tekenen</string>

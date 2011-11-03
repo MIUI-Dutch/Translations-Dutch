@@ -39,7 +39,7 @@
    <string name="account_update_user_info">Gebruikersinfo bijwerken, een ogenblik geduld..</string>
    <string name="account_update_user_info_failed">Profiel update mislukt.</string>
    <string name="account_update_user_info_succeed">Updaten van profiel succesvol.</string>
-   <string name="account_verify_account">Account verifi&euml;ren, een ogenblik geduld..</string>
+   <string name="account_verify_account">Account verifiëren, een ogenblik geduld..</string>
    <string name="add_quick_open">Toevoegen aan Quick Access</string>
    <string name="addons_check_tip">Dit is mogelijk met Maxthon add-ons. Download add-ons om uw surf-ervaring te verbeteren!</string>
    <string name="address_panel_error_empty">URL of een Zoekopdracht</string>
@@ -104,7 +104,7 @@
    <string name="contextmenu_close">Sluiten</string>
    <string name="contextmenu_close_all">Alle sluiten</string>
    <string name="contextmenu_close_others">Andere sluiten</string>
-   <string name="contextmenu_copy_link">URL kopi&euml;ren</string>
+   <string name="contextmenu_copy_link">URL kopiëren</string>
    <string name="contextmenu_download_image">Afbeelding opslaan</string>
    <string name="contextmenu_download_image_name">Bestandsnaam:</string>
    <string name="contextmenu_download_image_success">Afbeelding succesvol opgeslagen</string>
@@ -122,8 +122,8 @@
    <string name="contextmenu_share_text">Tekst delen</string>
    <string name="contextmenu_view_image">Afbeelding openen</string>
    <string name="contextmenu_wap_open">Openen met WAP</string>
-   <string name="copied_to_clipboard">Gekopi&euml;erd naar klembord</string>
-   <string name="copy">Kopi&euml;ren</string>
+   <string name="copied_to_clipboard">Gekopiëerd naar klembord</string>
+   <string name="copy">Kopiëren</string>
    <string name="default_download_path">/sdcard/MxBrowser/Downloads/</string>
    <string name="default_download_path_value">MxBrowser/Downloads/</string>
    <string name="default_homepage">Standaard startpagina</string>
@@ -249,8 +249,8 @@
    <string name="gfan_price_free">gratis</string>
    <string name="gfan_search_hint">zoekwoord invoeren</string>
    <string name="gfan_topic">topic</string>
-   <string name="haha_copy">kopi&euml;ren</string>
-   <string name="haha_copy_success">kopi&euml;ren gereed</string>
+   <string name="haha_copy">kopiëren</string>
+   <string name="haha_copy_success">kopiëren gereed</string>
    <string name="haha_getting_more">verkrijgen..</string>
    <string name="haha_more_content">meer</string>
    <string name="haha_no_items">geen data</string>
@@ -270,7 +270,7 @@
    <string name="http_auth_pwd">Wachtwoord</string>
    <string name="http_schema">http://</string>
    <string name="icon_update">Updaten</string>
-   <string name="installed">Ge&iuml;nstalleerd</string>
+   <string name="installed">Geïnstalleerd</string>
    <string name="issued_by">Uitgegeven door:</string>
    <string name="issued_on">Uitgegeven op:</string>
    <string name="issued_to">Uitgegeven aan:</string>
@@ -310,10 +310,10 @@
    <string name="night_mode_dim">Dimmen</string>
    <string name="no_downloads">Download geschiedenis is leeg.</string>
    <string name="no_login_hint">Inloggen om verder te gaan</string>
-   <string name="no_market_app">De Android Market applicatie is niet ge&iuml;nstalleerd</string>
-   <string name="no_rtsp_app">U heeft geen RTSP-ondersteunende video applicatie ge&iuml;nstalleerd</string>
+   <string name="no_market_app">De Android Market applicatie is niet geïnstalleerd</string>
+   <string name="no_rtsp_app">U heeft geen RTSP-ondersteunende video applicatie geïnstalleerd</string>
    <string name="no_use_message">Bezig met updaten, moment..</string>
-   <string name="no_youtube_app">De YouTube applicatie is niet ge&iuml;nstalleerd</string>
+   <string name="no_youtube_app">De YouTube applicatie is niet geïnstalleerd</string>
    <string name="nonew_version_message">Geen nieuwe versie gevonden</string>
    <string name="notification_download_complete">Download compleet</string>
    <string name="notification_download_failed">Download mislukt</string>
@@ -327,7 +327,7 @@
    <string name="org_unit">Organisatorische unit:</string>
    <string name="page_info_dialog_title">Pagina info</string>
    <string name="page_info_title_label">Titel</string>
-   <string name="page_info_url_copy_btn_text">Kopi&euml;ren</string>
+   <string name="page_info_url_copy_btn_text">Kopiëren</string>
    <string name="page_info_url_label">URL</string>
    <string name="page_info_view">Bekijk pagina info</string>
    <string name="picture_quality_large">Hoog</string>
@@ -409,7 +409,7 @@
    <string name="pref_gate_control_summary">Kiezen tussen www of wap</string>
    <string name="pref_gesture_dialog_title">Gebaren</string>
    <string name="pref_gesture_type">Gebaren</string>
-   <string name="pref_no_trace">Surfen in Priv&eacute;-modus</string>
+   <string name="pref_no_trace">Surfen in Privé-modus</string>
    <string name="pref_page_displays">Pagina weergave</string>
    <string name="pref_picture_quality">afbeelding kwaliteit</string>
    <string name="pref_plugin_installed">Plugin lijst</string>
@@ -438,7 +438,7 @@
    <string name="pref_rss_auto_update_settings">RSS auto-update instellingen</string>
    <string name="pref_rss_auto_update_summary">>RSS-bijwerkings instellingen</string>
    <string name="pref_rss_notification">Update meldingen weergeven</string>
-   <string name="pref_rss_notification_summary">Waarschuw mij wanneer de update succesvol is ge&iuml;nstalleerd</string>
+   <string name="pref_rss_notification_summary">Waarschuw mij wanneer de update succesvol is geïnstalleerd</string>
    <string name="pref_rss_open_mode_settings">RSS data-besparende modus</string>
    <string name="pref_rss_open_mode_summary">Open RSS feeds met WAP</string>
    <string name="pref_rss_read_mode_settings">RSS Reader instellingen </string>

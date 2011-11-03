@@ -362,6 +362,7 @@
    <string name="days">dagen</string>
    <string name="default_permission_group">Standaard</string>
    <string name="default_text_encoding">Latin-1</string>
+   <string name="default_wallpaper_component">@null</string>
    <string name="defaultMsisdnAlphaTag">MSISDN1</string>
    <string name="defaultVoiceMailAlphaTag">Voicemail</string>
    <string name="deny">Weigeren</string>
@@ -818,6 +819,7 @@
    <string name="permdesc_manageUsb">Hiermee kan de app voorkeuren en rechten voor USB-apparaten beheren</string>
    <string name="permdesc_masterClear">Hiermee kan een toepassing het systeem terugzetten op de fabrieksinstellingen, waarbij alle gegevens, configuraties en geïnstalleerde toepassingen worden verwijderd</string>
    <string name="permdesc_modify_audio_settings_during_call">Een applicatie de audio instelling laten wijzigen tijdens oproep</string>
+   <string name="permdesc_modify_phone_related_audio_settings">Sta pplicatie toe om audio instellingen te wijzigen</string>
    <string name="permdesc_modifyAudioSettings">Hiermee kan een toepassing de algemene audio-instellingen, zoals volume en omleiding, wijzigen</string>
    <string name="permdesc_modifyPhoneState">Hiermee kan de toepassing de telefoonfuncties van het apparaat beheren. Een toepassing met deze machtiging kan schakelen tussen netwerken, de radio van de telefoon in- of uitschakelen en dergelijke zonder dat u hiervan op de hoogte wordt gesteld</string>
    <string name="permdesc_mount_format_filesystems">Hiermee kan de toepassing de externe opslag formatteren</string>
@@ -983,6 +985,7 @@
    <string name="permlab_manageUsb">voorkeuren en rechten voor USB-apparaten beheren</string>
    <string name="permlab_masterClear">systeem terugzetten op fabrieksinstellingen</string>
    <string name="permlab_modify_audio_settings_during_call">verander audio instelling tijdens oproep</string>
+   <string name="permlab_modify_phone_related_audio_settings">wijzig audio instellingen van de telefoon</string>
    <string name="permlab_modifyAudioSettings">uw audio-instellingen wijzigen</string>
    <string name="permlab_modifyPhoneState">telefoonstatus wijzigen</string>
    <string name="permlab_mount_format_filesystems">externe opslag formatteren</string>

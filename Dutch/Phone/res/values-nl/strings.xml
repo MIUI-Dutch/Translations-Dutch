@@ -328,6 +328,7 @@
    <string name="mmiCancelled">MMI code geannuleerd</string>
    <string name="mmiStarted">MMI code gestart</string>
    <string name="mobile_networks">Instellingen mobiel netwerk</string>
+   <string name="more_call_settings">Overige oproep instellingen</string>
    <string name="multi_category_disable">Multi-categorie uitgeschakeld</string>
    <string name="multi_category_enable">Multi-categorie ingeschakeld</string>
    <string name="name">Naam</string>

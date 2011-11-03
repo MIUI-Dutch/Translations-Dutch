@@ -24,7 +24,6 @@
    <string name="fmradio_found_format">%s MHz...</string>
    <string name="fmradio_found_station">%d station(s) gevonden</string>
    <string name="fmradio_in_calling_at_begin">Radio kan niet gestart worden tijdens een gesprek</string>
-   <string name="fmradio_music_playing_in_listen">Radio heeft gedetecteerd dat een andere media applicatie opgestart is en wordt nu afgeslotent</string>
    <string name="fmradio_no_headset_at_begin">Sluit koptelefoon aan voor gebruik van de radio</string>
    <string name="fmradio_no_headset_in_listen">Koptelefoon is verwijderd, radio word automatisch afgesloten</string>
    <string name="fmradio_on_airplane_mode_in_listen">Tijdens vliegtuig-modus wordt de radio automatisch uitgezet</string>

@@ -4,13 +4,17 @@
    <string name="alert_message_delete_note">Wissen bevestigen?</string>
    <string name="alert_message_delete_notes">Bevestig wissen van de geselecteerde %d notities?</string>
    <string name="alert_title_delete">Verwijder geselecteerde notitie</string>
+   <string name="APKTOOL_DUMMY_0065">false</string>
    <string name="app_name">Notities</string>
    <string name="app_widget2x2">Notities (2x2)</string>
    <string name="app_widget4x4">Notities (4x4)</string>
+   <string name="button_cancel">Annuleer</string>
    <string name="button_check">Selecteer alles</string>
    <string name="button_check_none">Deselecteer alles</string>
+   <string name="button_clear">Annuleer</string>
    <string name="button_delete">Wissen</string>
    <string name="button_move">Verplaats</string>
+   <string name="button_set">Instellingen</string>
    <string name="call_record_folder_name">Gespreksgegevens</string>
    <string name="delete_remind_time_message">Herinneringstijd gewist</string>
    <string name="error_note_empty_for_clock">Sorry, kan de klok niet instellen op een lege notitie</string>

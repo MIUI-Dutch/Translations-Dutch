@@ -85,6 +85,7 @@
    <string name="menu_patch_delete">Verwijder backup(s)</string>
    <string name="miliao_account_guide">MiTalk account opgewaardeerd naar Xiaomi account\n Gebruik alle Xiaomi online services</string>
    <string name="miliao_account_login">Login bij MiTalk</string>
+   <string name="mms_title">Multimedia Berichten</string>
    <string name="no_network">Geen verbinding\nControleer de verbinding en probeer opnieuw</string>
    <string name="note_title">Notities</string>
    <string name="nothing_searched">Geen zoek resultaten</string>

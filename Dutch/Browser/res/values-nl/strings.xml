@@ -114,12 +114,7 @@
    <string name="geolocation_permissions_prompt_toast_disallowed">Deze site kan geen toegang krijgen tot je locatie. Verander dit in instellingen -> Geadvanceerd -> Privacy Instellingen</string>
    <string name="go">GO!</string>
    <string name="google_search_suggest_label">Google Search:</string>
-   <string name="goto_bookmark_favorite">Ga naar favoriet</string>
-   <string name="goto_history">Ga naar geschiedenis</string>
-   <string name="home_bookmark_favorite">Bladwijzer favoriet</string>
-   <string name="home_history">Geschiedenis</string>
    <string name="home_page_title">Thuis</string>
-   <string name="home_top_sites">Top sites</string>
    <string name="homepage_title">Thuis</string>
    <string name="http">http://</string>
    <string name="import_bookmark_failure">Bladwijzer importeren MISLUKT!</string>
@@ -199,10 +194,6 @@
    <string name="pref_homepage_use_current">Huidige pagina</string>
    <string name="pref_homepage_use_default">Herstel standaard</string>
    <string name="pref_long_click">Lange klik actie</string>
-   <string name="pref_max_navigate_page_topsites_message_failed">%d instellen van max favorieten en topsites mislukt!</string>
-   <string name="pref_max_navigate_page_topsites_message_succeed">%d instellen van max favorieten en topsites succesvol!</string>
-   <string name="pref_max_navigate_page_topsites_summary">Nummer van favorieten op de navigatie pagina en het nummer van de geschiedenis records</string>
-   <string name="pref_max_navigate_page_topsites_title">Max favs en top sites</string>
    <string name="pref_operation_title">Gesture en bediening</string>
    <string name="pref_overview_mode">Panorama Modus</string>
    <string name="pref_overview_mode_summary">Toon web pagina\'s in panorama modus</string>
