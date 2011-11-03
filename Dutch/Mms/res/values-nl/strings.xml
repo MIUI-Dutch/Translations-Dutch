@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <resources>
    <string name="activity_not_found">Kan bijlage niet openen</string>
    <string name="activity_not_found_uri">Applicatie om de bijlage te openen niet gevonden</string>

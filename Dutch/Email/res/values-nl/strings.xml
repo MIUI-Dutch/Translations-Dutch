@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <resources>
    <string name="account_delete_dlg_instructions_fmt">Account \"%s\" wordt gewist van de Email</string>
    <string name="account_delete_dlg_title">Wis account</string>

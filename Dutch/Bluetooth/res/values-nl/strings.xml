@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <resources>
    <string name="ack_record">Ack record</string>
    <string name="airplane_error_msg">Je kan Bluetooth niet gebruiken in vliegtuig-modus</string>
