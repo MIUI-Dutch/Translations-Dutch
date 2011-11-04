@@ -36,6 +36,7 @@
    <string name="allow_mock_location">Namaaklocaties toestaan</string>
    <string name="allow_mock_location_summary">Namaaklocaties toestaan</string>
    <string name="animations_title">Animatie</string>
+   <string name="APKTOOL_DUMMY_05b6">false</string>
    <string name="apn_apn">APN</string>
    <string name="apn_auth_type">Verificatietype</string>
    <string name="apn_auto_switch_dialog_message">Alleen de voorkeurs APN wordt gebruikt indien de auto omschakeling uit staat, Data verbinding kan verloren gaan.\nweet U zeker dat U dit wilt?</string>

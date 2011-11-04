@@ -362,7 +362,6 @@
    <string name="days">dagen</string>
    <string name="default_permission_group">Standaard</string>
    <string name="default_text_encoding">Latin-1</string>
-   <string name="default_wallpaper_component">@null</string>
    <string name="defaultMsisdnAlphaTag">MSISDN1</string>
    <string name="defaultVoiceMailAlphaTag">Voicemail</string>
    <string name="deny">Weigeren</string>
