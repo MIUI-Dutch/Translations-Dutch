@@ -74,7 +74,7 @@
    <string name="context_menu_view_contact">Bekijk Contact</string>
    <string name="context_menu_view_mms">Bekijk MMS</string>
    <string name="conversation_list_empty_text">Geen bericht</string>
-   <string name="conversation_style">tekstballon</string>
+   <string name="conversation_style">bubble</string>
    <string name="converting_to_picture_message">Converteren naar MMS-bericht...</string>
    <string name="converting_to_text_message">Converteren naar SMS-bericht...</string>
    <string name="copy_message_text">Berichttekst kopiëren</string>
@@ -215,7 +215,7 @@
    <string name="pref_key_signature_hint">Voer handtekening in</string>
    <string name="pref_key_signature_summary">Geen handtekening ingesteld</string>
    <string name="pref_messages_to_save">Stel maximumaantal berichten in voor opslaan</string>
-   <string name="pref_messaging_bubble_title">Tekstballonnen</string>
+   <string name="pref_messaging_bubble_title">Tekstballon</string>
    <string name="pref_messaging_list_title">Lijst</string>
    <string name="pref_messaging_style">Berichten stijl</string>
    <string name="pref_mms_clear_search_history_summary">Wis vorige zoekopdrachten in berichten in het Zoekveld</string>
@@ -304,7 +304,7 @@
    <string name="search_setting_description">Teksten in berichtvak</string>
    <string name="secs">sec</string>
    <string name="select_audio">Audio selecteren</string>
-   <string name="select_bottom_text">Tekst aan onderkant</string>
+   <string name="select_bottom_text">Tekst onderaan</string>
    <string name="select_different_media">Verschillende media selecteren</string>
    <string name="select_link_title">Actie selecteren</string>
    <string name="select_top_text">Tekst bovenaan</string>
