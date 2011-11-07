@@ -375,10 +375,12 @@ SET forversion=
 SET /P forversion=new UPDATE MIUI Version (example: 1.10.26): 
 if '%forversion%'=='exit' goto :restart
 if '%forversion%'=='' goto :makeupdatezip
+SET BPU=
+SET /P BPU=build.prop update (empty=No, anything else=Yes, exit=Exit): 
+if '%BPU%'=='exit' goto :restart
 for /f %%d in ('dir /b /a:d _UPDATE_ROM') do rd /s /q _UPDATE_ROM\%%d
 for /f %%f in ('dir /b _UPDATE_ROM') do del /q _UPDATE_ROM\%%f
 for /f %%d in ('dir /b /a:d _UPDATE_INPUT') do xcopy /e /y /f /i _UPDATE_INPUT\%%d _UPDATE_ROM\%%d
-::xcopy /e /y /f /i _UPDATE_INPUT\* _UPDATE_ROM\
 copy /y _UPDATE_APK\*.* _UPDATE_ROM\system\app
 
 @echo ui_print(""); >_UPDATE_ROM\updater-script
@@ -395,7 +397,7 @@ copy /y _UPDATE_APK\*.* _UPDATE_ROM\system\app
 @echo ui_print(""); >>_UPDATE_ROM\updater-script
 @echo ui_print("Awaiting installation.............."); >>_UPDATE_ROM\updater-script
 @echo unmount("/system"); >>_UPDATE_ROM\updater-script
-@echo assert(getprop("ro.build.version.incremental") == "%forversion%"); >>_UPDATE_ROM\updater-script
+@echo assert(getprop("ro.build.version.incremental") == "%version%"); >>_UPDATE_ROM\updater-script
 @echo ifelse(getprop("ro.product.device") == "captivatemtd",mount("yaffs2", "MTD", "system", "/system"),ui_print("##")); >>_UPDATE_ROM\updater-script
 @echo ifelse(getprop("ro.product.device") == "umts_jordan",mount("ext3", "EMMC", "/dev/block/mmcblk1p21", "/system"),ui_print("##")); >>_UPDATE_ROM\updater-script
 @echo ifelse(getprop("ro.product.device") == "bravo",mount("yaffs2", "MTD", "system", "/system"),ui_print("##")); >>_UPDATE_ROM\updater-script
@@ -414,23 +416,27 @@ copy /y _UPDATE_APK\*.* _UPDATE_ROM\system\app
 @echo ifelse(getprop("ro.product.device") == "vibrantmtd",mount("yaffs2", "MTD", "system", "/system"),ui_print("##")); >>_UPDATE_ROM\updater-script
 @echo ifelse(is_mounted("/system"),package_extract_dir("system", "/system"),ui_print("/system NOT mounted!!")); >>_UPDATE_ROM\updater-script
 @echo unmount("/system"); >>_UPDATE_ROM\updater-script
-_INPUT_ROM\_SPECIAL\Dos2Unix.exe _UPDATE_ROM\updater-script
+Dos2Unix _UPDATE_ROM\updater-script
 
 for /f %%r in ('dir /b _UPDATE_INPUT\*.zip') do (
  @echo Create "_UPDATE_ZIP\update_%%~nr-%version%_Signed.zip"
- 7za e _INPUT_ROM\miuinl_%%~nr-%version%.zip -o_UPDATE_INPUT\system build.prop -r -y
- for /f %%l in (_UPDATE_INPUT\system\build.prop) do (
-  @if '%%l'=='ro.build.version.incremental=%version%' (
-   @echo ro.build.version.incremental=%forversion% >>"%~dp0_UPDATE_ROM\system\build.prop"
-  ) else (
-   @echo %%l >>"%~dp0_UPDATE_ROM\system\build.prop"
+ if not '%BPU%'=='' (
+  7za e _INPUT_ROM\miuinl_%%~nr-%version%.zip -o_UPDATE_INPUT\system build.prop -r -y
+  Unix2Dos _UPDATE_INPUT\system\build.prop 
+  for /f %%l in (_UPDATE_INPUT\system\build.prop) do (
+   @if '%%l'=='ro.build.version.incremental=%version%' (
+    @echo ro.build.version.incremental=%forversion% >>"%~dp0_UPDATE_ROM\system\build.prop"
+   ) else (
+    @echo %%l >>"%~dp0_UPDATE_ROM\system\build.prop"
+   )
   )
  )
+ Dos2Unix _UPDATE_ROM\system\build.prop 
  copy /y _UPDATE_INPUT\%%r _UPDATE_ROM\update_%%~nr-%version%.zip
- md _UPDATE_ROM\META-INF\com\google\android
- copy /y _UPDATE_ROM\updater-script _UPDATE_ROM\META-INF\com\google\android\updater-script
+ ::md _UPDATE_ROM\META-INF\com\google\android
+ ::copy /y _UPDATE_ROM\updater-script _UPDATE_ROM\META-INF\com\google\android\updater-script
  7za a -tzip "%~dp0_UPDATE_ROM\update_%%~nr-%version%.zip" "%~dp0_UPDATE_ROM\system" -mx%complevel%
- 7za a -tzip "%~dp0_UPDATE_ROM\update_%%~nr-%version%.zip" "%~dp0_UPDATE_ROM\META-INF" -mx%complevel%
+ ::7za a -tzip "%~dp0_UPDATE_ROM\update_%%~nr-%version%.zip" "%~dp0_UPDATE_ROM\META-INF" -mx%complevel%
  java -jar "_SIGN_ZIP\signapk.jar" "_SIGN_ZIP\testkey.x509.pem" "_SIGN_ZIP\testkey.pk8" "_UPDATE_ROM\update_%%~nr-%version%.zip" "_UPDATE_ZIP\update_%%~nr-%forversion%_Signed.zip"
  del /q "%~dp0_UPDATE_ROM\update_%%~nr-%version%.zip"
  del /q "%~dp0_UPDATE_ROM\system\build.prop"
@@ -461,64 +467,17 @@ if exist %logD% DEL %logD%
 ::
 :: rename _INPUT_ROM\*.zip to wanted names
 for /f "tokens=1,2 delims=_" %%a in ('dir /b _INPUT_ROM\miuiandroid*.zip') do (
- ::@echo %%a_%%b
- ::@echo ren _INPUT_ROM\%%a_%%b miuinl_%%b
  @ren _INPUT_ROM\%%a_%%b miuinl_%%b
 )
-::
-@echo ui_print(""); >_INPUT_ROM\_SPECIAL\updater-script.miuinl
-@echo ui_print("************************************************"); >>_INPUT_ROM\_SPECIAL\updater-script.miuinl
-@echo ui_print("*                                              *"); >>_INPUT_ROM\_SPECIAL\updater-script.miuinl
-@echo ui_print("*   ##      ## ## ##  ## ##    ##   ## ##      *"); >>_INPUT_ROM\_SPECIAL\updater-script.miuinl
-@echo ui_print("*   ###    ### ## ##  ## ##    ###  ## ##      *"); >>_INPUT_ROM\_SPECIAL\updater-script.miuinl
-@echo ui_print("*   ## #### ## ## ##  ## ##    #### ## ##      *"); >>_INPUT_ROM\_SPECIAL\updater-script.miuinl
-@echo ui_print("*   ##  ##  ## ## ##  ## ##    ## #### ##      *"); >>_INPUT_ROM\_SPECIAL\updater-script.miuinl
-@echo ui_print("*   ##  ##  ## ## ##  ## ##    ##  ### ##      *"); >>_INPUT_ROM\_SPECIAL\updater-script.miuinl
-@echo ui_print("*   ##      ## ##  ####  ##    ##   ## #####   *"); >>_INPUT_ROM\_SPECIAL\updater-script.miuinl
-@echo ui_print("*                                              *"); >>_INPUT_ROM\_SPECIAL\updater-script.miuinl
-@echo ui_print("************************************************"); >>_INPUT_ROM\_SPECIAL\updater-script.miuinl
-@echo ui_print(""); >>_INPUT_ROM\_SPECIAL\updater-script.miuinl
 
-for /f %%x in ('dir /b _INPUT_ROM\miuinl*.zip') do (
- if not exist _INPUT_ROM\_SPECIAL\%%~nx\META-INF\com\google\android\updater-script (
-  type _INPUT_ROM\_SPECIAL\updater-script.miuinl >_INPUT_ROM\_SPECIAL\updater-script
-  7za e _INPUT_ROM\%%x -o_INPUT_ROM\_SPECIAL\%%~nx\META-INF\com\google\android updater-script -r -y
-  _INPUT_ROM\_SPECIAL\Unix2Dos.exe _INPUT_ROM\_SPECIAL\%%~nx\META-INF\com\google\android\updater-script
-  type _INPUT_ROM\_SPECIAL\%%~nx\META-INF\com\google\android\updater-script >>_INPUT_ROM\_SPECIAL\updater-script
-  copy /y _INPUT_ROM\_SPECIAL\updater-script _INPUT_ROM\_SPECIAL\%%~nx\META-INF\com\google\android\updater-script
-  _INPUT_ROM\_SPECIAL\Dos2Unix.exe _INPUT_ROM\_SPECIAL\%%~nx\META-INF\com\google\android\updater-script
-  7za a -tzip "%~dp0_INPUT_ROM\%%x" "%~dp0_INPUT_ROM\_SPECIAL\%%~nx\*" -mx%complevel%
- )
-)
-
-::
-for /f "tokens=1,2 delims=-" %%a in ('dir /b _INPUT_ROM\miuinl_Desire-*.zip') do (
- for %%y in (D2EXT D2W) do (
-  @echo copy %%a-%%b %%a_%%y-%%b
-  ::
-  7za e _INPUT_ROM\%%a-%%b -o_INPUT_ROM\_SPECIAL\%%a_%%y\META-INF\com\google\android updater-script -r -y
-  _INPUT_ROM\_SPECIAL\Unix2Dos.exe _INPUT_ROM\_SPECIAL\%%a_%%y\META-INF\com\google\android\updater-script
-  _INPUT_ROM\_SPECIAL\Unix2Dos.exe _INPUT_ROM\_SPECIAL\updater-script.%%y
-  type _INPUT_ROM\_SPECIAL\updater-script.%%y >>_INPUT_ROM\_SPECIAL\%%a_%%y\META-INF\com\google\android\updater-script
-  _INPUT_ROM\_SPECIAL\Dos2Unix.exe _INPUT_ROM\_SPECIAL\%%a_%%y\META-INF\com\google\android\updater-script
-  @if not exist _INPUT_ROM\%%a_%%y-%%b copy /y _INPUT_ROM\%%a-%%b _INPUT_ROM\%%a_%%y-%%b
- )
-)
 for /f "tokens=1-4,5* delims=_" %%a in ('dir /b _INPUT_ROM\miui_xj*.zip') do (
- @if '%%d'=='X-PART' (
-  ::@echo %%a_%%b_%%c_%%d_%%e
-  ::@echo ren _INPUT_ROM\%%a_%%b_%%c_%%d_%%e_%%f miuinl_%%b_%%c_%%d_%%e.zip
-  @ren _INPUT_ROM\%%a_%%b_%%c_%%d_%%e_%%f miuinl_%%b_%%c_%%d_%%e.zip
- )
+ @if '%%c'=='D2EXT' @ren _INPUT_ROM\%%a_%%b_%%c_%%d_%%e_%%f miuinl_Desire_%%c-%%e.zip
+ @if '%%c'=='D2W'   @ren _INPUT_ROM\%%a_%%b_%%c_%%d_%%e_%%f miuinl_Desire_%%c-%%d.zip
+ @if '%%c'=='A2SD'  @ren _INPUT_ROM\%%a_%%b_%%c_%%d_%%e_%%f miuinl_Desire_%%c_%%d.zip
 )
-for /f "tokens=1-4,5* delims=_" %%a in ('dir /b _INPUT_ROM\miui_xj*.zip') do (
- @if not '%%d'=='X-PART' (
-  ::@echo %%a_%%b_%%c_%%d_%%e_%%f
-  ::@echo ren _INPUT_ROM\%%a_%%b_%%c_%%d_%%e_%%f miuinl_%%b_%%c_%%d.zip
-  @ren _INPUT_ROM\%%a_%%b_%%c_%%d_%%e_%%f miuinl_%%b_%%c_%%d.zip
- )
+for /f "tokens=1-4,5* delims=_" %%a in ('dir /b _INPUT_ROM\OTA*.zip') do (
+ @if '%%a'=='OTA'   @ren _INPUT_ROM\%%a_%%b_%%c_%%d_%%e_%%f miuinl_Desire_OTA-%%d.zip
 )
-::
 ::
 ::ifframework
 Set BeginTime=%time%
@@ -599,13 +558,12 @@ if exist %DoWork% (
  @echo additional translation(s)
  FOR /f %%F IN ('dir /b /a:d _TRANSLATE\%_LANGUAGE%') DO (
   @echo [*] %%F >>%logD%
-  xcopy /e /f /i /y _TRANSLATE\%_LANGUAGE%\%%F _INPUT_APK\%%F
+  if exist _INPUT_APK\%%F xcopy /e /f /i /y _TRANSLATE\%_LANGUAGE%\%%F _INPUT_APK\%%F
  )
- for %%I in (framework-res %DoSpecial%) DO if exist _INPUT_APK\%%I rd /s /q _INPUT_APK\%%I
- for %%I in (%DoSpecial%) DO if exist _INPUT_APK\%%I.apk del /q _INPUT_APK\%%I.apk
  ::recompile
  @echo %time%::recompile >>%logD%
  @echo recompiling apks...
+ del /q %logR%
  :: for loop call to 03recompileAPK
  for /f "tokens=* delims= " %%a in ('dir _INPUT_APK /b /ad') do (
   if exist "_INPUT_APK\%%a\res\values-nl-rNL" (
@@ -668,7 +626,7 @@ for /f %%r in ('dir /b _INPUT_ROM\*.zip') do (
    if exist "_INPUT_APK\%%i.apk" (
     call 02decompileAPK "_INPUT_APK\%%i.apk"
     xcopy /e /f /i /y "_TRANSLATE\%_LANGUAGE%\%%i" "_INPUT_APK\%%i" 
-    for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-zh*') do rd /s /q _INPUT_APK\framework-res\res\%%d
+    for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-zh*')  do rd /s /q _INPUT_APK\framework-res\res\%%d
     for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-mcc*') do rd /s /q _INPUT_APK\framework-res\res\%%d
     for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-rAU*') do rd /s /q _INPUT_APK\framework-res\res\%%d
     for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-rCA*') do rd /s /q _INPUT_APK\framework-res\res\%%d
@@ -704,11 +662,20 @@ for /f %%r in ('dir /b _INPUT_ROM\*.zip') do (
 )
 ::-----------------------------------
 :automaticnoprecompile
-for /f %%s in ('dir /b /a:d _INPUT_ROM\_SPECIAL') do (
- for /f %%d in ('dir /b /a:d _TEMP\%%s*') do (
-  xcopy /e /f /i /y _INPUT_ROM\_SPECIAL\%%s _TEMP\%%d
- )
-)
+::
+@echo ui_print(""); >_TEMP\updater-script.miuinl
+@echo ui_print("************************************************"); >>_TEMP\updater-script.miuinl
+@echo ui_print("*                                              *"); >>_TEMP\updater-script.miuinl
+@echo ui_print("*   ##      ## ## ##  ## ##    ##   ## ##      *"); >>_TEMP\updater-script.miuinl
+@echo ui_print("*   ###    ### ## ##  ## ##    ###  ## ##      *"); >>_TEMP\updater-script.miuinl
+@echo ui_print("*   ## #### ## ## ##  ## ##    #### ## ##      *"); >>_TEMP\updater-script.miuinl
+@echo ui_print("*   ##  ##  ## ## ##  ## ##    ## #### ##      *"); >>_TEMP\updater-script.miuinl
+@echo ui_print("*   ##  ##  ## ## ##  ## ##    ##  ### ##      *"); >>_TEMP\updater-script.miuinl
+@echo ui_print("*   ##      ## ##  ####  ##    ##   ## #####   *"); >>_TEMP\updater-script.miuinl
+@echo ui_print("*                                              *"); >>_TEMP\updater-script.miuinl
+@echo ui_print("************************************************"); >>_TEMP\updater-script.miuinl
+@echo ui_print(""); >>_TEMP\updater-script.miuinl
+::
 for /f %%r in ('dir /b _INPUT_ROM\*.zip') do (
  if exist "%~dp0_TEMP\%%~nr\system\framework\framework-res.apk" (
   @echo [*] %%r >>%logD%
@@ -716,6 +683,17 @@ for /f %%r in ('dir /b _INPUT_ROM\*.zip') do (
   COPY /y "_INPUT_ROM\%%r" "_TEMP\%%r"
   @echo Updating and Compressing "_TEMP\%%r"... >>%logD%
   @echo Updating and Compressing "_TEMP\%%r"...
+
+  type _TEMP\updater-script.miuinl >_TEMP\updater-script
+  7za e _TEMP\%%r -o_TEMP\%%~nr\META-INF\com\google\android updater-script -r -y
+  Unix2Dos _TEMP\%%~nr\META-INF\com\google\android\updater-script
+  type _TEMP\%%~nr\META-INF\com\google\android\updater-script >>_TEMP\updater-script
+  copy /y _TEMP\updater-script _TEMP\%%~nr\META-INF\com\google\android\updater-script
+  Dos2Unix _TEMP\%%~nr\META-INF\com\google\android\updater-script
+  del /q _TEMP\updater-script
+  
+  for %%d in (MIUIStats.apk) do 7za d _TEMP\%%r %%d -r
+  
   7za a -tzip "%~dp0_TEMP\%%r" "%~dp0_TEMP\%%~nr\*" -mx%complevel%
   @echo Signing "_TEMP\%%r" to _OUTPUT_ROM\%%~nr-signed.zip ... >>%logD%
   @echo Signing "_TEMP\%%r" to _OUTPUT_ROM\%%~nr-signed.zip ...
