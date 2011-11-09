@@ -37,6 +37,10 @@
         <item>ALTIJD</item>
         <item>ALLEEN_GEEN_MUZIEK</item>
     </string-array>
+    <string-array name="barcon_operation_items">
+        <item>Wijzig</item>
+        <item>Wis</item>
+    </string-array>
     <string-array name="pref_reading_mode_choices">
         <item>Automatisch invullen</item>
         <item>Handmatig invullen</item>
