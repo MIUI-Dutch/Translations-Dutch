@@ -416,13 +416,13 @@ copy /y _UPDATE_APK\*.* _UPDATE_ROM\system\app
 @echo ifelse(getprop("ro.product.device") == "vibrantmtd",mount("yaffs2", "MTD", "system", "/system"),ui_print("##")); >>_UPDATE_ROM\updater-script
 @echo ifelse(is_mounted("/system"),package_extract_dir("system", "/system"),ui_print("/system NOT mounted!!")); >>_UPDATE_ROM\updater-script
 @echo unmount("/system"); >>_UPDATE_ROM\updater-script
-Dos2Unix _UPDATE_ROM\updater-script
+_TOOLS\Dos2Unix _UPDATE_ROM\updater-script
 
 for /f %%r in ('dir /b _UPDATE_INPUT\*.zip') do (
  @echo Create "_UPDATE_ZIP\update_%%~nr-%version%_Signed.zip"
  if not '%BPU%'=='' (
   7za e _INPUT_ROM\miuinl_%%~nr-%version%.zip -o_UPDATE_INPUT\system build.prop -r -y
-  Unix2Dos _UPDATE_INPUT\system\build.prop 
+  _TOOLS\Unix2Dos _UPDATE_INPUT\system\build.prop 
   for /f %%l in (_UPDATE_INPUT\system\build.prop) do (
    @if '%%l'=='ro.build.version.incremental=%version%' (
     @echo ro.build.version.incremental=%forversion% >>"%~dp0_UPDATE_ROM\system\build.prop"
@@ -431,7 +431,7 @@ for /f %%r in ('dir /b _UPDATE_INPUT\*.zip') do (
    )
   )
  )
- Dos2Unix _UPDATE_ROM\system\build.prop 
+ _TOOLS\Dos2Unix _UPDATE_ROM\system\build.prop 
  copy /y _UPDATE_INPUT\%%r _UPDATE_ROM\update_%%~nr-%version%.zip
  ::md _UPDATE_ROM\META-INF\com\google\android
  ::copy /y _UPDATE_ROM\updater-script _UPDATE_ROM\META-INF\com\google\android\updater-script
@@ -694,10 +694,10 @@ for /f %%r in ('dir /b _INPUT_ROM\*.zip') do (
 
   type _TEMP\updater-script.miuinl >_TEMP\updater-script
   7za e _TEMP\%%r -o_TEMP\%%~nr\META-INF\com\google\android updater-script -r -y
-  Unix2Dos _TEMP\%%~nr\META-INF\com\google\android\updater-script
+  _TOOLS\Unix2Dos _TEMP\%%~nr\META-INF\com\google\android\updater-script
   type _TEMP\%%~nr\META-INF\com\google\android\updater-script >>_TEMP\updater-script
   copy /y _TEMP\updater-script _TEMP\%%~nr\META-INF\com\google\android\updater-script
-  Dos2Unix _TEMP\%%~nr\META-INF\com\google\android\updater-script
+  _TOOLS\Dos2Unix _TEMP\%%~nr\META-INF\com\google\android\updater-script
   del /q _TEMP\updater-script
   7za a -tzip "%~dp0_TEMP\%%r" "%~dp0_TEMP\%%~nr\*" -mx%complevel%
  
