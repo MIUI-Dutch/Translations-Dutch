@@ -460,7 +460,7 @@ goto restart
 if exist %logD% DEL %logD%
 ::
 ::
-	set DoSpecial=MiuiCamera Torch FM
+	set DoSpecial=MiuiCamera Torch FM Updater
 	set _LANGUAGE=Dutch
 ::
 ::
@@ -473,7 +473,7 @@ for /f "tokens=1,2 delims=_" %%a in ('dir /b _INPUT_ROM\miuiandroid*.zip') do (
 for /f "tokens=1-4,5* delims=_" %%a in ('dir /b _INPUT_ROM\miui_xj*.zip') do (
  @if '%%c'=='D2EXT' @ren _INPUT_ROM\%%a_%%b_%%c_%%d_%%e_%%f miuinl_Desire_%%c-%%e.zip
  @if '%%c'=='D2W'   @ren _INPUT_ROM\%%a_%%b_%%c_%%d_%%e_%%f miuinl_Desire_%%c-%%d.zip
- @if '%%c'=='A2SD'  @ren _INPUT_ROM\%%a_%%b_%%c_%%d_%%e_%%f miuinl_Desire_%%c_%%d.zip
+ @if '%%c'=='A2SD'  @ren _INPUT_ROM\%%a_%%b_%%c_%%d_%%e_%%f miuinl_Desire_%%c-%%d.zip
 )
 for /f "tokens=1-4,5* delims=_" %%a in ('dir /b _INPUT_ROM\OTA*.zip') do (
  @if '%%a'=='OTA'   @ren _INPUT_ROM\%%a_%%b_%%c_%%d_%%e_%%f miuinl_Desire_OTA-%%d.zip
@@ -625,7 +625,15 @@ for /f %%r in ('dir /b _INPUT_ROM\*.zip') do (
    call 01framework-if.bat %INPUT%
    if exist "_INPUT_APK\%%i.apk" (
     call 02decompileAPK "_INPUT_APK\%%i.apk"
-    xcopy /e /f /i /y "_TRANSLATE\%_LANGUAGE%\%%i" "_INPUT_APK\%%i" 
+    xcopy /e /f /i /y "_TRANSLATE\%_LANGUAGE%\%%i" "_INPUT_APK\%%i"
+	
+	for /f "tokens=1-3 delims=_-" %%a in ('dir /b _INPUT_ROM\%%r') do (
+     @if '%%c'=='D2EXT' if exist "_TRANSLATE\%_LANGUAGE%\%%i.DIFF" @xcopy /e /f /i /y "_TRANSLATE\%_LANGUAGE%\%%i.DIFF" "_INPUT_APK\%%i"
+     @if '%%c'=='D2W'   if exist "_TRANSLATE\%_LANGUAGE%\%%i.DIFF" @xcopy /e /f /i /y "_TRANSLATE\%_LANGUAGE%\%%i.DIFF" "_INPUT_APK\%%i"
+     @if '%%c'=='A2SD'  if exist "_TRANSLATE\%_LANGUAGE%\%%i.DIFF" @xcopy /e /f /i /y "_TRANSLATE\%_LANGUAGE%\%%i.DIFF" "_INPUT_APK\%%i"
+     @if '%%c'=='OTA'   if exist "_TRANSLATE\%_LANGUAGE%\%%i.DIFF" @xcopy /e /f /i /y "_TRANSLATE\%_LANGUAGE%\%%i.DIFF" "_INPUT_APK\%%i"
+	)
+
     for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-zh*')  do rd /s /q _INPUT_APK\framework-res\res\%%d
     for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-mcc*') do rd /s /q _INPUT_APK\framework-res\res\%%d
     for /f %%d in ('dir /b /a:d _INPUT_APK\framework-res\res\*-rAU*') do rd /s /q _INPUT_APK\framework-res\res\%%d
@@ -691,11 +699,13 @@ for /f %%r in ('dir /b _INPUT_ROM\*.zip') do (
   copy /y _TEMP\updater-script _TEMP\%%~nr\META-INF\com\google\android\updater-script
   Dos2Unix _TEMP\%%~nr\META-INF\com\google\android\updater-script
   del /q _TEMP\updater-script
-  
-  for %%d in (MIUIStats.apk) do 7za d _TEMP\%%r %%d -r
-  
   7za a -tzip "%~dp0_TEMP\%%r" "%~dp0_TEMP\%%~nr\*" -mx%complevel%
-  @echo Signing "_TEMP\%%r" to _OUTPUT_ROM\%%~nr-signed.zip ... >>%logD%
+ 
+  for %%d in (MIUIStats.apk) do 7za d _TEMP\%%r %%d -r
+  for /f "tokens=1-3 delims=_-" %%a in ('dir /b _INPUT_ROM\%%r') do (
+   @if '%%c'=='OTA' 7za d _TEMP\%%r media -r
+  )
+
   @echo Signing "_TEMP\%%r" to _OUTPUT_ROM\%%~nr-signed.zip ...
   java -jar "_SIGN_ZIP\signapk.jar" "_SIGN_ZIP\testkey.x509.pem" "_SIGN_ZIP\testkey.pk8" "_TEMP\%%r" "_OUTPUT_ROM\%%~nr_Signed.zip"
  )
