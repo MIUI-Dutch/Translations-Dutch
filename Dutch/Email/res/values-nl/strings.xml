@@ -149,7 +149,7 @@
    <string name="deselect_all_action">Deselecteer alle</string>
    <string name="device_admin_description">Activeert server-gespecificeerde veiligheidsbeleid</string>
    <string name="device_admin_label">Email</string>
-   <string name="discard_action">Uitsluiten</string>
+   <string name="discard_action">Wis</string>
    <string name="done_action">Klaar</string>
    <string name="dump_settings_action">Dump instellingen</string>
    <string name="error_loading_message_body">Onverwachte fout tijdens het laden van tekst bericht. Bericht is mogelijk te groot om te bekijken</string>
@@ -246,7 +246,7 @@
    <string name="search_action">Zoeken</string>
    <string name="security_notification_content_title">Update beveiligings instellingen</string>
    <string name="security_notification_ticker_fmt">Account \"%s\" vereist een beveiligings instelling update</string>
-   <string name="send_action">Verzenden</string>
+   <string name="send_action">Verzend</string>
    <string name="set_star_action">Ster toevoegen</string>
    <string name="status_loading_more">Berichten laden...</string>
    <string name="status_network_error">Verbindingsfout</string>
