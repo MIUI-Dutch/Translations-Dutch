@@ -85,7 +85,7 @@
    <string name="pbap_notif_title">PBAP verzoek</string>
    <string name="pbap_session_key_dialog_header">Bluetooth sessie sleutel nodig</string>
    <string name="pbap_session_key_dialog_title">Type sessie sleutel voor %1$s</string>
-   <string name="permdesc_bluetoothShareManager">Staat de Applicatie toe om toegang te krijgen tot de BluetoothShare manager en bestanden over te brengen</string>
+   <string name="permdesc_bluetoothShareManager">Staat de applicatie toe om toegang te krijgen tot de BluetoothShare manager en bestanden over te brengen</string>
    <string name="permlab_bluetoothShareManager">Toegang download manager</string>
    <string name="process" />
    <string name="sharedUserId" />

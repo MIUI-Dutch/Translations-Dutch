@@ -393,7 +393,7 @@
    <string name="onscreenVoiceDeviceBluetooth">Bluetooth apparaat</string>
    <string name="onscreenVoiceDeviceHandset">Oorstukje</string>
    <string name="onscreenVoiceDeviceHeadset">Headset</string>
-   <string name="onscreenVoiceDevices">Antwoordapparaat</string>
+   <string name="onscreenVoiceDevices">Bluetooth set</string>
    <string name="onscreenVoiceDeviceSpeaker">Speaker</string>
    <string name="optional_summary">&lt;Optioneel></string>
    <string name="ota_activate">Activeren</string>
