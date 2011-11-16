@@ -72,16 +72,16 @@
         <item>OP_COMMANDO</item>
     </string-array>
     <string-array name="pref_text_size_choices">
-        <item>Klein</item>
+        <item>Kleiner</item>
         <item>Normaal</item>
-        <item>Groot</item>
         <item>Groter</item>
+        <item>Maximaal</item>
     </string-array>
     <string-array name="pref_text_size_values">
-        <item>KLEINER</item>
-        <item>NORMAAL</item>
-        <item>GROTER</item>
-        <item>GROOTSTE</item>
+        <item>SMALLER</item>
+        <item>NORMAL</item>
+        <item>LARGER</item>
+        <item>LARGEST</item>
     </string-array>
     <string-array name="pref_hide_buttons_in_fullscreen_choices">
         <item>Toon</item>

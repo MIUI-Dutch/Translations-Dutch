@@ -609,10 +609,6 @@
    <string name="lunar_yi" />
    <string name="lunar_yue" />
    <string name="lunar_zheng" />
-   <string name="managed_roaming_dialog_cancel_button">Nee</string>
-   <string name="managed_roaming_dialog_content">Netwerk met beperkte Service gevonden. Wil je een Netwerk zoeken?</string>
-   <string name="managed_roaming_dialog_ok_button">Ja</string>
-   <string name="managed_roaming_title">Roaming</string>
    <string name="me">Ik</string>
    <string name="media_bad_removal">SD-kaart is verwijderd voordat deze is ontkoppeld</string>
    <string name="media_checking">SD-kaart wordt momenteel gecontroleerd</string>

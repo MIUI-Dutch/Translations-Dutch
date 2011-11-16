@@ -288,5 +288,4 @@
    <string name="website_edit_failed_message">Bewerken site mislukt!</string>
    <string name="website_edit_succeed_message">Bewerken site succesvol!</string>
    <string name="yahoo_search_suggest_label">Yahoo Search:</string>
-   <string name="yellow_page_title">Top Sites</string>
 </resources>

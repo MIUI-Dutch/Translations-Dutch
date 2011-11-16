@@ -72,6 +72,8 @@
    <string name="call_record_notification_message_sd_unmounted">Opname is gestopt omdat de SD-Kaart niet meer beschikbaar is</string>
    <string name="call_record_notification_title">Oproep succesvol opgenomen</string>
    <string name="call_record_notification_title_error">Gespreksopname mislukt</string>
+   <string name="call_recording_notification">Gesprek opname melding</string>
+   <string name="call_recording_notification_summary">Toon melding wanneer opname klaar is</string>
    <string name="call_recording_prompt">Inschakelen gesprekken opnemen</string>
    <string name="call_settings">Oproep instellingen</string>
    <string name="call_title_redialing_with_times">%d maal herkiezen</string>

@@ -54,6 +54,8 @@
    <string name="moving_data_to_sdcard_progress_format">Verplaatst %1$dKb van %2$dKb</string>
    <string name="network_error">Kan niet verbinden, netwerk problemen of server is bezig</string>
    <string name="new_update_content_title">Nieuwe versie:%s</string>
+   <string name="new_update_download_complete_body">Nieuwe versie: %s</string>
+   <string name="new_update_downloading_body">Download nieuwe versie: %s</string>
    <string name="new_updates_found_body">Zoek nieuwe versie</string>
    <string name="new_updates_found_notification_title">Nieuw systeem update, upgrade!</string>
    <string name="new_updates_found_title">Zoek een update!</string>
@@ -74,7 +76,8 @@
    <string name="send_install_log_error">Niet verstuurd</string>
    <string name="sign_in_add_account_helper">Je telefoon heeft geen MIUI account geconfigureerd, creëer één voor punten</string>
    <string name="sign_in_info">Deze upgrade je %1$s\n%2$s Gebruikers hebben %3$s downloads</string>
-   <string name="sign_in_info_more">Nieuwe versie na %1$s\nMeer dan %2$s gebruikers hebben nu MIUI %3$s</string>
+   <string name="sign_in_info_rank_more">Nieuwe versie na %1$s\nMeer dan %2$s gebruikers hebben nu MIUI %3$s</string>
+   <string name="sign_in_info_total_more">Nieuwe versie %1$s\nMeer dan %2$s gebruikers hebben nu MIUI %3$s</string>
    <string name="stable_version">Stabiel</string>
    <string name="start_update">Begin update</string>
    <string name="switch_system">Verander systeem</string>

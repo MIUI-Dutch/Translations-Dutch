@@ -4,6 +4,7 @@
    <string name="cancel_running_download">Annuleren</string>
    <string name="confirm_delete_downloads_message">%d geselecteerde downloads worden verwijderd</string>
    <string name="confirm_delete_the_download_item_message">Verwijder download?</string>
+   <string name="confirm_disable_download_only_in_wifi_message">Het uitzetten van Download via Wi-Fi betekend dat de dataverbinding gebruikt wordt. Denk aan het gebruik van het data abonnement! Bent u er zeker van om Downloads via Wi-Fi uit te zetten?</string>
    <string name="delete_download">Wissen</string>
    <string name="delete_downloads_records">Verwijder download geschiedenis</string>
    <string name="delete_the_downloaded_file">Verwijder gedownloade bestanden</string>

@@ -1,8 +1,8 @@
 @echo off
 
 
-set EnglishLocation=D:\AutoAPKTool2.0.3\_INPUT_APK
-set DutchLocation=D:\GitRepository\MIUI-Dutch\Translations-Dutch\Dutch
+set EnglishLocation=E:\AutoAPKTool2.0.3\_INPUT_APK
+set DutchLocation=E:\GitRepository\MIUI-Dutch\Translations-Dutch\Dutch
 
 for /f %%f in ('dir /b /a:d %EnglishLocation%') do (
  :: for *.apk
