@@ -159,6 +159,7 @@
    <string name="dialerIconLabel">Bellen</string>
    <string name="dialerKeyboardHintText">Gebruik toetsenbord om te bellen</string>
    <string name="disable">Uitschakelen</string>
+   <string name="disable_all_cf">Oproep doorschakelen Uit</string>
    <string name="disable_cfb_forbidden">Uw provider ondersteunt geen uitschakelen van doorschakelen als de telefoon bezet is</string>
    <string name="disable_cfnrc_forbidden">Uw provider ondersteunt geen uitschakelen van doorschakelen als de telefoon onbereikbaar is</string>
    <string name="disable_cfnry_forbidden">Uw provider ondersteunt geen uitschakelen van doorschakelen als de telefoon geen antwoord geeft</string>
@@ -456,6 +457,7 @@
    <string name="pref_more_settings_title">Meer instellingen</string>
    <string name="pref_outgoing_call_title">Uitgaande oproepen</string>
    <string name="prefered_network_type_pref_entries_3g_prefered">Bij voorkeur 3G</string>
+   <string name="prefered_network_type_pref_entries_auto">Automatisch</string>
    <string name="prefered_network_type_pref_entries_only_2g">Alleen 2G (stroombesparend)</string>
    <string name="prefered_network_type_pref_entries_only_3g">Alleen 3G</string>
    <string name="prefered_network_type_title">Kies netwerk type</string>

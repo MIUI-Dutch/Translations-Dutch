@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <string-array name="transport_types">
         <item>UDP</item>
@@ -27,56 +27,74 @@
         <item>@string/sip_system_decide</item>
         <item>@string/sip_always_send_keepalive</item>
     </array>
-    <string-array name="dialer_click_entries">
-        <item>Bel</item>
-        <item>Bekijk contact</item>
-    </string-array>
+    <array name="dialer_click_entries">
+        <item>@string/dialer_click_entries_call</item>
+        <item>@string/dialer_click_entries_view_contact</item>
+    </array>
     <string-array name="dialer_click_values">
         <item>0</item>
         <item>2</item>
     </string-array>
-    <string-array name="voice_quality_ui_values">
-        <item>Normaal</item>
-        <item>Helder</item>
-        <item>Crisp</item>
-        <item>Bright</item>
-    </string-array>
-    <string-array name="auto_answer_delay_entries">
-        <item>Neem direct op</item>
-        <item>3 seconden vertraging</item>
-        <item>5 seconden vertraging</item>
-        <item>10 seconden vertraging</item>
-    </string-array>
+    <array name="voice_quality_ui_values">
+        <item>@string/voice_quality_ui_values_normal</item>
+        <item>@string/voice_quality_ui_values_clear</item>
+        <item>@string/voice_quality_ui_values_crisp</item>
+        <item>@string/voice_quality_ui_values_bright</item>
+    </array>
+    <array name="auto_answer_delay_entries">
+        <item>@string/auto_answer_delay_entries_immediately</item>
+        <item>@string/auto_answer_delay_entries_delay_3s</item>
+        <item>@string/auto_answer_delay_entries_delay_5s</item>
+        <item>@string/auto_answer_delay_entries_delay_10s</item>
+    </array>
     <string-array name="auto_answer_delay_entry_values">
         <item>0</item>
         <item>3</item>
         <item>5</item>
         <item>10</item>
     </string-array>
-    <string-array name="auto_answer_scenario_entries">
-        <item>altijd</item>
-        <item>Alleen hoofdtelefoon</item>
-        <item>Alleen bluetooth</item>
-        <item>Hoofdtelefoon of bluetooth</item>
-    </string-array>
-    <string-array name="prefered_network_type_pref_entries">
-        <item>Gebruik alleen 3G Netwerk</item>
-        <item>Gebruik alleen 2G Netwerk</item>
-        <item>3G Netwerk heeft prioriteit</item>
-    </string-array>
+    <array name="auto_answer_scenario_entries">
+        <item>@string/auto_answer_scenario_enteries_always</item>
+        <item>@string/auto_answer_scenario_enteries_headset_only</item>
+        <item>@string/auto_answer_scenario_enteries_bluetooth_only</item>
+        <item>@string/auto_answer_scenario_enteries_headset_bluetooth</item>
+    </array>
+    <array name="prefered_network_type_pref_entries">
+        <item>@string/prefered_network_type_pref_entries_3g_prefered</item>
+        <item>@string/prefered_network_type_pref_entries_only_2g</item>
+        <item>@string/prefered_network_type_pref_entries_only_3g</item>
+    </array>
     <string-array name="prefered_network_type_pref_entry_values">
         <item>0</item>
         <item>1</item>
         <item>2</item>
     </string-array>
-    <string-array name="connect_disconnect_vibrate_entries">
-        <item>vibreer normaal</item>
-        <item>vibreer zacht</item>
-        <item>vibreer niet</item>
+    <array name="prefered_network_type_pref_entries_cdma">
+        <item>@string/prefered_network_type_pref_entries_auto</item>
+        <item>@string/prefered_network_type_pref_entries_only_2g</item>
+        <item>@string/prefered_network_type_pref_entries_only_3g</item>
+    </array>
+    <string-array name="prefered_network_type_pref_entry_values_cdma">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
     </string-array>
+    <array name="connect_disconnect_vibrate_entries">
+        <item>@string/connect_disconnect_vibrate_normal</item>
+        <item>@string/connect_disconnect_vibrate_weak</item>
+        <item>@string/connect_disconnect_vibrate_none</item>
+    </array>
     <string-array name="connect_disconnect_vibrate_entry_values">
         <item>100</item>
         <item>50</item>
+        <item>0</item>
+    </string-array>
+    <array name="cdma_call_waiting_entries">
+        <item>@string/enable</item>
+        <item>@string/disable</item>
+    </array>
+    <string-array name="cdma_call_waiting_entry_values">
+        <item>1</item>
         <item>0</item>
     </string-array>
     <string-array name="clir_display_values">

@@ -369,5 +369,6 @@
    <string name="view_delivery_report">Ontvangstbevestiging</string>
    <string name="view_message_details">Berichtdetails tonen</string>
    <string name="view_slideshow">Diashow tonen</string>
+   <string name="wap_push_title">[WAP Push]\u0020</string>
    <string name="yes">OK</string>
 </resources>

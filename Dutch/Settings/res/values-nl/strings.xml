@@ -685,6 +685,8 @@
    <string name="ipaddr_label">IPaddr:</string>
    <string name="keep_screen_on">Standby</string>
    <string name="keep_screen_on_summary">Scherm gaat niet naar slaapstand tijdens opladen</string>
+   <string name="keepscreenon_warning_message">Het scherm aanlaten tijdens opladen kan oververhitting veroorzaken.</string>
+   <string name="keepscreenon_warning_title">Scherm aan tijdens opladen?</string>
    <string name="kernel_version">Kernelversie</string>
    <string name="key_settings">Configureer toetsen</string>
    <string name="key_settings_title">Toetsen</string>
