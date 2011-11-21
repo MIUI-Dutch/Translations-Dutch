@@ -137,7 +137,7 @@
    <string name="task_failed_local">Taak %1$s is mislukt</string>
    <string name="task_finished">Klaar</string>
    <string name="task_local_backup_cancel_dialog">Backup is niet compleet\nKlik OK om te annuleren</string>
-   <string name="task_pending">Wachten op</string>
+   <string name="task_pending">Wacht op backup</string>
    <string name="task_post_running">Nabewerking</string>
    <string name="task_pre_running">Voorbewerking</string>
    <string name="task_progress">Voortgang</string>
