@@ -411,13 +411,13 @@
    <string name="ext_media_nofs_notification_title">Lege SD-kaart</string>
    <string name="ext_media_nomedia_notification_message">SD-kaart verwijderd. Plaats nieuw medium</string>
    <string name="ext_media_nomedia_notification_title">SD-kaart verwijderd</string>
-   <string name="ext_media_safe_unmount_notification_message">U kunt de SD-kaart veilig wissen</string>
-   <string name="ext_media_safe_unmount_notification_title">SD-kaart veilig wissen</string>
+   <string name="ext_media_safe_unmount_notification_message">U kunt de SD-kaart veilig ontkoppelen</string>
+   <string name="ext_media_safe_unmount_notification_title">SD-kaart veilig ontkoppelen</string>
    <string name="ext_media_unmountable_notification_message">SD-kaart beschadigd. U moet de opslag mogelijk opnieuw formatteren</string>
    <string name="ext_media_unmountable_notification_title">SD-kaart beschadigd</string>
    <string name="extmedia_format_button_format">Formatteren</string>
    <string name="extmedia_format_message">SD-kaart formatteren en alle opgeslagen bestanden wissen? Actie kan niet ongedaan worden gemaakt</string>
-   <string name="extmedia_format_title">SD-kaart formatt</string>
+   <string name="extmedia_format_title">SD-kaart format</string>
    <string name="factorytest_failed">Fabriekstest mislukt</string>
    <string name="factorytest_no_action">Er is geen pakket gevonden dat de actie FACTORY_TEST levert</string>
    <string name="factorytest_not_system">De actie FACTORY_TEST wordt alleen ondersteund voor pakketten die zijn geïnstalleerd in /system/app</string>
