@@ -20,8 +20,6 @@
    <string name="one_cacrt">één CA certificaat</string>
    <string name="one_usercrt">één gebruikers certificaat</string>
    <string name="one_userkey">één gebruikers sleutel</string>
-   <string name="one_wapi_ascrt">een WAPI AS certificaat</string>
-   <string name="one_wapi_usercrt">een WAPI gebruiker certificaat</string>
    <string name="p12_description">Certificaten in PKCS12 sleutelring</string>
    <string name="password_empty_error">Voer het wachtwoord in</string>
    <string name="password_error">Voer het juiste wchtwoord in</string>

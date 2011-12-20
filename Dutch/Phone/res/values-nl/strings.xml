@@ -125,7 +125,7 @@
    <string name="confirm_delete_message_title">Je wist de geselecteerde %d speciale berichten</string>
    <string name="confirm_pin_hint">Nieuwe PIN bevestigen</string>
    <string name="confirm_pin2_hint">Nieuwe PIN2 bevestigen</string>
-   <string name="connect_disconnect_vibrate_none">Niet virbreren</string>
+   <string name="connect_disconnect_vibrate_none">Niet vibreren</string>
    <string name="connect_disconnect_vibrate_normal">Vibreren</string>
    <string name="connect_disconnect_vibrate_summary">Vibreren bij opnemen/ophangen</string>
    <string name="connect_disconnect_vibrate_title">Vibratie</string>

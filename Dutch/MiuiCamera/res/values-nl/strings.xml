@@ -21,11 +21,6 @@
    <string name="gallery_camera_videos_bucket_name">Camera video\'s</string>
    <string name="image_file_name_format">\'IMG\'_ddMMyyyy_HHmmss</string>
    <string name="not_enough_space">SD-kaart is vol</string>
-   <string name="pref_camera_afzone">Selecteer zone AF</string>
-   <string name="pref_camera_afzone_auto">Auto</string>
-   <string name="pref_camera_afzone_average">Frame gemiddelde</string>
-   <string name="pref_camera_afzone_center">Middelpunt</string>
-   <string name="pref_camera_afzone_spot">Punt meting</string>
    <string name="pref_camera_antibanding">Bewegingsonscherpte reductie</string>
    <string name="pref_camera_antibanding_50hz">50 Hz</string>
    <string name="pref_camera_antibanding_60hz">60 Hz</string>
@@ -66,7 +61,6 @@
    <string name="pref_camera_iso_800">ISO 800</string>
    <string name="pref_camera_iso_auto">Auto</string>
    <string name="pref_camera_iso_deblur">Deblur</string>
-   <string name="pref_camera_iso_HJR">Qualiteit</string>
    <string name="pref_camera_jpegquality">Fotokwaliteit</string>
    <string name="pref_camera_jpegquality_fine">Fijn</string>
    <string name="pref_camera_jpegquality_normal">Normaal</string>
@@ -117,7 +111,6 @@
    <string name="pref_picturesize_M">M</string>
    <string name="pref_video_continuous_focus">Continue focus</string>
    <string name="pref_video_quality">Video kwaliteit</string>
-   <string name="pref_video_quality_720p">720P (2h)</string>
    <string name="pref_video_quality_hd">HD%s (30m)</string>
    <string name="pref_video_quality_high">Hoog (30m)</string>
    <string name="pref_video_quality_low">Laag (30m)</string>
