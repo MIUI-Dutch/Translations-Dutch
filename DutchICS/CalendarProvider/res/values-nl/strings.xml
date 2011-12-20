@@ -7,8 +7,12 @@
    <string name="calendar_info_events_dirty">Gebeurtenissen: %1$d, niet opgeslagen: %2$d</string>
    <string name="calendar_info_no_calendars">Geen agenda\'s</string>
    <string name="calendar_storage">Agenda opslag</string>
-   <string name="gadget_no_events">Geen aankomende gebeurtenissen</string>
-   <string name="gadget_title">Agenda</string>
-   <string name="no_title_label">(Geen titel)</string>
+   <string name="debug_tool_delete_button">Wis</string>
+   <string name="debug_tool_email_body">Mijn Agenda met al mijn afspraken en persoonlijke informatie is bijgevoegd. Met zorg behandelen.</string>
+   <string name="debug_tool_email_sender_picker">Selecteer een manier om het bestand te verzenden</string>
+   <string name="debug_tool_email_subject">Agenda Database toegevoegd</string>
+   <string name="debug_tool_message">Je staat op het punt om 1) een kopie te maken van je agenda database op de SD-kaart die toegankelijk is voor iedere applicatie en 2) deze te verzenden. Vergeet niet om deze te verwijderen als deze succesvol gekopieerd is naar een extern apparaat of verzonden is.</string>
+   <string name="debug_tool_start_button">Start</string>
    <string name="provider_label">Agenda</string>
+   <string name="upgrade_msg">Upgrade Agenda database.</string>
 </resources>

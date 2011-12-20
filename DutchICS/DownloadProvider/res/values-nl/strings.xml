@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <resources>
+   <string name="download_percent">%d%%</string>
+   <string name="notification_paused_in_background">Pauze in achtergrond</string>
+   <string name="wifi_recommended_body" formatted="false">"Deze %s download nu starten verkort batterij gebruik en/of resulteerd in extreem gebruik van de data connectie, wat mogelijk invloed heeft op gebruik binnen of buiten de data bundel.</string>
+   <string name="wifi_required_body" formatted="false">"Gebruik Wi-Fi voor deze %s download.</string>
    <string name="app_label">Downloadbeheer</string>
    <string name="button_cancel_download">Annuleren</string>
    <string name="button_queue_for_wifi">Wachtrij</string>
@@ -24,8 +28,6 @@
    <string name="permlab_downloadManagerAdvanced">Geavanceerde functies van de downloadbeheerder</string>
    <string name="permlab_downloadWithoutNotification">bestanden downloaden zonder melding</string>
    <string name="permlab_seeAllExternal">Alle downloads naar SD-kaart bekijken</string>
-   <string name="wifi_recommended_body">Het downloaden van dit bestand van %s \u0020via dit netwerk genereert hoog accuverbruik en extra providerkosten.\n\nRaak %s aan om het te downloaden wanneer u verbinding heeft met een Wi-Fi-netwerk</string>
    <string name="wifi_recommended_title">In wachtrij voor download via Wi-Fi?</string>
-   <string name="wifi_required_body">U kunt geen bestand van %s \u0020downloaden via dit mobiele netwerk.\n\nRaak %s \u0020aan om dit bestand te downloaden wanneer u de volgende keer verbinding maakt met een Wi-Fi-netwerk</string>
    <string name="wifi_required_title">Download te groot voor mobiel netwerk</string>
 </resources>

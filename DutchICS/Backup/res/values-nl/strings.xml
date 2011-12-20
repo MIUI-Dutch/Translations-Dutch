@@ -15,6 +15,7 @@
    <string name="auto_backup_progress">Automatische backup bezig...</string>
    <string name="auto_backup_setting_title">Automatisch backup instellingen</string>
    <string name="auto_backup_time">Geplande backup</string>
+   <string name="backup">Backup</string>
    <string name="backup_delete">Wis:</string>
    <string name="backup_empty">Geen backups gevonden</string>
    <string name="backup_error">Backup fout</string>
@@ -41,7 +42,6 @@
    <string name="cancel_backup">Annuleer backup</string>
    <string name="cancel_restore">Annuleer herstel</string>
    <string name="cloud_app_name">Netwerk Backup</string>
-   <string name="cloud_backup">Backup</string>
    <string name="cloud_backup_hint">Inloggen voor veilige opslag van backup data</string>
    <string name="cloud_backup_login">MIUI Account</string>
    <string name="cloud_backup_window_title">Online data backup</string>
@@ -49,7 +49,6 @@
    <string name="cloud_item_info_summary">\u0020(Lokaal %1$s | Online %2$s)</string>
    <string name="cloud_last_backup">Laatste backup:</string>
    <string name="cloud_no_backup">Geen online backup</string>
-   <string name="cloud_restore">Herstel</string>
    <string name="cloud_restore_guide">Klik Start om data te herstellen\n U kunt ook %s herstellen in Backup</string>
    <string name="cloud_restore_title">Herstel online backup data</string>
    <string name="cloud_restore_window_title">Online data herstel</string>
@@ -68,6 +67,7 @@
    <string name="delete_backup_process">Wissen van backup...</string>
    <string name="delete_failed_backup_confirm">Backup bevat een fout, kan niet herstellen van deze backup</string>
    <string name="dir_date_format">yyyy-MM-dd_HH-mm-ss</string>
+   <string name="fail">Mislukt!</string>
    <string name="findlost_contact">Herstel contacten</string>
    <string name="findlost_contact_online">Herstel verwijderde contact(en) van online backup</string>
    <string name="guarded_mode_dialog_message">Backup/restore niet aktief in gast mode</string>
@@ -95,6 +95,7 @@
    <string name="prompt_sending">Uploaden...</string>
    <string name="prompt_writing">Opslaan...</string>
    <string name="refresh">Verversen</string>
+   <string name="restore">Restore</string>
    <string name="restore_contact">Herstel contacten</string>
    <string name="restore_contact_content">Herstellen van contacten kan duplicaten veroorzaken, doorgaan?\nOpmerking: u kunt contacten samenvoegen bij contact instellingen</string>
    <string name="restore_contacts_hit">(Opmerking: U moet handmatig contacten herstellen bij de originele gegevens)</string>
@@ -124,10 +125,9 @@
    <string name="sms_title">Berichten</string>
    <string name="start_backup">Start Backup</string>
    <string name="start_restore">Herstellen</string>
+   <string name="succeed">Succes</string>
    <string name="task_backup_cancel_progress">Bezig met annuleren...</string>
-   <string name="task_backup_failed">Backup mislukt</string>
    <string name="task_backup_finished_local">Backup compleet</string>
-   <string name="task_backup_succeed">Backup geslaagd</string>
    <string name="task_canceled">Geannuleerd</string>
    <string name="task_canceled_all_local">Annuleer taak</string>
    <string name="task_canceled_local">De volgende %1$s taak is geannuleerd</string>
@@ -143,9 +143,7 @@
    <string name="task_progress">Voortgang</string>
    <string name="task_restore_cancel_dialog">Herstel is niet compleet\nannuleren kan leiden tot dataverlies</string>
    <string name="task_restore_cancel_progress">Annuleren...</string>
-   <string name="task_restore_failed">Herstellen mislukt</string>
    <string name="task_restore_finished_local">Herstel compleet</string>
-   <string name="task_restore_succeed">Herstellen geslaagd</string>
    <string name="task_running_dialog">Backup wordt uitgevoerd op de achtergrond, klik op OK voor de voortgang</string>
    <string name="task_running_hint">Service draait in de achtergrond, probeer herstel opnieuw!</string>
    <string name="task_service_not_launched">Backup service niet gestart, even wachten!</string>

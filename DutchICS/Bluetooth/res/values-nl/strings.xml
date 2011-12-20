@@ -3,7 +3,6 @@
    <string name="ack_record">Ack record</string>
    <string name="airplane_error_msg">Je kan Bluetooth niet gebruiken in vliegtuig-modus</string>
    <string name="airplane_error_title">Vliegtuig-modus</string>
-   <string name="alwaysallowed">Altijd toestaan?</string>
    <string name="app_name">Bluetooth Delen</string>
    <string name="auth_notif_message">Type sessie sleutel voor %1$s</string>
    <string name="auth_notif_ticker">Obex verificatieverzoek</string>
@@ -13,7 +12,7 @@
    <string name="bt_enable_line1">Om Bluetooth te gebruiken, moet je Bluetooth aanzetten</string>
    <string name="bt_enable_line2">Bluetooth nu aanzetten?</string>
    <string name="bt_enable_ok">Zet aan</string>
-   <string name="bt_enable_title">Bluetooth</string>
+   <string name="bt_enable_title" />
    <string name="bt_error_btn_ok">OK</string>
    <string name="bt_share_picker_label">Bluetooth</string>
    <string name="bt_sm_2_1">Er is niet genoeg ruimte op de SD-kaart om bestand \"%1$s\" op te slaan</string>
@@ -76,13 +75,8 @@
    <string name="ok_button">OK</string>
    <string name="outbound_history_title">Uitgaande overdrachten</string>
    <string name="outbound_noti_title">Bluetooth delen: Verzonden bestanden</string>
-   <string name="pbap_acceptance_dialog_header">Telefoonboek toegang</string>
-   <string name="pbap_acceptance_dialog_title">%1$s Wil graag toegang tot je contacten en belgeschiedenis. Geef toegang voor %2$s?</string>
    <string name="pbap_acceptance_timeout_message">Er was een time-out om verbinding te accepteren met %1$s</string>
    <string name="pbap_authentication_timeout_message">Er was een time-out om input sessie sleutel met %1$s</string>
-   <string name="pbap_notif_message">Geef telefoonboek toegang tot %1$s</string>
-   <string name="pbap_notif_ticker">Telefoonboek toegangsverzoek</string>
-   <string name="pbap_notif_title">PBAP verzoek</string>
    <string name="pbap_session_key_dialog_header">Bluetooth sessie sleutel nodig</string>
    <string name="pbap_session_key_dialog_title">Type sessie sleutel voor %1$s</string>
    <string name="permdesc_bluetoothShareManager">Staat de applicatie toe om toegang te krijgen tot de BluetoothShare manager en bestanden over te brengen</string>

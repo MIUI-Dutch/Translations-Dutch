@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+   <string name="app_name">MIUI Galerij</string>
+   <string name="delete">Wissen</string>
+   <string name="details_hms">%1$d:%2$02d:%3$02d</string>
+   <string name="details_ms">%1$02d:%2$02d</string>
+   <string name="loading_video">Video laden...</string>
+   <string name="movie_view_label">MIUI Video</string>
+   <string name="multiface_crop_help">Selecteer een gezichtsregio</string>
+   <string name="no">Nee</string>
+   <string name="resume_playing_message">Vanaf %s verder afspelen?</string>
+   <string name="resume_playing_restart">Opnieuw afspelen</string>
+   <string name="resume_playing_resume">Afspelen</string>
+   <string name="resume_playing_title">Verder afspelen</string>
+   <string name="save">Opslaan</string>
+   <string name="saving_image">Afbeelding opslaan...</string>
+   <string name="select_all">Alles selecteren</string>
+   <string name="wallpaper">Achtergrond</string>
+</resources>

@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <resources>
+   <string name="allow_source_dlg_text">"%1$s wil andere apps instaleren.</string>
+   <string name="allow_source_dlg_title">Nieuwe bron toestaan voor apps?</string>
    <string name="app_name">Pakket Installer</string>
    <string name="app_not_found_dlg_text">De applicatie is niet gevonden in de lijst van geïnstalleerde applicaties</string>
    <string name="app_not_found_dlg_title">Applicatie niet gevonden</string>
@@ -13,11 +15,18 @@
    <string name="install_confirm_question">Wil je deze applicatie installeren?</string>
    <string name="install_done">Applicatie geïnstalleerd</string>
    <string name="install_failed">Applicatie niet geïnstalleerd</string>
+   <string name="install_failed_cpu_abi_incompatible">"Deze applicatie is niet compatible met de CPU van deze telefoon."</string>
+   <string name="install_failed_file_not_found">De geselecteerde package is verwijderd voordat de installatie gereed was.</string>
+   <string name="install_failed_inconsistent_certificates">Een bestaande package met dezelfde naam maar met een verkeerde handtekening is al geinstalleerd.</string>
+   <string name="install_failed_invalid_apk">De package lijkt corrupt.</string>
    <string name="install_failed_msg">%1$s kan niet worden geïnstalleerd op deze telefoon</string>
+   <string name="install_failed_older_sdk">De package werkt alleen op nieuwere versies van Android.</string>
+   <string name="install_failed_verify_failed">De package komt niet door de verificatie en kan niet geinstalleerd worden.</string>
+   <string name="install_failed_verify_timeout">Een timeout tijdens verificatie van de package. Probeer installatie later nogmaals.</string>
    <string name="installing">Installeren…</string>
    <string name="launch">Open</string>
-   <string name="lift_ban">Ban opheffen</string>
    <string name="manage_applications">Het beheer van applicaties</string>
+   <string name="manage_device_administrators">Beheer device administrators</string>
    <string name="ok">OK</string>
    <string name="out_of_space_dlg_text">%1$s kan niet worden geïnstalleerd. Maak ruimte vrij en probeer het opnieuw</string>
    <string name="out_of_space_dlg_title">Geen ruimte meer</string>
@@ -25,13 +34,15 @@
    <string name="Parse_error_dlg_title">Leesfout</string>
    <string name="security_settings_desc">Toestaan dat deze toepassing:</string>
    <string name="settings">Instellingen</string>
-   <string name="uninstall_application_question">Applicatie wissen?</string>
+   <string name="uninstall_activity_text">%1$s is een deel van de volgende applicatie:</string>
    <string name="uninstall_application_text">Deze toepassing zal worden verwijderd</string>
+   <string name="uninstall_application_title">Deinstalleer Applicatie</string>
    <string name="uninstall_done">Klaar met wissen</string>
    <string name="uninstall_failed">Wissen niet succesvol</string>
+   <string name="uninstall_failed_device_policy_manager">Kan niet deinstalleren: dit package is eenn actieve device administrator.</string>
    <string name="uninstall_failed_msg">%1$s konden niet worden verwijderd</string>
-   <string name="uninstall_update_question">Update wissen?</string>
    <string name="uninstall_update_text">De applicatie-update zullen worden verwijderd. U kunt nog steeds gebruik maken van de fabriek versie van de applicatie</string>
+   <string name="uninstall_update_title">Deinstalleer Update</string>
    <string name="uninstalling">Wissen…</string>
    <string name="unknown">Onbekend</string>
    <string name="unknown_apps_dlg_text">Voor veiligheid, is uw telefoon ingesteld om de installatie van applicaties die niet zijn verkregen uit Android Market te blokkeren</string>

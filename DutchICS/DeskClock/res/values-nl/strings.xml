@@ -1,5 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <resources>
+   <string name="auto_silence_never">Uit</string>
+   <string name="auto_silence_summary">Alarm eindigt na %d minuten</string>
+   <string name="auto_silence_title">Automatisch einde</string>
+   <string name="clock_instructions">Selecteer een klok.</string>
+   <string name="control_set_alarm">Zet alarm</string>
+   <string name="control_set_alarm_with_existing">Alarm gezet: %s</string>
+   <string name="default_ringtone_setting_title">Zet standaard ringtone</string>
+   <string name="desk_clock_button_description">Klok Display</string>
+   <string name="hide_clock">Verberg klok</string>
+   <string name="loading_ringtone">Laad ringtone…</string>
+   <string name="show_clock">Toon klok</string>
    <string name="add_alarm">Alarm toevoegen</string>
    <string name="alarm_alert_alert_silenced">Alarm uitgezet na %d minuten</string>
    <string name="alarm_alert_dismiss_text">Afwijzen</string>
@@ -21,11 +32,9 @@
    <string name="analog_gadget">Analoge klok</string>
    <string name="app_label">Klok</string>
    <string name="battery_charging_level">%d%%</string>
-   <string name="correct_time_msg">klik hier om de huidige datum en tijd in te stellen!</string>
    <string name="day">1 dag</string>
    <string name="day_concat">,\u0020</string>
    <string name="days">%s dagen</string>
-   <string name="default_alarm_alert">Standaard alarm melding</string>
    <string name="default_label">Alarm</string>
    <string name="delete">Wissen</string>
    <string name="delete_alarm">Alarm verwijderen</string>

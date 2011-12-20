@@ -1,5 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <resources>
+   <string name="button_sort_by_date">Sorteer op datum</string>
+   <string name="button_sort_by_size">Sorteer op grootte</string>
+   <string name="download_share_dialog">Deel via</string>
+   <string name="download_title_sorted_by_date">Downloads - Gesorteerd op datum</string>
+   <string name="download_title_sorted_by_size">Downloads - Gesorteerd op grootte</string>
+   <string name="restart_download">Herstart</string>
+   <string name="select_all">Selecteer Alles</string>
+   <string name="select_operation_items">Selecteer</string>
+   <string name="selected_count">%1$d van %2$d geselecteerd</string>
+   <string name="selected_format">%1$d geselecteerd</string>
    <string name="app_label">Downloads</string>
    <string name="cancel_running_download">Annuleren</string>
    <string name="confirm_delete_downloads_message">%d geselecteerde downloads worden verwijderd</string>
@@ -20,28 +30,19 @@
    <string name="dialog_title_not_available">Bestand niet beschikbaar</string>
    <string name="dialog_title_queued_body">Bestand nog niet beschikbaar</string>
    <string name="download_error">Mislukt</string>
-   <string name="download_filter_all_downloads">Filter downloads</string>
    <string name="download_info_count_deleted_tasks">%s downloads verwijderd</string>
    <string name="download_info_start_deleted_tasks">Verwijder downloads</string>
-   <string name="download_menu_sort_by_date">Sorteren op tijd</string>
-   <string name="download_menu_sort_by_size">Sorteren op grootte</string>
    <string name="download_no_application_title">Kan bestand niet openen</string>
    <string name="download_paused">Download gepauzeerd</string>
    <string name="download_pending">Wacht op download</string>
    <string name="download_queued">In wachtrij</string>
    <string name="download_running">Bezig</string>
-   <string name="download_running_tab_text">Download</string>
    <string name="download_success">Voltooid</string>
-   <string name="download_successful_tab_text">Gedownload</string>
    <string name="download_title">Downloads</string>
-   <string name="download_waiting_for_network">Wachten op netwerk verbinding</string>
-   <string name="download_waiting_for_wifi">Wacht op Wi-Fi verbinding</string>
-   <string name="download_waiting_to_retry">Wachten om opnieuw te proberen</string>
    <string name="download_when_network_connected">Download wanneer een mobiel netwerk beschikbaar is</string>
    <string name="downloads_operating">Bezig...</string>
    <string name="keep_queued_download">Houden</string>
    <string name="menu_enter_edit_mode">Bewerken</string>
-   <string name="menu_exit_edit_mode">Sluit</string>
    <string name="missing_title">&lt;Onbekend></string>
    <string name="no_downloads">Geen downloads</string>
    <string name="open_download">Open</string>
@@ -55,6 +56,4 @@
    <string name="remove_download">Wissen</string>
    <string name="resume_download">Doorgaan</string>
    <string name="retry_download">Opnieuw proberen</string>
-   <string name="select_all_downloads">Selecteer alles</string>
-   <string name="unselect_all_downloads">Deselecteer alles</string>
 </resources>
