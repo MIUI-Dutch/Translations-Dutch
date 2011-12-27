@@ -245,6 +245,9 @@
    <string name="description_version">Versie:</string>
    <string name="download_failed">Download mislukt</string>
    <string name="download_preview_failed">Voorbeeld laden mislukt</string>
+   <string name="sdcard_status_changed_dialog_message">"Afsluiten.
+
+Heropen om de lijst te verversen."</string>
    <string name="firewall_setting">Contact blokkering</string>
    <string name="invalid_url">Ongeldige URL:</string>
    <string name="loading">Laden...</string>
@@ -292,7 +295,6 @@
    <string name="sd_not_available_low_internal_storage">SD-kaart niet beschikbaar, weinig ruimte op interne opslag</string>
    <string name="sd_not_available_saved_to_internal_storage">Opgeslagen op interne opslag</string>
    <string name="sd_not_available_use_internal_storage">SD-kaart niet beschikbaar, opgeslagen op interne opslag</string>
-   <string name="sdcard_status_changed_dialog_message">Afsluiten.\nHeropen om de lijst te verversen</string>
    <string name="sdcard_status_changed_dialog_title">SD-kaart status gewijzigd</string>
    <string name="unknown">Onbekend nummer</string>
    <string name="user_agreement1">Bij gebruikmaken van de het systeem en online service aangeboden door Xiaomi, lees</string>

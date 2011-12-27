@@ -1,19 +1,17 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <resources>
-   <string name="download_percent">%d%%</string>
-   <string name="notification_paused_in_background">Pauze in achtergrond</string>
-   <string name="wifi_recommended_body" formatted="false">"Deze %s download nu starten verkort batterij gebruik en/of resulteerd in extreem gebruik van de data connectie, wat mogelijk invloed heeft op gebruik binnen of buiten de data bundel.</string>
-   <string name="wifi_required_body" formatted="false">"Gebruik Wi-Fi voor deze %s download.</string>
    <string name="app_label">Downloadbeheer</string>
    <string name="button_cancel_download">Annuleren</string>
    <string name="button_queue_for_wifi">Wachtrij</string>
    <string name="button_start_now">Nu starten</string>
+   <string name="download_percent">%d%%</string>
    <string name="download_unknown_title">&lt;Zonder titel></string>
    <string name="notification_download_complete">Downloaden is voltooid</string>
    <string name="notification_download_failed">Downloaden is mislukt</string>
    <string name="notification_filename_extras">\u0020en nog %d meer</string>
    <string name="notification_filename_separator">,\u0020</string>
    <string name="notification_need_wifi_for_size">Wi-Fi nodig wegens grootte</string>
+   <string name="notification_paused_in_background">Pauze in achtergrond</string>
    <string name="permdesc_accessAllDownloads">Hiermee kan de toepassing alle downloads bekijken en aanpassen die door een toepassing op het systeem zijn gestart</string>
    <string name="permdesc_downloadCacheNonPurgeable">Hiermee kan de toepassing bestanden downloaden naar de downloadcache die niet automatisch kunnen worden verwijderd wanneer downloadbeheer meer ruimte nodig heeft</string>
    <string name="permdesc_downloadCompletedIntent">Hiermee ontvangt u een melding zodra een download is voltooid. Kwaadwillende toepassingen kunnen hiervan gebruikmaken om andere toepassingen die bestanden downloaden, in de war te brengen</string>
@@ -28,6 +26,17 @@
    <string name="permlab_downloadManagerAdvanced">Geavanceerde functies van de downloadbeheerder</string>
    <string name="permlab_downloadWithoutNotification">bestanden downloaden zonder melding</string>
    <string name="permlab_seeAllExternal">Alle downloads naar SD-kaart bekijken</string>
+   <string name="wifi_recommended_body" formatted="false">"Deze %s download nu starten verkort batterij gebruik en/of resulteerd in extreem gebruik van de data connectie, wat mogelijk invloed heeft op gebruik binnen of buiten de data bundel.
+
+
+
+ Klik %s hieronder om deze te downloaden zodra een connectie met Wi-Fi aanwezig is."</string>
    <string name="wifi_recommended_title">In wachtrij voor download via Wi-Fi?</string>
+
+   <string name="wifi_required_body" formatted="false">"Je moet een Wi-Fi connectie gebruiken voor deze %s download.
+
+
+
+ Klik %s hieronder om deze te downloaden zodra een connectie met Wi-Fi aanwezig is."</string>
    <string name="wifi_required_title">Download te groot voor mobiel netwerk</string>
 </resources>

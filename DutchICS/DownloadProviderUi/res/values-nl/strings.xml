@@ -1,16 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <resources>
+   <string name="app_label">Downloads</string>
    <string name="button_sort_by_date">Sorteer op datum</string>
    <string name="button_sort_by_size">Sorteer op grootte</string>
-   <string name="download_share_dialog">Deel via</string>
-   <string name="download_title_sorted_by_date">Downloads - Gesorteerd op datum</string>
-   <string name="download_title_sorted_by_size">Downloads - Gesorteerd op grootte</string>
-   <string name="restart_download">Herstart</string>
-   <string name="select_all">Selecteer Alles</string>
-   <string name="select_operation_items">Selecteer</string>
-   <string name="selected_count">%1$d van %2$d geselecteerd</string>
-   <string name="selected_format">%1$d geselecteerd</string>
-   <string name="app_label">Downloads</string>
    <string name="cancel_running_download">Annuleren</string>
    <string name="confirm_delete_downloads_message">%d geselecteerde downloads worden verwijderd</string>
    <string name="confirm_delete_the_download_item_message">Verwijder download?</string>
@@ -37,8 +29,11 @@
    <string name="download_pending">Wacht op download</string>
    <string name="download_queued">In wachtrij</string>
    <string name="download_running">Bezig</string>
+   <string name="download_share_dialog">Deel via</string>
    <string name="download_success">Voltooid</string>
    <string name="download_title">Downloads</string>
+   <string name="download_title_sorted_by_date">Downloads - Gesorteerd op datum</string>
+   <string name="download_title_sorted_by_size">Downloads - Gesorteerd op grootte</string>
    <string name="download_when_network_connected">Download wanneer een mobiel netwerk beschikbaar is</string>
    <string name="downloads_operating">Bezig...</string>
    <string name="keep_queued_download">Houden</string>
@@ -54,6 +49,11 @@
    <string name="paused_waiting_for_network">Wachten op netwerk verbinding</string>
    <string name="paused_waiting_to_retry">Wachten op nieuwe poging</string>
    <string name="remove_download">Wissen</string>
+   <string name="restart_download">Herstart</string>
    <string name="resume_download">Doorgaan</string>
    <string name="retry_download">Opnieuw proberen</string>
+   <string name="select_all">Selecteer Alles</string>
+   <string name="select_operation_items">Selecteer</string>
+   <string name="selected_count">%1$d van %2$d geselecteerd</string>
+   <string name="selected_format">%1$d geselecteerd</string>
 </resources>

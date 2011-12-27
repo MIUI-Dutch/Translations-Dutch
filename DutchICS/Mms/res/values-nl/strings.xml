@@ -105,6 +105,9 @@
    <string name="downloading">Downloaden</string>
    <string name="draft_separator">", "</string>
    <string name="drm_protected_text">* DRM beschermde tekstt *</string>
+   <string name="undelivered_msg_dialog_body">"Kan dit bericht niet verzenden.
+
+Poging ondernomen: %s."</string>
    <string name="duration_not_a_number">Duur moet bestaan uit numerieke tekens</string>
    <string name="duration_sec">Duur (%s sec)</string>
    <string name="duration_selector_title">Duur voor dia</string>
@@ -393,7 +396,6 @@
    <string name="type_to_compose_text_enter_to_send">Geef hier het bericht in</string>
    <string name="type_to_compose_text_or_leave_blank">Typ bericht of laat leeg</string>
    <string name="type_video">Video</string>
-   <string name="undelivered_msg_dialog_body">Kan dit bericht niet verzenden.\nPoging ondernomen: %s</string>
    <string name="undelivered_msg_dialog_title">Bericht niet afgeleverd</string>
    <string name="undelivered_sms_dialog_body">Kan dit bericht niet verzenden</string>
    <string name="unknown_sender">Onbekende afzender</string>
