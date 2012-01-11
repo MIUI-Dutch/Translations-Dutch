@@ -411,8 +411,8 @@
    <string name="ext_media_nofs_notification_title">Lege SD-kaart</string>
    <string name="ext_media_nomedia_notification_message">SD-kaart verwijderd. Plaats nieuw medium</string>
    <string name="ext_media_nomedia_notification_title">SD-kaart verwijderd</string>
-   <string name="ext_media_safe_unmount_notification_message">U kunt de SD-kaart veilig wissen</string>
-   <string name="ext_media_safe_unmount_notification_title">SD-kaart veilig wissen</string>
+   <string name="ext_media_safe_unmount_notification_message">U kunt de SD-kaart veilig ontkoppelen</string>
+   <string name="ext_media_safe_unmount_notification_title">SD-kaart veilig ontkoppelen</string>
    <string name="ext_media_unmountable_notification_message">SD-kaart beschadigd. U moet de opslag mogelijk opnieuw formatteren</string>
    <string name="ext_media_unmountable_notification_title">SD-kaart beschadigd</string>
    <string name="extmedia_format_button_format">Formatteren</string>
