@@ -53,11 +53,13 @@
    <string name="confirm_clear_search_text">Zoekgeschiedenis wordt gewist</string>
    <string name="confirm_clear_search_title">Wis</string>
    <string name="confirm_delete_all_conversations">Alle conversaties worden gewist</string>
+   <string name="confirm_delete_all_RUIM_messages">Alle berichten op de RUIM-kaart worden gewist.</string>
    <string name="confirm_delete_all_SIM_messages">Alle berichten op de SIM worden verwijderd</string>
    <string name="confirm_delete_conversation">De hele conversatie wordt verwijderd</string>
    <string name="confirm_delete_group_message">Wis alle berichten?</string>
    <string name="confirm_delete_locked_message">Vergrendeld bericht verwijderen?</string>
    <string name="confirm_delete_message">Dit bericht wordt verwijderd</string>
+   <string name="confirm_delete_RUIM_message">Dit bericht op de RUIM-kaart wordt gewist.</string>
    <string name="confirm_delete_SIM_message">Dit bericht op de SIM wordt verwijderd</string>
    <string name="confirm_dialog_locked_title">Vergrendeld bericht verwijderen?</string>
    <string name="confirm_dialog_title">Wissen</string>
@@ -226,10 +228,12 @@
    <string name="pref_sms_storage_title">Opslaginstellingen</string>
    <string name="pref_sms_theme_title">Uiterlijk SMS applicatie</string>
    <string name="pref_summary_allow_3rd_mms">Geef applicaties van derden toegang tot SMS berichten</string>
+   <string name="pref_summary_allow_si_sl_push">Ontvangen van WAP push berichten (SI/SL)</string>
    <string name="pref_summary_auto_delete">Verwijder oude berichten wanneer maximumaantal berichten is bereikt</string>
    <string name="pref_summary_delete_limit">%d berichten per gesprek</string>
    <string name="pref_summary_delivery_reports">Afleverrapporten voor elk verzonden bericht</string>
    <string name="pref_summary_filter_phone">Vaste telefoonnummers filteren, deze kunnen geen SMS ontvangen</string>
+   <string name="pref_summary_manage_ruim_messages">Beheer berichten op RUIM-kaart</string>
    <string name="pref_summary_manage_sim_messages">Berichten beheren die zijn opgeslagen op SIM-kaart</string>
    <string name="pref_summary_mms_auto_retrieval">Berichten automatisch ophalen</string>
    <string name="pref_summary_mms_read_reports">Vraag een leesbevestiging voor elk verzonden bericht</string>
@@ -246,10 +250,12 @@
    <string name="pref_time_auto_group_summary">Tijdsaanduiding voor berichten gegroepeerd per dag</string>
    <string name="pref_time_auto_group_title">Groep</string>
    <string name="pref_title_allow_3rd_mms">Derde partij SMS applicatie</string>
+   <string name="pref_title_allow_si_sl_push">WAP push toestaan</string>
    <string name="pref_title_auto_delete">Oude berichten verwijderen</string>
    <string name="pref_title_delivery_reports">Afleverrapporten</string>
    <string name="pref_title_delivery_ringtone">Afleverrapport geluid</string>
    <string name="pref_title_filter_phone">Vast nummers filteren</string>
+   <string name="pref_title_manage_ruim_messages">Beheer RUIM-kaart berichten</string>
    <string name="pref_title_manage_sim_messages">SIM-kaartberichten beheren</string>
    <string name="pref_title_mms_auto_retrieval">Automatisch ophalen</string>
    <string name="pref_title_mms_delete">Maximumaantal MMS-berichten</string>
@@ -290,8 +296,12 @@
    <string name="resent_message">Opnieuw versturen</string>
    <string name="resize">Grootte wijzigen</string>
    <string name="resize_image_error_information">Ook na verkleinen is afbeelding te groot om te verzenden</string>
+   <string name="ruim_empty">Geen berichten op  RUIM-kaart.</string>
+   <string name="ruim_full_title">RUIM-kaart vol</string>
+   <string name="ruim_manage_messages_title">SMS berichten op RUIM-kaart</string>
    <string name="save">Opslaan</string>
    <string name="save_ringtone">Opslaan als ringtoon</string>
+   <string name="save_to_ruim">opslaan op RUIM-kaart</string>
    <string name="save_to_sim">Opslaan op SIM kaart</string>
    <string name="saved_label">Opgeslagen:</string>
    <string name="saved_ringtone">Beltoon opgeslagen</string>
@@ -358,11 +368,14 @@
    <string name="type_to_compose_text_enter_to_send">Geef hier het bericht in</string>
    <string name="type_to_compose_text_or_leave_blank">Typ bericht of laat leeg</string>
    <string name="type_video">Video</string>
-   <string name="undelivered_msg_dialog_body">Kan dit bericht niet verzenden.\nPoging ondernomen: %s</string>
+   <string name="undelivered_msg_dialog_body">"Kan dit bericht niet verzenden.
+
+Poging ondernomen: %s"</string>
    <string name="undelivered_msg_dialog_title">Bericht niet afgeleverd</string>
    <string name="undelivered_sms_dialog_body">Kan dit bericht niet verzenden</string>
    <string name="unknown_sender">Onbekende afzender</string>
    <string name="unsupported_media_format">Niet ondersteund %1$s formaat</string>
+   <string name="update">Update</string>
    <string name="update_failed">Update mislukt</string>
    <string name="view">Tonen</string>
    <string name="view_bookmark">Toon origineel bericht</string>

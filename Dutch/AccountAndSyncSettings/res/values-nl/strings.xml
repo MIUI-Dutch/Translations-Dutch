@@ -38,7 +38,9 @@
    <string name="nickname_exist">Alias bestaat al</string>
    <string name="preference_change_password_title">Wachtwoord wijzigen</string>
    <string name="provider_label">Abonnementen doorvoeren</string>
-   <string name="really_remove_account_message">Wilt u dit account echt wissen? Als u het account verwijdert, worden ook alle accountberichten, contacten en andere gegevens van de telefoon verwijderd. \nDoorgaan?</string>
+   <string name="really_remove_account_message">"Wilt u dit account echt wissen? Als u het account verwijdert, worden ook alle accountberichten, contacten en andere gegevens van de telefoon verwijderd.
+
+Doorgaan?"</string>
    <string name="really_remove_account_title">Account wissen</string>
    <string name="registered_account">Gebruikersnaam is geregistreerd</string>
    <string name="remove_account_failed">Dit account is vereist voor sommige toepassingen. U kunt het account alleen wissen door de telefoon te herstellen naar de fabrieksinstellingen (al uw persoonlijke gegevens worden gewist). U kunt dit doen via de toepassing Instellingen, bij \'Privacy\'</string>
@@ -61,7 +63,10 @@
    <string name="sync_item_title">%s synchroniseren</string>
    <string name="sync_menu_sync_cancel">Synchronisatie annuleren</string>
    <string name="sync_menu_sync_now">Nu synchroniseren</string>
-   <string name="sync_one_time_sync">Aanraken om nu te synchroniseren\n%1$s</string>
+
+   <string name="sync_one_time_sync">"Aanraken om nu te synchroniseren
+
+%1$s"</string>
    <string name="sync_plug" />
    <string name="sync_really_delete">De items wissen</string>
    <string name="sync_settings">Account- en synchronisatie instellingen</string>

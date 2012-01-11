@@ -26,13 +26,16 @@
    <string name="permlab_downloadManagerAdvanced">Geavanceerde functies van de downloadbeheerder</string>
    <string name="permlab_downloadWithoutNotification">bestanden downloaden zonder melding</string>
    <string name="permlab_seeAllExternal">Alle downloads naar SD-kaart bekijken</string>
-   <string name="wifi_recommended_body" formatted="false">"Deze %s download nu starten verkort batterij gebruik en/of resulteerd in extreem gebruik van de data connectie, wat mogelijk invloed heeft op gebruik binnen of buiten de data bundel.
+   <string name="wifi_recommended_body">"Door deze download nu te starten zal dat de batterijduur verkorten en/of resulteren in excessief gebruik van de mobiele data connectie, en ook de databundel zal gebruikt worden.
 
 
 
- Klik %s hieronder om deze te downloaden zodra een connectie met Wi-Fi aanwezig is."</string>
+ Klik \"Queue\" om deze download te starten als er een Wi-Fi netwerk beschikbaar is.
+
+
+
+ Je kan de standaard instellingen wijzigen in de \"Instellingen\" pagina."</string>
    <string name="wifi_recommended_title">In wachtrij voor download via Wi-Fi?</string>
-
    <string name="wifi_required_body" formatted="false">"Je moet een Wi-Fi connectie gebruiken voor deze %s download.
 
 

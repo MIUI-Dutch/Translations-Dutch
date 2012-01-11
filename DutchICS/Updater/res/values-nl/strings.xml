@@ -9,6 +9,11 @@
    <string name="apply_unable_to_reboot_toast">Kan niet in recovery modus opstarten</string>
    <string name="apply_update_dialog_cancel_button">Annuleer update</string>
    <string name="apply_update_dialog_update_button">Update</string>
+   <string name="apply_update_fail">Systeem update fout</string>
+
+   <string name="apply_update_guide">Updatie in achtergrond, heeft geen invloed op normaal gebruik</string>
+
+   <string name="apply_update_refuse">System update is bezig, installeer later</string>
    <string name="apply_upload_info_message">Update toepassen?</string>
    <string name="apply_upload_info_message_manually">Uitschakelen, start Recovery handmatig om de update toe te passen op SD-kaart, in de %s. Als je een backup wilt, backup en ga terug naar systeem update</string>
    <string name="applying_rom_message">Toepassen ROM</string>
@@ -19,6 +24,8 @@
    <string name="check_update_when_wifi_available">Alleen via Wi-Fi op updates controleren</string>
    <string name="checking_for_updates">Controleren op updates</string>
    <string name="confirm_download_cancelation_dialog_message">Wil je echt huidige download annuleren?</string>
+
+   <string name="copy_install_log">Kopieer op klembord</string>
    <string name="current_version_text">Laatste versie:</string>
    <string name="dialog_no">Nee</string>
    <string name="dialog_ok">OK</string>
@@ -33,10 +40,22 @@
    <string name="exception_while_downloading">Fout tijdens downloaden updates</string>
    <string name="file_not_found_error_message">Update bestand niet gevonden</string>
    <string name="finish_download">Download compleet</string>
+
+   <string name="install_email">Installeer E-mail software</string>
    <string name="install_file_explorer">installeer bestands beheer</string>
    <string name="install_rom_from_sd">Selecteer ROM Installatie</string>
+
+   <string name="install_whole_rom">Download van volledige ROM package is aanbevolen</string>
    <string name="loading">Verbinden met MIUI</string>
    <string name="md5_check_cancelled">MD5 controle is geannuleerd</string>
+
+   <string name="mione_update_fail_description">Update nogmaals</string>
+
+   <string name="mione_update_fail_title">Update Fout</string>
+
+   <string name="mione_update_success_description">Wissel systeem</string>
+
+   <string name="mione_update_success_title">Update compleet</string>
    <string name="move_data_to_sdcard_not_enough_space_message">Niet genoeg ruimte op SD-kaart om %dMB data te verplaatsen</string>
    <string name="move_data_to_sdcard_title">Move data naar SD-kaart</string>
    <string name="moving_data_to_sdcard_message">Data wordt verplaatst naar SD-kaart</string>
@@ -60,11 +79,14 @@
    <string name="sdcard_has_no_space_dialog_title">SD-kaart heeft te weinig vrije ruimte</string>
    <string name="sdcard_is_not_present_dialog_body">Je hebt een SD-kaart nodig om de update te kunnen downloaden</string>
    <string name="sdcard_is_not_present_dialog_title">SD-kaart niet gevonden</string>
+
+   <string name="send_install_log">Zend fout log</string>
+
+   <string name="send_install_log_error">Zenden fout log is mislukt</string>
    <string name="sign_in_add_account_helper">Je telefoon heeft geen MIUI account geconfigureerd, creëer één voor punten</string>
    <string name="sign_in_info">"Je update ranglijst is%1$s
 
 %2$s gebruikers zijn ingelogd voor MIUI %3$s"</string>
-
    <string name="sign_in_info_rank_more">"Je update ranglijst is na %1$s
 
 Meer dan %2$s gebruikers zijn ingelogd voor MIUI %3$s"</string>

@@ -9,8 +9,9 @@
    <string name="belong_no_group">Niet in een groep</string>
    <string name="birthday_picker_reminder">Verjaardag herinnering</string>
    <string name="birthday_remind">Verjaardags herinnering</string>
-   <string name="birthday_remind_3days_notify">Over 3 dagen is %s jarig, %s vergeet geen felicitatie te sturen!</string>
-   <string name="birthday_remind_notify">Vandaag is %s verjaardag, %s vergeet geen felicitatie te sturen!</string>
+   <string name="birthday_remind_3days_notify" formatted="false">"3 dagen voor %s %s vergeet niet om een kaart en/of geschenk te kopen"</string>
+
+   <string name="birthday_remind_notify" formatted="false">"Vandaag is %s %s vergeet niet te feliciteren of een geschenk te geven"</string>
    <string name="btn_cancel">Annuleren</string>
    <string name="btn_confirm">Ok</string>
    <string name="btn_delete">Wissen</string>
@@ -47,7 +48,8 @@
    <string name="callButtonText">Bellen</string>
    <string name="callDetailTitle">Oproepgegevens</string>
    <string name="callrecordview_item_newcontact">Nieuw Contact</string>
-   <string name="callrecordview_item_op_time_minutes_seconds">%d min %d sec</string>
+
+   <string name="callrecordview_item_op_time_minutes_seconds" formatted="false">%d min %d sec</string>
    <string name="callrecordview_item_op_time_missed">Gemist</string>
    <string name="callrecordview_item_op_time_only_minutes">%d min</string>
    <string name="callrecordview_item_op_time_only_seconds">%d sec</string>
@@ -175,12 +177,16 @@
    <string name="export_success_title">Exporten succesvol</string>
    <string name="export_to_sdcard">Exporteren naar SD-kaart</string>
    <string name="export_to_sim">Exporteren naar SIM-kaart</string>
-   <string name="exporting_contact_failed_message">Kan contactgegevens niet exporteren. Reden: \"%s\"</string>
+
+   <string name="exporting_contact_failed_message">"Exporteren contacten data mislukt.
+
+Reden: \"%s\""</string>
    <string name="exporting_contact_failed_title">Exporteren mislukt</string>
    <string name="exporting_contact_list_message">Contactgegevens exporteren naar \"%s\"...</string>
    <string name="exporting_contact_list_progress">%s van %s contacten</string>
    <string name="exporting_contact_list_title">Contactgegevens exporteren...</string>
-   <string name="extendSelection">Selecteer [%s] naar [%s]</string>
+
+   <string name="extendSelection" formatted="false">Selecteer [%s] tot [%s]</string>
    <string name="fail_message_account_needed">Stel eerst een MIUI account in a.u.b</string>
    <string name="fail_reason_could_not_initialize_exporter">Kan exportfunctie niet initialiseren: \"%s\"</string>
    <string name="fail_reason_could_not_open_file">Kan \"%s\" niet openen: %s</string>
@@ -238,7 +244,12 @@
    <string name="liveFolderAll">Alle contacten</string>
    <string name="liveFolderFavorites">Contactpersonen met sterren</string>
    <string name="liveFolderPhone">Contactpersonen met telefoonnummers</string>
-   <string name="locale_change_in_progress">Contacten bijwerken om taal te wijzigen.\n\nEven geduld...</string>
+
+   <string name="locale_change_in_progress">"Contacten bijwerken om taal te wijzigen.
+
+
+
+Even geduld..."</string>
    <string name="manage_groups">Beheer groepen</string>
    <string name="map_custom">Adres %s weergeven</string>
    <string name="map_home">Privé-adres weergeven</string>
@@ -345,7 +356,10 @@
    <string name="pref_title_import">Importeer contacten</string>
    <string name="preferences_title">Voorkeuren</string>
    <string name="private_num">Privé-nummer</string>
-   <string name="progress_shower_message">%s\n%s</string>
+
+   <string name="progress_shower_message">"%1$s
+
+%2$s"</string>
    <string name="quick_contact_add_bl">Zwarte lijst</string>
    <string name="quick_contact_add_live_contact">Toevoegen aan...</string>
    <string name="quick_contact_call">Telefoon</string>
@@ -412,9 +426,13 @@
    <string name="simCard">SIM kaart</string>
    <string name="simContacts_emptyLoading">Laden van SIM-kaart...</string>
    <string name="simContacts_title">Contacten op SIM-kaart</string>
-   <string name="simExportCancelled">Kopiëren geannuleerd\n% contacten %s gekopiëerd van SIM kaart</string>
+
+   <string name="simExportCancelled" formatted="false">"Kopieren is geannuleerd
+
+%s Contacten in %s zijn niet gekopieerd naar de SIM-kaart."</string>
    <string name="simExportLoadingAdn">Lezen van SIM kaart, dit kan even duren, geduld a.u.b</string>
-   <string name="simExportNoSpace">Onvoldoende ruimte op de SIM kaart om %s contacten op te slaan. Er kunnen maximaal %s contacten worden opgeslagen</string>
+
+   <string name="simExportNoSpace" formatted="false">SIM card full, not enough space to store %s contacts, can only store %s</string>
    <string name="sip_address">VOIP</string>
    <string name="sms_assistant">SMS naar %s</string>
    <string name="sms_callback">SMS terugbellen</string>
@@ -448,8 +466,22 @@
    <string name="toast_for_failed_saving_nickname">Opslaan van wijzigingen mislukt</string>
    <string name="toast_for_saving_nickname">Wijzigingen opslaan</string>
    <string name="unknown">Onbekend</string>
-   <string name="upgrade_in_progress">Contacten bijwerken.\n\nEven geduld...</string>
-   <string name="upgrade_out_of_memory">Contacten worden bijgewerkt.\n\nHet bijwerken gebruikt ongeveer %dMb van interne telefoon opslag.\n\nkies één van de volgende opties:</string>
+
+   <string name="upgrade_in_progress">"Contacten bijwerken.
+
+
+
+Even geduld..."</string>
+
+   <string name="upgrade_out_of_memory">"Contacten worden bijgewerkt.
+
+
+
+Het bijwerken gebruikt ongeveer %dMb van interne telefoon opslag.
+
+
+
+kies één van de volgende opties:"</string>
    <string name="upgrade_out_of_memory_retry">Opnieuw verversen</string>
    <string name="upgrade_out_of_memory_uninstall">De-installeer enkele applicaties</string>
    <string name="use_lunar_birthday">Gebruik maan kalender</string>

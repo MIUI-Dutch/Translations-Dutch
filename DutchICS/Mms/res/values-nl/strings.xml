@@ -14,6 +14,7 @@
    <string name="add_slide_hint">Selecteer om nieuwe dia te maken</string>
    <string name="add_smiley">Smiley</string>
    <string name="add_subject">Onderwerp toevoegen</string>
+   <string name="add_timing">Timing</string>
    <string name="add_video">Video toevoegen</string>
    <string name="adding_attachments">Wachten a.u.b. terwijl de bijlagen worden toegevoegd</string>
    <string name="adding_attachments_title">Bijlagen aan het toevoegen</string>
@@ -84,6 +85,7 @@
    <string name="copy_to_sdcard_fail">Bijlage niet gekopieerd naar SD-kaart</string>
    <string name="copy_to_sdcard_success">Bijlage gekopieerd naar SD-kaart</string>
    <string name="database_corruption">Database corrupt, herstellen database</string>
+   <string name="date_timed_message_dialog">Datum:</string>
    <string name="delete">Wissen</string>
    <string name="delete_bookmark">Verwijder favoriet</string>
    <string name="delete_message">Bericht verwijderen</string>
@@ -94,6 +96,7 @@
    <string name="delivery_header_title">Rapport</string>
    <string name="delivery_report_activity">Ontvangstbevestiging</string>
    <string name="delivery_toast_body">Message received by %s</string>
+   <string name="disable_notifications_dialog_message">Stop dubbele SMS bericht notificatie van standaard Messaging app?</string>
    <string name="discard">Annuleer</string>
    <string name="discard_message">Annuleer</string>
    <string name="discard_message_reason">Uw bericht wordt verwijderd omdat er geen geldige ontvangers zijn</string>
@@ -105,9 +108,6 @@
    <string name="downloading">Downloaden</string>
    <string name="draft_separator">", "</string>
    <string name="drm_protected_text">* DRM beschermde tekstt *</string>
-   <string name="undelivered_msg_dialog_body">"Kan dit bericht niet verzenden.
-
-Poging ondernomen: %s."</string>
    <string name="duration_not_a_number">Duur moet bestaan uit numerieke tekens</string>
    <string name="duration_sec">Duur (%s sec)</string>
    <string name="duration_selector_title">Duur voor dia</string>
@@ -122,6 +122,7 @@ Poging ondernomen: %s."</string>
    <string name="error_code_label">Foutcode:</string>
    <string name="error_state">Inconsistente staat</string>
    <string name="error_state_text">De staat van de conversaties en de ontvangers is inconsistent. Stuur een bug report aan android-sms-bugs@google.com</string>
+   <string name="error_timed_msg">Kan geen tijdstip in verleden instellen</string>
    <string name="exceed_message_size_limitation">Limiet berichtgrootte bereikt</string>
    <string name="exit_edit_mode">Verlaat bewerken</string>
    <string name="expire_on">Verloopt: %s</string>
@@ -171,6 +172,7 @@ Poging ondernomen: %s."</string>
    <string name="menu_preferences">Instellingen</string>
    <string name="menu_search">Zoek</string>
    <string name="menu_send_email">E-mail naar %s verzenden</string>
+   <string name="menu_timed_message">Vertraagd Bericht</string>
    <string name="menu_unlock">Bericht\nontgrendelen</string>
    <string name="menu_view">Conversatie weergeven</string>
    <string name="menu_view_contact">Contactpersonen tonen</string>
@@ -190,7 +192,6 @@ Poging ondernomen: %s."</string>
    <string name="message_send_failed_title">Bericht niet verzonden</string>
    <string name="message_send_read_report">Leesbevestiging wordt verzonden</string>
    <string name="message_size_label">Berichtgrootte:</string>
-   <string name="message_title">%1$s %2$s zei:</string>
    <string name="message_too_big_for_audio">Het bericht is te groot om audio bij te voegen</string>
    <string name="message_too_big_for_video">Kan video niet toevoegen. Maximale grootte bericht bereikt</string>
    <string name="message_type_label">Type:</string>
@@ -200,7 +201,9 @@ Poging ondernomen: %s."</string>
    <string name="move_down">Omlaag verplaatsen</string>
    <string name="move_up">Omhoog verplaatsen</string>
    <string name="multi_select_title_conversation">%1$s conversatie(s) geselecteerd</string>
+   <string name="multi_select_title_conversation_init">Selecteer conversatie(s)</string>
    <string name="multi_select_title_message">%1$s bericht(en) geselecteerd</string>
+   <string name="multi_select_title_message_init">Selecteer bericht(en)</string>
    <string name="multimedia_message">MMS-bericht</string>
    <string name="multimedia_notification">Melding MMS-bericht</string>
    <string name="new_message">Nieuw bericht</string>
@@ -309,6 +312,8 @@ Poging ondernomen: %s."</string>
    <string name="recent_contact_list_title">Recent</string>
    <string name="recipient_editor_count_format">Totaal: %d contact(en)</string>
    <string name="recipient_label">Ontvanger:</string>
+   <string name="refresh">Ververs</string>
+   <string name="refresh_failed">Update mislukt</string>
    <string name="refreshing">Vernieuwen...</string>
    <string name="remove">Wissen</string>
    <string name="remove_music">Muziek verwijderen</string>
@@ -383,6 +388,8 @@ Poging ondernomen: %s."</string>
    <string name="subject_label">Onderwerp:</string>
    <string name="text_in_popup_saved_to_clipboard">Selectie uit pop-up venster bewaard op klembord</string>
    <string name="text_message">SMS-bericht</string>
+   <string name="time_timed_message_dialog">Tijd:</string>
+   <string name="title_timed_message_dialog">Stel de tijd in voor dit vertraagde bericht</string>
    <string name="to_address_label">Aan:</string>
    <string name="to_count">%d contacten</string>
    <string name="to_hint">Aan</string>
@@ -396,16 +403,21 @@ Poging ondernomen: %s."</string>
    <string name="type_to_compose_text_enter_to_send">Geef hier het bericht in</string>
    <string name="type_to_compose_text_or_leave_blank">Typ bericht of laat leeg</string>
    <string name="type_video">Video</string>
+   <string name="undelivered_msg_dialog_body">"Kan dit bericht niet verzenden.
+
+
+
+Poging ondernomen: %s."</string>
    <string name="undelivered_msg_dialog_title">Bericht niet afgeleverd</string>
    <string name="undelivered_sms_dialog_body">Kan dit bericht niet verzenden</string>
    <string name="unknown_sender">Onbekende afzender</string>
    <string name="unsupported_media_format">Niet ondersteund %1$s formaat</string>
-   <string name="update_failed">Update mislukt</string>
    <string name="view">Tonen</string>
    <string name="view_bookmark">Toon origineel bericht</string>
    <string name="view_delivery_report">Ontvangstbevestiging</string>
    <string name="view_message_details">Berichtdetails tonen</string>
    <string name="view_slideshow">Diashow tonen</string>
    <string name="wap_push_title">[WAP Push]\u0020</string>
+   <string name="will_send_at">Wordt verzonden op: %s</string>
    <string name="yes">OK</string>
 </resources>

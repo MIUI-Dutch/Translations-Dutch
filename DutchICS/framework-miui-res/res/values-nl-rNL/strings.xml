@@ -245,10 +245,12 @@
    <string name="description_version">Versie:</string>
    <string name="download_failed">Download mislukt</string>
    <string name="download_preview_failed">Voorbeeld laden mislukt</string>
-   <string name="sdcard_status_changed_dialog_message">"Afsluiten.
-
-Heropen om de lijst te verversen."</string>
    <string name="firewall_setting">Contact blokkering</string>
+   <string name="first_back_long_press_message">"Wil je de functie aanzetten voor het ingedrukt houden van de Terug-toets voor het afsluiten van de aktieve applicatie en zijn achtergrond processen?
+
+ via Instellingen > Systeem > Toetsen"</string>
+   <string name="first_back_long_press_title">Terug-toets gedrag</string>
+   <string name="force_exit_message">Succesvol afgesloten \"%1$s\"</string>
    <string name="invalid_url">Ongeldige URL:</string>
    <string name="loading">Laden...</string>
    <string name="lock_screen_date">EEEE, d MMMM</string>
@@ -256,9 +258,6 @@ Heropen om de lijst te verversen."</string>
    <string name="lockscreen_sms_bottom_hint">Schuif omlaag om SMS te openen</string>
    <string name="lockscreen_time_bottom_hint">Schuif omlaag om te ontgrendelen</string>
    <string name="lockscreen_unlock_sim_via_puk">Gebruik PUK om SIM te ontgrendelen</string>
-   <string name="lunar_calendar">Maan Kalender\u0020</string>
-   <string name="lunar_ling">\u0020</string>
-   <string name="lunar_year">\u0020</string>
    <string name="miui_copyright_title">Copyright</string>
    <string name="miui_privacy_policy_title">Algemene voorwaarden</string>
    <string name="miui_user_agreement_title">Gebruikers overeenkomst</string>
@@ -269,6 +268,7 @@ Heropen om de lijst te verversen."</string>
    <string name="online_no_network">Niet mogelijk om te verbinden met het netwerk</string>
    <string name="online_search_hint">Zoek naar online bron</string>
    <string name="payphone">Betaal telefoon</string>
+   <string name="phoneTypeMms">Mms</string>
    <string name="private_num">Privé nummer</string>
    <string name="reboot_confirm">De telefoon wordt herstart. Doorgaan?</string>
    <string name="reboot_progress">Herstarten...</string>
@@ -295,6 +295,9 @@ Heropen om de lijst te verversen."</string>
    <string name="sd_not_available_low_internal_storage">SD-kaart niet beschikbaar, weinig ruimte op interne opslag</string>
    <string name="sd_not_available_saved_to_internal_storage">Opgeslagen op interne opslag</string>
    <string name="sd_not_available_use_internal_storage">SD-kaart niet beschikbaar, opgeslagen op interne opslag</string>
+   <string name="sdcard_status_changed_dialog_message">"Afsluiten.
+
+Heropen om de lijst te verversen."</string>
    <string name="sdcard_status_changed_dialog_title">SD-kaart status gewijzigd</string>
    <string name="unknown">Onbekend nummer</string>
    <string name="user_agreement1">Bij gebruikmaken van de het systeem en online service aangeboden door Xiaomi, lees</string>

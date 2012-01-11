@@ -99,7 +99,9 @@
    <string name="running_face_detection">Gezichtsherkenning bezig...</string>
    <string name="save">Opslaan</string>
    <string name="save_pic_error">Kan afbeelding niet bewaren!</string>
-   <string name="save_pic_to_success">Afbeelding met succes bewaard!</string>
+   <string name="save_pic_to_success">"Afbeelding met succes bewaard op
+
+%s"</string>
    <string name="save_to_hint">Opslaan in %s</string>
    <string name="save_to_sdcard">Bewaar op SD-kaart</string>
    <string name="saving_image">Afbeelding opslaan...</string>

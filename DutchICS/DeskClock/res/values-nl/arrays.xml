@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <string-array name="alarm_set">
         <item>Dit alarm is ingesteld voor minder dan 1 minuut vanaf nu.</item>
@@ -19,6 +19,24 @@
         <item>30 minuten</item>
     </string-array>
     <string-array name="snooze_duration_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>Off</item>
+        <item>5 minuten</item>
+        <item>10 minuten</item>
+        <item>15 minuten</item>
+        <item>20 minuten</item>
+        <item>25 minuten</item>
+        <item>30 minuten</item>
+    </string-array>
+    <string-array name="auto_silence_values">
+        <item>-1</item>
         <item>5</item>
         <item>10</item>
         <item>15</item>

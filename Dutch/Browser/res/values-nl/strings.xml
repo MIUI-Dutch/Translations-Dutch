@@ -89,7 +89,15 @@
    <string name="download_sdcard_busy_dlg_title">SD-kaart bezig</string>
    <string name="download_unknown_title">&lt;geen titel></string>
    <string name="edit_bookmarkfolder_header">Bewerk map</string>
-   <string name="email_body">Website feedback: \n%s\n AUB geef je feedback: \n\n</string>
+   <string name="email_body">"Website feedback:
+
+%s
+
+ AUB geef je feedback: 
+
+
+
+"</string>
    <string name="email_subject">MIUI Browser Feedback</string>
    <string name="exit">Verlaten</string>
    <string name="exit_confirmation">Vraag me niet weer</string>
@@ -100,7 +108,8 @@
    <string name="exported_bookmark_file_name">Mijn Favorieten</string>
    <string name="exported_data_file_name">Mijn Data</string>
    <string name="feedback">Feedback</string>
-   <string name="few_match">%d/%d</string>
+
+   <string name="few_match" formatted="false">%d/%d</string>
    <string name="file_picker_new_folder">Nieuwe map</string>
    <string name="file_picker_sdcard_not_found">SD-kaart niet gevonden, controleer of je toestel is verbonden met je PC</string>
    <string name="find_dot">Vind op pagina</string>

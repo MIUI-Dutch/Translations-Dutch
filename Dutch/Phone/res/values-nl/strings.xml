@@ -97,7 +97,9 @@
    <string name="callFailed_timedOut">Geen reactie, timed out</string>
    <string name="callFailed_unobtainable_number">Ongeldig nummer</string>
    <string name="callFailed_userBusy">Lijn bezet</string>
-   <string name="calling_via_template">Bellen via ^1\n</string>
+   <string name="calling_via_template">"Bellen via ^1
+
+"</string>
    <string name="callSimEntry">Bellen</string>
    <string name="cancel">Annuleer</string>
    <string name="card_title_call_ended">Gesprek beeindigd</string>
@@ -217,6 +219,7 @@
    <string name="enable_proximity_summary">Nabijheidssensor tijdens gesprek</string>
    <string name="enable_proximity_title">Nabijheidssensor</string>
    <string name="enable_sim_pin">SIM PIN inschakelen</string>
+   <string name="enable_telocation_title">Toon attributen voor nummer</string>
    <string name="enforce_proximity_summary">Voorkom onbewust gebruik van uw telefoon bij inkomende oproepen</string>
    <string name="enforce_proximity_title">Nabijheidssensor</string>
    <string name="enter_edit_mode">Wis</string>
@@ -241,8 +244,14 @@
    <string name="fdn_invalid_number">FDN niet geupdate: nummer kan niet meer dan 20 getallen bevatten</string>
    <string name="fdn_only_error">Operaties zijn alleen toegestaan ​​op vaste nummers</string>
    <string name="fdnListLabel">FDN lijst</string>
-   <string name="fw_change_failed">Nummer doorschakelen niet gelukt.\nNeem contact op met uw provider als dit probleem blijft voorkomen</string>
-   <string name="fw_get_in_vm_failed">Niet gelukt om huidige doorschakel instellingen op te halen en te bewaren.\nWilt u toch naar de nieuwe provider overschakelen?</string>
+
+   <string name="fw_change_failed">"Nummer doorschakelen niet gelukt.
+
+Neem contact op met uw provider als dit probleem blijft voorkomen"</string>
+
+   <string name="fw_get_in_vm_failed">"Niet gelukt om huidige doorschakel instellingen op te halen en te bewaren.
+
+Wilt u toch naar de nieuwe provider overschakelen?"</string>
    <string name="general_news_settings">Algemeen nieuws</string>
    <string name="get_smsc_address_error">Fout bij benaderen SMS centrale, probeer het later opnieuw</string>
    <string name="get_smsc_address_timeout">Time out bij benaderen SMS centrale, Probeer het later opnieuw</string>
@@ -415,14 +424,29 @@
    <string name="ota_title_activate">Activeer uw telefoon</string>
    <string name="ota_title_activate_success">Telefoon is geactiveerd!</string>
    <string name="ota_title_problem_with_activation">Probleem met activatie</string>
-   <string name="ota_touch_activate">Een speciale oproep is vereist om de telefoon service te activeren. \n\nNa het drukken op “Activeren”, kunt u naar de instructie luisteren om de telefoon te activeren</string>
+
+   <string name="ota_touch_activate">"Een speciale oproep is vereist om de telefoon service te activeren.
+
+
+
+Na het drukken op “Activeren”, kunt u naar de instructie luisteren om de telefoon te activeren"</string>
    <string name="ota_try_again">Probeer opnieuw</string>
-   <string name="ota_unsuccessful">Uw telefoon is niet geactiveerd. \nU kunt proberen een gebied te vinden met betere ontvangst (Bij een raam, buiten). \n\nProbeer opnieuw of bel klantenservice voor meer opties</string>
+
+   <string name="ota_unsuccessful">"Uw telefoon is niet geactiveerd.
+
+U kunt proberen een gebied te vinden met betere ontvangst (Bij een raam, buiten). 
+
+
+
+Probeer opnieuw of bel klantenservice voor meer opties"</string>
    <string name="other_settings">Andere oproep instellingen</string>
    <string name="password">Wachtwoord</string>
    <string name="password_title">Wachtwoord</string>
    <string name="pause_prompt_no">Nee</string>
-   <string name="pause_prompt_str">Versturen van tonen\n</string>
+
+   <string name="pause_prompt_str">"Versturen van tonen
+
+"</string>
    <string name="pause_prompt_yes">Ja</string>
    <string name="payphone">Betaal telefoon</string>
    <string name="phone_call_pref_title">Instellingen inkomende oproepen</string>
@@ -435,7 +459,10 @@
    <string name="pin_attempts">\n%d opnieuw resterende</string>
    <string name="pin_changed">SIM PIN succesvol veranderd</string>
    <string name="pin_failed">De PIN die u ingevoerd heeft is incorrect</string>
-   <string name="pin_lock_warning">\nDe telefoon gaat op slot bij foutive invoer!</string>
+
+   <string name="pin_lock_warning">"
+
+De telefoon gaat op slot bij foutive invoer!"</string>
    <string name="pin_progress_change_pin">Wijzigen PIN...</string>
    <string name="pin_progress_change_pin2">Wijzigen PIN2...</string>
    <string name="pin_progress_set_fdn_lock">Instellen FDN blokkade...</string>
@@ -443,7 +470,10 @@
    <string name="pin_progress_unlock_icc">Deblokkeer SIM kaart...</string>
    <string name="pin2_changed">PIN2 succesvol veranderd</string>
    <string name="pin2_invalid">FDN niet geupdate: U heeft een foute PIN ingevoerd</string>
-   <string name="pin2_lock_warning">\nLet op, PIN2 geralateerde functies gaan op slot bij foutieve invoer!</string>
+
+   <string name="pin2_lock_warning">"
+
+Let op, PIN2 geralateerde functies gaan op slot bij foutieve invoer!"</string>
    <string name="pin2_locked_message">Incorrect PIN2, and the PIN2 related functionality is locked. Please reset PIN2 by PUK2</string>
    <string name="port">Poort</string>
    <string name="port_title">Poort nummer</string>
@@ -456,21 +486,27 @@
    <string name="pref_edit_custom_location_title">Wijzig</string>
    <string name="pref_more_settings_title">Meer instellingen</string>
    <string name="pref_outgoing_call_title">Uitgaande oproepen</string>
-   <string name="prefered_network_type_pref_entries_3g_prefered">Bij voorkeur 3G</string>
-   <string name="prefered_network_type_pref_entries_auto">Automatisch</string>
-   <string name="prefered_network_type_pref_entries_only_2g">Alleen 2G (stroombesparend)</string>
-   <string name="prefered_network_type_pref_entries_only_3g">Alleen 3G</string>
    <string name="prefered_network_type_title">Kies netwerk type</string>
+   <string name="preferred_network_mode_cdma">CDMA</string>
    <string name="preferred_network_mode_dialogtitle">Netwerk modus bij voorkeur</string>
+   <string name="preferred_network_mode_gsm_umts">GSM/WCDMA</string>
    <string name="preferred_network_mode_summary">Verander het netwerk werkings modus</string>
    <string name="preferred_network_mode_title">Netwerk modus</string>
+   <string name="preferred_network_type_entries_3g_preferred">3G preferred</string>
+   <string name="preferred_network_type_entries_auto">Automatisch</string>
+   <string name="preferred_network_type_entries_global">Global</string>
+   <string name="preferred_network_type_entries_only_2g">Alleen 2G (power-saving)</string>
+   <string name="preferred_network_type_entries_only_3g">Alleen 3G</string>
    <string name="primary_account_summary_with">Primair account. %s</string>
    <string name="private_num">Privé nummer</string>
    <string name="progress_dialog_exiting_ecm">Verlaten van noodoproep modus</string>
    <string name="proxy_address">Proxy adres</string>
    <string name="proxy_address_title">Uitgaand proxy-adres</string>
    <string name="pstn_phone">Mobiele telefoon oproep</string>
-   <string name="puk_lock_warning">\nLetop, de SIM card gaat op slot bij foutieve invoer</string>
+
+   <string name="puk_lock_warning">"
+
+Letop, de SIM card gaat op slot bij foutieve invoer"</string>
    <string name="puk_unlocked">Uw SIM card is ontgrendelt. Uw telefoon wordt nu ontgrendelt…</string>
    <string name="puk2_requested">Wachtwoord niet correct, SIM is vergrendeld! PUK2 aangevraagd</string>
    <string name="radio_off_error">A.u.b. radio aanzetten alvorens deze instellingen te bekijken</string>
@@ -542,7 +578,10 @@
    <string name="simContactName">Naam</string>
    <string name="simContactNumber">Nummer</string>
    <string name="simContacts_empty">Geen contacten op uw SIM kaart</string>
-   <string name="simContacts_empty_add_contact_hint">\nkies menu om er een toe te voegen</string>
+
+   <string name="simContacts_empty_add_contact_hint">"
+
+kies menu om er een toe te voegen"</string>
    <string name="simContacts_emptyLoading">Lezen uit SIM kaart…</string>
    <string name="simContacts_title">Selecteer contacten om te importeren</string>
    <string name="sip_account_list">SIP accounts</string>
@@ -598,17 +637,29 @@
    <string name="technology_news_enable">Technologie nieuws ingeschakeld</string>
    <string name="third_party_account_summary">Dit account is momenteel in gebruik door de %s toepassing</string>
    <string name="throttle_current_usage">Gebruikte data in huidige periode</string>
-   <string name="throttle_data_rate_reduced_subtext">%1$s maximaal overschreden\nData rate teruggebracht tot %2$d Kb/s</string>
+
+   <string name="throttle_data_rate_reduced_subtext">"%1$s maximaal overschreden
+
+Data rate teruggebracht tot %2$d Kb/s"</string>
    <string name="throttle_data_usage">Data gebruik</string>
    <string name="throttle_data_usage_subtext">%1$s (%2$d٪) van %3$s periode maximumaal</string>
    <string name="throttle_help">Meer leren</string>
    <string name="throttle_help_subtext">Meer informatie over uw provider\'s mobiele netwerk data beleid</string>
    <string name="throttle_rate">Data rate beleid</string>
    <string name="throttle_rate_subtext">Data rate teruggebracht tot %1$d Kb/s als data limiet wordt overschreden</string>
-   <string name="throttle_status_subtext">%1$s (%2$d٪) van %3$s periode maximaal\nVolgende periode start over %4$d dagen (%5$s)</string>
+
+   <string name="throttle_status_subtext">"%1$s (%2$d٪) van %3$s periode maximaal
+
+Volgende periode start over %4$d dagen (%5$s)"</string>
    <string name="throttle_time_frame">Data geruik periode</string>
-   <string name="throttle_time_frame_subtext">%1$d٪ van cyclus verstreken\nVolgende periode start over %2$d dagen (%3$s)</string>
-   <string name="touchLockText">Dubbelklikken op \n om te ontgrendelen</string>
+
+   <string name="throttle_time_frame_subtext">"%1$d٪ van cyclus verstreken
+
+Volgende periode start over %2$d dagen (%3$s)"</string>
+
+   <string name="touchLockText">"Dubbelklikken op
+
+ om te ontgrendelen"</string>
    <string name="transport">Protocol</string>
    <string name="transport_title">Transport type</string>
    <string name="tty_mode_option_summary">Stel TTY modus in</string>
@@ -622,7 +673,10 @@
    <string name="username">Gebruikersnaam</string>
    <string name="username_title">Gebruikersnaam</string>
    <string name="ussdRunning">USSD code draaiend…</string>
-   <string name="vm_change_failed">Voicemail nummer veranderen niet gelukt.\nNeem contact op met uw provider als dit probleem blijft voorkomen</string>
+
+   <string name="vm_change_failed">"Voicemail nummer veranderen niet gelukt.
+
+Neem contact op met uw provider als dit probleem blijft voorkomen"</string>
    <string name="vm_changed">Voicemail nummer veranderd</string>
    <string name="voice_number_hint">Voer voicemailbox nummer in om gesprekken door te verbinden</string>
    <string name="voice_privacy">Stem privacy</string>
@@ -639,6 +693,9 @@
    <string name="voicemail_settings">Voicemail instellingen</string>
    <string name="voicemail_settings_for">Instellingen voor %s</string>
    <string name="voicemail_settings_number_label">Voicemail nummer</string>
-   <string name="wait_prompt_str">Verstuur de volgende tonen?\n</string>
+
+   <string name="wait_prompt_str">"Verstuur de volgende tonen?
+
+"</string>
    <string name="wild_prompt_str">Vervang het sterretje door</string>
 </resources>

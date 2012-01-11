@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Kompas</string>
+    <string name="getting_location">Locatie bepalen...</string>
+    <string name="cannot_get_location">Kan locatie niet bepalen</string>
+    <string name="location_north">%s N</string>
+    <string name="location_south">%s Z</string>
+    <string name="location_east">%s O</string>
+    <string name="location_west">%s W</string>
+</resources>

@@ -11,6 +11,11 @@
    <string name="accessibility_shutter_button">Sluiterknop</string>
    <string name="accessibility_switch">%1$s-schakelaar</string>
    <string name="accessibility_zoom_control">Zoomregeling</string>
+   <string name="bg_replacement_message">"Plaats de telefoon op een stevige ondergrond en zorg dat er geen beweging achter je zichtbaar is.
+
+
+
+Stap dan uit het beeld."</string>
    <string name="camera_disabled">De camera is uitgeschakeld vanwege het beveiligingsbeleid.</string>
    <string name="camera_error_title">Camera fout</string>
    <string name="camera_gallery_photos_text">Galerij</string>
@@ -21,11 +26,6 @@
    <string name="confirm_restore_title">Standaardwaarden herstellen</string>
    <string name="dialog_ok">OK</string>
    <string name="disable_video_snapshot_hint">Videosnapshot staat uit als speciale effecten zijn ingeschakeld.</string>
-   <string name="bg_replacement_message">"Plaats de telefoon op een stevige ondergrond en zorg dat er geen beweging achter je zichtbaar is.
-
-
-
-Stap dan uit het beeld."</string>
    <string name="effect_backdropper_disco">Disco</string>
    <string name="effect_backdropper_gallery">Eigen keuze</string>
    <string name="effect_backdropper_space">In de ruimte</string>
@@ -63,7 +63,6 @@ Stap dan uit het beeld."</string>
    <string name="pref_camera_flashmode_entry_on">Aan</string>
    <string name="pref_camera_flashmode_no_flash">no_flash</string>
    <string name="pref_camera_flashmode_title">Flitsmodus</string>
-   <string name="pref_camera_focusmode_default">continue</string>
    <string name="pref_camera_focusmode_entry_auto">Automatisch</string>
    <string name="pref_camera_focusmode_entry_infinity">Oneindig</string>
    <string name="pref_camera_focusmode_entry_macro">Macro</string>

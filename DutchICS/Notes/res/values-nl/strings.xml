@@ -7,10 +7,7 @@
    <string name="app_name">Notities</string>
    <string name="app_widget2x2">Notities (2x2)</string>
    <string name="app_widget4x4">Notities (4x4)</string>
-   <string name="button_check">Selecteer alles</string>
-   <string name="button_check_none">Deselecteer alles</string>
    <string name="button_delete">Wissen</string>
-   <string name="button_move">Verplaats</string>
    <string name="call_record_folder_name">Gespreksgegevens</string>
    <string name="delete_remind_time_message">Herinneringstijd gewist</string>
    <string name="error_note_empty_for_clock">Sorry, kan de klok niet instellen op een lege notitie</string>
@@ -35,7 +32,7 @@
    <string name="menu_alert">Herinnering toevoegen</string>
    <string name="menu_create_folder">Nieuwe map</string>
    <string name="menu_delete">Wissen</string>
-   <string name="menu_edit">Bewerken</string>
+   <string name="menu_deselect_all">Deselecteer alle</string>
    <string name="menu_export_text">Exporteer tekst</string>
    <string name="menu_folder_change_name">Wijzig naam van de map</string>
    <string name="menu_folder_delete">Verwijder map</string>
@@ -46,10 +43,18 @@
    <string name="menu_font_small">Klein</string>
    <string name="menu_font_super">Enorm</string>
    <string name="menu_list_mode">Voer checklist in</string>
+
+   <string name="menu_move">verplaats naar folder</string>
    <string name="menu_move_parent_folder">Bovenliggende map</string>
    <string name="menu_normal_mode">Verlaat checklist</string>
    <string name="menu_remove_remind">Wis herinnering</string>
    <string name="menu_search">Zoeken</string>
+
+   <string name="menu_select_all">Selecteer alle</string>
+
+   <string name="menu_select_none">Niets geselecteerd, wordt niet uitgevoerd</string>
+
+   <string name="menu_select_title">%d geselecteerd</string>
    <string name="menu_send_to_desktop">Maak snelkoppeling op homescreen</string>
    <string name="menu_setting">Instellingen</string>
    <string name="menu_share">Delen</string>
@@ -63,14 +68,11 @@
    <string name="note_link_web">Browse web</string>
    <string name="notealert_enter">Neem een kijkje</string>
    <string name="notealert_ok">Heb het</string>
-   <string name="noteedit_use_alert_time_error">Tijd instellen mislukt</string>
-   <string name="noteedit_use_alert_time_success">Herinneringstijd ingesteld</string>
    <string name="notelist_menu_new">Notitie toevoegen</string>
    <string name="notelist_string_info">...</string>
    <string name="preferences_account_summary">Synchronisatie van notities met google task</string>
    <string name="preferences_account_title">Synchronisatie account instellingen</string>
    <string name="preferences_add_account">Account toevoegen</string>
-   <string name="preferences_bg_random_appear_summary">Wisselende achtergrond voor notities</string>
    <string name="preferences_bg_random_appear_title">Random achtergrondkleur</string>
    <string name="preferences_button_sync_cancel">Annuleer synchronisatie</string>
    <string name="preferences_button_sync_immediately">Synchronisatie direct</string>
@@ -87,7 +89,6 @@
    <string name="preferences_toast_cannot_change_account">Kan het account niet veranderen omdat synchronisatie in werking is</string>
    <string name="preferences_toast_success_set_accout">%1$s is ingesteld als het synchronisatie account</string>
    <string name="search">Notities</string>
-   <string name="search_empty">Notitie overeenkomsten</string>
    <string name="search_hint">Zoek notities</string>
    <string name="search_label">Notities zoeken</string>
    <string name="search_setting_description">Tekst in uw notities</string>

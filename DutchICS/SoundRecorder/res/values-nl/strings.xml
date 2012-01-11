@@ -1,25 +1,77 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <resources>
-   <string name="accept">Klaar</string>
+   <string name="alert_message_delete_record">Geselecteerde opname wissen?</string>
    <string name="app_name">Recorder</string>
    <string name="audio_db_album_name">Audio-opnames</string>
    <string name="audio_db_artist_name">Uw opnames</string>
    <string name="audio_db_playlist_name">Mijn opnames</string>
    <string name="audio_db_title_format">yyyy-MM-dd HH:mm:ss</string>
    <string name="button_ok">OK</string>
-   <string name="discard">Bericht niet opslaan</string>
+
+   <string name="call_record">Oproep opname</string>
+
+   <string name="call_record_or">of</string>
+
+   <string name="default_record_name">nieuwe opname</string>
+
+   <string name="delete_dialog_title">Huidige opname wissen?</string>
+
+   <string name="dialog_delete">Wis</string>
+
+   <string name="dialog_play">Play</string>
+
+   <string name="dialog_send">Verstuur</string>
    <string name="error_app_internal">Interne applicatie fout</string>
    <string name="error_mediadb_new_record">Kan opgenomen audio niet opslaan</string>
    <string name="error_sdcard_access">Kan geen toegang krijgen tot SD-kaart</string>
+
+   <string name="hour">%d uur</string>
    <string name="insert_sd_card">Plaats een SD-kaart</string>
+
+   <string name="mark_now">(Huidig)</string>
    <string name="max_length_reached">Maximale lengte bereikt</string>
-   <string name="message_recorded">Bericht opgeslagen</string>
-   <string name="min_available">%d minuten beschikbaar</string>
-   <string name="record_your_message">Bericht opnemen</string>
+
+   <string name="menu_setting">Instellingen</string>
+
+   <string name="menu_view_record_list">Toon opname lijst</string>
+
+   <string name="minute">%d minuten</string>
+
+   <string name="no_file">Geen opname</string>
+
+   <string name="notification_recording">Opname...</string>
+
+   <string name="notification_stopped">Opname is gestopt</string>
+
+   <string name="notification_warning">Weing opslag(minder dan %d minuten)...</string>
+
+   <string name="open_file_explorer">Open Bestanden</string>
+
+   <string name="overwrite_dialog_title">%s bestaat al. Overschrijven?</string>
+
+   <string name="pref_summary_enable_high_quality">Het audio bestand met hoge kwaliteit kan groter zijn</string>
+
+   <string name="pref_summary_enable_sound_effect">Speel geluidseffect als status is gewijzigd</string>
+
+   <string name="pref_title_enable_high_quality">Hoge kwaliteit aan</string>
+
+   <string name="pref_title_enable_sound_effect">Geluidseffect aan</string>
+
+   <string name="pref_title_record_type">Opname bestands type</string>
+
+   <string name="prefDefault_recordType">audio/3gpp</string>
+
+   <string name="prefDialogTitle_recordType">Selecteer bestandstype</string>
+
+   <string name="preferences_title">Instellingen</string>
+
+   <string name="record_list">Opname lijst</string>
    <string name="recording">Opnemen</string>
    <string name="recording_stopped">Opnemen gestopt</string>
-   <string name="review_message">Bericht afluisteren</string>
-   <string name="sec_available">%ds beschikbaar</string>
+
+   <string name="sd_card_not_available">SD-kaart is niet beschikbaar</string>
+
+   <string name="second">%d seconden</string>
    <string name="storage_is_full">Opslag is vol</string>
    <string name="timer_format" formatted="false">%02d:%02d</string>
 </resources>

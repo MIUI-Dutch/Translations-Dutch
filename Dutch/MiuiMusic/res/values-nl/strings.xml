@@ -90,6 +90,7 @@
    <string name="id3_edit">Bewerk ID3 Informatie</string>
    <string name="id3_edit_failed">Bewerken van ID3 info mislukt</string>
    <string name="id3_modify_confirm">Weet u zeker dat u de ID3 info wilt bewerken?</string>
+   <string name="impunity_declaration">De online muziek die je gaat gebruiken is van Baidu Online Music Service. Klik \"OK\" voor accepteren en gebruik, klik \"Annuleer\" om af te sluiten.</string>
    <string name="item_count_in_header">(%d)</string>
    <string name="keep_quit_location_settings">Onthoud nummer</string>
    <string name="keep_quit_location_summary">Onthoud het laatst gespeelde nummer bij opstarten</string>

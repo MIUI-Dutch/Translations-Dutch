@@ -61,7 +61,7 @@
    <string name="modify_all_following">Verander deze en alle toekomstige afspraken</string>
    <string name="modify_event">Uitzondering voor deze afspraak</string>
    <string name="month_view">Maand</string>
-   <string name="month_year">%B %Y</string>
+   <string name="month_year" formatted="false">%B %Y</string>
    <string name="monthly">Maandelijks</string>
    <string name="monthly_on_day">Maandelijks (op dag %s)</string>
    <string name="monthly_on_day_count">Maandelijks (elke %1$s %2$s)</string>
@@ -99,7 +99,8 @@
    <string name="privacy_label">Persoonlijk</string>
    <string name="reminders_label">Herinneringen</string>
    <string name="repeats_label">Herhaling</string>
-   <string name="response_label">%s (%d)</string>
+
+   <string name="response_label" formatted="false">%s (%d)</string>
    <string name="save_label">Klaar</string>
    <string name="saving_event">Afspraak opgeslagen</string>
    <string name="show_agenda_view">Toon agenda</string>

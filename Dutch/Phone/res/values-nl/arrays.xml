@@ -59,26 +59,6 @@
         <item>@string/auto_answer_scenario_enteries_bluetooth_only</item>
         <item>@string/auto_answer_scenario_enteries_headset_bluetooth</item>
     </array>
-    <array name="prefered_network_type_pref_entries">
-        <item>@string/prefered_network_type_pref_entries_3g_prefered</item>
-        <item>@string/prefered_network_type_pref_entries_only_2g</item>
-        <item>@string/prefered_network_type_pref_entries_only_3g</item>
-    </array>
-    <string-array name="prefered_network_type_pref_entry_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <array name="prefered_network_type_pref_entries_cdma">
-        <item>@string/prefered_network_type_pref_entries_auto</item>
-        <item>@string/prefered_network_type_pref_entries_only_2g</item>
-        <item>@string/prefered_network_type_pref_entries_only_3g</item>
-    </array>
-    <string-array name="prefered_network_type_pref_entry_values_cdma">
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-    </string-array>
     <array name="connect_disconnect_vibrate_entries">
         <item>@string/connect_disconnect_vibrate_normal</item>
         <item>@string/connect_disconnect_vibrate_weak</item>
@@ -98,43 +78,23 @@
         <item>0</item>
     </string-array>
     <string-array name="clir_display_values">
-        <item>Netwerk standaard</item>
-        <item>Verberg nummer</item>
-        <item>Toon nummer</item>
+        <item>Network default</item>
+        <item>Hide number</item>
+        <item>Show number</item>
     </string-array>
     <string-array name="clir_values">
-        <item>Standaard</item>
-        <item>Verberg</item>
-        <item>Toon</item>
-    </string-array>
-    <string-array name="preferred_network_mode_choices">
-        <item>Globaal</item>
-        <item>Allen EvDO</item>
-        <item>CDMA w/o EvDo</item>
-        <item>CDMA/EvDo auto</item>
-        <item>GSM/WCDMA auto</item>
-        <item>Alleen WCMA</item>
-        <item>Alleen GSM</item>
-        <item>GSM/WCDMA voorkeur</item>
-    </string-array>
-    <string-array name="preferred_network_mode_values">
-        <item>7</item>
-        <item>6</item>
-        <item>5</item>
-        <item>4</item>
-        <item>3</item>
-        <item>2</item>
-        <item>1</item>
-        <item>0</item>
+        <item>DEFAULT</item>
+        <item>HIDE</item>
+        <item>SHOW</item>
     </string-array>
     <string-array name="list_language_entries">
-        <item>Engels</item>
-        <item>Frans</item>
-        <item>Spaans</item>
-        <item>Japans</item>
-        <item>Koreaans</item>
-        <item>Chinees</item>
-        <item>Hebreeuws</item>
+        <item>English</item>
+        <item>French</item>
+        <item>Spanish</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Chinese</item>
+        <item>Hebrew</item>
     </string-array>
     <string-array name="list_language_values">
         <item>1</item>
@@ -146,10 +106,10 @@
         <item>7</item>
     </string-array>
     <string-array name="gsm_umts_network_preferences_choices">
-        <item>GSM/WCDMA (auto modus)</item>
-        <item>Alleen WCDMA</item>
-        <item>Alleen GSM</item>
-        <item>GSM/WCDA (WCDMA voorkeur)</item>
+        <item>GSM/WCDMA (auto mode)</item>
+        <item>WCDMA only</item>
+        <item>GSM only</item>
+        <item>GSM/WCDA (WCDMA preferred)</item>
     </string-array>
     <string-array name="gsm_umts_network_preferences_values">
         <item>0</item>
@@ -158,17 +118,17 @@
         <item>3</item>
     </string-array>
     <string-array name="cdma_system_select_choices">
-        <item>Alleen thuis</item>
-        <item>Automatisch</item>
+        <item>Home only</item>
+        <item>Automatic</item>
     </string-array>
     <string-array name="cdma_system_select_values">
         <item>0</item>
         <item>2</item>
     </string-array>
     <string-array name="cdma_roaming_mode_choices">
-        <item>Alleen thuisnetwerken</item>
-        <item>Aangesloten netwerken</item>
-        <item>Elk netwerk</item>
+        <item>Home Networks only</item>
+        <item>Affiliated Networks</item>
+        <item>Any Network</item>
     </string-array>
     <string-array name="cdma_roaming_mode_values">
         <item>0</item>
@@ -177,8 +137,8 @@
     </string-array>
     <string-array name="cdma_network_preferences_choices">
         <item>CDMA/EvDo</item>
-        <item>Alleen CDMA</item>
-        <item>Alleen EVDO</item>
+        <item>CDMA only</item>
+        <item>EvDo only</item>
     </string-array>
     <string-array name="cdma_network_preferences_values">
         <item>0</item>
@@ -194,8 +154,8 @@
         <item>1</item>
     </string-array>
     <string-array name="tty_mode_entries">
-        <item>TTY uit</item>
-        <item>TTY volledig</item>
+        <item>TTY Off</item>
+        <item>TTY Full</item>
         <item>TTY HCO</item>
         <item>TTY VCO</item>
     </string-array>
@@ -206,8 +166,8 @@
         <item>3</item>
     </string-array>
     <string-array name="dtmf_tone_entries">
-        <item>Normaal</item>
-        <item>Lang</item>
+        <item>Normal</item>
+        <item>Long</item>
     </string-array>
     <string-array name="dtmf_tone_values">
         <item>0</item>

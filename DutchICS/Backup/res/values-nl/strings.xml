@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <resources>
    <string name="account_login">Log in</string>
+   <string name="account_summary">Backup Gmail, Email en Xiaomi account</string>
    <string name="app_name">MIUI Backup</string>
    <string name="auto_backup">Automatische Backup</string>
    <string name="auto_backup_choose">Backup lijst</string>
@@ -51,7 +52,6 @@
    <string name="cloud_item_info_summary">\u0020(Lokaal %1$s | Online %2$s)</string>
    <string name="cloud_last_backup">Laatste backup:</string>
    <string name="cloud_no_backup">Geen online backup</string>
-
    <string name="cloud_restore_guide">"Klik Start om data te herstellen
 
  U kunt ook %s herstellen in Backup"</string>
@@ -78,7 +78,6 @@
    <string name="guarded_mode_dialog_message">Backup/restore niet aktief in gast mode</string>
    <string name="guarded_mode_dialog_title">Gast mode</string>
    <string name="import_from_xiaomi_account_hint_title">Gebruik MiTalk voor backup van contacten op andere telefoons, niet MI-ONE</string>
-
    <string name="import_from_xiaomi_account_hint1">"1.\u0009Open contacten
 
 
@@ -99,13 +98,12 @@
    <string name="local_select_sysdata">Systeem Data</string>
    <string name="local_select_userapp">Applicaties</string>
    <string name="menu_patch_delete">Verwijder backup(s)</string>
-
    <string name="miliao_account_guide">"MiTalk account opgewaardeerd naar Xiaomi account
 
  Gebruik alle Xiaomi online services"</string>
    <string name="miliao_account_login">Login bij MiTalk</string>
    <string name="mms_title">Multimedia Berichten</string>
-
+   <string name="multi_select_title">%1$s item(s) geselecteerd</string>
    <string name="no_network">"Network fout
 
  Controleer de verbinding en probeer opnieuw"</string>
@@ -119,7 +117,6 @@
    <string name="refresh">Verversen</string>
    <string name="restore">Restore</string>
    <string name="restore_contact">Herstel contacten</string>
-
    <string name="restore_contact_content">"Herstellen van contacten kan duplicaten veroorzaken, doorgaan?
 
  Opmerking: u kunt contacten samenvoegen bij contact instellingen"</string>
@@ -156,7 +153,6 @@
    <string name="task_canceled">Geannuleerd</string>
    <string name="task_canceled_all_local">Annuleer taak</string>
    <string name="task_canceled_local">De volgende %1$s taak is geannuleerd</string>
-
    <string name="task_cloud_backup_cancel_dialog">"Backup is niet compleet
 
 Klik OK om taak te annuleren"</string>
@@ -164,7 +160,6 @@ Klik OK om taak te annuleren"</string>
    <string name="task_failed_all_local">Taak mislukt</string>
    <string name="task_failed_local">Taak %1$s is mislukt</string>
    <string name="task_finished">Klaar</string>
-
    <string name="task_local_backup_cancel_dialog">"Backup is niet compleet
 
 Klik OK om taak te annuleren"</string>
@@ -172,7 +167,6 @@ Klik OK om taak te annuleren"</string>
    <string name="task_post_running">Nabewerking</string>
    <string name="task_pre_running">Voorbewerking</string>
    <string name="task_progress">Voortgang</string>
-
    <string name="task_restore_cancel_dialog">"Herstel is niet compleet
 
 Annuleren kan leiden tot dataverlies"</string>

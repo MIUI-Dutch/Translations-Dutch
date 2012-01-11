@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <string-array name="timezone_filters">
         <item>Amerika</item>
@@ -403,24 +403,6 @@
         <item>CPU stroom gebruik</item>
         <item>Data stroom gebruik</item>
         <item>Sensor stroom gebruik</item>
-    </string-array>
-    <string-array name="overscroll_mode_entries">
-        <item>Altijd flexibel</item>
-        <item>Flexibel als de inhoud vol is</item>
-        <item>Geen flexibiliteit</item>
-    </string-array>
-    <string-array name="overscroll_mode_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="menu_style_entries">
-        <item>Rooster aanzicht</item>
-        <item>Lijst aanzicht</item>
-    </string-array>
-    <string-array name="menu_style_values">
-        <item>0</item>
-        <item>3</item>
     </string-array>
     <string-array name="led_color_values_for_milestone">
         <item>Green</item>

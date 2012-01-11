@@ -5,6 +5,8 @@
    <string name="albums_title">Album</string>
    <string name="albumsongseparator">"
 
+
+
 "</string>
    <string name="all_title">Alle media</string>
    <string name="artists_title">Artiest</string>
@@ -41,7 +43,10 @@
    <string name="no_playlists_title">Geen afspeel lijst</string>
    <string name="no_tracks_title">Geen nummers</string>
    <string name="no_videos_title">Geen videos</string>
+
    <string name="notification_artist_album">"%2$s
+
+
 
 %1$s"</string>
    <string name="nowplaying_title">Nu aan het afspelen</string>

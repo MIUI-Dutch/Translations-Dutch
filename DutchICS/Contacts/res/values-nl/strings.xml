@@ -2,6 +2,7 @@
 <resources>
    <string name="account_default">Telefoon</string>
    <string name="account_phone">Telefoon</string>
+   <string name="account_sim">Sim-only, ongesynchroniseerd</string>
    <string name="account_type_format">%1$s contact</string>
    <string name="activity_title_confirm_add_detail">Aan contact toevoegen</string>
    <string name="activity_title_contacts_filter">Zichtbare contacten</string>
@@ -204,6 +205,7 @@
    <string name="display_ungrouped">Alle andere contacten</string>
    <string name="display_warn_remove_ungrouped">"Als u '%s' verwijdert uit de synchronisatie, worden ook contacten die niet bij een groep horen uit de synchronisatie verwijderd."</string>
    <string name="edit_contact">Contact bewerken</string>
+   <string name="edit_contact_card_title">Wijzig contact</string>
    <string name="editContactDescription">Contact wijzigen</string>
    <string name="email">E-mail</string>
    <string name="email_custom">E-mail naar %s</string>
@@ -258,6 +260,7 @@
    <string name="imei">IMEI</string>
    <string name="imLabelsGroup">Expresbericht</string>
    <string name="import_all_vcard_string">Alle vCard-bestanden importeren</string>
+   <string name="import_contact_card_button">Import</string>
    <string name="import_failure_no_vcard_file">Geen vCard-bestand gevonden in opslag.</string>
    <string name="import_from_sdcard">Importeren van SD-kaart</string>
    <string name="import_from_sim">Importeren van SIM-kaart</string>
@@ -311,6 +314,8 @@
    <string name="menu_editContact">Contact wijzigen</string>
    <string name="menu_editGroup">Bewerken</string>
    <string name="menu_group_add_members">toevoegen</string>
+   <string name="menu_group_ringtone">Groep ringtone</string>
+   <string name="menu_group_sms">Groep SMS</string>
    <string name="menu_import_export">Importeren/exporteren</string>
    <string name="menu_joinAggregate">Delen</string>
    <string name="menu_new_contact_action_bar">Nieuw</string>
@@ -344,7 +349,6 @@
    <string name="nickname_picker_name_column">Naam</string>
    <string name="nickname_picker_nickname_column">Bellen</string>
    <string name="nicknameLabelsGroup">Bijnaam</string>
-
    <string name="no_account_prompt">"Contacten werkt beter met een Google Account.
 
 
@@ -360,7 +364,6 @@
    <string name="noContactHelpTextAccountsInfo">Sync Google, Exchange contacten</string>
    <string name="noContactHelpTextImportXiaomiAccountInfo">Herstel data uit backup gemaakt in Xiaomi account of MiTalk</string>
    <string name="noContacts">Geen contacten.</string>
-
    <string name="noContactsHelpText">"Je hebt geen contacten om te tonen.
 
 
@@ -383,7 +386,6 @@ Om Contacten toe te voegen, klik "<b><font fgcolor="#ffffffff">Menu</font></b>" 
 
 "</string>
    <string name="noContactsHelpTextForCreateShortcut">U heeft geen contacten om weer te geven.</string>
-
    <string name="noContactsHelpTextWithSync">"Je hebt geen contacten om te tonen. (Als je net een account toegevoegd hebt, kan het een paar minuten duren om contacten te synchronisatie.)
 
 
@@ -406,7 +408,6 @@ Om Contacten toe te voegen, klik "<b><font fgcolor="#ffffffff">Menu</font></b>" 
 
 "</string>
    <string name="noContactsHelpTextWithSyncForCreateShortcut">U heeft geen contacten om weer te geven. Als u zojuist een account heeft toegevoegd, kan het enkele minuten duren voordat de contacten zijn gesynchroniseerd.</string>
-
    <string name="noContactsNoSimHelpText">"Je hebt geen contacten om te tonen.
 
 
@@ -428,7 +429,6 @@ Om Contacten toe te voegen, klik "<b><font fgcolor="#ffffffff">Menu</font></b>" 
 "</li></font></b>"
 
 "</string>
-
    <string name="noContactsNoSimHelpTextWithSync">"Je hebt geen contacten om te tonen. (Als je net een account toegevoegd hebt, kan het een paar minuten duren om contacten te synchronisatie.)
 
 
@@ -451,7 +451,6 @@ Om Contacten toe te voegen, klik "<b><font fgcolor="#ffffffff">Menu</font></b>" 
 
 "</string>
    <string name="noContactsWithPhoneNumbers">Geen contactpersonen met telefoonnummers</string>
-
    <string name="noFavoritesHelpText">"Je hebt geen favorieten.
 
 
@@ -489,8 +488,11 @@ Om een contact toe te voegen aan je favorieten:
    <string name="percentage">%s%%</string>
    <string name="phoneLabelsGroup">Telefoonnr</string>
    <string name="photoPickerNotFoundText">Geen foto\'s beschikbaar op de telefoon</string>
+   <string name="pick_favorites_list_title">Totaal %1$d favoriete contact nummers</string>
    <string name="pick_new_photo">Nieuwe foto selecteren in Galerij</string>
    <string name="pick_photo">Foto kiezen in Galerij</string>
+
+   <string name="pick_recent_list_title">Totaal %1$d recente contact nummers</string>
    <string name="pickerNewContactHeader">Nieuw contact maken</string>
    <string name="postal_address">Adres</string>
    <string name="postal_city">Plaats</string>
@@ -500,6 +502,7 @@ Om een contact toe te voegen aan je favorieten:
    <string name="postal_street">Straat</string>
    <string name="postalLabelsGroup">Postadres</string>
    <string name="preference_displayOptions">Weergaveopties</string>
+   <string name="preview_contact_card_title">Import contact</string>
    <string name="primary_indicator">(Standaard)</string>
    <string name="private_num">Privé-nummer</string>
    <string name="profile_display_name">Mijn profiel instellen</string>
@@ -508,6 +511,8 @@ Om een contact toe te voegen aan je favorieten:
    <string name="reading_vcard_failed_title">Kan vCard-gegevens niet lezen</string>
    <string name="readOnlyContactDeleteConfirmation">Dit contact bevat informatie uit meerdere accounts. Informatie van alleen-lezen accounts wordt verborgen in uw lijst met contacten, niet gewist</string>
    <string name="readOnlyContactWarning">Kan contacten niet verwijderen uit alleen-lezen accounts. Alleen verbergen is mogelijk</string>
+
+   <string name="recent_contacts_label">Recent</string>
    <string name="recent_updates">Recente updates</string>
    <string name="recentCalls_addToContact">Voeg toe aan contacten</string>
    <string name="recentCalls_editNumberBeforeCall">Nummer bewerken voor oproep</string>
@@ -529,9 +534,12 @@ Om een contact toe te voegen aan je favorieten:
    <string name="searching_vcard_message">Zoeken naar vCard-gegevens op SD-kaart...</string>
    <string name="searching_vcard_title">Zoeken naar vCard...</string>
    <string name="select_all">Selecteer alles</string>
+   <string name="select_none">Niets geselecteerd, kan opdracht niet uitvoeren</string>
    <string name="select_vcard_title">vCard selecteren</string>
    <string name="separatorJoinAggregateAll">Alle contacten</string>
    <string name="separatorJoinAggregateSuggestions">Gesuggereerde contacten</string>
+
+   <string name="service_provider">Service provider</string>
    <string name="set_default">Standaard instellen</string>
    <string name="share_error">Kan dit contact niet delen</string>
    <string name="share_via">Contact delen via</string>
@@ -575,6 +583,7 @@ Om een contact toe te voegen aan je favorieten:
    <string name="status_away">Afwezig</string>
    <string name="status_busy">Bezet</string>
    <string name="strequentList">Favorieten</string>
+   <string name="success_message_import_from_account">Import succesvol</string>
    <string name="summary_kind_title">Basis informatie</string>
    <string name="sync_xiaomi_cloud_contacts">Herstel van online backup</string>
    <string name="t9_search_guide">Toets nummer, of zoek conctacten via T9</string>
@@ -593,9 +602,9 @@ Om een contact toe te voegen aan je favorieten:
    <string name="type_outgoing">Uitgaand gesprek</string>
    <string name="type_voicemail">Voicemail</string>
    <string name="unknown">Onbekend</string>
-   <string name="unkown_location_or_sp_number">Locatie is onbekend</string>
-   <string name="upgrade_in_progress">Contacten bijwerken.\n\nEven geduld...</string>
 
+   <string name="unkown_location">Locatie is onbekend</string>
+   <string name="upgrade_in_progress">Contacten bijwerken.\n\nEven geduld...</string>
    <string name="upgrade_out_of_memory">"Contacten worden bijgewerkt.
 
 

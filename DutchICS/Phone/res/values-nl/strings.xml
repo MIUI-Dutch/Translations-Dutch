@@ -27,13 +27,9 @@
    <string name="answer">Antwoorden</string>
    <string name="answer_and_hangup">Antwoord-Ophangen</string>
    <string name="answer_features_setting_category">Oproep beantwoorden instellingen</string>
-
    <string name="answer_widget_dialog_title">Selecteer je Oproep Beantwoorden beweging of gebaar</string>
-
    <string name="answer_widget_sliding_horizontal">Horizontaal schuiven</string>
-
    <string name="answer_widget_sliding_vertial">Verticaal schuiven</string>
-
    <string name="answer_widget_title">Oproep Beantwoorden beweging of gebaar</string>
    <string name="apn_settings">Toegangspunten (APN)</string>
    <string name="areacode_required">IP bellen is ingeschakeld voer de regio code in</string>
@@ -83,7 +79,6 @@
    <string name="call_recording_notification_summary">Toon melding wanneer opname klaar is</string>
    <string name="call_recording_prompt">Inschakelen gesprekken opnemen</string>
    <string name="call_settings">Oproep instellingen</string>
-
    <string name="call_settings_category">Oproep instellingen</string>
    <string name="call_title_redialing_with_times">%d maal herkiezen</string>
    <string name="caller_manage_manage_done_text">Terug naar gesprek</string>
@@ -117,7 +112,6 @@
    <string name="card_title_hanging_up">Ophangen</string>
    <string name="card_title_on_hold">In de wacht</string>
    <string name="card_title_redialing">Opnieuw proberen</string>
-
    <string name="carrier_related_setting_catory">Provider instellingen</string>
    <string name="cb_sms_settings">Telefoon uitzenden SMS instellingen</string>
    <string name="cdma_lte_data_service">Gegevensservice instellen</string>
@@ -131,39 +125,23 @@
    <string name="change_num">Wijzig</string>
    <string name="change_pin">SIM PIN veranderen</string>
    <string name="change_pin2">Verander PIN2</string>
-
    <string name="clearDefaultHintMsg">Wis standaard in Instellingen > Applicaties > Beheer applications.</string>
    <string name="close_dialog">Ok</string>
    <string name="close_profile">Sluiten</string>
-
    <string name="command_error_fdn_failure">Deze handeling is niet toegestaan als FDN gebruikt wordt, schakel FDN uit en probeer nogmaals.</string>
-
    <string name="command_error_generic_failure">Kan deze handeling niet afmaken, probeer later nogmaals.</string>
-
    <string name="command_error_illegal_sim_or_me">Netwerk selectie fout door incorrecte SIM/ME.</string>
-
    <string name="command_error_invalid_response">Fout bericht van netwerk, probeer later nogmaals.</string>
-
    <string name="command_error_no_subscription">Kan geen CDMA aanmelding krijgen van opgegeven lokatie.</string>
-
    <string name="command_error_op_denied_before_reg">Deze handeling is niet toegestaan voordat de telefoon gekoppeld is met het netwerk.</string>
-
    <string name="command_error_op_denied_during_call">Dit is niet mogelijk tijdens een gesprek, probeer na beeindigen van de oproep.</string>
-
    <string name="command_error_password_incorrect">Je wachtwoord is niet correct, probeer opnieuw.</string>
-
    <string name="command_error_radio_not_available">Radio niet beschikbaar (niet gestart of wordt herstart), probeer later nogmaals.</string>
-
    <string name="command_error_sim_absent">ICC card is niet aanwezig.</string>
-
    <string name="command_error_sim_pin2">PIN2 nodig om deze handeling te beeindigen.</string>
-
    <string name="command_error_sim_puk2">PIN2 is vergrendeld, PUK2 is nodig voor ontgrendelen.</string>
-
    <string name="command_error_sms_fail_retry">Fout bij versturen van SMS, probeer later nogmaals.</string>
-
    <string name="command_error_unsupported_mode">Het gewenste netwerk type is niet toegestaan.</string>
-
    <string name="command_error_unsupported_request">Dit is niet toegestaan.</string>
    <string name="confirm_delete_message_title">Je wist de geselecteerde %d speciale berichten</string>
    <string name="confirm_pin_hint">Nieuwe PIN bevestigen</string>
@@ -189,15 +167,11 @@
    <string name="default_transport">UDP</string>
    <string name="deleteSimContactConfirmTitle">Wis contact</string>
    <string name="deleting_fdn_contact">Bezig met FDN wissen…</string>
-
    <string name="description_call_recording">Oproep opname gaat door.</string>
    <string name="description_delete_button">backspace</string>
    <string name="description_dial_button">bellen</string>
-
    <string name="description_direction_left">Links voor %s.</string>
-
    <string name="description_direction_right">Rechts voor %s.</string>
-
    <string name="description_direction_up">Boven voor %s.</string>
    <string name="description_image_button_eight">acht</string>
    <string name="description_image_button_five">vijf</string>
@@ -297,7 +271,6 @@
    <string name="fdn_enabled">Vast bellende nummers zijn ingeschakeld</string>
    <string name="fdn_invalid_number">FDN niet geupdate: nummer kan niet meer dan 20 getallen bevatten</string>
    <string name="fdn_only_error">Operaties zijn alleen toegestaan ​​op vaste nummers</string>
-
    <string name="fdn_summary">De bovenstaande opties zijn uitgschakeld als FDN gebruikt worden</string>
    <string name="fdnListLabel">FDN lijst</string>
    <string name="fw_change_failed">"Nummer doorschakelen niet gelukt.
@@ -321,6 +294,7 @@ Wilt u toch naar de nieuwe provider overschakelen?"</string>
    <string name="imei">IMEI</string>
    <string name="importAllSimEntries">Alles importeren</string>
    <string name="importingSimContacts">Importeren van SIM contacten</string>
+   <string name="importSelectedSimEntries">Importeer geselecteerde contacten</string>
    <string name="importSimEntry">Importeren</string>
    <string name="importToFDNfromContacts">Importeren uit contacten</string>
    <string name="incall_call_type_label_sip">Internet oproep</string>
@@ -570,7 +544,6 @@ Letop, de SIM card gaat op slot bij foutieve invoer"</string>
    <string name="respond_via_sms_confirmation_format">Bericht verzonden naar %s.</string>
    <string name="respond_via_sms_custom_message">Aangepast bericht...</string>
    <string name="respond_via_sms_edittext_dialog_title">Snelle reactie</string>
-
    <string name="respond_via_sms_setting_summary">De tekst van de SMS als de oproep geweigerd wordt</string>
    <string name="respond_via_sms_setting_title">Snelle reacties</string>
    <string name="respond_via_sms_setting_title_2">Snelle reacties bewerken</string>
@@ -602,6 +575,8 @@ Letop, de SIM card gaat op slot bij foutieve invoer"</string>
    <string name="set_smsc_address_timeout">Time out bij SMS centrale nummer, Probeer het later opnieuw</string>
    <string name="set_smsc_address_title">SMS centrum nummer</string>
    <string name="settings_label">Netwerk instellingen</string>
+   <string name="sim_contact_dropdown_menu_deselect_all">Deselecteer alle</string>
+   <string name="sim_contact_dropdown_menu_select_all">Selecteer alle</string>
    <string name="sim_lock_off">PIN code vereist</string>
    <string name="sim_lock_on">PIN code vereist</string>
    <string name="sim_lock_settings">SIM kaart blokkeer instellinegn</string>
@@ -639,6 +614,7 @@ Letop, de SIM card gaat op slot bij foutieve invoer"</string>
    <string name="slide_to_decline">Sleep naar links om te weigeren</string>
    <string name="sliding_down_hint">Schuif naar beneden om oproep te beantwoorden</string>
    <string name="sliding_target_hint">Schuif omhoog om oproep af te wijzen</string>
+   <string name="sliding_up_hint">Schuif omhoog om te weigeren</string>
    <string name="sports_news_settings">Sport nieuws</string>
    <string name="stock_quotes_disable">Aandelen uitgeschakeld</string>
    <string name="stock_quotes_enable">Aandelen ingeschakeld</string>
@@ -668,6 +644,8 @@ Letop, de SIM card gaat op slot bij foutieve invoer"</string>
    <string name="throttle_current_usage">Gebruikte data in huidige periode</string>
    <string name="throttle_data_rate_reduced_subtext">"%1$s maximaal overschreden
 
+
+
 Data rate teruggebracht tot %2$d Kb/s"</string>
    <string name="throttle_data_usage">Data gebruik</string>
    <string name="throttle_data_usage_subtext">%1$s (%2$d٪) van %3$s periode maximumaal</string>
@@ -677,9 +655,13 @@ Data rate teruggebracht tot %2$d Kb/s"</string>
    <string name="throttle_rate_subtext">Data rate teruggebracht tot %1$d Kb/s als data limiet wordt overschreden</string>
    <string name="throttle_status_subtext">"%1$s (%2$d٪) van %3$s periode maximaal
 
+
+
 Volgende periode start over %4$d dagen (%5$s)"</string>
    <string name="throttle_time_frame">Data geruik periode</string>
    <string name="throttle_time_frame_subtext">"%1$d٪ van cyclus verstreken
+
+
 
 Volgende periode start over %2$d dagen (%3$s)"</string>
    <string name="transport">Protocol</string>
