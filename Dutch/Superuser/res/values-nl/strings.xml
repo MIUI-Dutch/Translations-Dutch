@@ -26,7 +26,9 @@
    <string name="menu_setting">Instellingen</string>
    <string name="no">Nee</string>
    <string name="notification_text">%s is machtiging verleend</string>
-   <string name="open_root_permission_message">Als U dit aan zet kunnen applicaties root toegang krijgen.\nNote: Programma\'s met root toegang kunnen systeem instabiliteit veroorzaken, verlies van persoonlijke date, systeem of hardware beschadigen, wees voorzichtig. Wil je dit aan zetten?</string>
+   <string name="open_root_permission_message">"Als U dit aan zet kunnen applicaties root toegang krijgen.
+
+Note: Programma\'s met root toegang kunnen systeem instabiliteit veroorzaken, verlies van persoonlijke date, systeem of hardware beschadigen, wees voorzichtig. Wil je dit aan zetten?"</string>
    <string name="permdesc_respond">Stelt de toepassing in staat te reageren op verzoeken om machtiging toegang</string>
    <string name="permission">Machtigingen:</string>
    <string name="permission_call_phone">Telefoon</string>
@@ -47,7 +49,7 @@
    <string name="pref_root_permission_summary">Sta root toegang toe voor applicaties</string>
    <string name="pref_root_permission_title">ROOT permissies</string>
    <string name="remember">Onthouden</string>
-   <string name="request">%s als %s (uid: %d)</string>
+   <string name="request">%1$s als %2$s (uid: %3$d)</string>
    <string name="setting_title">Machtiging instellingen</string>
    <string name="su_original">origineel</string>
    <string name="success_clear_log">Machtiging logs zijn succesvol gewist</string>

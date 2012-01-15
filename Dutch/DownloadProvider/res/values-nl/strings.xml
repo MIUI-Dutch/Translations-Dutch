@@ -24,8 +24,20 @@
    <string name="permlab_downloadManagerAdvanced">Geavanceerde functies van de downloadbeheerder</string>
    <string name="permlab_downloadWithoutNotification">bestanden downloaden zonder melding</string>
    <string name="permlab_seeAllExternal">Alle downloads naar SD-kaart bekijken</string>
-   <string name="wifi_recommended_body">Het downloaden van dit bestand van %s \u0020via dit netwerk genereert hoog accuverbruik en extra providerkosten.\n\nRaak %s aan om het te downloaden wanneer u verbinding heeft met een Wi-Fi-netwerk</string>
+   <string name="wifi_recommended_body" formatted="false">"Door deze download nu te starten zal dat de batterijduur verkorten en/of resulteren in excessief gebruik van de mobiele data connectie, en ook de databundel zal gebruikt worden.
+
+
+ Klik \"Queue\" om deze download te starten als er een Wi-Fi netwerk beschikbaar is.
+
+
+
+ Je kan de standaard instellingen wijzigen in de \"Instellingen\" pagina."</string>
    <string name="wifi_recommended_title">In wachtrij voor download via Wi-Fi?</string>
-   <string name="wifi_required_body">U kunt geen bestand van %s \u0020downloaden via dit mobiele netwerk.\n\nRaak %s \u0020aan om dit bestand te downloaden wanneer u de volgende keer verbinding maakt met een Wi-Fi-netwerk</string>
+
+   <string name="wifi_required_body" formatted="false">"Je moet een Wi-Fi connectie gebruiken voor deze %s download.
+
+
+
+ Klik %s hieronder om deze te downloaden zodra een connectie met Wi-Fi aanwezig is."</string>
    <string name="wifi_required_title">Download te groot voor mobiel netwerk</string>
 </resources>

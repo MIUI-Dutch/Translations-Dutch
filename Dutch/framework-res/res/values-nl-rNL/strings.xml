@@ -1,9 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <resources>
    <string name="abbrev_month">%-b</string>
-   <string name="abbrev_month_day">%-e %b</string>
-   <string name="abbrev_month_day_year">%-e %b %Y</string>
-   <string name="abbrev_month_year">%b %Y</string>
+   <string name="abbrev_month_day" formatted="false">%b %-e</string>
+
+   <string name="abbrev_month_day_year" formatted="false">%b %-e, %Y</string>
+
+   <string name="abbrev_month_year" formatted="false">%b %Y</string>
    <string name="abbrev_wday_month_day_year">EEE d MMM yyyy</string>
    <string name="accessibility_binding_label">Toegankelijkheid</string>
    <string name="accessibility_compound_button_selected">aangevinkt</string>
@@ -321,10 +323,14 @@
    <string name="country_name_za">Zuid-Afrika</string>
    <string name="country_name_zm">Zambia</string>
    <string name="country_name_zw">Zimbabwe</string>
-   <string name="create_contact_using">Contact maken\nmet %s</string>
+
+   <string name="create_contact_using">"Contact maken
+
+met %s"</string>
    <string name="cut">Knippen</string>
    <string name="CwMmi">Wisselgesprek</string>
-   <string name="date_and_time">%H:%M:%S %-e %b %Y</string>
+
+   <string name="date_and_time" formatted="false">%b %-e, %Y, %-l:%M:%S %p</string>
    <string name="date_day">Datum</string>
    <string name="date_time">%2$s %1$s</string>
    <string name="date_time_set">Instellen</string>
@@ -362,6 +368,8 @@
    <string name="days">dagen</string>
    <string name="default_permission_group">Standaard</string>
    <string name="default_text_encoding">Latin-1</string>
+
+   <string name="default_wallpaper_component">@null</string>
    <string name="defaultMsisdnAlphaTag">MSISDN1</string>
    <string name="defaultVoiceMailAlphaTag">Voicemail</string>
    <string name="deny">Weigeren</string>
@@ -376,7 +384,10 @@
    <string name="description_star">favoriet</string>
    <string name="description_unknown">Onbekend</string>
    <string name="description_version">Versie:</string>
-   <string name="dial_number_using">Nummer bellen\nmet %s</string>
+
+   <string name="dial_number_using">"Nummer bellen
+
+met %s"</string>
    <string name="dialog_alert_title">Let op</string>
    <string name="dlg_confirm_kill_storage_users_text">Als u SD-kaart inschakelt, worden bepaalde toepassingen die u gebruikt, gestopt en worden deze mogelijk pas weer beschikbaar wanneer u SD-kaart uitschakelt</string>
    <string name="dlg_confirm_kill_storage_users_title">SD-kaart inschakelen</string>
@@ -428,7 +439,12 @@
    <string name="fcError">Verbindingsprobleem of ongeldige functiecode</string>
    <string name="fileSizeSuffix">%1$s%2$s</string>
    <string name="firewall_setting">Contact blokkering</string>
-   <string name="first_back_long_press_message">Om met lang drukken applicaties te stoppen \n\n Ga naar Instellingen > Systeem > Knop instellingen</string>
+
+   <string name="first_back_long_press_message">"Om met lang drukken applicaties te stoppen
+
+
+
+ Ga naar Instellingen > Systeem > Knop instellingen"</string>
    <string name="first_back_long_press_title">Terug-toets lang ingedrukt houden</string>
    <string name="fools_day" />
    <string name="force_close">Nu sluiten</string>
@@ -466,11 +482,16 @@
    <string name="heavy_weight_switcher_title">Toepassingen wijzigen?</string>
    <string name="hoar_frost_falls" />
    <string name="hour">uur</string>
-   <string name="hour_ampm">%-l%P</string>
-   <string name="hour_cap_ampm">%-l%p</string>
-   <string name="hour_minute_24">%H:%M</string>
-   <string name="hour_minute_ampm">%-l:%M %p</string>
-   <string name="hour_minute_cap_ampm">%-l:%M %^p</string>
+
+   <string name="hour_ampm" formatted="false">%-l%P</string>
+
+   <string name="hour_cap_ampm" formatted="false">%-l%p</string>
+
+   <string name="hour_minute_24" formatted="false">%H:%M</string>
+
+   <string name="hour_minute_ampm" formatted="false">%-l:%M%p</string>
+
+   <string name="hour_minute_cap_ampm" formatted="false">%-l:%M%^p</string>
    <string name="hours">uren</string>
    <string name="httpError">De webpagina bevat een fout</string>
    <string name="httpErrorAuth">Verificatie mislukt</string>
@@ -515,7 +536,16 @@
    <string name="international_womens_day" />
    <string name="invalid_url">Ongeldige URL:</string>
    <string name="invalidPin">Voer een PIN-code van 4 tot 8 cijfers in</string>
-   <string name="js_dialog_before_unload">Wilt u deze pagina verlaten?\n\n%s\n\nKies OK om door te gaan of Annuleren om op de huidige pagina te blijven</string>
+
+   <string name="js_dialog_before_unload">"Wilt u deze pagina verlaten?
+
+
+
+%s
+
+
+
+Kies OK om door te gaan of Annuleren om op de huidige pagina te blijven"</string>
    <string name="js_dialog_title">De pagina op \'%s\' zegt:</string>
    <string name="js_dialog_title_default">JavaScript</string>
    <string name="keyguard_incorrect_pin_with_retry_count">%d pogingen over</string>
@@ -546,7 +576,12 @@
    <string name="lockscreen_charged">Opgeladen</string>
    <string name="lockscreen_dial_label">Telefoon</string>
    <string name="lockscreen_emergency_call">Noodoproep</string>
-   <string name="lockscreen_failed_attempts_almost_glogin">U heeft uw ontgrendelingspatroon %d keer onjuist getekend. Na nog eens %d mislukte pogingen, wordt u gevraagd om uw telefoon te ontgrendelen met uw Google aanmelding.\n\n Probeer het over %d seconden opnieuw</string>
+
+   <string name="lockscreen_failed_attempts_almost_glogin" formatted="false">"Je hebt %d keer een verkeerd wachtwoord gebruikt.. Na nog %d poging(en), moet je je Google inlog gebruiken.
+
+
+
+ Probeer nogmaals na %d seconde."</string>
    <string name="lockscreen_forgot_pattern_button_text">Patroon vergeten?</string>
    <string name="lockscreen_glogin_checking_password">Controleren...</string>
    <string name="lockscreen_glogin_forgot_pattern">Account ontgrendelen</string>
@@ -579,7 +614,12 @@
    <string name="lockscreen_sound_on_label">Geluid aan</string>
    <string name="lockscreen_time_bottom_hint">Schuif omlaag om te ontgrendelen</string>
    <string name="lockscreen_too_many_failed_attempts_countdown">Probeer het over %d seconden opnieuw</string>
-   <string name="lockscreen_too_many_failed_attempts_dialog_message">U heeft uw ontgrendelingspatroon %d keer onjuist getekend. \n\nProbeer het over %d seconden opnieuw</string>
+
+   <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Je hebt %d keer een verkeerd wachtwoord gebruikt.
+
+
+
+Probeer nogmaals in %d seconden."</string>
    <string name="lockscreen_unlock_hint">Schuif omlaag om te ontgrendelen</string>
    <string name="lockscreen_unlock_label">Ontgrendelen</string>
    <string name="lockscreen_unlock_sim_via_puk">Gebruik PUK om SIM te ontgrendelen</string>
@@ -638,8 +678,10 @@
    <string name="mobile_traffic_exceeded_threshold">Datalimiet waarschuwing: %s</string>
    <string name="monitor_traffic_title">Datamonitor</string>
    <string name="month">%-B</string>
-   <string name="month_day">%-e %B</string>
-   <string name="month_day_year">%-e %B %Y</string>
+
+   <string name="month_day" formatted="false">%B %-e</string>
+
+   <string name="month_day_year" formatted="false">%B %-e, %Y</string>
    <string name="month_long_april">april</string>
    <string name="month_long_august">augustus</string>
    <string name="month_long_december">december</string>
@@ -688,7 +730,8 @@
    <string name="month_shortest_november">N</string>
    <string name="month_shortest_october">O</string>
    <string name="month_shortest_september">S</string>
-   <string name="month_year">%B %Y</string>
+
+   <string name="month_year" formatted="false">%B %Y</string>
    <string name="more_item_label">Meer</string>
    <string name="national_day" />
    <string name="needPuk">Uw SIM-kaart is vergrendeld met de PUK-code. Typ de PUK-code om te ontgrendelen</string>
@@ -706,9 +749,11 @@
    <string name="not_all_vibrate_hint">Volgens de instellingen %1$s op Trillen，%2$s op niet-Trillen，wijzigen via Instellingen->Geluid->Tril instellingen</string>
    <string name="notification_title">Fout bij aanmelding voor \'%1$s\'</string>
    <string name="notification_vibrate_hint">Notificatie</string>
-   <string name="numeric_date">%d-%m-%Y</string>
+
+   <string name="numeric_date" formatted="false">%-m/%-e/%Y</string>
    <string name="numeric_date_format">dd-MM-yyyy</string>
-   <string name="numeric_date_template">%s-%s-%s</string>
+
+   <string name="numeric_date_template" formatted="false">%s/%s/%s</string>
    <string name="numeric_md1_md2">%3$s-%2$s - %8$s-%7$s</string>
    <string name="numeric_md1_time1_md2_time2">%5$s %3$s-%2$s - %10$s %8$s-%7$s</string>
    <string name="numeric_mdy1_mdy2">%3$s-%2$s-%4$s - %8$s-%7$s-%9$s</string>
@@ -734,7 +779,12 @@
    <string name="orgTypeCustom">Aangepast</string>
    <string name="orgTypeOther">Overig</string>
    <string name="orgTypeWork">Werk</string>
-   <string name="package_behavior_confirmation">Applicatie %1$s vraagt rechten %2$s. Dit is een risico. Rechten toestaan?\n\nLet op: Sommige applicaties crashen als ze geen rechten hebben.</string>
+
+   <string name="package_behavior_confirmation">"Applicatie %1$s vraagt rechten %2$s. Dit is een risico. Rechten toestaan?
+
+
+
+Let op: Sommige applicaties crashen als ze geen rechten hebben."</string>
    <string name="partys_day" />
    <string name="password_keyboard_label_alpha_key">ABC</string>
    <string name="password_keyboard_label_alt_key">Alt</string>
@@ -906,7 +956,10 @@
    <string name="permgrouplab_storage">Opslagruimte</string>
    <string name="permgrouplab_systemTools">Systeemhulpprogramma\'s</string>
    <string name="permission_request_notification_title">Toestemming gevraagd</string>
-   <string name="permission_request_notification_with_subtitle">Toestemming gevraagd\nvoor account \'%s\'</string>
+
+   <string name="permission_request_notification_with_subtitle">"Toestemming gevraagd
+
+voor account \'%s\'"</string>
    <string name="permissions_format">%1$s, %2$s</string>
    <string name="permlab_accessCoarseLocation">globale (netwerkgebaseerde) locatie</string>
    <string name="permlab_accessFineLocation">nauwkeurige (GPS) locatie</string>
@@ -1273,7 +1326,8 @@
    <string name="throttled_notification_message">Raak aan voor meer informatie over mobiel gegevensgebruik</string>
    <string name="throttled_notification_title">Mobiele gegevenslimiet overschreden</string>
    <string name="time_date">%1$s %3$s</string>
-   <string name="time_of_day">%H:%M:%S</string>
+
+   <string name="time_of_day" formatted="false">%-l:%M:%S %p</string>
    <string name="time_wday">%1$s %2$s</string>
    <string name="time_wday_date">%1$s %2$s %3$s</string>
    <string name="time1_time2">%1$s - %2$s</string>

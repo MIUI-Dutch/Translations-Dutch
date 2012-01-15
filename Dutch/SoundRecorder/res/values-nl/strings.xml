@@ -44,5 +44,5 @@
    <string name="sd_card_not_available">SD-kaart niet beschikbaar</string>
    <string name="second">%d seconden</string>
    <string name="storage_is_full">Opslag is vol</string>
-   <string name="timer_format">%02d:%02d</string>
+   <string name="timer_format" formatted="false">%02d:%02d</string>
 </resources>

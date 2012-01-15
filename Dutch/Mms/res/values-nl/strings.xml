@@ -14,6 +14,7 @@
    <string name="add_slide_hint">Selecteer om nieuwe dia te maken</string>
    <string name="add_smiley">Smiley</string>
    <string name="add_subject">Onderwerp toevoegen</string>
+   <string name="add_timing">Tijd toevoegen</string>
    <string name="add_video">Video toevoegen</string>
    <string name="adding_attachments">Wachten a.u.b. terwijl de bijlagen worden toegevoegd</string>
    <string name="adding_attachments_title">Bijlagen aan het toevoegen</string>
@@ -117,6 +118,8 @@
    <string name="error_code_label">Foutcode:</string>
    <string name="error_state">Inconsistente staat</string>
    <string name="error_state_text">De staat van de conversaties en de ontvangers is inconsistent. Stuur een bug report aan android-sms-bugs@google.com</string>
+
+   <string name="error_timed_msg">Tijdstip ligt in verleden</string>
    <string name="exceed_message_size_limitation">Limiet berichtgrootte bereikt</string>
    <string name="exit_edit_mode">Verlaat bewerken</string>
    <string name="expire_on">Verloopt: %s</string>
@@ -161,6 +164,8 @@
    <string name="menu_lock">Bericht\nvergrendelen</string>
    <string name="menu_preferences">Instellingen</string>
    <string name="menu_send_email">E-mail naar %s verzenden</string>
+
+   <string name="menu_timed_message">Bericht op tijdstip</string>
    <string name="menu_unlock">Bericht\nontgrendelen</string>
    <string name="menu_view">Conversatie weergeven</string>
    <string name="menu_view_contact">Contactpersonen tonen</string>
@@ -355,6 +360,8 @@
    <string name="subject_label">Onderwerp:</string>
    <string name="text_in_popup_saved_to_clipboard">Selectie uit pop-up venster bewaard op klembord</string>
    <string name="text_message">SMS-bericht</string>
+
+   <string name="title_timed_message_dialog">Geef tijd voor dit bericht</string>
    <string name="to_address_label">Aan:</string>
    <string name="to_count">%d contacten</string>
    <string name="to_hint">Aan</string>
@@ -383,5 +390,7 @@ Poging ondernomen: %s"</string>
    <string name="view_message_details">Berichtdetails tonen</string>
    <string name="view_slideshow">Diashow tonen</string>
    <string name="wap_push_title">[WAP Push]\u0020</string>
+
+   <string name="will_send_at">Wordt verzonden op: %s</string>
    <string name="yes">OK</string>
 </resources>

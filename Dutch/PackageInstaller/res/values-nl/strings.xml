@@ -11,7 +11,6 @@
 Alle vorige gebruiker gegevens worden opgeslagen"</string>
    <string name="dlg_app_replacement_title">Vervang de toepassing</string>
    <string name="dlg_ok">OK</string>
-
    <string name="dlg_sys_app_replacement_statement">"Dit is een systeem applicatie. Wilt u vervangen?
 
 
@@ -43,7 +42,10 @@ Alle vorige gebruiker gegevens worden opgeslagen"</string>
    <string name="uninstall_update_text">De applicatie-update zullen worden verwijderd. U kunt nog steeds gebruik maken van de fabriek versie van de applicatie</string>
    <string name="uninstalling">Wissen…</string>
    <string name="unknown">Onbekend</string>
+   <string name="unknown_apps_dlg_text">"Voor veiligheid, is uw telefoon ingesteld om de installatie van applicaties die niet zijn verkregen uit Android Market te blokkeren"
 
-   <string name="unknown_apps_dlg_text">"Voor veiligheid, is uw telefoon ingesteld om de installatie van applicaties die niet zijn verkregen uit Android Market te blokkeren"</string>
+
+
+Dit kan gewijzigd worden via Instellingen -> Applicaties -> Ontwikkelaars -> Onbekende bronnen"</string>
    <string name="unknown_apps_dlg_title">Te installeren geblokkeerd</string>
 </resources>
