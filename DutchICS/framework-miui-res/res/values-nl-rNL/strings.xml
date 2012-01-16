@@ -250,7 +250,7 @@
 
  via Instellingen > Systeem > Toetsen"</string>
    <string name="first_back_long_press_title">Terug-toets gedrag</string>
-   <string name="force_exit_message">Succesvol afgesloten \"%1$s\"</string>
+   <string name="force_exit_message">%1$s succesvol afgesloten</string>
    <string name="invalid_url">Ongeldige URL:</string>
    <string name="loading">Laden...</string>
    <string name="lock_screen_date">EEEE, d MMMM</string>

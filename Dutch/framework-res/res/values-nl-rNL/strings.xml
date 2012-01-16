@@ -448,7 +448,7 @@ met %s"</string>
    <string name="first_back_long_press_title">Terug-toets lang ingedrukt houden</string>
    <string name="fools_day" />
    <string name="force_close">Nu sluiten</string>
-   <string name="force_exit_message">Succesvol gestopt \"%1$s</string>
+   <string name="force_exit_message">%1$s succesvol afgesloten</string>
    <string name="format_error">Wissen van SD-kaart is mislukt</string>
    <string name="full_wday_month_day_no_year">EEEE d MMMM</string>
    <string name="gadget_host_error_inflating">Fout bij uitbreiden van widget</string>
