@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<resources>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MIUI_Theme_Values>
    <string name="about_settings">Over de telefoon</string>
    <string name="accelerometer_title">Scherm automatisch draaien</string>
    <string name="access_control_app_entry_multiple">Open %s</string>
@@ -285,18 +285,15 @@ weet U zeker dat U dit wilt?"</string>
    <string name="bluetooth_dock_settings_remember">Instellingen herinneren</string>
    <string name="bluetooth_dock_settings_title">Dock gebruiken voor audio</string>
    <string name="bluetooth_enable_text">Empty button</string>
-
    <string name="bluetooth_enter_passkey_msg">"
 
 Geef sleutel in om te koppelen met %1$s"</string>
-
    <string name="bluetooth_enter_pin_msg">"
 
 Geef de PIN-code in om te koppelen. (Probeer 0000 of 1234.)"</string>
    <string name="bluetooth_error_title">Let op</string>
    <string name="bluetooth_headset_profile_summary_connected">Verbonden met telefoonaudio</string>
    <string name="bluetooth_headset_profile_summary_use_for">Gebruiken voor telefoonaudio</string>
-
    <string name="bluetooth_incoming_pairing_msg">"%1$s
 
 verzoekt om te koppelen"</string>
@@ -634,9 +631,7 @@ verzoekt om te koppelen"</string>
    <string name="error_mnc_not23">MNC moet 2 of 3 cijfers bevatten</string>
    <string name="error_name_empty">Naamveld kan niet leeg zijn</string>
    <string name="error_title">Let op</string>
-
    <string name="expandable_under_fullscreen">Toon in volledig scherm</string>
-
    <string name="expandable_under_fullscreen_summary">door de bovenkant van het scherm naar beneden te schuiven</string>
    <string name="filter">Filter</string>
    <string name="filter_apps_all">Alles</string>
@@ -780,12 +775,31 @@ verzoekt om te koppelen"</string>
    <string name="location_security_settings_title">Locatie en beveiligingsinstellingen</string>
    <string name="location_street_level">Nauwkeurig zoeken tot op straatniveau (uitschakelen om batterij te sparen)</string>
    <string name="location_title">Mijn locatie</string>
-
    <string name="lock_example_message">"Verbind ten minste vier stippen met elkaar.
 
 Selecteer Volgende wanneer u klaar bent om uw eigen patroon te tekenen"</string>
    <string name="lock_example_title">Voorbeeldpatroon</string>
-   <string name="lock_intro_message" />
+   <string name="lock_intro_message"><font size="17">"Beveilig de telefoon tegen misbruik door een persoonlijke scherm unlock patroon.
+
+"<font height="17">"
+
+"</font><b>1</b>"  Op het volgende scherm wordt een voorbeeld patroon getoond. 
+
+"<font height="17">"
+
+"</font><b>2</b>"  Teken dan je persoonlijke scherm unlock patroon. Experimenteer met verschillende patronen, maar gebruik minimaal 4 punten. 
+
+"<font height="17">"
+
+"</font><b>3</b>"  Teken het patroon nogmaals voor bevestiging. 
+
+"<font height="17">"
+
+"</font><b>Klaar? Klik “Volgende”</b>". 
+
+"<font height="3">"
+
+"</font>Voor onbeveiligd gebruik, klik “Annuleer”.</font>" "</string>
    <string name="lock_settings_picker_title">Instellingen ontgrendelen scherm</string>
    <string name="lock_settings_title">Instellingen ontgrendelen scherm</string>
    <string name="lock_sounds_enable_summary_off">Geluiden afspelen bij ver-/ontgrendelen scherm</string>
@@ -1510,4 +1524,4 @@ Opslag van referenties misschien niet ingeschakeld"</string>
    <string name="yes">Ja</string>
    <string name="zone_list_menu_sort_alphabetically">Alfabetisch sorteren</string>
    <string name="zone_list_menu_sort_by_timezone">Sorteren op tijdzone</string>
-</resources>
+</MIUI_Theme_Values>

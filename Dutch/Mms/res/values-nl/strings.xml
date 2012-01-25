@@ -118,7 +118,6 @@
    <string name="error_code_label">Foutcode:</string>
    <string name="error_state">Inconsistente staat</string>
    <string name="error_state_text">De staat van de conversaties en de ontvangers is inconsistent. Stuur een bug report aan android-sms-bugs@google.com</string>
-
    <string name="error_timed_msg">Tijdstip ligt in verleden</string>
    <string name="exceed_message_size_limitation">Limiet berichtgrootte bereikt</string>
    <string name="exit_edit_mode">Verlaat bewerken</string>
@@ -164,7 +163,6 @@
    <string name="menu_lock">Bericht\nvergrendelen</string>
    <string name="menu_preferences">Instellingen</string>
    <string name="menu_send_email">E-mail naar %s verzenden</string>
-
    <string name="menu_timed_message">Bericht op tijdstip</string>
    <string name="menu_unlock">Bericht\nontgrendelen</string>
    <string name="menu_view">Conversatie weergeven</string>
@@ -360,12 +358,12 @@
    <string name="subject_label">Onderwerp:</string>
    <string name="text_in_popup_saved_to_clipboard">Selectie uit pop-up venster bewaard op klembord</string>
    <string name="text_message">SMS-bericht</string>
-
    <string name="title_timed_message_dialog">Geef tijd voor dit bericht</string>
    <string name="to_address_label">Aan:</string>
    <string name="to_count">%d contacten</string>
    <string name="to_hint">Aan</string>
    <string name="to_label">Naar\u0020</string>
+   <string name="to_send_wrapper">Wordt verzonden op %s</string>
    <string name="too_many_attachments">Limited to %1$d attachments. Only first %2$d will be added</string>
    <string name="too_many_recipients">Dit bericht heeft te veel ontvangers (%1$s). Er is een limiet van %2$s ontvangers</string>
    <string name="too_many_unsent_mms">Kan bericht niet verzenden. Teveel niet verzonden MMS-berichten</string>
@@ -390,7 +388,6 @@ Poging ondernomen: %s"</string>
    <string name="view_message_details">Berichtdetails tonen</string>
    <string name="view_slideshow">Diashow tonen</string>
    <string name="wap_push_title">[WAP Push]\u0020</string>
-
    <string name="will_send_at">Wordt verzonden op: %s</string>
    <string name="yes">OK</string>
 </resources>

@@ -2,9 +2,32 @@
 <resources>
    <string name="about_settings">Over de telefoon</string>
    <string name="about_settings_summary">Juridische info, status, softwareversie weergeven</string>
+   <string name="ac_enable_title">Toegangsbeperkingen</string>
+
+   <string name="ac_privacy_mode_title">Wachtwoordbeveiliging gast-mode</string>
+
+   <string name="ac_set_apps_title">Te beschermen en te verbergen toepassingen</string>
    <string name="accelerometer_summary_off">Stand automatisch wijzigen als telefoon wordt gedraaid</string>
    <string name="accelerometer_summary_on">Stand automatisch wijzigen als telefoon wordt gedraaid</string>
    <string name="accelerometer_title">Scherm automatisch draaien</string>
+
+   <string name="access_control_app_entry_multiple">in %s</string>
+
+   <string name="access_control_app_entry_single">in de toepassing</string>
+
+   <string name="access_control_need_password">"%s is beveiligd met een wachtwoord
+
+ "</string>
+
+   <string name="access_control_need_to_unlock">Geef een wachtwoord in om toegang te beperken</string>
+
+   <string name="access_control_no_back_footer">Druk op [icon] toets om af te sluiten</string>
+
+   <string name="access_control_password_title">Toegangsbeperkingen</string>
+
+   <string name="access_control_recording_intro_header">Teken patroon om toegang te beperken tot wachtwoorden</string>
+
+   <string name="access_control_title">toegangsbeperkingen</string>
    <string name="accessibility_long_press_timeout_title">Vertraging voor blijven aanraken</string>
    <string name="accessibility_menu_item_settings">Instellingen</string>
    <string name="accessibility_menu_item_tutorial">Training</string>

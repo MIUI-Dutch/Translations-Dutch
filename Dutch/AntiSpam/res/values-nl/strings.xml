@@ -56,10 +56,11 @@
    <string name="fw_advanced_settings">Geavanceerde instellingen</string>
    <string name="fw_all_day">Altijd</string>
    <string name="fw_blacklist">Zwarte lijst</string>
-   <string name="fw_blacklist_hint">Berichten en oproepen van de zwarte lijst worden geblokkeerd</string>
+   <string name="fw_blacklist_hint">"Berichten en oproepen van de zwarte lijst
+
+worden geblokkeerd"</string>
    <string name="fw_blocked">Resultaten</string>
    <string name="fw_blocked_count" formatted="false">%d %d oproepen en berichten geblokkeerd</string>
-
    <string name="fw_call" formatted="false">Oproep tijd: %s (%d)</string>
    <string name="fw_call_muted">Oproep gedempt</string>
    <string name="fw_call_rejected">Oproep geblokkeerd</string>
@@ -82,7 +83,6 @@
    <string name="fw_menu_new_whitelist_title">Voeg toe aan witte lijst</string>
    <string name="fw_menu_pick_from_contact">Contact(en)</string>
    <string name="fw_menu_remove">Wis</string>
-
    <string name="fw_ms" formatted="false">Bericht tijd: %s (%d)</string>
    <string name="fw_ms_filtered">Filter berichten</string>
    <string name="fw_ms_imported">Berichten importeren</string>
@@ -99,8 +99,10 @@
    <string name="fw_start_time">Begin tijd</string>
    <string name="fw_time_settings">Activering</string>
    <string name="fw_whitelist">Witte lijst</string>
-   <string name="fw_whitelist_hint">Berichten en oproepen van witte lijst worden niet geblokkeerd</string>
 
+   <string name="fw_whitelist_hint">"Berichten en oproepen van witte lijst
+
+worden niet geblokkeerd"</string>
    <string name="member_firewall_log" formatted="false">Geblokkeerd: Aantal %d details %d</string>
    <string name="menu_edit">Bewerken</string>
    <string name="mms_log_tab_title">Berichten</string>

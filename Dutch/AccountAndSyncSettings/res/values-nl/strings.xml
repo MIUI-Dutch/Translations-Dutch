@@ -63,11 +63,12 @@ Doorgaan?"</string>
    <string name="sync_item_title">%s synchroniseren</string>
    <string name="sync_menu_sync_cancel">Synchronisatie annuleren</string>
    <string name="sync_menu_sync_now">Nu synchroniseren</string>
-
    <string name="sync_one_time_sync">"Aanraken om nu te synchroniseren
 
 %1$s"</string>
-   <string name="sync_plug" />
+   <string name="sync_plug"><font fgcolor="#ffffffff">Welkom bij Google sync!</font>"
+
+A Google oplossing voor synchroniseren van data, voor toegang tot je contacten, agendapuntenen meer vanaf elke lokatie. "</string>
    <string name="sync_really_delete">De items wissen</string>
    <string name="sync_settings">Account- en synchronisatie instellingen</string>
    <string name="sync_too_many_deletes">Wis-limiet overschreden</string>

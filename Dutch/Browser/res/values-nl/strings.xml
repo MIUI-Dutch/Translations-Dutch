@@ -67,6 +67,7 @@
    <string name="contextmenu_copy">Kopie</string>
    <string name="contextmenu_copylink">Kopieer URL</string>
    <string name="contextmenu_dial_dot">Bellen ...</string>
+   <string name="contextmenu_download_as_image">Afbeelding opslaan als</string>
    <string name="contextmenu_download_image">Afbeelding opslaan</string>
    <string name="contextmenu_map">Kaart om</string>
    <string name="contextmenu_openlink">Open In zelfde scherm</string>
@@ -88,6 +89,8 @@
    <string name="download_sdcard_busy_dlg_msg">Geheugen kaart is bezig. Sluit de geheuegen kaart en probeer opnieuw</string>
    <string name="download_sdcard_busy_dlg_title">SD-kaart bezig</string>
    <string name="download_unknown_title">&lt;geen titel></string>
+
+   <string name="duplicate_download_msg">Dubbele downloads. Overschrijven?</string>
    <string name="edit_bookmarkfolder_header">Bewerk map</string>
    <string name="email_body">"Website feedback:
 
@@ -108,7 +111,6 @@
    <string name="exported_bookmark_file_name">Mijn Favorieten</string>
    <string name="exported_data_file_name">Mijn Data</string>
    <string name="feedback">Feedback</string>
-
    <string name="few_match" formatted="false">%d/%d</string>
    <string name="file_picker_new_folder">Nieuwe map</string>
    <string name="file_picker_sdcard_not_found">SD-kaart niet gevonden, controleer of je toestel is verbonden met je PC</string>

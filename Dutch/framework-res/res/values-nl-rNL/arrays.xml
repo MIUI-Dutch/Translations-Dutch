@@ -5,8 +5,8 @@
     <integer-array name="config_autoBrightnessButtonBacklightValues">
         <item>255</item>
         <item>255</item>
-        <item>0</item>
-        <item>0</item>
+        <item>255</item>
+        <item>127</item>
         <item>0</item>
         <item>0</item>
         <item>0</item>
@@ -14,10 +14,10 @@
         <item>0</item>
     </integer-array>
     <integer-array name="config_autoBrightnessKeyboardBacklightValues">
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+        <item>127</item>
         <item>0</item>
         <item>0</item>
         <item>0</item>
@@ -26,13 +26,13 @@
     </integer-array>
     <integer-array name="config_autoBrightnessLcdBacklightValues">
         <item>20</item>
-        <item>20</item>
-        <item>20</item>
-        <item>20</item>
-        <item>35</item>
         <item>50</item>
-        <item>50</item>
-        <item>100</item>
+        <item>80</item>
+        <item>110</item>
+        <item>150</item>
+        <item>180</item>
+        <item>200</item>
+        <item>220</item>
         <item>255</item>
     </integer-array>
     <integer-array name="config_autoBrightnessLevels">

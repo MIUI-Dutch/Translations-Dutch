@@ -43,17 +43,13 @@
    <string name="menu_font_small">Klein</string>
    <string name="menu_font_super">Enorm</string>
    <string name="menu_list_mode">Voer checklist in</string>
-
    <string name="menu_move">verplaats naar folder</string>
    <string name="menu_move_parent_folder">Bovenliggende map</string>
    <string name="menu_normal_mode">Verlaat checklist</string>
    <string name="menu_remove_remind">Wis herinnering</string>
    <string name="menu_search">Zoeken</string>
-
    <string name="menu_select_all">Selecteer alle</string>
-
    <string name="menu_select_none">Niets geselecteerd, wordt niet uitgevoerd</string>
-
    <string name="menu_select_title">%d geselecteerd</string>
    <string name="menu_send_to_desktop">Maak snelkoppeling op homescreen</string>
    <string name="menu_setting">Instellingen</string>
@@ -92,6 +88,7 @@
    <string name="search_hint">Zoek notities</string>
    <string name="search_label">Notities zoeken</string>
    <string name="search_setting_description">Tekst in uw notities</string>
+   <string name="set_remind_time_message">Herinnering instellen</string>
    <string name="success_sdcard_export">Exporteren succesvol</string>
    <string name="success_sync_account">Synchronisatie succesvol met account %1$s</string>
    <string name="sync_progress_init_list">Ophalen van externe notitielijst...</string>

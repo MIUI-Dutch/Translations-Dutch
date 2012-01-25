@@ -11,7 +11,6 @@
    <string name="category_other">Overige</string>
    <string name="category_picture">Afbeeldingen</string>
    <string name="category_theme">Thema\'s</string>
-   <string name="category_title">Bestand beheer</string>
    <string name="category_video">Video\'s</string>
    <string name="category_zip">Archief</string>
    <string name="confirm">OK</string>
@@ -46,6 +45,7 @@
    <string name="menu_item_sort_name">Naam</string>
    <string name="menu_item_sort_size">Grootte</string>
    <string name="menu_item_sort_type">Type</string>
+   <string name="multi_select_title">%1$s item(s) geselecteerd</string>
    <string name="new_folder_name">Nieuwe map</string>
    <string name="no">Nee</string>
    <string name="no_file">Geen bestand(en)</string>
@@ -63,13 +63,11 @@
    <string name="operation_favorite">Toevoegen aan Favorieten</string>
    <string name="operation_hide_sys">Verberg verborgen bestanden</string>
    <string name="operation_info">Details</string>
-   <string name="operation_install">Installeer</string>
    <string name="operation_move">Verplaats</string>
    <string name="operation_moving">Verplaatsen...</string>
    <string name="operation_paste">Plak</string>
    <string name="operation_pasting">Kopiëren...</string>
    <string name="operation_refresh">Vernieuwen</string>
-   <string name="operation_remove">Wissen</string>
    <string name="operation_rename">Hernoem</string>
    <string name="operation_rename_message">Voer een nieuwe naam in</string>
    <string name="operation_selectall">Alles selecteren</string>
@@ -77,16 +75,12 @@
    <string name="operation_show_sys">Toon verborgen bestanden</string>
    <string name="operation_unfavorite">Verwijder uit Favorieten</string>
    <string name="removed_favorite">Verwijderd uit favorieten</string>
-   <string name="sd_card_available">Beschikbare ruimte:\u0020</string>
-   <string name="sd_card_name">SD-kaart:\u0020</string>
    <string name="sd_folder">SD-kaart</string>
    <string name="search_hint">Zoek bestand(en)</string>
    <string name="search_title">Zoek bestand(en)</string>
    <string name="start_server">Start service</string>
    <string name="stop_server">Stop service</string>
    <string name="storage_warning">Externe opslag niet beschikbaar of kan niet worden gelezen</string>
-   <string name="tab_bluetooth">Bluetooth</string>
-   <string name="tab_category">Categorie</string>
    <string name="tab_remote">FTP</string>
    <string name="tab_sd">SD-kaart</string>
    <string name="wifi_state">Wi-Fi status</string>

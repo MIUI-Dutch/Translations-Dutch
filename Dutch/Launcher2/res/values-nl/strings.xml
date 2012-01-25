@@ -6,9 +6,13 @@
    <string name="cancel_action">Annuleren</string>
    <string name="cancel_btn_label">Annuleren</string>
    <string name="cant_remove_folder">Kan een niet-lege map niet wissen</string>
+   <string name="cant_remove_retained_app">Niet mogelijk om deze applicatie te deinstalleren</string>
    <string name="cant_remove_system_app">Systeem applicaties kunnen niet worden verwijderd</string>
    <string name="chooser_wallpaper">Selecteer achtergrond van</string>
    <string name="confirm_btn_label">OK</string>
+   <string name="default_folder_title_game">Games</string>
+   <string name="default_folder_title_recommend">Aanbevolen</string>
+   <string name="default_folder_title_tools">Tools</string>
    <string name="durationformatlong">%1$d:%3$02d:%5$02d</string>
    <string name="durationformatshort">%2$2d:%5$02d</string>
    <string name="durationformatshort_padding_with_0">%2$02d:%5$02d</string>

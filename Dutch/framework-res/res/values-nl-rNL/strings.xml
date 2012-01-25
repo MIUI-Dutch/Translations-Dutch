@@ -2,9 +2,7 @@
 <resources>
    <string name="abbrev_month">%-b</string>
    <string name="abbrev_month_day" formatted="false">%b %-e</string>
-
    <string name="abbrev_month_day_year" formatted="false">%b %-e, %Y</string>
-
    <string name="abbrev_month_year" formatted="false">%b %Y</string>
    <string name="abbrev_wday_month_day_year">EEE d MMM yyyy</string>
    <string name="accessibility_binding_label">Toegankelijkheid</string>
@@ -28,9 +26,6 @@
    <string name="anr_application_process">Toepassing %1$s (in proces %2$s) reageert niet</string>
    <string name="anr_process">Proces %1$s reageert niet</string>
    <string name="anr_title">Helaas!</string>
-   <string name="arbor_day" />
-   <string name="autumn_begins" />
-   <string name="autumn_equinox" />
    <string name="badPin">De oude PIN-code die u heeft ingevoerd, is onjuist</string>
    <string name="badPuk">De PUK-code die u heeft ingevoerd, is onjuist</string>
    <string name="BaMmi">Oproep blokkeren</string>
@@ -40,7 +35,7 @@
    <string name="caller_info_name_delimiter">-</string>
    <string name="callNoAnswerTimeFormat">%s maal gerinkeld</string>
    <string name="cancel">Annuleren</string>
-   <string name="candidates_style" />
+   <string name="candidates_style"><u>candidaten</u></string>
    <string name="capital_off">UIT</string>
    <string name="capital_on">AAN</string>
    <string name="car_mode_disable_notification_message">Selecteer dit om de automodus af te sluiten</string>
@@ -52,14 +47,10 @@
    <string name="cfTemplateRegistered">{0}: niet doorgeschakeld</string>
    <string name="cfTemplateRegisteredTime">{0}: niet doorgeschakeld</string>
    <string name="change_default_input_method">Door lang vasthouden van het invoerveld kan de invoer methode later gewijzigd worden</string>
-   <string name="childrens_day" />
-   <string name="chinese_youth_day" />
    <string name="choose_default_input_method">Kies standaard invoer methode</string>
    <string name="chooseActivity">Een actie selecteren</string>
    <string name="chooser_wallpaper">Achtergrond wijzigen</string>
    <string name="chooseUsbActivity">Selecteer een app voor het USB-apparaat</string>
-   <string name="christmas_dad" />
-   <string name="clear_and_bright" />
    <string name="clearDefaultHintMsg">Wis standaardinstelling via startscherm: \'Instellingen\' > \'Toepassingen\' > \'Toepassingen beheren\'</string>
    <string name="ClipMmi">Inkomende beller-id</string>
    <string name="CLIRDefaultOffNextCallOff">Beller-id standaard ingesteld op \'onbeperkt\'. Volgende oproep: onbeperkt</string>
@@ -71,7 +62,6 @@
    <string name="CndMmi">Weergave van nummer van beller</string>
    <string name="CnipMmi">Nummer van beller beschikbaar</string>
    <string name="CnirMmi">Nummer van beller beperkt</string>
-   <string name="cold_dews" />
    <string name="common_last_name_prefixes" />
    <string name="common_name_conjunctions" />
    <string name="common_name_prefixes" />
@@ -323,13 +313,11 @@
    <string name="country_name_za">Zuid-Afrika</string>
    <string name="country_name_zm">Zambia</string>
    <string name="country_name_zw">Zimbabwe</string>
-
    <string name="create_contact_using">"Contact maken
 
 met %s"</string>
    <string name="cut">Knippen</string>
    <string name="CwMmi">Wisselgesprek</string>
-
    <string name="date_and_time" formatted="false">%b %-e, %Y, %-l:%M:%S %p</string>
    <string name="date_day">Datum</string>
    <string name="date_time">%2$s %1$s</string>
@@ -368,7 +356,6 @@ met %s"</string>
    <string name="days">dagen</string>
    <string name="default_permission_group">Standaard</string>
    <string name="default_text_encoding">Latin-1</string>
-
    <string name="default_wallpaper_component">@null</string>
    <string name="defaultMsisdnAlphaTag">MSISDN1</string>
    <string name="defaultVoiceMailAlphaTag">Voicemail</string>
@@ -384,7 +371,6 @@ met %s"</string>
    <string name="description_star">favoriet</string>
    <string name="description_unknown">Onbekend</string>
    <string name="description_version">Versie:</string>
-
    <string name="dial_number_using">"Nummer bellen
 
 met %s"</string>
@@ -394,7 +380,6 @@ met %s"</string>
    <string name="dlg_error_title">USB-bewerking mislukt</string>
    <string name="dlg_ok">OK</string>
    <string name="DndMmi">Niet storen</string>
-   <string name="double_seventh_day" />
    <string name="double_tap_toast">Tip: tik tweemaal om in of uit te zoomen</string>
    <string name="download_failed">Download mislukt</string>
    <string name="download_preview_failed">Voorbeeld laden mislukt</string>
@@ -439,14 +424,12 @@ met %s"</string>
    <string name="fcError">Verbindingsprobleem of ongeldige functiecode</string>
    <string name="fileSizeSuffix">%1$s%2$s</string>
    <string name="firewall_setting">Contact blokkering</string>
-
    <string name="first_back_long_press_message">"Om met lang drukken applicaties te stoppen
 
 
 
  Ga naar Instellingen > Systeem > Knop instellingen"</string>
    <string name="first_back_long_press_title">Terug-toets lang ingedrukt houden</string>
-   <string name="fools_day" />
    <string name="force_close">Nu sluiten</string>
    <string name="force_exit_message">%1$s succesvol afgesloten</string>
    <string name="format_error">Wissen van SD-kaart is mislukt</string>
@@ -467,30 +450,18 @@ met %s"</string>
    <string name="global_actions_airplane_mode_off_status">Vliegmodus is UIT</string>
    <string name="global_actions_airplane_mode_on_status">Vliegmodus is AAN</string>
    <string name="global_actions_toggle_airplane_mode">Vliegmodus</string>
-   <string name="grain_buds" />
-   <string name="grain_in_ear" />
-   <string name="grain_rain" />
    <string name="grant_credentials_permission_message_footer">Wilt u dit verzoek toestaan?</string>
    <string name="grant_credentials_permission_message_header">De volgende toepassingen vragen toegang tot uw account, nu en in de toekomst</string>
    <string name="grant_permissions_header_text">Toegangsverzoek</string>
-   <string name="great_cold" />
-   <string name="great_heat" />
-   <string name="heavy_snow" />
    <string name="heavy_weight_notification">%1$s wordt uitgevoerd</string>
    <string name="heavy_weight_notification_detail">Selecteren om over te schakelen naar toepassing</string>
    <string name="heavy_weight_switcher_text">Er wordt al een andere toepassing uitgevoerd die moet worden gestopt voordat u een nieuwe toepassing kunt starten</string>
    <string name="heavy_weight_switcher_title">Toepassingen wijzigen?</string>
-   <string name="hoar_frost_falls" />
    <string name="hour">uur</string>
-
    <string name="hour_ampm" formatted="false">%-l%P</string>
-
    <string name="hour_cap_ampm" formatted="false">%-l%p</string>
-
    <string name="hour_minute_24" formatted="false">%H:%M</string>
-
    <string name="hour_minute_ampm" formatted="false">%-l:%M%p</string>
-
    <string name="hour_minute_cap_ampm" formatted="false">%-l:%M%^p</string>
    <string name="hours">uren</string>
    <string name="httpError">De webpagina bevat een fout</string>
@@ -532,11 +503,8 @@ met %s"</string>
    <string name="incoming_call_vibrate_hint">Inkomende oproep</string>
    <string name="input_method_binding_label">Invoermethode</string>
    <string name="inputMethod">Invoermethode</string>
-   <string name="insects_awaken" />
-   <string name="international_womens_day" />
    <string name="invalid_url">Ongeldige URL:</string>
    <string name="invalidPin">Voer een PIN-code van 4 tot 8 cijfers in</string>
-
    <string name="js_dialog_before_unload">"Wilt u deze pagina verlaten?
 
 
@@ -557,13 +525,10 @@ Kies OK om door te gaan of Annuleren om op de huidige pagina te blijven"</string
    <string name="l2tp_ipsec_crt_vpn_description">Certificaat op basis van L2TP/IPSec VPN</string>
    <string name="l2tp_ipsec_psk_vpn_description">Vooraf gedeelde sleutel op basis van L2TP/IPSec VPN</string>
    <string name="l2tp_vpn_description">Layer 2 Tunneling Protocol (L2TP)</string>
-   <string name="labour_day" />
-   <string name="lantern_festival" />
    <string name="last_month">Afgelopen maand</string>
    <string name="launch_warning_original">%1$s was het eerst gestart</string>
    <string name="launch_warning_replace">%1$s is nu actief</string>
    <string name="launch_warning_title">Toepassing omgeleid</string>
-   <string name="light_snow" />
    <string name="literal_or_with_leading_trailing_space">of</string>
    <string name="literal_unknown">onbekend</string>
    <string name="loading">Laden...</string>
@@ -576,7 +541,6 @@ Kies OK om door te gaan of Annuleren om op de huidige pagina te blijven"</string
    <string name="lockscreen_charged">Opgeladen</string>
    <string name="lockscreen_dial_label">Telefoon</string>
    <string name="lockscreen_emergency_call">Noodoproep</string>
-
    <string name="lockscreen_failed_attempts_almost_glogin" formatted="false">"Je hebt %d keer een verkeerd wachtwoord gebruikt.. Na nog %d poging(en), moet je je Google inlog gebruiken.
 
 
@@ -614,7 +578,6 @@ Kies OK om door te gaan of Annuleren om op de huidige pagina te blijven"</string
    <string name="lockscreen_sound_on_label">Geluid aan</string>
    <string name="lockscreen_time_bottom_hint">Schuif omlaag om te ontgrendelen</string>
    <string name="lockscreen_too_many_failed_attempts_countdown">Probeer het over %d seconden opnieuw</string>
-
    <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Je hebt %d keer een verkeerd wachtwoord gebruikt.
 
 
@@ -626,29 +589,9 @@ Probeer nogmaals in %d seconden."</string>
    <string name="low_internal_storage_view_text">Opslagruimte van telefoon raakt op</string>
    <string name="low_internal_storage_view_title">Weinig ruimte</string>
    <string name="low_memory">Telefoongeheugen is vol! Verwijder enkele bestanden om ruimte vrij te maken</string>
-   <string name="lunar_ba" />
    <string name="lunar_calendar">Maan Kalender\u0020</string>
-   <string name="lunar_chu" />
-   <string name="lunar_chu_shi" />
-   <string name="lunar_er" />
-   <string name="lunar_er_shi" />
-   <string name="lunar_jiu" />
-   <string name="lunar_leap" />
    <string name="lunar_ling">\u0020</string>
-   <string name="lunar_liu" />
-   <string name="lunar_nian" />
-   <string name="lunar_qi" />
-   <string name="lunar_san" />
-   <string name="lunar_san_shi" />
-   <string name="lunar_shi" />
-   <string name="lunar_shi_er" />
-   <string name="lunar_shi_yi" />
-   <string name="lunar_si" />
-   <string name="lunar_wu" />
    <string name="lunar_year">\u0020</string>
-   <string name="lunar_yi" />
-   <string name="lunar_yue" />
-   <string name="lunar_zheng" />
    <string name="me">Ik</string>
    <string name="media_bad_removal">SD-kaart is verwijderd voordat deze is ontkoppeld</string>
    <string name="media_checking">SD-kaart wordt momenteel gecontroleerd</string>
@@ -678,9 +621,7 @@ Probeer nogmaals in %d seconden."</string>
    <string name="mobile_traffic_exceeded_threshold">Datalimiet waarschuwing: %s</string>
    <string name="monitor_traffic_title">Datamonitor</string>
    <string name="month">%-B</string>
-
    <string name="month_day" formatted="false">%B %-e</string>
-
    <string name="month_day_year" formatted="false">%B %-e, %Y</string>
    <string name="month_long_april">april</string>
    <string name="month_long_august">augustus</string>
@@ -730,15 +671,12 @@ Probeer nogmaals in %d seconden."</string>
    <string name="month_shortest_november">N</string>
    <string name="month_shortest_october">O</string>
    <string name="month_shortest_september">S</string>
-
    <string name="month_year" formatted="false">%B %Y</string>
    <string name="more_item_label">Meer</string>
-   <string name="national_day" />
    <string name="needPuk">Uw SIM-kaart is vergrendeld met de PUK-code. Typ de PUK-code om te ontgrendelen</string>
    <string name="needPuk2">Voer de PUK2-code in om de SIM-kaart te ontgrendelen</string>
    <string name="new_app_action">%1$s starten</string>
    <string name="new_app_description">De oude toepassing stoppen zonder opslaan</string>
-   <string name="new_years_day" />
    <string name="no">Annuleren</string>
    <string name="no_permissions">Geen machtigingen vereist</string>
    <string name="no_recent_tasks">Geen recente toepassingen</string>
@@ -749,10 +687,8 @@ Probeer nogmaals in %d seconden."</string>
    <string name="not_all_vibrate_hint">Volgens de instellingen %1$s op Trillen，%2$s op niet-Trillen，wijzigen via Instellingen->Geluid->Tril instellingen</string>
    <string name="notification_title">Fout bij aanmelding voor \'%1$s\'</string>
    <string name="notification_vibrate_hint">Notificatie</string>
-
    <string name="numeric_date" formatted="false">%-m/%-e/%Y</string>
    <string name="numeric_date_format">dd-MM-yyyy</string>
-
    <string name="numeric_date_template" formatted="false">%s/%s/%s</string>
    <string name="numeric_md1_md2">%3$s-%2$s - %8$s-%7$s</string>
    <string name="numeric_md1_time1_md2_time2">%5$s %3$s-%2$s - %10$s %8$s-%7$s</string>
@@ -779,13 +715,11 @@ Probeer nogmaals in %d seconden."</string>
    <string name="orgTypeCustom">Aangepast</string>
    <string name="orgTypeOther">Overig</string>
    <string name="orgTypeWork">Werk</string>
-
    <string name="package_behavior_confirmation">"Applicatie %1$s vraagt rechten %2$s. Dit is een risico. Rechten toestaan?
 
 
 
 Let op: Sommige applicaties crashen als ze geen rechten hebben."</string>
-   <string name="partys_day" />
    <string name="password_keyboard_label_alpha_key">ABC</string>
    <string name="password_keyboard_label_alt_key">Alt</string>
    <string name="password_keyboard_label_symbol_key">\?123</string>
@@ -956,7 +890,6 @@ Let op: Sommige applicaties crashen als ze geen rechten hebben."</string>
    <string name="permgrouplab_storage">Opslagruimte</string>
    <string name="permgrouplab_systemTools">Systeemhulpprogramma\'s</string>
    <string name="permission_request_notification_title">Toestemming gevraagd</string>
-
    <string name="permission_request_notification_with_subtitle">"Toestemming gevraagd
 
 voor account \'%s\'"</string>
@@ -1102,8 +1035,10 @@ voor account \'%s\'"</string>
    <string name="permlab_writeSettings">algemene systeeminstellingen wijzigen</string>
    <string name="permlab_writeSms">SMS of MMS bewerken</string>
    <string name="permlab_writeSyncSettings">synchronisatie-instellingen schrijven</string>
-   <string name="perms_hide" />
-   <string name="perms_show_all" />
+
+   <string name="perms_hide"><b>Verberg</b></string>
+
+   <string name="perms_show_all"><b>Toon alle</b></string>
    <string name="petabyteShort">PB</string>
    <string name="phoneTypeAssistant">Assistent</string>
    <string name="phoneTypeCallback">Terugbelnummer</string>
@@ -1239,7 +1174,10 @@ voor account \'%s\'"</string>
    <string name="sd_not_available_low_internal_storage">SD-kaart niet beschikbaar, weinig ruimte op interne opslag</string>
    <string name="sd_not_available_saved_to_internal_storage">Opgeslagen op interne opslag</string>
    <string name="sd_not_available_use_internal_storage">SD-kaart niet beschikbaar, opgeslagen op interne opslag</string>
-   <string name="sdcard_status_changed_dialog_message">Afsluiten.\nHeropen om de lijst te verversen</string>
+
+   <string name="sdcard_status_changed_dialog_message">"Afsluiten.
+
+Heropen om de lijst te verversen"</string>
    <string name="sdcard_status_changed_dialog_title">SD-kaart status gewijzigd</string>
    <string name="search_go">Zoeken</string>
    <string name="second">sec</string>
@@ -1273,8 +1211,6 @@ voor account \'%s\'"</string>
    <string name="sipAddressTypeHome">Startpagina</string>
    <string name="sipAddressTypeOther">Overig</string>
    <string name="sipAddressTypeWork">Werk</string>
-   <string name="slight_cold" />
-   <string name="slight_heat" />
    <string name="sms_control_default_app_name">Onbekende toepassing</string>
    <string name="sms_control_message">Er wordt een groot aantal SMS-berichten verzonden. Selecteer \'OK\' om door te gaan of \'Annuleren\' om de verzending te stoppen</string>
    <string name="sms_control_no">Annuleren</string>
@@ -1282,7 +1218,6 @@ voor account \'%s\'"</string>
    <string name="sms_control_yes">OK</string>
    <string name="smv_application">De toepassing %1$s (proces %2$s) heeft het zelf afgedwongen StrictMode-beleid geschonden</string>
    <string name="smv_process">Het proces %1$s heeft het zelf afgedwongen StrictMode-beleid geschonden</string>
-   <string name="spring_begins" />
    <string name="status_bar_back_to_call">Terug naar gesprek</string>
    <string name="status_bar_toggle_ac">Toegangs controle</string>
    <string name="status_bar_toggle_bluetooth">Bluetooth</string>
@@ -1297,36 +1232,26 @@ voor account \'%s\'"</string>
    <string name="status_bar_toggle_privacy_mode">Gast modus</string>
    <string name="status_bar_toggle_reboot">Herstart</string>
    <string name="status_bar_toggle_rotate">Draaien</string>
+
+   <string name="status_bar_toggle_screenshot">Screenshot</string>
    <string name="status_bar_toggle_shutdown">Uitschakelen</string>
    <string name="status_bar_toggle_sync">Sync</string>
    <string name="status_bar_toggle_torch">Lamp</string>
    <string name="status_bar_toggle_vibrate">Trillen</string>
    <string name="status_bar_toggle_wifi">Wi-Fi</string>
-   <string name="stopping_the_heat" />
    <string name="submit">Verzenden</string>
-   <string name="summer_begins" />
-   <string name="summer_solstice" />
    <string name="sync_binding_label">Synchroniseren</string>
-   <string name="teachers_day" />
    <string name="terabyteShort">TB</string>
    <string name="tethered_notification_message">Aanraken om te configureren</string>
    <string name="tethered_notification_title">Tethering of hotspot actief</string>
    <string name="text_copied">Tekst naar klembord gekopieerd</string>
    <string name="text_pastelist">Klembord</string>
-   <string name="the_armys_day" />
-   <string name="the_double_ninth_festival" />
-   <string name="the_dragon_boat_festival" />
-   <string name="the_laba_rice_porridge_festival" />
-   <string name="the_mid_autumn_festival" />
-   <string name="the_rains" />
-   <string name="the_spring_festival" />
    <string name="ThreeWCMmi">Driewegs bellen</string>
    <string name="throttle_warning_notification_message">Raak aan voor meer informatie over mobiel gegevensgebruik</string>
    <string name="throttle_warning_notification_title">Hoog mobiel gegevensgebruik</string>
    <string name="throttled_notification_message">Raak aan voor meer informatie over mobiel gegevensgebruik</string>
    <string name="throttled_notification_title">Mobiele gegevenslimiet overschreden</string>
    <string name="time_date">%1$s %3$s</string>
-
    <string name="time_of_day" formatted="false">%-l:%M:%S %p</string>
    <string name="time_wday">%1$s %2$s</string>
    <string name="time_wday_date">%1$s %2$s %3$s</string>
@@ -1362,8 +1287,6 @@ voor account \'%s\'"</string>
    <string name="user_agreement3">\u0020en\u0020</string>
    <string name="user_agreement4">Algemene voorwaarden</string>
    <string name="user_agreement5">，OK klikken geeft aan dat u accoord bent met bovenstaande, klik Annuleren als u niet accoord bent</string>
-   <string name="valentines_day" />
-   <string name="vernal_equinox" />
    <string name="VideoView_error_button">OK</string>
    <string name="VideoView_error_text_invalid_progressive_playback">Deze video kan helaas niet worden gestreamd naar dit apparaat</string>
    <string name="VideoView_error_text_unknown">Deze video kan niet worden afgespeeld</string>
@@ -1388,10 +1311,7 @@ voor account \'%s\'"</string>
    <string name="week">week</string>
    <string name="weeks">weken</string>
    <string name="whichApplication">Actie voltooien met</string>
-   <string name="white_dews" />
    <string name="wifi_tether_configure_ssid_default">AndroidAP</string>
-   <string name="winter_begins" />
-   <string name="winter_solstice" />
    <string name="year">jaar</string>
    <string name="years">jaren</string>
    <string name="yes">OK</string>

@@ -257,6 +257,7 @@
    <string name="groupSavedToast">Groep opgeslagen.</string>
    <string name="groupsLabel">Groepen</string>
    <string name="hint_findContacts">Contacten vinden</string>
+   <string name="hint_search_contacts">%d contacten</string>
    <string name="imei">IMEI</string>
    <string name="imLabelsGroup">Expresbericht</string>
    <string name="import_all_vcard_string">Alle vCard-bestanden importeren</string>
@@ -477,6 +478,8 @@ Om een contact toe te voegen aan je favorieten:
    <string name="non_phone_add_to_contacts">Toevoegen aan contacten</string>
    <string name="non_phone_caption">Telefoonnummer</string>
    <string name="non_phone_close">Sluiten</string>
+
+   <string name="noRecentContacts">Geen recent contact</string>
    <string name="not_applied">Niet ondersteund</string>
    <string name="notification_new_voicemail_ticker">Nieuwe voicemail van %1$s</string>
    <string name="notification_voicemail_callers_list">%1$s, %2$s</string>
@@ -491,7 +494,6 @@ Om een contact toe te voegen aan je favorieten:
    <string name="pick_favorites_list_title">Totaal %1$d favoriete contact nummers</string>
    <string name="pick_new_photo">Nieuwe foto selecteren in Galerij</string>
    <string name="pick_photo">Foto kiezen in Galerij</string>
-
    <string name="pick_recent_list_title">Totaal %1$d recente contact nummers</string>
    <string name="pickerNewContactHeader">Nieuw contact maken</string>
    <string name="postal_address">Adres</string>
@@ -502,6 +504,12 @@ Om een contact toe te voegen aan je favorieten:
    <string name="postal_street">Straat</string>
    <string name="postalLabelsGroup">Postadres</string>
    <string name="preference_displayOptions">Weergaveopties</string>
+
+   <string name="preference_export">Export</string>
+
+   <string name="preference_import">Import</string>
+
+   <string name="preference_others">Overig</string>
    <string name="preview_contact_card_title">Import contact</string>
    <string name="primary_indicator">(Standaard)</string>
    <string name="private_num">Privé-nummer</string>
@@ -511,7 +519,6 @@ Om een contact toe te voegen aan je favorieten:
    <string name="reading_vcard_failed_title">Kan vCard-gegevens niet lezen</string>
    <string name="readOnlyContactDeleteConfirmation">Dit contact bevat informatie uit meerdere accounts. Informatie van alleen-lezen accounts wordt verborgen in uw lijst met contacten, niet gewist</string>
    <string name="readOnlyContactWarning">Kan contacten niet verwijderen uit alleen-lezen accounts. Alleen verbergen is mogelijk</string>
-
    <string name="recent_contacts_label">Recent</string>
    <string name="recent_updates">Recente updates</string>
    <string name="recentCalls_addToContact">Voeg toe aan contacten</string>
@@ -538,7 +545,6 @@ Om een contact toe te voegen aan je favorieten:
    <string name="select_vcard_title">vCard selecteren</string>
    <string name="separatorJoinAggregateAll">Alle contacten</string>
    <string name="separatorJoinAggregateSuggestions">Gesuggereerde contacten</string>
-
    <string name="service_provider">Service provider</string>
    <string name="set_default">Standaard instellen</string>
    <string name="share_error">Kan dit contact niet delen</string>
@@ -602,7 +608,6 @@ Om een contact toe te voegen aan je favorieten:
    <string name="type_outgoing">Uitgaand gesprek</string>
    <string name="type_voicemail">Voicemail</string>
    <string name="unknown">Onbekend</string>
-
    <string name="unkown_location">Locatie is onbekend</string>
    <string name="upgrade_in_progress">Contacten bijwerken.\n\nEven geduld...</string>
    <string name="upgrade_out_of_memory">"Contacten worden bijgewerkt.
@@ -647,4 +652,6 @@ kies één van de volgende opties:"</string>
    <string name="voicemail_status_voicemail_not_available">Kan geen verbinding maken met de voicemailserver.</string>
    <string name="websiteLabelsGroup">Webadres</string>
    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
+
+   <string name="wipe_data">Wis</string>
 </resources>

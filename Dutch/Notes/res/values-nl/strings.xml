@@ -70,7 +70,6 @@
    <string name="preferences_account_summary">Synchronisatie van notities met google task</string>
    <string name="preferences_account_title">Synchronisatie account instellingen</string>
    <string name="preferences_add_account">Account toevoegen</string>
-   <string name="preferences_bg_random_appear_summary">Wisselende achtergrond voor notities</string>
    <string name="preferences_bg_random_appear_title">Random achtergrondkleur</string>
    <string name="preferences_button_sync_cancel">Annuleer synchronisatie</string>
    <string name="preferences_button_sync_immediately">Synchronisatie direct</string>

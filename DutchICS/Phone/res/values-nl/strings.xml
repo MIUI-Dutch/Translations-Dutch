@@ -52,6 +52,9 @@
    <string name="auto_answer_scenario_enteries_headset_only">Alleen Headset</string>
    <string name="auto_answer_scenario_title">Scenario voor automatisch beantwoorden</string>
    <string name="auto_answer_setting_title">Instellingen</string>
+   <string name="auto_country_code">Automatisch landcode toevoegen</string>
+
+   <string name="auto_country_code_sum">Automatisch de landcode toevoegen voor het telefoonnummer van contacten, de landcode wordt direct gekozen.</string>
    <string name="auto_ip_setting">Automatische IP settings</string>
    <string name="auto_record_call_summary">Start recording while the call is connected, and save it to SD card</string>
    <string name="auto_record_call_title">Record automatically</string>
@@ -67,6 +70,8 @@
    <string name="bad_puk">The PUK you typed is not correct. Please try again</string>
    <string name="bad_puk2">De PUK2 die u heeft ingevoerd is niet correct. Opnieuw proberen a.u.b</string>
    <string name="bf_news_settings">Business en financieel nieuws</string>
+
+   <string name="call_assistant">Kiezer assistent</string>
    <string name="call_forwarding_number_hint">Voer een nummer in om naar door te verbinden</string>
    <string name="call_forwarding_settings">Oproepen doorschakelen instellingen</string>
    <string name="call_lost">Verbinding verbroken</string>
@@ -154,6 +159,12 @@
    <string name="connect_later">Momenteel niet mogelijk om met dit netwerk te verbinden. Probeer later nog eens</string>
    <string name="contactsIconLabel">Contacten</string>
    <string name="count_of_persons_in_conference">Totaal van %d contacten</string>
+
+   <string name="countrycode_alert_message_warning">De landcode is mogelijk incorrect, wil je deze toch gebruiken?</string>
+
+   <string name="countrycode_alert_message_wrong">De landcode is incorrect, probeer opnieuw</string>
+
+   <string name="countrycode_alert_title">Alert</string>
    <string name="crystaltalk_summary">Audio configuratie</string>
    <string name="crystaltalk_title">Oproep audio</string>
    <string name="current_areacode">Huidge regio code</string>
@@ -162,6 +173,12 @@
    <string name="custom_location_number_hint">Regio codes zoals 010, groep nummers zoals 68#####</string>
    <string name="data_enable_summary">Internet over het mobiel netwerk</string>
    <string name="data_enabled">Dataverbinding</string>
+
+   <string name="default_contacts_countrycode">Standaard landcode voor contacten</string>
+
+   <string name="default_contacts_countrycode_hint">bijvoorbeeld: 31</string>
+
+   <string name="default_contacts_countrycode_sum">Standaard landcode voor contacten instellen</string>
    <string name="default_port">5060</string>
    <string name="default_preference_summary">&lt;Niet ingesteld></string>
    <string name="default_transport">UDP</string>
@@ -250,6 +267,8 @@
    <string name="enable_proximity_summary">Nabijheidssensor tijdens gesprek</string>
    <string name="enable_proximity_title">Nabijheidssensor</string>
    <string name="enable_sim_pin">SIM PIN inschakelen</string>
+
+   <string name="enable_telocation_title">Toon locatie</string>
    <string name="enforce_proximity_summary">Voorkom onbewust gebruik van uw telefoon bij inkomende oproepen</string>
    <string name="enforce_proximity_title">Nabijheidssensor</string>
    <string name="enter_pin_text">SIM PIN:</string>
@@ -640,6 +659,10 @@ Letop, de SIM card gaat op slot bij foutieve invoer"</string>
    <string name="sum_voicemail_choose_provider">Kies voicemail service</string>
    <string name="technology_news_disable">Technologie nieuws uitgeschakeld</string>
    <string name="technology_news_enable">Technologie nieuws ingeschakeld</string>
+
+   <string name="telocation_setting">Locatie instelling</string>
+
+   <string name="telocation_show_settings">Display instelling</string>
    <string name="third_party_account_summary">Dit account is momenteel in gebruik door de %s toepassing</string>
    <string name="throttle_current_usage">Gebruikte data in huidige periode</string>
    <string name="throttle_data_rate_reduced_subtext">"%1$s maximaal overschreden
