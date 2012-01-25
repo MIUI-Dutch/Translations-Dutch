@@ -10,7 +10,7 @@
    <string name="camera_settings">Camera instellingen</string>
    <string name="cannot_connect_camera">Kan niet verbinden met camera</string>
    <string name="color_effect">Kleur effect</string>
-   <string name="confirm_restore_message">Camera instelling wordt naar standaard terruggezet</string>
+   <string name="confirm_restore_message">Camera instelling wordt naar standaard teruggezet</string>
    <string name="delay_snap">Timer</string>
    <string name="details_ok">OK</string>
    <string name="disable_silence">Sluiter geluid</string>
