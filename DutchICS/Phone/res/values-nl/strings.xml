@@ -4,10 +4,10 @@
    <string name="accessibility_call_muted">Oproep gedempt.</string>
    <string name="accessibility_speakerphone_enabled">Telefoonluidspreker is ingeschakeld.</string>
    <string name="add_button">Toevoegen</string>
-   <string name="add_fdn_contact">FDN toevoegen</string>
+   <string name="add_fdn_contact">Vast nummer toevoegen</string>
    <string name="add_sip_account">Account toevoegen</string>
    <string name="add_vm_number_str">Nummer toevoegen</string>
-   <string name="adding_fdn_contact">FDN aan het toevoegen…</string>
+   <string name="adding_fdn_contact">Vast nummer aan het toevoegen…</string>
    <string name="administrative_disable">Administratief uitgeschakeld</string>
    <string name="administrative_enable">Administratief ingeschakeld</string>
    <string name="advanced_settings">Optionele instellingen</string>
@@ -43,14 +43,14 @@
    <string name="auto_answer_delay_entries_delay_3s">3s</string>
    <string name="auto_answer_delay_entries_delay_5s">5s</string>
    <string name="auto_answer_delay_entries_immediately">0s</string>
-   <string name="auto_answer_delay_title">Wachttijd voor automatisch beantwoorden</string>
+   <string name="auto_answer_delay_title">Wachttijd voor Snelle reacties</string>
    <string name="auto_answer_pref_summary">Beantwoord oproepen automatisch</string>
-   <string name="auto_answer_pref_title">Auto Answer</string>
+   <string name="auto_answer_pref_title">Snelle reacties</string>
    <string name="auto_answer_scenario_enteries_always">Altijd</string>
    <string name="auto_answer_scenario_enteries_bluetooth_only">Alleen via Bluetooth</string>
    <string name="auto_answer_scenario_enteries_headset_bluetooth">Via Headset of bluetooth</string>
    <string name="auto_answer_scenario_enteries_headset_only">Alleen Headset</string>
-   <string name="auto_answer_scenario_title">Scenario voor automatisch beantwoorden</string>
+   <string name="auto_answer_scenario_title">Snelle reacties bewerken</string>
    <string name="auto_answer_setting_title">Instellingen</string>
    <string name="auto_country_code">Automatisch landcode toevoegen</string>
    <string name="auto_country_code_sum">Automatisch de landcode toevoegen voor het telefoonnummer van contacten, de landcode wordt direct gekozen.</string>
@@ -81,8 +81,8 @@
    <string name="call_recording_notification">Gesprek opname melding</string>
    <string name="call_recording_notification_summary">Toon melding wanneer opname klaar is</string>
    <string name="call_recording_prompt">Inschakelen gesprekken opnemen</string>
-   <string name="call_settings">Oproep instellingen</string>
-   <string name="call_settings_category">Oproep instellingen</string>
+   <string name="call_settings">Oproepinstellingen</string>
+   <string name="call_settings_category">Oproepinstellingen</string>
    <string name="call_title_redialing_with_times">%d maal herkiezen</string>
    <string name="caller_manage_manage_done_text">Terug naar gesprek</string>
    <string name="callFailed_cb_enabled">U kunt geen uitgaande oproepen doen terwijl gespreksblokkering aanstaat</string>
@@ -90,7 +90,7 @@
    <string name="callFailed_dsac_restricted">Alle oproepen zijn beperkt door toegankelijkheids controle</string>
    <string name="callFailed_dsac_restricted_emergency">Alarm nummers zijn beperkt door toegankelijkheids controle</string>
    <string name="callFailed_dsac_restricted_normal">Normale oproepen zijn beperkt door toegankelijkheids controle</string>
-   <string name="callFailed_fdn_only">Uitgaande oproepen zijn beperkt door FDN</string>
+   <string name="callFailed_fdn_only">Uitgaande oproepen zijn beperkt door Vast nummer</string>
    <string name="callFailed_invalid_credentials">Onjuiste gebruikersnaam of wachtwoord</string>
    <string name="callFailed_limitExceeded">ACM limiet overschreden</string>
    <string name="callFailed_noSignal">Geen signaal</string>
@@ -130,7 +130,7 @@
    <string name="clearDefaultHintMsg">Wis standaard in Instellingen > Applicaties > Beheer applications.</string>
    <string name="close_dialog">Ok</string>
    <string name="close_profile">Sluiten</string>
-   <string name="command_error_fdn_failure">Deze handeling is niet toegestaan als FDN gebruikt wordt, schakel FDN uit en probeer nogmaals.</string>
+   <string name="command_error_fdn_failure">Deze handeling is niet toegestaan als Vast nummer gebruikt wordt, schakel Vast nummer uit en probeer nogmaals.</string>
    <string name="command_error_generic_failure">Kan deze handeling niet afmaken, probeer later nogmaals.</string>
    <string name="command_error_illegal_sim_or_me">Netwerk selectie fout door incorrecte SIM/ME.</string>
    <string name="command_error_invalid_response">Fout bericht van netwerk, probeer later nogmaals.</string>
@@ -174,7 +174,7 @@
    <string name="default_preference_summary">&lt;Niet ingesteld></string>
    <string name="default_transport">UDP</string>
    <string name="deleteSimContactConfirmTitle">Wis contact</string>
-   <string name="deleting_fdn_contact">Bezig met FDN wissen…</string>
+   <string name="deleting_fdn_contact">Bezig met Vast nummer wissen…</string>
    <string name="description_call_recording">Oproep opname gaat door.</string>
    <string name="description_delete_button">backspace</string>
    <string name="description_dial_button">bellen</string>
@@ -207,7 +207,7 @@
    <string name="disable_cfb_forbidden">Uw provider ondersteunt geen uitschakelen van doorschakelen als de telefoon bezet is</string>
    <string name="disable_cfnrc_forbidden">Uw provider ondersteunt geen uitschakelen van doorschakelen als de telefoon onbereikbaar is</string>
    <string name="disable_cfnry_forbidden">Uw provider ondersteunt geen uitschakelen van doorschakelen als de telefoon geen antwoord geeft</string>
-   <string name="disable_fdn_ok">Schakel FDN in</string>
+   <string name="disable_fdn_ok">Schakel Vast nummer in</string>
    <string name="disable_pin_ok">SIM PIN uitgeschakeld</string>
    <string name="disable_sim_pin">SIM PIN uitschakelen</string>
    <string name="display_name">Weertegeven naam</string>
@@ -219,7 +219,7 @@
    <string name="dtmf_tones_title">DTMF Tonen</string>
    <string name="ecm_exit_dialog">EcmExitVenster</string>
    <string name="edit_custom_location_title">wijzig regionale belcode, nummer belcode, wildcards # </string>
-   <string name="edit_fdn_contact">FDN bewerken</string>
+   <string name="edit_fdn_contact">Vast nummer bewerken</string>
    <string name="emergency_broadcast_disable">Noodoproep uitzenden uitgeschakeld</string>
    <string name="emergency_broadcast_enable">Noodoproep uitzenden ingeschakeld</string>
    <string name="emergency_call_area_code_edit_dialog_button">Bellen</string>
@@ -251,7 +251,7 @@
    <string name="enable_disable_retail_directory">Retail lokatie</string>
    <string name="enable_disable_stock_quotes">Aandelen</string>
    <string name="enable_disable_technology_news">Technologie nieuws</string>
-   <string name="enable_fdn_ok">Schakel FDN uit</string>
+   <string name="enable_fdn_ok">Schakel Vast nummer uit</string>
    <string name="enable_in_progress">Wachten a.u.b.…</string>
    <string name="enable_pin">Schakel SIM PIN in/uit</string>
    <string name="enable_pin_ok">SIM PIN ingeschakeld</string>
@@ -271,17 +271,17 @@
    <string name="fake_phone_activity_infoText_text">Inkomend telefoonnummer</string>
    <string name="fake_phone_activity_phoneNumber_text">(650) 555-1234</string>
    <string name="fake_phone_activity_placeCall_text">Namaak inkomende oproep</string>
-   <string name="fdn">FDN instellingen</string>
-   <string name="fdn_contact_added">FDN toegevoegd</string>
-   <string name="fdn_contact_deleted">FDN gewist</string>
-   <string name="fdn_contact_updated">FDN gereed met updaten</string>
+   <string name="fdn">Vast nummer instellingen</string>
+   <string name="fdn_contact_added">Vast nummer toegevoegd</string>
+   <string name="fdn_contact_deleted">Vast nummer gewist</string>
+   <string name="fdn_contact_updated">Vast nummer gereed met updaten</string>
    <string name="fdn_disabled">Vast bellende nummers zijn uitgeschakeld</string>
    <string name="fdn_enable_puk2_requested">Wachtwoord niet correct, a.u.b. PIN2 veranderen en opnieuw proberen!</string>
    <string name="fdn_enabled">Vast bellende nummers zijn ingeschakeld</string>
-   <string name="fdn_invalid_number">FDN niet geupdate: nummer kan niet meer dan 20 getallen bevatten</string>
+   <string name="fdn_invalid_number">Vast nummer niet geupdate: nummer kan niet meer dan 20 getallen bevatten</string>
    <string name="fdn_only_error">Operaties zijn alleen toegestaan ​​op vaste nummers</string>
-   <string name="fdn_summary">De bovenstaande opties zijn uitgschakeld als FDN gebruikt worden</string>
-   <string name="fdnListLabel">FDN lijst</string>
+   <string name="fdn_summary">De bovenstaande opties zijn uitgschakeld als Vast nummer gebruikt worden</string>
+   <string name="fdnListLabel">Vast nummer lijst</string>
    <string name="fw_change_failed">"Nummer doorschakelen niet gelukt.
 Neem contact op met uw provider als dit probleem blijft voorkomen"</string>
    <string name="fw_get_in_vm_failed">"Niet gelukt om huidige doorschakel instellingen op te halen en te bewaren.
@@ -358,7 +358,7 @@ Wilt u toch naar de nieuwe provider overschakelen?"</string>
    <string name="lodgings_enable">Verblijven ingeschakeld</string>
    <string name="maintenance_disable">Onderhoud uitgeschakeld</string>
    <string name="maintenance_enable">Onderhoud ingeschakeld</string>
-   <string name="manage_fdn_list">FDN lijst</string>
+   <string name="manage_fdn_list">Vast nummer lijst</string>
    <string name="meid">MEID</string>
    <string name="menu_add">Contact toevoegen</string>
    <string name="mhh_disable">Medisch, gezondheid en ziekenhuis uitgeschakeld</string>
@@ -457,7 +457,7 @@ Na het drukken op “Activeren”, kunt u naar de instructie luisteren om de tel
    <string name="ota_unsuccessful">"Uw telefoon is niet geactiveerd.
 U kunt proberen een gebied te vinden met betere ontvangst (Bij een raam, buiten). 
 Probeer opnieuw of bel klantenservice voor meer opties"</string>
-   <string name="other_settings">Andere oproep instellingen</string>
+   <string name="other_settings">Andere instellingen voor bellen</string>
    <string name="password">Wachtwoord</string>
    <string name="password_title">Wachtwoord</string>
    <string name="pause_prompt_no">Nee</string>
@@ -479,11 +479,11 @@ Probeer opnieuw of bel klantenservice voor meer opties"</string>
 De telefoon gaat op slot bij foutieve invoer!"</string>
    <string name="pin_progress_change_pin">Wijzigen PIN...</string>
    <string name="pin_progress_change_pin2">Wijzigen PIN2...</string>
-   <string name="pin_progress_set_fdn_lock">Instellen FDN blokkade...</string>
+   <string name="pin_progress_set_fdn_lock">Instellen Vast nummer blokkade...</string>
    <string name="pin_progress_set_icc_lock">Instellen icc Blokkade...</string>
    <string name="pin_progress_unlock_icc">Deblokkeer SIM kaart...</string>
    <string name="pin2_changed">PIN2 succesvol veranderd</string>
-   <string name="pin2_invalid">FDN niet geupdate: U heeft een foute PIN ingevoerd</string>
+   <string name="pin2_invalid">Vast nummer niet geupdate: U heeft een foute PIN ingevoerd</string>
    <string name="pin2_lock_warning">"
 Let op, PIN2 geralateerde functies gaan op slot bij foutieve invoer!"</string>
    <string name="pin2_locked_message">Incorrect PIN2, and the PIN2 related functionality is locked. Please reset PIN2 by PUK2</string>
@@ -604,7 +604,7 @@ Letop, de SIM card gaat op slot bij foutieve invoer"</string>
    <string name="sip_menu_save">Opslaan</string>
    <string name="sip_receive_calls">Inkomende oproepen</string>
    <string name="sip_receive_calls_summary">Activeer oproepen via SIP</string>
-   <string name="sip_settings">Internet oproep instellingen</string>
+   <string name="sip_settings">Instellingen voor bellen via Internet</string>
    <string name="sip_system_decide">Automatisch</string>
    <string name="slide_to_answer">Sleep naar rechts om op te nemen</string>
    <string name="slide_to_decline">Sleep naar links om te weigeren</string>
@@ -627,7 +627,7 @@ Letop, de SIM card gaat op slot bij foutieve invoer"</string>
    <string name="sum_cfu_enabled_indicator">Alle oproepen door aan het schakelen</string>
    <string name="sum_cfu_enabled_no_number">Nummer is niet beschikbaar</string>
    <string name="sum_default_caller_id">Provider standaard voor nummerweergave in uitgaande oproepen</string>
-   <string name="sum_fdn_change_pin">Verander PIN voor FDN toegang</string>
+   <string name="sum_fdn_change_pin">Verander PIN voor Vast nummer toegang</string>
    <string name="sum_fdn_manage_list">Beheer telefoon lijst</string>
    <string name="sum_hide_caller_id">Nummer verbergen in uitgaande oproepen</string>
    <string name="sum_search_networks">Zoek naar alle beschikbare netwerken</string>

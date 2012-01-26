@@ -1016,7 +1016,7 @@ Als u alle gegevens op deze telefoon wilt wissen, moet de SD-kaart opnieuw worde
    <string name="radioInfo_lac">LAC</string>
    <string name="radioInfo_menu_getPDP">PDP-lijst ophalen</string>
    <string name="radioInfo_menu_viewADN">SIM-adresboek weergeven</string>
-   <string name="radioInfo_menu_viewFDN">FDN-nummers weergeven</string>
+   <string name="radioInfo_menu_viewFDN">Vast nummer weergeven</string>
    <string name="radioInfo_menu_viewSDN">Servicenummers weergeven</string>
    <string name="radioInfo_phone_idle">Vrij</string>
    <string name="radioInfo_phone_offhook">Oproep bezig</string>
