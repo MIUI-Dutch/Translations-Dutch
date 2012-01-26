@@ -130,7 +130,7 @@
    <string name="connect_disconnect_vibrate_normal">Trillen</string>
    <string name="connect_disconnect_vibrate_summary">Trillen bij opnemen/ophangen</string>
    <string name="connect_disconnect_vibrate_title">Trillen</string>
-   <string name="connect_disconnect_vibrate_weak">Zwakke trillen vibrate</string>
+   <string name="connect_disconnect_vibrate_weak">Zacht trillen</string>
    <string name="connect_later">Momenteel niet mogelijk om met dit netwerk te verbinden. Probeer later nog eens</string>
    <string name="contactsIconLabel">Contacten</string>
    <string name="count_of_persons_in_conference">Totaal van %d contacten</string>
