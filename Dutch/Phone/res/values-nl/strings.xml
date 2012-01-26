@@ -49,7 +49,7 @@
    <string name="auto_answer_scenario_title">Scenario voor automatisch beantwoorden</string>
    <string name="auto_answer_setting_title">Instellingen</string>
    <string name="auto_dialpad_pref_title">Toon kiezer automatisch</string>
-   <string name="auto_ip_setting">Automatische IP settings</string>
+   <string name="auto_ip_setting">Automatische IP instelling</string>
    <string name="auto_record_call_summary">Start recording while the call is connected, and save it to SD card</string>
    <string name="auto_record_call_title">Record automatically</string>
    <string name="auto_redial_pref_summary">Redial numbers automatically if line is busy</string>
