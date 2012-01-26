@@ -731,6 +731,7 @@ Public Class autoMIUItool
                     BackgroundWorker1.ReportProgress(ShowProgress(-2), DoExecute(BaseFolder & "\7za.exe", " d " & Temp & ROM & " " & DelAPK & " -r"))
                 Next
                 BackgroundWorker1.ReportProgress(ShowProgress(-2), "@@Processing ZIP: " & ROM & ": replace updater-script")
+                BackgroundWorker1.ReportProgress(ShowProgress(-2), "##" & BaseFolder & "\7za.exe" & " e " & Temp & ROM & " -o" & Temp & ROMnameNoExtension & "\META-INF\com\google\android updater-script -r -y")
                 BackgroundWorker1.ReportProgress(ShowProgress(-2), DoExecute(BaseFolder & "\7za.exe", " e " & Temp & ROM & " -o" & Temp & ROMnameNoExtension & "\META-INF\com\google\android updater-script -r -y"))
                 UpdaterScript = Template1.Text & UNIXtoDOS(System.IO.File.ReadAllText(Temp & ROMnameNoExtension & "\META-INF\com\google\android\updater-script"))
                 System.IO.File.WriteAllText(Temp & ROMnameNoExtension & "\META-INF\com\google\android\updater-script", DOStoUNIX(UpdaterScript))
@@ -1175,23 +1176,32 @@ Public Class autoMIUItool
         ShowProgress(countItems(GetAllSubFiles(LanguageTranslationFolder.Text, "strings.xml")))
         For Each file In GetAllSubFiles(LanguageTranslationFolder.Text, "strings.xml")
             BackgroundWorker1.ReportProgress(ShowProgress(), "@@Sort: " & file)
+            BackgroundWorker1.ReportProgress(ShowProgress(-2), "##Sort: " & file)
             dictDoc1.Clear()
             dictDoc11.Clear()
             objReader12.Clear()
             Dim objReader1 As New System.IO.StreamReader(file.ToString, System.Text.Encoding.UTF8)
+            multiLine = False
             Do While objReader1.Peek() <> -1
                 str = objReader1.ReadLine()
-                keyName = "DummyDummy"
                 If InStr(str, "<string name=") <> 0 Then
                     keyNameStart = InStr(str, "name=") + 6
                     keyNameEnd = InStr(str, ">") - 1
-                    keyNameEnd = InStr(keyNameStart, str, """")
                     keyName = Mid(str, keyNameStart, keyNameEnd - keyNameStart)
-                    If InStr(str, " />") <> 0 Or InStr(str, "</string>") <> 0 Then
+                    If InStr(str, " />") <> 0 Then
+                        dictDoc1.Add(keyName, 0)
                         objReader12.Add(Trim(str))
                         dictDoc11.Add(keyName, Join(objReader12.ToArray, "þ"))
+                        BackgroundWorker1.ReportProgress(ShowProgress(-2), "KeyName (0): " & keyName & ":" & Join(objReader12.ToArray, "þ"))
+                        objReader12.Clear()
+                    ElseIf InStr(str, "</string>") <> 0 Then
+                        dictDoc1.Add(keyName, 1)
+                        objReader12.Add(Trim(str))
+                        dictDoc11.Add(keyName, Join(objReader12.ToArray, "þ"))
+                        BackgroundWorker1.ReportProgress(ShowProgress(-2), "KeyName (1): " & keyName & ":" & Join(objReader12.ToArray, "þ"))
                         objReader12.Clear()
                     Else
+                        dictDoc1.Add(keyName, 2)
                         objReader12.Add(Trim(str))
                         multiLine = True
                     End If
@@ -1201,8 +1211,8 @@ Public Class autoMIUItool
                         objReader12.Add(str)
                         If InStr(str, "</string>") <> 0 Then
                             multiLine = False
-                            If dictDoc11.ContainsKey(keyName) Then dictDoc11.Remove(keyName)
                             dictDoc11.Add(keyName, Join(objReader12.ToArray, "þ"))
+                            BackgroundWorker1.ReportProgress(ShowProgress(-2), "KeyName (2): " & keyName & ":" & Join(objReader12.ToArray, "þ"))
                             objReader12.Clear()
                         End If
                     End If
@@ -1219,8 +1229,9 @@ Public Class autoMIUItool
                     TextResult = TextResult & Line & vbNewLine
                 Next
             Next
+            TextResult = Replace(TextResult, vbNewLine & vbNewLine, vbNewLine)
             TextResult = Replace(TextResult, "<string name=", "   <string name=")
-            System.IO.File.WriteAllText(file.ToString, "<?xml version=""1.0"" encoding=""UTF-8""?>" & vbNewLine & "<resources>" & vbNewLine & TextResult & "</resources>" & vbNewLine, System.Text.Encoding.UTF8)
+            System.IO.File.WriteAllText(file.ToString, "<?xml version=""1.0"" encoding=""utf-8""?>" & vbNewLine & "<resources>" & vbNewLine & TextResult & "</resources>" & vbNewLine, System.Text.Encoding.UTF8)
         Next
         BackgroundWorker1.ReportProgress(ShowProgress(-2), "@@Sort: Ready")
     End Sub

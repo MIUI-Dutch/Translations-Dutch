@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="autoMIUItool.exe" size="1553920">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="autoMIUItool.exe" size="1558016">
       <assemblyIdentity name="autoMIUItool" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>cX4RfFyyy/4ZwWjbSARs96pljN8=</dsig:DigestValue>
+        <dsig:DigestValue>GrYbwHoeHwpB6yPAlV49f3VLnRE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

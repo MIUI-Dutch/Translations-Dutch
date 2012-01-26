@@ -158,7 +158,7 @@
 
         If NoNewXMLkeyAddition Then
             TextBox3.Text = Replace(TextBox3.Text, "<string name=", "   <string name=")
-            System.IO.File.WriteAllText(CFS2, "<?xml version=""1.0"" encoding=""UTF-8""?>" & vbNewLine & "<resources>" & vbNewLine & TextBox3.Text & "</resources>" & vbNewLine, System.Text.Encoding.UTF8)
+            System.IO.File.WriteAllText(CFS2, "<?xml version=""1.0"" encoding=""utf-8""?>" & vbNewLine & "<resources>" & vbNewLine & TextBox3.Text & "</resources>" & vbNewLine, System.Text.Encoding.UTF8)
             Me.Close()
         End If
         Me.Text = CFS2
@@ -213,7 +213,7 @@
 
     Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
         TextBox3.Text = Replace(TextBox3.Text, "<string name=", "   <string name=")
-        System.IO.File.WriteAllText(CFS2, "<?xml version=""1.0"" encoding=""UTF-8""?>" & vbNewLine & "<resources>" & vbNewLine & TextBox3.Text & "</resources>" & vbNewLine, System.Text.Encoding.UTF8)
+        System.IO.File.WriteAllText(CFS2, "<?xml version=""1.0"" encoding=""utf-8""?>" & vbNewLine & "<resources>" & vbNewLine & TextBox3.Text & "</resources>" & vbNewLine, System.Text.Encoding.UTF8)
         Me.Close()
     End Sub
 
