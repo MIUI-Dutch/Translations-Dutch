@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
    <string name="activity_not_found">Kan bijlage niet openen</string>
    <string name="activity_not_found_uri">Applicatie om de bijlage te openen niet gevonden</string>
@@ -404,9 +404,6 @@
    <string name="type_to_compose_text_or_leave_blank">Typ bericht of laat leeg</string>
    <string name="type_video">Video</string>
    <string name="undelivered_msg_dialog_body">"Kan dit bericht niet verzenden.
-
-
-
 Poging ondernomen: %s."</string>
    <string name="undelivered_msg_dialog_title">Bericht niet afgeleverd</string>
    <string name="undelivered_sms_dialog_body">Kan dit bericht niet verzenden</string>

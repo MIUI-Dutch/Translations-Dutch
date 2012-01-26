@@ -1,12 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MIUI_Theme_Values>
+<resources>
    <string name="about_settings">Over de telefoon</string>
    <string name="accelerometer_title">Scherm automatisch draaien</string>
    <string name="access_control_app_entry_multiple">Open %s</string>
    <string name="access_control_app_entry_single">Open applicatie</string>
    <string name="access_control_apps_title">Klik om verbergen te selecteren of beveilig de volgende applicatie met een wachtwoord</string>
    <string name="access_control_need_password">"%s
-
 is wachtwoord beveiligd"</string>
    <string name="access_control_need_to_unlock">Voer een wachtwoord in om toegang te krijgen</string>
    <string name="access_control_no_back_footer">Druk [icon] om te sluiten</string>
@@ -18,9 +17,7 @@ is wachtwoord beveiligd"</string>
    <string name="accessibility_power_button_ends_call_summary">Druk op aan/uit voor einde oproep. Schakelt het scherm niet uit</string>
    <string name="accessibility_service_disable_warning">Toegankelijkheid uitschakelen?</string>
    <string name="accessibility_service_no_apps_message">"U beschikt niet over toegankelijkheidstoepassingen.
-
 U kunt een schermlezer downloaden van Android Market.
-
 Klik op OK om een schermlezer te installeren""</string>
    <string name="accessibility_service_no_apps_title">Geen toegankelijkheidstoepassingen gevonden</string>
    <string name="accessibility_service_security_warning">Met deze toegankelijkheidsservice wordt mogelijk alle ingegeven tekst verzameld, met inbegrip van persoonlijke gegevens en creditcardnummers, maar zonder wachtwoorden. Ook kunnen interacties in de gebruikersinterface worden geregistreerd. De service wordt geboden door de toepassing %1$s. Deze toegankelijkheidsservice gebruiken?</string>
@@ -45,7 +42,6 @@ Klik op OK om een schermlezer te installeren""</string>
    <string name="apn_apn">APN</string>
    <string name="apn_auth_type">Verificatietype</string>
    <string name="apn_auto_switch_dialog_message">"Alleen de voorkeurs APN wordt gebruikt indien de auto omschakeling uit staat, Data verbinding kan verloren gaan.
-
 weet U zeker dat U dit wilt?"</string>
    <string name="apn_auto_switch_setting_summary">Sta het systeem toe APN te wisselen indien nodig (via MMS)</string>
    <string name="apn_auto_switch_setting_title">Auto switch APN</string>
@@ -102,7 +98,6 @@ weet U zeker dat U dit wilt?"</string>
    <string name="awake">Wektijd apparaat</string>
    <string name="back_long_press">Actie terug knop</string>
    <string name="back_long_press_timeout">"Vertraag
-
 %1$.1f sec"</string>
    <string name="background_process_stop_description">Oud toepassingsproces bewaard voor geval betere snelheid nodig is. Gewoonlijk geen reden om dit te stoppen</string>
    <string name="backlight_title">Automatische helderheid</string>
@@ -125,9 +120,7 @@ weet U zeker dat U dit wilt?"</string>
    <string name="battery_auto_saving_practise">Tips voor het verlengen batterijduur</string>
    <string name="battery_auto_saving_practise_more">Meer stroom besparende tips...</string>
    <string name="battery_auto_saving_practise_summary">"1.Beperk het aantal apps op de achtergrond.
-
 2.Tenzij er weinig licht is, is maximale helderheid instellen niet nodig. 
-
 3.Denk aan het instellen van vliegtuig-modus tijdens de nacht"</string>
    <string name="battery_auto_saving_rule_apn">Dataverbinding uitschakelen</string>
    <string name="battery_auto_saving_rule_apn_summary">Verbetering batterijverbruik hoog</string>
@@ -286,16 +279,13 @@ weet U zeker dat U dit wilt?"</string>
    <string name="bluetooth_dock_settings_title">Dock gebruiken voor audio</string>
    <string name="bluetooth_enable_text">Empty button</string>
    <string name="bluetooth_enter_passkey_msg">"
-
 Geef sleutel in om te koppelen met %1$s"</string>
    <string name="bluetooth_enter_pin_msg">"
-
 Geef de PIN-code in om te koppelen. (Probeer 0000 of 1234.)"</string>
    <string name="bluetooth_error_title">Let op</string>
    <string name="bluetooth_headset_profile_summary_connected">Verbonden met telefoonaudio</string>
    <string name="bluetooth_headset_profile_summary_use_for">Gebruiken voor telefoonaudio</string>
    <string name="bluetooth_incoming_pairing_msg">"%1$s
-
 verzoekt om te koppelen"</string>
    <string name="bluetooth_is_discoverable">Zichtbaar gedurende %s seconden</string>
    <string name="bluetooth_is_discoverable_always">Verzoeken van applicatie om telefoon gedurende %d seconden zichtbaar te maken voor andere Bluetooth-apparaten</string>
@@ -666,7 +656,6 @@ verzoekt om te koppelen"</string>
    <string name="haptic_default_toast">Laden hard-coded standaarden</string>
    <string name="haptic_delay_desc">ms Uit</string>
    <string name="haptic_down_description">"Aanpassen haptische waarden voor toets DOWN-PRESSES
-
 (Virtuele toetsen en bepaalde UI interacties.)"</string>
    <string name="haptic_feedback_enable_summary_off">Trillen bij drukken op functietoetsen en bepaalde UI-interacties</string>
    <string name="haptic_feedback_enable_summary_on">Trillen bij drukken op functietoetsen en bepaalde UI-interacties</string>
@@ -680,7 +669,6 @@ verzoekt om te koppelen"</string>
    <string name="haptic_tap_description">Aanpassen haptische waarden voor on-screen toetsenbord</string>
    <string name="haptic_title">haptische feedback</string>
    <string name="haptic_up_description">"Aanpassen haptisch waarden voor toets RELEASES
-
 (Virtuele toetsen en meeste scherm drukken.)"</string>
    <string name="haptic_vibe_desc">ms Aan</string>
    <string name="hardkeyboard_category">Fysieke toetsenbordinstellingen</string>
@@ -776,29 +764,18 @@ verzoekt om te koppelen"</string>
    <string name="location_street_level">Nauwkeurig zoeken tot op straatniveau (uitschakelen om batterij te sparen)</string>
    <string name="location_title">Mijn locatie</string>
    <string name="lock_example_message">"Verbind ten minste vier stippen met elkaar.
-
 Selecteer Volgende wanneer u klaar bent om uw eigen patroon te tekenen"</string>
    <string name="lock_example_title">Voorbeeldpatroon</string>
    <string name="lock_intro_message"><font size="17">"Beveilig de telefoon tegen misbruik door een persoonlijke scherm unlock patroon.
-
 "<font height="17">"
-
 "</font><b>1</b>"  Op het volgende scherm wordt een voorbeeld patroon getoond. 
-
 "<font height="17">"
-
 "</font><b>2</b>"  Teken dan je persoonlijke scherm unlock patroon. Experimenteer met verschillende patronen, maar gebruik minimaal 4 punten. 
-
 "<font height="17">"
-
 "</font><b>3</b>"  Teken het patroon nogmaals voor bevestiging. 
-
 "<font height="17">"
-
 "</font><b>Klaar? Klik “Volgende”</b>". 
-
 "<font height="3">"
-
 "</font>Voor onbeveiligd gebruik, klik “Annuleer”.</font>" "</string>
    <string name="lock_settings_picker_title">Instellingen ontgrendelen scherm</string>
    <string name="lock_settings_title">Instellingen ontgrendelen scherm</string>
@@ -862,9 +839,6 @@ Selecteer Volgende wanneer u klaar bent om uw eigen patroon te tekenen"</string>
    <string name="manageapplications_settings_title">Toepassingen beheren</string>
    <string name="master_clear_button_text">Telefoon opnieuw instellen</string>
    <string name="master_clear_desc">"Alle gegevens worden gewist uit het apparaatgeheugen, zoals Google-account, systeem- en toepassingsgegevens, instellingen en gedownloade toepassingen.
-
-
-
 Als u alle gegevens op deze telefoon wilt wissen, moet de SD-kaart opnieuw worden geformatteerd"</string>
    <string name="master_clear_final_desc">Telefoon opnieuw instellen en alle gegevens en toepassingen wissen? Actie kan niet worden teruggedraaid!</string>
    <string name="master_clear_gesture_explanation">Teken uw ontgrendelpatroon om opnieuw instellen van telefoon te bevestigen</string>
@@ -1491,10 +1465,8 @@ Als u alle gegevens op deze telefoon wilt wissen, moet de SD-kaart opnieuw worde
    <string name="wifi_use_static_ip">Statisch IP gebruiken</string>
    <string name="wifi_wapi_as_certificate">AS certificaat</string>
    <string name="wifi_wapi_fail_to_auth">"WAPI authenticatie mislukt
-
 Controleer geldigheid van de certificaten"</string>
    <string name="wifi_wapi_fail_to_init">"Kan geen WAPI certificaten opnemen
-
 Opslag van referenties misschien niet ingeschakeld"</string>
    <string name="wifi_wapi_psk_type">Wachtwoord type</string>
    <string name="wifi_wapi_user_certificate">Gebruikers certificaat</string>
@@ -1514,14 +1486,12 @@ Opslag van referenties misschien niet ingeschakeld"</string>
    <string name="wifi_wps_timeout">WPS time-out</string>
    <string name="wipe_all_data">Wis alle gegevens</string>
    <string name="wipe_all_data_desc">"Dit wist gebruiker gegevens en:
-
 "</string>
    <string name="wipe_user_data">Wis gebruikers gegevens</string>
    <string name="wipe_user_data_desc">"Dit wist gebruiker gegevens van de telefoon, inclusief:
-
 "</string>
    <string name="wireless_networks_settings_title">Draadloze en netwerkinstellingen</string>
    <string name="yes">Ja</string>
    <string name="zone_list_menu_sort_alphabetically">Alfabetisch sorteren</string>
    <string name="zone_list_menu_sort_by_timezone">Sorteren op tijdzone</string>
-</MIUI_Theme_Values>
+</resources>

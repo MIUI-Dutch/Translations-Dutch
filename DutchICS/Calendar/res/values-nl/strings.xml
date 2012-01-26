@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
    <string name="accessibility_add_attendee">Genodigde toevoegen</string>
    <string name="accessibility_add_reminder">Herinnering toevoegen</string>
@@ -32,11 +32,7 @@
    <string name="copy">Kopieer email adres</string>
    <string name="copy_db">Verzend database</string>
    <string name="create_an_account_desc">"Agenda werkt beter met een Google Account.
-
-
-
 • Toegang met elke web browser
-
 • Veilige backup van agendapunten"</string>
    <string name="creating_event">Afspraak toegevoegd</string>
    <string name="creating_event_with_guest">Uitnodigingen verzonden</string>

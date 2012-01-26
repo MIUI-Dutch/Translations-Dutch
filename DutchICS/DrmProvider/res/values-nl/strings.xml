@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
    <string name="app_label">DRM-beveiligde inhoud opslag</string>
    <string name="permdesc_accessDrm">Geeft de applicatie toegang tot DRM-beveiligde inhoud</string>

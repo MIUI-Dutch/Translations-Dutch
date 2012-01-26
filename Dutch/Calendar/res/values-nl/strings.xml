@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
    <string name="add_new_reminder">Herinnering toevoegen</string>
    <string name="agenda_today">Vandaag, %1$s</string>
@@ -99,7 +99,6 @@
    <string name="privacy_label">Persoonlijk</string>
    <string name="reminders_label">Herinneringen</string>
    <string name="repeats_label">Herhaling</string>
-
    <string name="response_label" formatted="false">%s (%d)</string>
    <string name="save_label">Klaar</string>
    <string name="saving_event">Afspraak opgeslagen</string>

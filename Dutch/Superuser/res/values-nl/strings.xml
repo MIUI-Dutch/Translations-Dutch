@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
    <string name="allow">Toestaan</string>
    <string name="allowed">Toegestaan</string>
@@ -27,7 +27,6 @@
    <string name="no">Nee</string>
    <string name="notification_text">%s is machtiging verleend</string>
    <string name="open_root_permission_message">"Als U dit aan zet kunnen applicaties root toegang krijgen.
-
 Note: Programma\'s met root toegang kunnen systeem instabiliteit veroorzaken, verlies van persoonlijke date, systeem of hardware beschadigen, wees voorzichtig. Wil je dit aan zetten?"</string>
    <string name="permdesc_respond">Stelt de toepassing in staat te reageren op verzoeken om machtiging toegang</string>
    <string name="permission">Machtigingen:</string>

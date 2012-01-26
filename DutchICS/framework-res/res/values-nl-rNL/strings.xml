@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
    <string name="abbrev_month">%-b</string>
    <string name="abbrev_month_day" formatted="false">%b %-e</string>
@@ -33,20 +33,11 @@
    <string name="android_upgrading_starting_apps">Apps starten.</string>
    <string name="android_upgrading_title">Android wordt bijgewerkt...</string>
    <string name="anr_activity_application">"%2$s reageert niet.
-
-
-
 Applicatie afsluiten?"</string>
    <string name="anr_activity_process">"%1$s reageert niet.
-
-
-
 Process afsluiten?"</string>
    <string name="anr_application_process">Toepassing %1$s (in proces %2$s) reageert niet</string>
    <string name="anr_process">"Proces %1$s reageert niet.
-
-
-
 Process afsluiten?"</string>
    <string name="anr_title" />
    <string name="autofill_address_line_1_label_re">address|adresse|indirizzo|住所|地址</string>
@@ -171,7 +162,6 @@ Process afsluiten?"</string>
    <string name="copy">Kopiëren</string>
    <string name="copyUrl">URL kopiëren</string>
    <string name="create_contact_using">"Creeer contact
-
 met %s"</string>
    <string name="cut">Knippen</string>
    <string name="CwMmi">Wisselgesprek</string>
@@ -249,7 +239,6 @@ met %s"</string>
    <string name="description_target_unlock">Ontgrendelen</string>
    <string name="description_target_unlock_tablet">Swipe voor ontgrendelen.</string>
    <string name="dial_number_using">"Nummer bellen
-
 met %s"</string>
    <string name="dialog_alert_title">Let op</string>
    <string name="dlg_confirm_kill_storage_users_text">Als u SD-kaart inschakelt, worden bepaalde toepassingen die u gebruikt, gestopt en worden deze mogelijk pas weer beschikbaar wanneer u SD-kaart uitschakelt</string>
@@ -383,13 +372,7 @@ met %s"</string>
    <string name="issued_on">Uitgegeven op:</string>
    <string name="issued_to">Uitgegeven voor:</string>
    <string name="js_dialog_before_unload">"Wilt u deze pagina verlaten?
-
-
-
 %s
-
-
-
 Kies OK om door te gaan of Annuleren om op de huidige pagina te blijven"</string>
    <string name="js_dialog_title">De pagina op \'%s\' zegt:</string>
    <string name="js_dialog_title_default">JavaScript</string>
@@ -409,7 +392,6 @@ Kies OK om door te gaan of Annuleren om op de huidige pagina te blijven"</string
    <string name="keyguard_password_enter_pin_prompt">Nieuwe pincode</string>
    <string name="keyguard_password_enter_puk_code">Geef de PUK-code en de nieuwe pincode op</string>
    <string name="keyguard_password_enter_puk_prompt">PUK-code</string>
-
    <string name="keyguard_password_entry_touch_hint"><font size="17">Geef wachtwoord</font></string>
    <string name="keyguard_password_wrong_pin_code">Onjuiste PIN-code!</string>
    <string name="kilobyteShort">kB</string>
@@ -432,12 +414,10 @@ Kies OK om door te gaan of Annuleren om op de huidige pagina te blijven"</string
    <string name="lockscreen_emergency_call">Noodoproep</string>
    <string name="lockscreen_failed_attempts_almost_at_wipe" formatted="false">U heeft nu %d keer geprobeerd de telefoon op een onjuiste manier te ontgrendelen. Na nog eens %d mislukte pogingen worden de fabrieksinstellingen hersteld op de telefoon en gaan alle gebruikersgegevens verloren.</string>
    <string name="lockscreen_failed_attempts_almost_glogin" formatted="false">""U heeft uw ontgrendelingspatroon %d keer onjuist getekend. Na nog eens %d mislukte pogingen, wordt u gevraagd om uw telefoon te ontgrendelen met uw Google aanmelding.
-
  Probeer het over %d seconden opnieuw.""</string>
    <string name="lockscreen_failed_attempts_now_wiping">U heeft %d keer geprobeerd de telefoon op een onjuiste manier te ontgrendelen. De fabrieksinstellingen worden nu hersteld op de telefoon.</string>
    <string name="lockscreen_forgot_pattern_button_text">Patroon vergeten?</string>
    <string name="lockscreen_glogin_account_recovery_hint">""Bent u uw gebruikersnaam of wachtwoord vergeten?
-
 Ga naar "<b>https://www.google.com/accounts/recovery?hl=nl"</b></string>
    <string name="lockscreen_glogin_checking_password">Controleren...</string>
    <string name="lockscreen_glogin_forgot_pattern">Account ontgrendelen</string>
@@ -460,7 +440,6 @@ Ga naar "<b>https://www.google.com/accounts/recovery?hl=nl"</b></string>
    <string name="lockscreen_pattern_instructions">Patroon tekenen om te ontgrendelen</string>
    <string name="lockscreen_pattern_wrong">Probeer het opnieuw</string>
    <string name="lockscreen_permanent_disabled_sim_instructions">""Uw simkaart is permanent uitgeschakeld.
-
  Neem contact op met uw draadloze serviceprovider voor een nieuwe simkaart.""</string>
    <string name="lockscreen_plugged_in">Opladen (%d%%)</string>
    <string name="lockscreen_return_to_call">Terug naar gesprek</string>
@@ -473,13 +452,10 @@ Ga naar "<b>https://www.google.com/accounts/recovery?hl=nl"</b></string>
    <string name="lockscreen_sound_on_label">Geluid aan</string>
    <string name="lockscreen_too_many_failed_attempts_countdown">Probeer het over %d seconden opnieuw</string>
    <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">""U heeft uw ontgrendelingspatroon %d keer onjuist getekend.
-
 Probeer het over %d seconden opnieuw.""</string>
    <string name="lockscreen_too_many_failed_password_attempts_dialog_message" formatted="false">""U heeft uw wachtwoord %d keer onjuist ingevoerd.
-
 Probeer het over %d seconden opnieuw.""</string>
    <string name="lockscreen_too_many_failed_pin_attempts_dialog_message" formatted="false">""U heeft uw PIN-code %d keer onjuist ingevoerd.
-
 Probeer het over %d seconden opnieuw.""</string>
    <string name="lockscreen_transport_next_description">Knop voor volgend nummer</string>
    <string name="lockscreen_transport_pause_description">Knop voor onderbreken</string>
@@ -788,7 +764,6 @@ Probeer het over %d seconden opnieuw.""</string>
    <string name="permgrouplab_systemTools">Systeemhulpprogramma\'s</string>
    <string name="permission_request_notification_title">Toestemming gevraagd</string>
    <string name="permission_request_notification_with_subtitle">"Toestemming gevraagd
-
 voor account \'%s\'"</string>
    <string name="permissions_format">%1$s, %2$s</string>
    <string name="permlab_accessCoarseLocation">globale (netwerkgebaseerde) locatie</string>
@@ -949,9 +924,7 @@ voor account \'%s\'"</string>
    <string name="permlab_writeSms">SMS of MMS bewerken</string>
    <string name="permlab_writeSocialStream">schrijven naar sociale streams</string>
    <string name="permlab_writeSyncSettings">synchronisatie-instellingen schrijven</string>
-
    <string name="perms_hide"><b>Verberg</b></string>
-
    <string name="perms_show_all"><b>Toon alle</b></string>
    <string name="petabyteShort">PB</string>
    <string name="phoneTypeAssistant">Assistent</string>

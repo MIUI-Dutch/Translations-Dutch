@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
    <string name="change_search_setting">Zoek instellingen wijzigen</string>
    <string name="default_web_search_engine_baidu">http://www.bing.nl/search?q=</string>

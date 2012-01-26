@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
    <string name="absent_num">Nummer niet aanwezig</string>
    <string name="accessibility_call_muted">Oproep gedempt.</string>
@@ -53,7 +53,6 @@
    <string name="auto_answer_scenario_title">Scenario voor automatisch beantwoorden</string>
    <string name="auto_answer_setting_title">Instellingen</string>
    <string name="auto_country_code">Automatisch landcode toevoegen</string>
-
    <string name="auto_country_code_sum">Automatisch de landcode toevoegen voor het telefoonnummer van contacten, de landcode wordt direct gekozen.</string>
    <string name="auto_ip_setting">Automatische IP settings</string>
    <string name="auto_record_call_summary">Start recording while the call is connected, and save it to SD card</string>
@@ -70,7 +69,6 @@
    <string name="bad_puk">The PUK you typed is not correct. Please try again</string>
    <string name="bad_puk2">De PUK2 die u heeft ingevoerd is niet correct. Opnieuw proberen a.u.b</string>
    <string name="bf_news_settings">Business en financieel nieuws</string>
-
    <string name="call_assistant">Kiezer assistent</string>
    <string name="call_forwarding_number_hint">Voer een nummer in om naar door te verbinden</string>
    <string name="call_forwarding_settings">Oproepen doorschakelen instellingen</string>
@@ -107,7 +105,6 @@
    <string name="callFailed_unobtainable_number">Ongeldig nummer</string>
    <string name="callFailed_userBusy">Lijn bezet</string>
    <string name="calling_via_template">"Bellen via ^1
-
 "<b>^2</b></string>
    <string name="cancel">Annuleer</string>
    <string name="card_title_call_ended">Gesprek beeindigd</string>
@@ -159,11 +156,8 @@
    <string name="connect_later">Momenteel niet mogelijk om met dit netwerk te verbinden. Probeer later nog eens</string>
    <string name="contactsIconLabel">Contacten</string>
    <string name="count_of_persons_in_conference">Totaal van %d contacten</string>
-
    <string name="countrycode_alert_message_warning">De landcode is mogelijk incorrect, wil je deze toch gebruiken?</string>
-
    <string name="countrycode_alert_message_wrong">De landcode is incorrect, probeer opnieuw</string>
-
    <string name="countrycode_alert_title">Alert</string>
    <string name="crystaltalk_summary">Audio configuratie</string>
    <string name="crystaltalk_title">Oproep audio</string>
@@ -173,11 +167,8 @@
    <string name="custom_location_number_hint">Regio codes zoals 010, groep nummers zoals 68#####</string>
    <string name="data_enable_summary">Internet over het mobiel netwerk</string>
    <string name="data_enabled">Dataverbinding</string>
-
    <string name="default_contacts_countrycode">Standaard landcode voor contacten</string>
-
    <string name="default_contacts_countrycode_hint">bijvoorbeeld: 31</string>
-
    <string name="default_contacts_countrycode_sum">Standaard landcode voor contacten instellen</string>
    <string name="default_port">5060</string>
    <string name="default_preference_summary">&lt;Niet ingesteld></string>
@@ -267,7 +258,6 @@
    <string name="enable_proximity_summary">Nabijheidssensor tijdens gesprek</string>
    <string name="enable_proximity_title">Nabijheidssensor</string>
    <string name="enable_sim_pin">SIM PIN inschakelen</string>
-
    <string name="enable_telocation_title">Toon locatie</string>
    <string name="enforce_proximity_summary">Voorkom onbewust gebruik van uw telefoon bij inkomende oproepen</string>
    <string name="enforce_proximity_title">Nabijheidssensor</string>
@@ -293,10 +283,8 @@
    <string name="fdn_summary">De bovenstaande opties zijn uitgschakeld als FDN gebruikt worden</string>
    <string name="fdnListLabel">FDN lijst</string>
    <string name="fw_change_failed">"Nummer doorschakelen niet gelukt.
-
 Neem contact op met uw provider als dit probleem blijft voorkomen"</string>
    <string name="fw_get_in_vm_failed">"Niet gelukt om huidige doorschakel instellingen op te halen en te bewaren.
-
 Wilt u toch naar de nieuwe provider overschakelen?"</string>
    <string name="general_news_settings">Algemeen nieuws</string>
    <string name="get_smsc_address_error">Fout bij benaderen SMS centrale, probeer het later opnieuw</string>
@@ -464,24 +452,16 @@ Wilt u toch naar de nieuwe provider overschakelen?"</string>
    <string name="ota_title_activate_success">Telefoon is geactiveerd!</string>
    <string name="ota_title_problem_with_activation">Probleem met activatie</string>
    <string name="ota_touch_activate">"Een speciale oproep is vereist om de telefoon service te activeren.
-
-
-
 Na het drukken op “Activeren”, kunt u naar de instructie luisteren om de telefoon te activeren"</string>
    <string name="ota_try_again">Probeer opnieuw</string>
    <string name="ota_unsuccessful">"Uw telefoon is niet geactiveerd.
-
 U kunt proberen een gebied te vinden met betere ontvangst (Bij een raam, buiten). 
-
-
-
 Probeer opnieuw of bel klantenservice voor meer opties"</string>
    <string name="other_settings">Andere oproep instellingen</string>
    <string name="password">Wachtwoord</string>
    <string name="password_title">Wachtwoord</string>
    <string name="pause_prompt_no">Nee</string>
    <string name="pause_prompt_str">"Versturen van tonen
-
 "</string>
    <string name="pause_prompt_yes">Ja</string>
    <string name="payphone">Betaal telefoon</string>
@@ -496,7 +476,6 @@ Probeer opnieuw of bel klantenservice voor meer opties"</string>
    <string name="pin_changed">SIM PIN succesvol veranderd</string>
    <string name="pin_failed">De PIN die u ingevoerd heeft is incorrect</string>
    <string name="pin_lock_warning">"
-
 De telefoon gaat op slot bij foutieve invoer!"</string>
    <string name="pin_progress_change_pin">Wijzigen PIN...</string>
    <string name="pin_progress_change_pin2">Wijzigen PIN2...</string>
@@ -506,7 +485,6 @@ De telefoon gaat op slot bij foutieve invoer!"</string>
    <string name="pin2_changed">PIN2 succesvol veranderd</string>
    <string name="pin2_invalid">FDN niet geupdate: U heeft een foute PIN ingevoerd</string>
    <string name="pin2_lock_warning">"
-
 Let op, PIN2 geralateerde functies gaan op slot bij foutieve invoer!"</string>
    <string name="pin2_locked_message">Incorrect PIN2, and the PIN2 related functionality is locked. Please reset PIN2 by PUK2</string>
    <string name="port">Poort</string>
@@ -526,7 +504,6 @@ Let op, PIN2 geralateerde functies gaan op slot bij foutieve invoer!"</string>
    <string name="proxy_address_title">Uitgaand proxy-adres</string>
    <string name="pstn_phone">Mobiele telefoon oproep</string>
    <string name="puk_lock_warning">"
-
 Letop, de SIM card gaat op slot bij foutieve invoer"</string>
    <string name="puk_unlocked">Uw SIM card is ontgrendelt. Uw telefoon wordt nu ontgrendelt…</string>
    <string name="radio_off_error">A.u.b. radio aanzetten alvorens deze instellingen te bekijken</string>
@@ -659,16 +636,11 @@ Letop, de SIM card gaat op slot bij foutieve invoer"</string>
    <string name="sum_voicemail_choose_provider">Kies voicemail service</string>
    <string name="technology_news_disable">Technologie nieuws uitgeschakeld</string>
    <string name="technology_news_enable">Technologie nieuws ingeschakeld</string>
-
    <string name="telocation_setting">Locatie instelling</string>
-
    <string name="telocation_show_settings">Display instelling</string>
    <string name="third_party_account_summary">Dit account is momenteel in gebruik door de %s toepassing</string>
    <string name="throttle_current_usage">Gebruikte data in huidige periode</string>
    <string name="throttle_data_rate_reduced_subtext">"%1$s maximaal overschreden
-
-
-
 Data rate teruggebracht tot %2$d Kb/s"</string>
    <string name="throttle_data_usage">Data gebruik</string>
    <string name="throttle_data_usage_subtext">%1$s (%2$d٪) van %3$s periode maximumaal</string>
@@ -677,15 +649,9 @@ Data rate teruggebracht tot %2$d Kb/s"</string>
    <string name="throttle_rate">Data rate beleid</string>
    <string name="throttle_rate_subtext">Data rate teruggebracht tot %1$d Kb/s als data limiet wordt overschreden</string>
    <string name="throttle_status_subtext">"%1$s (%2$d٪) van %3$s periode maximaal
-
-
-
 Volgende periode start over %4$d dagen (%5$s)"</string>
    <string name="throttle_time_frame">Data geruik periode</string>
    <string name="throttle_time_frame_subtext">"%1$d٪ van cyclus verstreken
-
-
-
 Volgende periode start over %2$d dagen (%3$s)"</string>
    <string name="transport">Protocol</string>
    <string name="transport_title">Transport type</string>
@@ -702,7 +668,6 @@ Volgende periode start over %2$d dagen (%3$s)"</string>
    <string name="username_title">Gebruikersnaam</string>
    <string name="ussdRunning">USSD code draaiend…</string>
    <string name="vm_change_failed">"Voicemail nummer veranderen niet gelukt.
-
 Neem contact op met uw provider als dit probleem blijft voorkomen"</string>
    <string name="vm_changed">Voicemail nummer veranderd</string>
    <string name="voice_number_hint">Voer voicemailbox nummer in om gesprekken door te verbinden</string>
@@ -721,7 +686,6 @@ Neem contact op met uw provider als dit probleem blijft voorkomen"</string>
    <string name="voicemail_settings_for">Instellingen voor %s</string>
    <string name="voicemail_settings_number_label">Voicemail nummer</string>
    <string name="wait_prompt_str">"Verstuur de volgende tonen?
-
 "</string>
    <string name="wild_prompt_str">Vervang het sterretje door</string>
 </resources>

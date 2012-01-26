@@ -1,20 +1,14 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
    <string name="app_name">Pakket Installer</string>
    <string name="app_not_found_dlg_text">De applicatie is niet gevonden in de lijst van geïnstalleerde applicaties</string>
    <string name="app_not_found_dlg_title">Applicatie niet gevonden</string>
    <string name="cancel">Annuleren</string>
    <string name="dlg_app_replacement_statement">"De applicatie die je installeert zal de andere applicatie vervangen.
-
-
-
 Alle vorige gebruiker gegevens worden opgeslagen"</string>
    <string name="dlg_app_replacement_title">Vervang de toepassing</string>
    <string name="dlg_ok">OK</string>
    <string name="dlg_sys_app_replacement_statement">"Dit is een systeem applicatie. Wilt u vervangen?
-
-
-
 Alle vorige gebruiker gegevens worden opgeslagen"</string>
    <string name="done">Klaar</string>
    <string name="install">Installeer</string>
@@ -43,9 +37,6 @@ Alle vorige gebruiker gegevens worden opgeslagen"</string>
    <string name="uninstalling">Wissen…</string>
    <string name="unknown">Onbekend</string>
    <string name="unknown_apps_dlg_text">"Voor veiligheid, is uw telefoon ingesteld om de installatie van applicaties die niet zijn verkregen uit Android Market te blokkeren"
-
-
-
 Dit kan gewijzigd worden via Instellingen -> Applicaties -> Ontwikkelaars -> Onbekende bronnen"</string>
    <string name="unknown_apps_dlg_title">Te installeren geblokkeerd</string>
 </resources>

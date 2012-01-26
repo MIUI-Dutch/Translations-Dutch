@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
    <string name="change_search_setting">Zoek instellingen wijzigen</string>
    <string name="default_web_search_engine_baidu">http://www.bing.nl/search?q=</string>
@@ -10,7 +10,6 @@
    <string name="menu_preferences">Zoek instellingen</string>
    <string name="recent_dialog_buttonAppKiller">Sluit applicaties</string>
    <string name="recent_dialog_buttonAppKiller_summary">"Er is %1$s vrijgegeven
-
 Beschikbaar geheugen: %2$s"</string>
    <string name="recent_dialog_buttonTaskManager">Processen</string>
    <string name="search_engine_baidu">Bing</string>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
    <string name="account">Account</string>
    <string name="account_delete_dlg_instructions_fmt">Account \"%s\" wordt gewist van de Email</string>
@@ -94,16 +94,13 @@
    <string name="account_setup_failed_check_credentials_message">De server heeft een fout geretourneerd. Controleer uw gebruikersnaam en wachtwoord en probeer het opnieuw.</string>
    <string name="account_setup_failed_dlg_auth_message">Gebruikersnaam en wachtwoord incorrect</string>
    <string name="account_setup_failed_dlg_auth_message_fmt">"Gebruikersnaam of wachtwoord incorrect.
-
 (%s)"</string>
    <string name="account_setup_failed_dlg_certificate_message">Kan niet veilig verbinden met de server</string>
    <string name="account_setup_failed_dlg_certificate_message_fmt">"Kan niet veilig verbinden met de server.
-
 (%s)"</string>
    <string name="account_setup_failed_dlg_edit_details_action">Bewerk details</string>
    <string name="account_setup_failed_dlg_server_message">Kan niet met de server verbinden</string>
    <string name="account_setup_failed_dlg_server_message_fmt">"Kan niet verbinden met de server.
-
 (%s)"</string>
    <string name="account_setup_failed_dlg_title">Setup kan niet worden afgemaakt</string>
    <string name="account_setup_failed_ioerror">Kan geen verbinding maken met server</string>
@@ -194,9 +191,7 @@
    <string name="attachment_info_wifi_only">Deze bijlage is te groot om te downloaden via een mobiel netwerk. U kunt de bijlage downloaden wanneer u weer verbinding maakt met een Wi-Fi-netwerk.</string>
    <string name="attachment_info_wifi_settings">Wi-Fi-instellingen</string>
    <string name="attachment_not_found">Kan de bijlage niet downloaden.</string>
-
    <string name="bcc">Bcc</string>
-
    <string name="body_hint">Nieuwe email</string>
    <string name="build_number">20080722-0001</string>
    <string name="cancel">Annuleren</string>
@@ -205,37 +200,24 @@
    <string name="cannot_move_protocol_not_supported_toast">Verplaatsen wordt niet ondersteund in POP3-accounts.</string>
    <string name="cannot_move_special_mailboxes_toast">"Berichten in de mappen 'Concepten', 'Postvak UIT' en 'Verzonden berichten' kunnen niet worden verplaatst."</string>
    <string name="category_general_preferences">App</string>
-
    <string name="cc">Cc</string>
    <string name="chips_waiting_for_directory_result">Wachten op meer contacten</string>
    <string name="choose_attachment_dialog_title">Kies bijlage</string>
-
    <string name="choosertitle_sharevia">Deel via</string>
    <string name="close_action">Sluiten</string>
    <string name="completed_no_file">Bestand niet gevonden</string>
    <string name="compose_action">Opstellen</string>
    <string name="compose_title">Opstellen</string>
-
    <string name="contextmenu_add_contact">Contact toevoegen</string>
-
    <string name="contextmenu_copy">Kopieer</string>
-
    <string name="contextmenu_copylink">Kopieerk URL</string>
-
    <string name="contextmenu_dial_dot">Bel…</string>
-
    <string name="contextmenu_feedback">Opmerkingen struren</string>
-
    <string name="contextmenu_help">Help</string>
-
    <string name="contextmenu_map">Map</string>
-
    <string name="contextmenu_openlink">Open in Browser</string>
-
    <string name="contextmenu_send_mail">Zend email</string>
-
    <string name="contextmenu_sharelink">Deel link</string>
-
    <string name="contextmenu_sms_dot">SMS…</string>
    <string name="copy">E-mailadres kopiëren</string>
    <string name="create_action">Nieuwe maken</string>
@@ -327,9 +309,7 @@
    <string name="mailbox_settings_mailbox_sync_window_label">Dagen om te synchroniseren</string>
    <string name="mailbox_shortcut_picker_title">Een map selecteren</string>
    <string name="manager_activity_last_sync_format">"Laatste synchronisatie:
-
 %1$s
-
 %2$s"</string>
    <string name="manager_do_not_upload">Niet uploaden</string>
    <string name="manager_list_switcher_completed_format">Voltooide uploads [%d]</string>
@@ -360,33 +340,17 @@
    <string name="message_compose_error_no_recipients">Minimaal één ontvanger toevoegen</string>
    <string name="message_compose_from_label">Van:</string>
    <string name="message_compose_fwd_header_fmt">"
-
-
-
 -------- Origineel Bericht --------
-
 Onderwerp: %1$s
-
 Van: %2$s
-
 Aan: %3$s
-
 CC: %4$s
-
-
-
 "</string>
    <string name="message_compose_include_quoted_text_checkbox_label">Tekst opnemen</string>
    <string name="message_compose_insert_quick_response_list_title">Snelle reactie invoegen</string>
    <string name="message_compose_quoted_text_label">Geciteerde tekst</string>
    <string name="message_compose_reply_header_fmt">"
-
-
-
 %s schreef:
-
-
-
 "</string>
    <string name="message_compose_subject_hint">Onderwerp</string>
    <string name="message_compose_to_hint">Aan</string>
@@ -480,7 +444,6 @@ CC: %4$s
    <string name="picker_combined_view_fmt">Gecombineerde weergave (%s)</string>
    <string name="picker_mailbox_name_all_inbox">Inbox (alle)</string>
    <string name="picker_mailbox_name_all_unread">Inbox (ongelezen)</string>
-
    <string name="plus_cc_label">+ Cc/Bcc</string>
    <string name="position_of_count">%1$d van %2$s</string>
    <string name="preference_category_title_about">Over</string>
@@ -532,7 +495,6 @@ CC: %4$s
    <string name="remove_star_action">Wis ster</string>
    <string name="reply_action">Beantwoord</string>
    <string name="reply_all_action">Beantwoord alle</string>
-
    <string name="require_manual_sync_message">Achtergrond synchronisatie uitgeschakeld voor dit account tijdens roaming.</string>
    <string name="retry_in_1min">1 minuut</string>
    <string name="retry_in_2min">2 minuten</string>
@@ -555,7 +517,6 @@ CC: %4$s
    <string name="show_quick_text_list_dialog_action">Snelle reactie invoegen</string>
    <string name="status_loading_messages">Berichten laden...</string>
    <string name="status_network_error">Verbindingsfout</string>
-
    <string name="subject_hint">Onderwerp</string>
    <string name="summary_menu_show_finished">Voltooide uploads weergeven</string>
    <string name="summary_menu_show_pending">Uploads in behandeling weergeven</string>
@@ -574,7 +535,6 @@ CC: %4$s
    <string name="summary_title_paused">Onderbroken</string>
    <string name="summary_title_uploading">Uploaden</string>
    <string name="system_account_create_failed">De accountManager kan het account niet creeeren; probeer opnieuw</string>
-
    <string name="to">Aan</string>
    <string name="toast_account_not_found">Account niet gevonden. Misschien is dit account verwijderd.</string>
    <string name="toast_failed_auth">Er is een probleem opgetreden bij het aanmelden bij uw account.</string>

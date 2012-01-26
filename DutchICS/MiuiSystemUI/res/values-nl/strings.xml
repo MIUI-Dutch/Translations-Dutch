@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
    <string name="accessibility_airplane_mode">Vliegmodus.</string>
    <string name="accessibility_back">Terug</string>
@@ -69,41 +69,31 @@
    <string name="compat_mode_help_header">Compatibiliteitszoom</string>
    <string name="compat_mode_off">Rek uit v. schermvulling</string>
    <string name="compat_mode_on">Zoom om scherm te vullen</string>
-
    <string name="config_statusBarComponent">com.android.systemui.statusbar.phone.PhoneStatusBar</string>
-
    <string name="config_systemBarComponent">com.android.systemui.statusbar.tablet.TabletStatusBar</string>
    <string name="data_usage_disabled_dialog">"U heeft de gestelde limiet voor gegevensverbruik bereikt.
-
 Als u gegevens opnieuw inschakelt, kunnen er kosten in rekening worden gebracht door uw provider."</string>
    <string name="data_usage_disabled_dialog_3g_title">2G-/3G-gegevens uitgeschakeld</string>
    <string name="data_usage_disabled_dialog_4g_title">4G-gegevens uitgeschakeld</string>
    <string name="data_usage_disabled_dialog_enable">Gegevens opnieuw inschakelen</string>
    <string name="data_usage_disabled_dialog_mobile_title">Mobiele gegevens uitgeschakeld</string>
    <string name="data_usage_disabled_dialog_title">Gegevens uitgeschakeld</string>
-
    <string name="default_usb_mode">Standaard USB connectie type</string>
    <string name="dismount_storage">Niet koppelen</string>
-
    <string name="enable_back_long_press">Terug lang indrukken voor afsluiten App</string>
    <string name="gps_notification_found_text">Locatie bepaald met GPS</string>
    <string name="gps_notification_searching_text">Zoeken naar GPS</string>
-
    <string name="incoming_call_vibrate_hint">Inkomende oproep</string>
    <string name="installer_cd_button_title">AFT-app voor Mac installeren</string>
    <string name="invalid_charger">"Opladen via USB niet ondersteund.
 Gebruik alleen de bijgeleverde oplader."</string>
    <string name="label_view">Weergeven</string>
-
    <string name="mms_vibrate_hint">Bericht</string>
    <string name="mount_storage">Koppelen</string>
    <string name="move_data_to_sdcard_message">Verplaatst data als schermafdruk, afbeeldingen enz. van intern geheugen naar SD-kaart. Voor dagelijks gebruik is het beter om de SD-kaart steeds in de telefoon te houden</string>
    <string name="move_data_to_sdcard_title">Data naar SD-kaart verplaatsen</string>
-
    <string name="no_vibrate_hint">Volgens de instellingen staat vibreren voor oproepen en SMS uit, aanzetten van vibreren heeft daarom geen effect</string>
-
    <string name="not_all_vibrate_hint">Volgens de instellingen, %1$s vibreert, %2$s vibreert niet, veranderen via Instellingen > Geluid > Vibreren</string>
-
    <string name="notification_vibrate_hint">Notificatie</string>
    <string name="return_to_incall_screen">Klik voor terug naar de oproep</string>
    <string name="screenshot_failed_text">Kan schermafbeelding niet opslaan. Mogelijk is de opslag in gebruik.</string>
@@ -113,62 +103,41 @@ Gebruik alleen de bijgeleverde oplader."</string>
    <string name="screenshot_saving_text">Schermafbeelding wordt opgeslagen.</string>
    <string name="screenshot_saving_ticker">Schermafbeelding opslaan...</string>
    <string name="screenshot_saving_title">Schermafbeelding opslaan...</string>
-
    <string name="settings_expandable_under_fullscreen">vergroten in volledig scherm</string>
-
    <string name="settings_expandable_under_fullscreen_summary">door naar beneden schuiven vanaf de bovenkant van het scherm</string>
-
    <string name="settings_expandable_under_keyguard">vergroten in keyguard</string>
-
    <string name="settings_expandable_under_keyguard_summary">alleen voor onveilige keyguard</string>
-
    <string name="settings_expanded_view">Vergrote notificatie</string>
-
    <string name="settings_other">Overig</string>
-
    <string name="settings_separator">,</string>
-
    <string name="settings_toggle">Schakelaar</string>
-
    <string name="settings_toggle_layout_style">Layout stijl</string>
-
    <string name="settings_toggle_layout_style_applying">Wijzig schakelaar stijl...</string>
-
    <string name="settings_toggle_layout_style_compact">Compact</string>
-
    <string name="settings_toggle_layout_style_single_page">Pagina</string>
-
    <string name="settings_toggle_position">"Wijzig schakelaar positie"</string>
-
    <string name="settings_toggle_position_divider_list">Schakelaars boven de scheiding zijn actief</string>
-
    <string name="settings_toggle_position_divider_page">%1$d Schakelaars boven de scheiding zijn actief</string>
-
    <string name="settings_toggle_position_reset">Reset schakelaars</string>
    <string name="status_bar_accessibility_dismiss_recents">Recente apps negeren</string>
    <string name="status_bar_clear_all_button">Wissen</string>
    <string name="status_bar_date_format">EEE, d MMMM,</string>
-
    <string name="status_bar_date_formatter">%2$s</string>
    <string name="status_bar_do_not_disturb_button">Niet storen</string>
    <string name="status_bar_input_method_settings_configure_input_methods">Invoermethoden instellen</string>
    <string name="status_bar_latest_events_title">Meldingen</string>
-
    <string name="status_bar_network_name_separator">"
-
 "</string>
    <string name="status_bar_no_notifications_title">Geen meldingen</string>
    <string name="status_bar_no_recent_apps">Geen recente apps</string>
    <string name="status_bar_ongoing_events_title">Actief</string>
    <string name="status_bar_please_disturb_button">Meldingen weergeven</string>
    <string name="status_bar_recent_inspect_item_title">App-info</string>
-
    <string name="status_bar_recent_memory_info_format">%dM</string>
    <string name="status_bar_recent_remove_item_title">Verwijderen uit lijst</string>
    <string name="status_bar_settings_airplane">Vliegmodus</string>
    <string name="status_bar_settings_auto_brightness_label">AUTO</string>
    <string name="status_bar_settings_auto_rotation">Scherm automatisch draaien</string>
-
    <string name="status_bar_settings_battery_meter_format">%d%%</string>
    <string name="status_bar_settings_mute_label">DEMPEN</string>
    <string name="status_bar_settings_notifications">Meldingen</string>
@@ -176,53 +145,32 @@ Gebruik alleen de bijgeleverde oplader."</string>
    <string name="status_bar_settings_signal_meter_disconnected">Geen internetverbinding</string>
    <string name="status_bar_settings_signal_meter_wifi_nossid">Verbonden via Wi-Fi</string>
    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
-
    <string name="status_bar_style_settings">Statusbalk instellingen</string>
    <string name="status_bar_time_format_12">h:mma</string>
    <string name="status_bar_time_format_24">HH:mm</string>
-
    <string name="status_bar_toggle_ac">Toegang controle</string>
-
    <string name="status_bar_toggle_bluetooth">BT</string>
-
    <string name="status_bar_toggle_brightness">Backlight</string>
-
    <string name="status_bar_toggle_data">Data</string>
-
    <string name="status_bar_toggle_divider">Wijzig</string>
-
    <string name="status_bar_toggle_flight_mode">Vliegtuig-mode</string>
-
    <string name="status_bar_toggle_gps">GPS</string>
-
    <string name="status_bar_toggle_lock">Vergrendel</string>
-
    <string name="status_bar_toggle_mute">Stil</string>
-
    <string name="status_bar_toggle_network_type">Netwerk type</string>
-
    <string name="status_bar_toggle_privacy_mode">Guard</string>
-
    <string name="status_bar_toggle_reboot">Herstart</string>
-
    <string name="status_bar_toggle_rotate">Rotatie</string>
-
    <string name="status_bar_toggle_screenshot">Schermafdruk</string>
-
    <string name="status_bar_toggle_shutdown">Power</string>
-
    <string name="status_bar_toggle_sync">Synchronisatie</string>
-
    <string name="status_bar_toggle_torch">Licht</string>
-
    <string name="status_bar_toggle_vibrate">Vibreren</string>
-
    <string name="status_bar_toggle_wifi">WLAN</string>
    <string name="status_bar_use_physical_keyboard">Fysiek toetsenbord gebruiken</string>
    <string name="tab_notifications_lable">Meldingen</string>
    <string name="tab_toggles_lable">Schakelaars</string>
    <string name="title_usb_accessory">USB-accessoire</string>
-
    <string name="to_vibrate_settings">Vibratie instelling</string>
    <string name="usb_accessory_confirm_prompt">%1$s openen wanneer dit USB-accessoire wordt aangesloten?</string>
    <string name="usb_accessory_permission_prompt">De app %1$s toegang geven tot het USB-accessoire?</string>

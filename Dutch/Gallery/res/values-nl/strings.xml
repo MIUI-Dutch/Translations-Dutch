@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
    <string name="add_bookmark">Voeg toe aan favorieten</string>
    <string name="add_hidden">Verberg map</string>
@@ -100,7 +100,6 @@
    <string name="save">Opslaan</string>
    <string name="save_pic_error">Kan afbeelding niet bewaren!</string>
    <string name="save_pic_to_success">"Afbeelding met succes bewaard op
-
 %s"</string>
    <string name="save_to_hint">Opslaan in %s</string>
    <string name="save_to_sdcard">Bewaar op SD-kaart</string>

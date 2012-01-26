@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
    <string name="account_deleted">Account is verwijderd</string>
    <string name="account_disabled">Account is uitgeschakeld</string>
@@ -39,7 +39,6 @@
    <string name="preference_change_password_title">Wachtwoord wijzigen</string>
    <string name="provider_label">Abonnementen doorvoeren</string>
    <string name="really_remove_account_message">"Wilt u dit account echt wissen? Als u het account verwijdert, worden ook alle accountberichten, contacten en andere gegevens van de telefoon verwijderd.
-
 Doorgaan?"</string>
    <string name="really_remove_account_title">Account wissen</string>
    <string name="registered_account">Gebruikersnaam is geregistreerd</string>
@@ -64,10 +63,8 @@ Doorgaan?"</string>
    <string name="sync_menu_sync_cancel">Synchronisatie annuleren</string>
    <string name="sync_menu_sync_now">Nu synchroniseren</string>
    <string name="sync_one_time_sync">"Aanraken om nu te synchroniseren
-
 %1$s"</string>
    <string name="sync_plug"><font fgcolor="#ffffffff">Welkom bij Google sync!</font>"
-
 A Google oplossing voor synchroniseren van data, voor toegang tot je contacten, agendapuntenen meer vanaf elke lokatie. "</string>
    <string name="sync_really_delete">De items wissen</string>
    <string name="sync_settings">Account- en synchronisatie instellingen</string>

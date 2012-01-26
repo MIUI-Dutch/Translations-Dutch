@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
    <string name="account_default">Telefoon</string>
    <string name="account_phone">Telefoon</string>
@@ -220,7 +220,6 @@
    <string name="eventLabelsGroup">Gebeurtenis</string>
    <string name="export_to_sdcard">Exporteren naar SD-kaart</string>
    <string name="exporting_contact_failed_message">"Kan contactgegevens niet exporteren.
-
  Reden: \"%s\""</string>
    <string name="exporting_contact_failed_title">Exporteren mislukt</string>
    <string name="exporting_contact_list_message">Contactgegevens exporteren naar \"%s\"...</string>
@@ -351,11 +350,7 @@
    <string name="nickname_picker_nickname_column">Bellen</string>
    <string name="nicknameLabelsGroup">Bijnaam</string>
    <string name="no_account_prompt">"Contacten werkt beter met een Google Account.
-
-
-
 • Toegang met elke web browser.
-
 • Veilige Backup van je Contacten."</string>
    <string name="no_contact_details">Geen aanvullende gegevens voor dit contact.</string>
    <string name="no_contacts_selected">Geen contacten geselecteerd.</string>
@@ -366,119 +361,62 @@
    <string name="noContactHelpTextImportXiaomiAccountInfo">Herstel data uit backup gemaakt in Xiaomi account of MiTalk</string>
    <string name="noContacts">Geen contacten.</string>
    <string name="noContactsHelpText">"Je hebt geen contacten om te tonen.
-
-
-
 Om Contacten toe te voegen, klik "<b><font fgcolor="#ffffffff">Menu</font></b>" en dan:
-
  
-
 "<b><font fgcolor="#ffffffff"><li>"Account toevoegen of gebruik een account om contacten te synchroniseren met de telefoon
-
 "</li></font></b>" 
-
 "<b><font fgcolor="#ffffffff"><li>"Nieuw contact om een nieuw contact toe te voegen
-
 "</li></font></b>" 
-
 "<b><font fgcolor="#ffffffff"><li>"Import/Export om contacten van SIM-kaart of SD-kaart te importeren
-
 "</li></font></b>"
-
 "</string>
    <string name="noContactsHelpTextForCreateShortcut">U heeft geen contacten om weer te geven.</string>
    <string name="noContactsHelpTextWithSync">"Je hebt geen contacten om te tonen. (Als je net een account toegevoegd hebt, kan het een paar minuten duren om contacten te synchronisatie.)
-
-
-
 Om Contacten toe te voegen, klik "<b><font fgcolor="#ffffffff">Menu</font></b>" en dan:
-
  
-
 "<b><font fgcolor="#ffffffff"><li>"Account toevoegen of gebruik een account om contacten te synchroniseren met de telefoon
-
 "</li></font></b>" 
-
 "<b><font fgcolor="#ffffffff"><li>"Nieuw contact om een nieuw contact toe te voegen
-
 "</li></font></b>" 
-
 "<b><font fgcolor="#ffffffff"><li>"Import/Export om contacten van SIM-kaart of SD-kaart te importeren
-
 "</li></font></b>"
-
 "</string>
    <string name="noContactsHelpTextWithSyncForCreateShortcut">U heeft geen contacten om weer te geven. Als u zojuist een account heeft toegevoegd, kan het enkele minuten duren voordat de contacten zijn gesynchroniseerd.</string>
    <string name="noContactsNoSimHelpText">"Je hebt geen contacten om te tonen.
-
-
-
 Om Contacten toe te voegen, klik "<b><font fgcolor="#ffffffff">Menu</font></b>" en dan:
-
  
-
 "<b><font fgcolor="#ffffffff"><li>"Account toevoegen of gebruik een account om contacten te synchroniseren met de telefoon
-
 "</li></font></b>" 
-
 "<b><font fgcolor="#ffffffff"><li>"Nieuw contact om een nieuw contact toe te voegen
-
 "</li></font></b>" 
-
 "<b><font fgcolor="#ffffffff"><li>"Import/Export om contacten van SIM-kaart of SD-kaart te importeren
-
 "</li></font></b>"
-
 "</string>
    <string name="noContactsNoSimHelpTextWithSync">"Je hebt geen contacten om te tonen. (Als je net een account toegevoegd hebt, kan het een paar minuten duren om contacten te synchronisatie.)
-
-
-
 Om Contacten toe te voegen, klik "<b><font fgcolor="#ffffffff">Menu</font></b>" en dan:
-
  
-
 "<b><font fgcolor="#ffffffff"><li>"Account toevoegen of gebruik een account om contacten te synchroniseren met de telefoon
-
 "</li></font></b>" 
-
 "<b><font fgcolor="#ffffffff"><li>"Nieuw contact om een nieuw contact toe te voegen
-
 "</li></font></b>" 
-
 "<b><font fgcolor="#ffffffff"><li>"Import/Export om contacten van SIM-kaart of SD-kaart te importeren
-
 "</li></font></b>"
-
 "</string>
    <string name="noContactsWithPhoneNumbers">Geen contactpersonen met telefoonnummers</string>
    <string name="noFavoritesHelpText">"Je hebt geen favorieten.
-
-
-
 Om een contact toe te voegen aan je favorieten:
-
-
-
 "<li>Kies tab-blad <b>Contacten</b>" tab
-
 "</li>" 
-
 "<li>"Kies het contact die je toevoegd aan favorieten
-
 "</li>" 
-
 "<li>"Dan de ster naast de naam kiezen
-
 "</li>"
-
 "</string>
    <string name="noGroups">Geen groepen.</string>
    <string name="noMatchingContacts">Geen overeenkomstige contacten</string>
    <string name="non_phone_add_to_contacts">Toevoegen aan contacten</string>
    <string name="non_phone_caption">Telefoonnummer</string>
    <string name="non_phone_close">Sluiten</string>
-
    <string name="noRecentContacts">Geen recent contact</string>
    <string name="not_applied">Niet ondersteund</string>
    <string name="notification_new_voicemail_ticker">Nieuwe voicemail van %1$s</string>
@@ -504,11 +442,8 @@ Om een contact toe te voegen aan je favorieten:
    <string name="postal_street">Straat</string>
    <string name="postalLabelsGroup">Postadres</string>
    <string name="preference_displayOptions">Weergaveopties</string>
-
    <string name="preference_export">Export</string>
-
    <string name="preference_import">Import</string>
-
    <string name="preference_others">Overig</string>
    <string name="preview_contact_card_title">Import contact</string>
    <string name="primary_indicator">(Standaard)</string>
@@ -611,13 +546,7 @@ Om een contact toe te voegen aan je favorieten:
    <string name="unkown_location">Locatie is onbekend</string>
    <string name="upgrade_in_progress">Contacten bijwerken.\n\nEven geduld...</string>
    <string name="upgrade_out_of_memory">"Contacten worden bijgewerkt.
-
-
-
 Het bijwerken gebruikt ongeveer %dMb van interne telefoon opslag.
-
-
-
 kies één van de volgende opties:"</string>
    <string name="upgrade_out_of_memory_retry">Opnieuw verversen</string>
    <string name="upgrade_out_of_memory_uninstall">De-installeer enkele applicaties</string>
@@ -652,6 +581,5 @@ kies één van de volgende opties:"</string>
    <string name="voicemail_status_voicemail_not_available">Kan geen verbinding maken met de voicemailserver.</string>
    <string name="websiteLabelsGroup">Webadres</string>
    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
-
    <string name="wipe_data">Wis</string>
 </resources>

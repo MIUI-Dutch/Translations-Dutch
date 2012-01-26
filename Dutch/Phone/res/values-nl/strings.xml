@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
    <string name="absent_num">Nummer niet aanwezig</string>
    <string name="add_button">Toevoegen</string>
@@ -98,7 +98,6 @@
    <string name="callFailed_unobtainable_number">Ongeldig nummer</string>
    <string name="callFailed_userBusy">Lijn bezet</string>
    <string name="calling_via_template">"Bellen via ^1
-
 "</string>
    <string name="callSimEntry">Bellen</string>
    <string name="cancel">Annuleer</string>
@@ -245,10 +244,8 @@
    <string name="fdn_only_error">Operaties zijn alleen toegestaan ​​op vaste nummers</string>
    <string name="fdnListLabel">FDN lijst</string>
    <string name="fw_change_failed">"Nummer doorschakelen niet gelukt.
-
 Neem contact op met uw provider als dit probleem blijft voorkomen"</string>
    <string name="fw_get_in_vm_failed">"Niet gelukt om huidige doorschakel instellingen op te halen en te bewaren.
-
 Wilt u toch naar de nieuwe provider overschakelen?"</string>
    <string name="general_news_settings">Algemeen nieuws</string>
    <string name="get_smsc_address_error">Fout bij benaderen SMS centrale, probeer het later opnieuw</string>
@@ -423,24 +420,16 @@ Wilt u toch naar de nieuwe provider overschakelen?"</string>
    <string name="ota_title_activate_success">Telefoon is geactiveerd!</string>
    <string name="ota_title_problem_with_activation">Probleem met activatie</string>
    <string name="ota_touch_activate">"Een speciale oproep is vereist om de telefoon service te activeren.
-
-
-
 Na het drukken op “Activeren”, kunt u naar de instructie luisteren om de telefoon te activeren"</string>
    <string name="ota_try_again">Probeer opnieuw</string>
    <string name="ota_unsuccessful">"Uw telefoon is niet geactiveerd.
-
 U kunt proberen een gebied te vinden met betere ontvangst (Bij een raam, buiten). 
-
-
-
 Probeer opnieuw of bel klantenservice voor meer opties"</string>
    <string name="other_settings">Andere oproep instellingen</string>
    <string name="password">Wachtwoord</string>
    <string name="password_title">Wachtwoord</string>
    <string name="pause_prompt_no">Nee</string>
    <string name="pause_prompt_str">"Versturen van tonen
-
 "</string>
    <string name="pause_prompt_yes">Ja</string>
    <string name="payphone">Betaal telefoon</string>
@@ -455,7 +444,6 @@ Probeer opnieuw of bel klantenservice voor meer opties"</string>
    <string name="pin_changed">SIM PIN succesvol veranderd</string>
    <string name="pin_failed">De PIN die u ingevoerd heeft is incorrect</string>
    <string name="pin_lock_warning">"
-
 De telefoon gaat op slot bij foutive invoer!"</string>
    <string name="pin_progress_change_pin">Wijzigen PIN...</string>
    <string name="pin_progress_change_pin2">Wijzigen PIN2...</string>
@@ -465,7 +453,6 @@ De telefoon gaat op slot bij foutive invoer!"</string>
    <string name="pin2_changed">PIN2 succesvol veranderd</string>
    <string name="pin2_invalid">FDN niet geupdate: U heeft een foute PIN ingevoerd</string>
    <string name="pin2_lock_warning">"
-
 Let op, PIN2 geralateerde functies gaan op slot bij foutieve invoer!"</string>
    <string name="pin2_locked_message">Incorrect PIN2, and the PIN2 related functionality is locked. Please reset PIN2 by PUK2</string>
    <string name="port">Poort</string>
@@ -497,7 +484,6 @@ Let op, PIN2 geralateerde functies gaan op slot bij foutieve invoer!"</string>
    <string name="proxy_address_title">Uitgaand proxy-adres</string>
    <string name="pstn_phone">Mobiele telefoon oproep</string>
    <string name="puk_lock_warning">"
-
 Letop, de SIM card gaat op slot bij foutieve invoer"</string>
    <string name="puk_unlocked">Uw SIM card is ontgrendelt. Uw telefoon wordt nu ontgrendelt…</string>
    <string name="puk2_requested">Wachtwoord niet correct, SIM is vergrendeld! PUK2 aangevraagd</string>
@@ -571,7 +557,6 @@ Letop, de SIM card gaat op slot bij foutieve invoer"</string>
    <string name="simContactNumber">Nummer</string>
    <string name="simContacts_empty">Geen contacten op uw SIM kaart</string>
    <string name="simContacts_empty_add_contact_hint">"
-
 kies menu om er een toe te voegen"</string>
    <string name="simContacts_emptyLoading">Lezen uit SIM kaart…</string>
    <string name="simContacts_title">Selecteer contacten om te importeren</string>
@@ -630,7 +615,6 @@ kies menu om er een toe te voegen"</string>
    <string name="third_party_account_summary">Dit account is momenteel in gebruik door de %s toepassing</string>
    <string name="throttle_current_usage">Gebruikte data in huidige periode</string>
    <string name="throttle_data_rate_reduced_subtext">"%1$s maximaal overschreden
-
 Data rate teruggebracht tot %2$d Kb/s"</string>
    <string name="throttle_data_usage">Data gebruik</string>
    <string name="throttle_data_usage_subtext">%1$s (%2$d٪) van %3$s periode maximumaal</string>
@@ -639,14 +623,11 @@ Data rate teruggebracht tot %2$d Kb/s"</string>
    <string name="throttle_rate">Data rate beleid</string>
    <string name="throttle_rate_subtext">Data rate teruggebracht tot %1$d Kb/s als data limiet wordt overschreden</string>
    <string name="throttle_status_subtext">"%1$s (%2$d٪) van %3$s periode maximaal
-
 Volgende periode start over %4$d dagen (%5$s)"</string>
    <string name="throttle_time_frame">Data geruik periode</string>
    <string name="throttle_time_frame_subtext">"%1$d٪ van cyclus verstreken
-
 Volgende periode start over %2$d dagen (%3$s)"</string>
    <string name="touchLockText">"Dubbelklikken op
-
  om te ontgrendelen"</string>
    <string name="transport">Protocol</string>
    <string name="transport_title">Transport type</string>
@@ -662,7 +643,6 @@ Volgende periode start over %2$d dagen (%3$s)"</string>
    <string name="username_title">Gebruikersnaam</string>
    <string name="ussdRunning">USSD code draaiend…</string>
    <string name="vm_change_failed">"Voicemail nummer veranderen niet gelukt.
-
 Neem contact op met uw provider als dit probleem blijft voorkomen"</string>
    <string name="vm_changed">Voicemail nummer veranderd</string>
    <string name="voice_number_hint">Voer voicemailbox nummer in om gesprekken door te verbinden</string>
@@ -681,7 +661,6 @@ Neem contact op met uw provider als dit probleem blijft voorkomen"</string>
    <string name="voicemail_settings_for">Instellingen voor %s</string>
    <string name="voicemail_settings_number_label">Voicemail nummer</string>
    <string name="wait_prompt_str">"Verstuur de volgende tonen?
-
 "</string>
    <string name="wild_prompt_str">Vervang het sterretje door</string>
 </resources>

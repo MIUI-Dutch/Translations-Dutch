@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
    <string name="all_apps">Alle programma\'s</string>
    <string name="android_system">Android systeem</string>
@@ -17,9 +17,7 @@
    <string name="download">Downloaden</string>
    <string name="download_bytes">Download %s</string>
    <string name="duration" formatted="false">Log duur: %d/%d/%d - %d/%d/%d</string>
-
    <string name="duration_days" formatted="false">%d dagen %d uren %d minuten</string>
-
    <string name="duration_hours" formatted="false">%d uur %d minuten</string>
    <string name="duration_minutes">%d minuten</string>
    <string name="exceed">Over:\u0020</string>

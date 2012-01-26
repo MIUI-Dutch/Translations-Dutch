@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
    <string name="account_phone">Telefoon</string>
    <string name="add_contact_dlg_title">Contactpersoon toevoegen</string>
@@ -184,7 +184,6 @@
    <string name="export_to_sdcard">Exporteren naar SD-kaart</string>
    <string name="export_to_sim">Exporteren naar SIM-kaart</string>
    <string name="exporting_contact_failed_message">"Exporteren contacten data mislukt.
-
 Reden: \"%s\""</string>
    <string name="exporting_contact_failed_title">Exporteren mislukt</string>
    <string name="exporting_contact_list_message">Contactgegevens exporteren naar \"%s\"...</string>
@@ -260,7 +259,6 @@ Reden: \"%s\""</string>
    <string name="liveFolderFavorites">Contactpersonen met sterren</string>
    <string name="liveFolderPhone">Contactpersonen met telefoonnummers</string>
    <string name="locale_change_in_progress">"Contacten bijwerken om taal te wijzigen.
-
 Even geduld..."</string>
    <string name="manage_groups">Beheer groepen</string>
    <string name="map_custom">Adres %s weergeven</string>
@@ -373,7 +371,6 @@ Even geduld..."</string>
    <string name="private_num">Privé-nummer</string>
    <string name="progress_notifier_message" formatted="false">Import %s/%s: %s</string>
    <string name="progress_shower_message">"%1$s
-
 %2$s"</string>
    <string name="quick_contact_add_bl">Zwarte lijst</string>
    <string name="quick_contact_add_live_contact">Toevoegen aan...</string>
@@ -442,7 +439,6 @@ Even geduld..."</string>
    <string name="simContacts_emptyLoading">Laden van SIM-kaart...</string>
    <string name="simContacts_title">Contacten op SIM-kaart</string>
    <string name="simExportCancelled" formatted="false">"Kopieren is geannuleerd
-
 %s Contacten in %s zijn niet gekopieerd naar de SIM-kaart."</string>
    <string name="simExportLoadingAdn">Lezen van SIM kaart, dit kan even duren, geduld a.u.b</string>
    <string name="simExportNoSpace" formatted="false">SIM card full, not enough space to store %s contacts, can only store %s</string>
@@ -480,12 +476,9 @@ Even geduld..."</string>
    <string name="toast_for_saving_nickname">Wijzigingen opslaan</string>
    <string name="unknown">Onbekend</string>
    <string name="upgrade_in_progress">"Contacten bijwerken.
-
 Even geduld..."</string>
    <string name="upgrade_out_of_memory">"Contacten worden bijgewerkt.
-
    Het bijwerken gebruikt ongeveer %dMb van interne telefoon opslag.
-
 kies één van de volgende opties:"</string>
    <string name="upgrade_out_of_memory_retry">Opnieuw verversen</string>
    <string name="upgrade_out_of_memory_uninstall">De-installeer enkele applicaties</string>

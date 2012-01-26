@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
    <string name="ack_record">Ack record</string>
    <string name="airplane_error_msg">Je kan Bluetooth niet gebruiken in vliegtuig-modus</string>
@@ -52,9 +52,6 @@
    <string name="inbound_noti_title">Bluetooth delen: Ontvangen bestanden</string>
    <string name="incoming_file_confirm_cancel">Annuleren</string>
    <string name="incoming_file_confirm_content">"\"%1$s\" wil je %2$s (%3$s) zenden.
-
-
-
  Bestand accepteren?"</string>
    <string name="incoming_file_confirm_Notification_caption">Bevestigen dat je dit bestand wilt ontvangen</string>
    <string name="incoming_file_confirm_Notification_title">Bluetooth share: Inkomend bestand</string>
@@ -67,9 +64,7 @@
    <string name="localPhoneName">Mijn naam</string>
    <string name="no_transfers">Overdracht geschiedenis is leeg</string>
    <string name="not_exist_file">Bestand bestaat niet</string>
-
    <string name="not_exist_file_desc">"Het bestand bestaat niet!
-
 "</string>
    <string name="noti_caption">%1$s geslaagd, %2$s mislukt</string>
    <string name="notification_received">Bluetooth share: Ontvangen %1$s</string>
@@ -115,9 +110,7 @@
    <string name="transfer_menu_open">Open</string>
    <string name="unknown_device">Onbekend apparaat</string>
    <string name="unknown_file">Onbekend bestand</string>
-
    <string name="unknown_file_desc">"Er is geen toepassing om dit bestand type te verwerken.
-
 "</string>
    <string name="unknownName">Onbekende naam</string>
    <string name="unknownNumber">Onbekend</string>

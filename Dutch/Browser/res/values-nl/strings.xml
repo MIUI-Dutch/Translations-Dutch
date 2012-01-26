@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
    <string name="action">Login</string>
    <string name="added_bookmark_folder">Je bladwijzer is gemaakt!</string>
@@ -89,17 +89,11 @@
    <string name="download_sdcard_busy_dlg_msg">Geheugen kaart is bezig. Sluit de geheuegen kaart en probeer opnieuw</string>
    <string name="download_sdcard_busy_dlg_title">SD-kaart bezig</string>
    <string name="download_unknown_title">&lt;geen titel></string>
-
    <string name="duplicate_download_msg">Dubbele downloads. Overschrijven?</string>
    <string name="edit_bookmarkfolder_header">Bewerk map</string>
    <string name="email_body">"Website feedback:
-
 %s
-
  AUB geef je feedback: 
-
-
-
 "</string>
    <string name="email_subject">MIUI Browser Feedback</string>
    <string name="exit">Verlaten</string>

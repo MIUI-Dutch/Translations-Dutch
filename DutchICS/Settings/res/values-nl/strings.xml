@@ -1,32 +1,21 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
    <string name="about_settings">Over de telefoon</string>
    <string name="about_settings_summary">Juridische info, status, softwareversie weergeven</string>
    <string name="ac_enable_title">Toegangsbeperkingen</string>
-
    <string name="ac_privacy_mode_title">Wachtwoordbeveiliging gast-mode</string>
-
    <string name="ac_set_apps_title">Te beschermen en te verbergen toepassingen</string>
    <string name="accelerometer_summary_off">Stand automatisch wijzigen als telefoon wordt gedraaid</string>
    <string name="accelerometer_summary_on">Stand automatisch wijzigen als telefoon wordt gedraaid</string>
    <string name="accelerometer_title">Scherm automatisch draaien</string>
-
    <string name="access_control_app_entry_multiple">in %s</string>
-
    <string name="access_control_app_entry_single">in de toepassing</string>
-
    <string name="access_control_need_password">"%s is beveiligd met een wachtwoord
-
  "</string>
-
    <string name="access_control_need_to_unlock">Geef een wachtwoord in om toegang te beperken</string>
-
    <string name="access_control_no_back_footer">Druk op [icon] toets om af te sluiten</string>
-
    <string name="access_control_password_title">Toegangsbeperkingen</string>
-
    <string name="access_control_recording_intro_header">Teken patroon om toegang te beperken tot wachtwoorden</string>
-
    <string name="access_control_title">toegangsbeperkingen</string>
    <string name="accessibility_long_press_timeout_title">Vertraging voor blijven aanraken</string>
    <string name="accessibility_menu_item_settings">Instellingen</string>
@@ -59,9 +48,6 @@
    <string name="accessibility_system_title">Systeem</string>
    <string name="accessibility_toggle_large_text_title">Grote tekst</string>
    <string name="accessibility_touch_exploration_summary">"Als verkennen via aanraking is ingeschakeld, kunt u beluisteren of bekijken wat u met uw vinger aanraakt.
-
-
-
  Deze functie is bedoeld voor slechtziende gebruikers."</string>
    <string name="accessibility_touch_exploration_title">Verkennen via aanraking</string>
    <string name="accessibility_touch_exploration_warning">Deze functie past de manier aan waarop uw apparaat reageert op aanraking. Inschakelen?</string>
@@ -104,9 +90,6 @@
    <string name="allow_mock_location_summary">Namaaklocaties toestaan</string>
    <string name="android_beam_disabled_summary">Niet beschikbaar omdat NFC is uitgeschakeld</string>
    <string name="android_beam_explained">"Wanneer deze functie is ingeschakeld, kunt u app-inhoud overbrengen naar een ander NFC-apparaat door de apparaten bij elkaar te houden. U kunt bijvoorbeeld browserpagina's, YouTube-video's, contacten uit Personen, en nog veel meer overbrengen.
-
-
-
  Houd de apparaten bij elkaar (meestal met de achterkanten tegen elkaar aan) en raak uw scherm aan. De app bepaalt wat er wordt overgebracht."</string>
    <string name="android_beam_label">Android Beam</string>
    <string name="android_beam_off_summary">Uit</string>
@@ -456,7 +439,6 @@
    <string name="crypt_keeper_confirm_title">Codering bevestigen</string>
    <string name="crypt_keeper_cooldown">Probeer het over ^1 seconden opnieuw.</string>
    <string name="crypt_keeper_desc">"U kunt uw accounts, instellingen, gedownloade apps en bijbehorende gegevens, media en andere bestanden coderen. Zodra u uw telefoon heeft gecodeerd, moet u een numerieke pincode of wachtwoord opgeven om de telefoon te decoderen telkens wanneer u deze inschakelt. U kunt de codering van uw telefoon alleen ongedaan maken door de fabrieksinstellingen te herstellen. Als u dit doet, worden al uw gegevens gewist.
-
 Het coderen duurt een uur of langer. U moet beginnen met een opgeladen accu en moet de telefoon aangesloten laten op het stopcontact tot het coderen is voltooid. Als u het coderingsproces onderbreekt, gaan sommige of alle gegevens verloren."</string>
    <string name="crypt_keeper_dialog_need_password_message">U moet een PIN-code of wachtwoord voor schermvergrendeling instellen voordat u de encryptie kunt starten.</string>
    <string name="crypt_keeper_dialog_need_password_title">Geen PIN-code of wachtwoord voor schermvergrendeling</string>
@@ -465,9 +447,6 @@ Het coderen duurt een uur of langer. U moet beginnen met een opgeladen accu en m
    <string name="crypt_keeper_encrypted_summary">Gecodeerd</string>
    <string name="crypt_keeper_enter_password">Typ uw wachtwoord</string>
    <string name="crypt_keeper_failed_summary">"Het coderen is onderbroken en kan niet worden voltooid. Als gevolg hiervan zijn de gegevens op uw telefoon niet meer toegankelijk.
-
-
-
    Als u uw telefoon weer wilt gebruiken, moet u de fabrieksinstellingen herstellen. Wanneer u de telefoon instelt na het herstel, krijgt u de mogelijkheid gegevens waarvan u een back-up heeft gemaakt in uw Google-account, terug te zetten."</string>
    <string name="crypt_keeper_failed_title">Encryptie mislukt</string>
    <string name="crypt_keeper_final_desc">Telefoon encrypten? Deze bewerking kan niet ongedaan worden gemaakt en als u de bewerking onderbreekt, gaan er gegevens verloren. Het encrypten duurt een uur of langer en de telefoon wordt meerdere keren opnieuw opgestart.</string>
@@ -485,9 +464,6 @@ Het coderen duurt een uur of langer. U moet beginnen met een opgeladen accu en m
    <string name="data_usage_app_restrict_background_summary">Alleen achtergrondgegevens in mobiel gegevensnetwerk uitschakelen. Wi-Fi wordt gebruikt, indien beschikbaar.</string>
    <string name="data_usage_app_restrict_background_summary_disabled">Als u achtergrondgegevens wilt beperken voor deze app, moet u eerst een mobiele gegevenslimiet instellen.</string>
    <string name="data_usage_app_restrict_dialog">"Deze functie kan ervoor zorgen dat een app die afhankelijk is van achtergrondgegevens, niet meer werkt als Wifi niet beschikbaar is.
-
-
-
 Geschiktere opties voor gegevensgebruik zijn beschikbaar in de instellingen in de app."</string>
    <string name="data_usage_app_restrict_dialog_title">Achtergrondgegevens beperken?</string>
    <string name="data_usage_app_settings">Instellingen voor app weergeven</string>
@@ -509,7 +485,6 @@ Geschiktere opties voor gegevensgebruik zijn beschikbaar in de instellingen in d
    <string name="data_usage_label_background">Achtergrond</string>
    <string name="data_usage_label_foreground">Voorgrond</string>
    <string name="data_usage_limit_dialog">"Uw %1$s gegevensverbinding wordt uitgeschakeld wanneer de gespecificeerde limiet is bereikt.
-
 Aangezien dit gegevensverbruik wordt gemeten door uw telefoon en uw provider tot een ander totaal kan komen, kunt u het beste een voorzichtige grens instellen."</string>
    <string name="data_usage_limit_dialog_title">Gegevensgebruik beperken</string>
    <string name="data_usage_limit_editor_title">Limiet voor gegevensverbruik instellen</string>
@@ -527,10 +502,8 @@ Aangezien dit gegevensverbruik wordt gemeten door uw telefoon en uw provider tot
    <string name="data_usage_restrict_denied_dialog">U kunt achtergrondgegevens alleen beperken als u een mobiele gegevenslimiet heeft ingesteld.</string>
    <string name="data_usage_summary_title">Datagebruik</string>
    <string name="data_usage_sweep_limit"><font size="21">^1</font> <font size="9">^2</font>"
-
 "<font size="12">limiet</font></string>
    <string name="data_usage_sweep_warning"><font size="21">^1</font> <font size="9">^2</font>"
-
 "<font size="12">let op</font></string>
    <string name="data_usage_tab_3g">2G-3G</string>
    <string name="data_usage_tab_4g">4G</string>
@@ -732,9 +705,6 @@ Aangezien dit gegevensverbruik wordt gemeten door uw telefoon en uw provider tot
    <string name="lock_after_timeout">Automatisch vergrendelen</string>
    <string name="lock_after_timeout_summary">%1$s na slaapstand</string>
    <string name="lock_intro_message">"Beveilig uw telefoon tegen ongeoorloofd gebruik door een persoonlijk schermontgrendelingspatroon in te stellen. Gebruik op het volgende scherm uw vinger om de punten met elkaar te verbinden. U moet minimaal vier punten met elkaar verbinden.
-
-
-
 Bent u er klaar voor? Raak 'Volgende' aan."</string>
    <string name="lock_settings_picker_title">Instellingen ontgrendelen scherm</string>
    <string name="lock_settings_title">Instellingen ontgrendelen scherm</string>
@@ -807,36 +777,18 @@ Bent u er klaar voor? Raak 'Volgende' aan."</string>
    <string name="manageapplications_settings_summary">Geïnstalleerde toepassingen beheren en wissen</string>
    <string name="manageapplications_settings_title">Toepassingen beheren</string>
    <string name="master_clear_accounts">"
-
-
-
 Je hebt deze accounts actief:
-
 "</string>
    <string name="master_clear_button_text">Telefoon opnieuw instellen</string>
    <string name="master_clear_confirm_title">Opnieuw instellen?</string>
    <string name="master_clear_desc">"Alle gegevens worden gewist uit het <b>apparaatgeheugen</b>, zoals:
-
-
-
 <li>Je Google account</li>
-
-
-
 <li>Systeem and app data en instellingen</li>
-
-
-
 <li>Download apps</li>"</string>
    <string name="master_clear_desc_also_erases_external"><li>Muziek</li>"
-
 "<li>Foto\'s</li>"
-
 "<li>Overige data</li></string>
    <string name="master_clear_desc_erase_external_storage">"
-
-
-
 Om muziek, afbeeldingen en andere gebruikers data te wissen, moet de <b>SD-kaart</b> worden gewist."</string>
    <string name="master_clear_failed">"Niet opnieuw ingesteld, omdat de service 'Systeem wissen' niet beschikbaar is."</string>
    <string name="master_clear_final_button_text">Alles wissen</string>
@@ -1155,9 +1107,6 @@ Om muziek, afbeeldingen en andere gebruikers data te wissen, moet de <b>SD-kaart
    <string name="silent_mode_title">Stille stand</string>
    <string name="sim_bad_pin">Onjuiste pincode</string>
    <string name="sim_change_failed">"Kan pincode niet wijzigen.
-
-
-
 Pincode mogelijk onjuist."</string>
    <string name="sim_change_pin">SIM PIN-code</string>
    <string name="sim_change_succeeded">SIM PIN-code gewijzigd</string>
@@ -1169,9 +1118,6 @@ Pincode mogelijk onjuist."</string>
    <string name="sim_enter_old">Oude SIM PIN-code</string>
    <string name="sim_enter_pin">SIM PIN-code</string>
    <string name="sim_lock_failed">"Kan status van simkaartblokkering niet wijzigen.
-
-
-
 Pincode mogelijk onjuist."</string>
    <string name="sim_lock_off">PIN-code vereist voor gebruik van telefoon</string>
    <string name="sim_lock_on">PIN-code vereist voor gebruik van telefoon</string>
@@ -1248,12 +1194,8 @@ Pincode mogelijk onjuist."</string>
    <string name="sync_menu_sync_cancel">Synchronisatie annuleren</string>
    <string name="sync_menu_sync_now">Nu synchroniseren</string>
    <string name="sync_one_time_sync">"Aanraken om nu te synchroniseren
-
-
-
 %1$s"</string>
    <string name="sync_plug"><font fgcolor="#ffffffff">Welkom bij Google sync!</font>"
-
 Via Google synchroniseren van data en toegang tot je contacten, agenda, en meer met elke manier waar je ook bent. "</string>
    <string name="sync_settings">Accounts en synchronisatie-instellingen</string>
    <string name="system_package">Systeemupdates kunnen niet worden geïnstalleerd in extern geheugen</string>
@@ -1550,9 +1492,6 @@ Via Google synchroniseren van data en toegang tot je contacten, agenda, en meer 
    <string name="wifi_setup_cancel">Annuleren</string>
    <string name="wifi_setup_connect">Verbinden</string>
    <string name="wifi_setup_description_connected">"Klik <b>Volgende</b> om door te gaan met setup.
-
-
-
 Klik <b>Terug</b> om met een ander Wi-Fi netwerk te koppelen."</string>
    <string name="wifi_setup_description_connecting">Verbinding maken kan enkele minuten duren...</string>
    <string name="wifi_setup_detail">Netwerkdetails</string>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
    <string name="app_label">Downloadbeheer</string>
    <string name="button_cancel_download">Annuleren</string>
@@ -27,19 +27,10 @@
    <string name="permlab_downloadWithoutNotification">bestanden downloaden zonder melding</string>
    <string name="permlab_seeAllExternal">Alle downloads naar SD-kaart bekijken</string>
    <string name="wifi_recommended_body">"Door deze download nu te starten zal dat de batterijduur verkorten en/of resulteren in excessief gebruik van de mobiele data connectie, en ook de databundel zal gebruikt worden.
-
-
-
  Klik \"Queue\" om deze download te starten als er een Wi-Fi netwerk beschikbaar is.
-
-
-
  Je kan de standaard instellingen wijzigen in de \"Instellingen\" pagina."</string>
    <string name="wifi_recommended_title">In wachtrij voor download via Wi-Fi?</string>
    <string name="wifi_required_body" formatted="false">"Je moet een Wi-Fi connectie gebruiken voor deze %s download.
-
-
-
  Klik %s hieronder om deze te downloaden zodra een connectie met Wi-Fi aanwezig is."</string>
    <string name="wifi_required_title">Download te groot voor mobiel netwerk</string>
 </resources>

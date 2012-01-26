@@ -1,22 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
    <string name="all_resources">Alle %1$s</string>
    <string name="arbor_day" />
-
    <string name="autumn_begins" />
-
    <string name="autumn_equinox" />
    <string name="caller_info_name_delimiter">-</string>
    <string name="callNoAnswerTimeFormat">%s maal gerinkeld</string>
-
    <string name="childrens_day" />
-
    <string name="chinese_youth_day" />
-
    <string name="christmas_dad" />
-
    <string name="clear_and_bright" />
-
    <string name="cold_dews" />
    <string name="country_name_ac">Ascension</string>
    <string name="country_name_ad">Andorra</string>
@@ -259,16 +252,13 @@
    <string name="description_size">Grootte:</string>
    <string name="description_unknown">Onbekend</string>
    <string name="description_version">Versie:</string>
-
    <string name="double_seventh_day" />
    <string name="download_failed">Download mislukt</string>
    <string name="download_preview_failed">Voorbeeld laden mislukt</string>
    <string name="firewall_setting">Contact blokkering</string>
    <string name="first_back_long_press_message">"Wil je de functie aanzetten voor het ingedrukt houden van de Terug-toets voor het afsluiten van de aktieve applicatie en zijn achtergrond processen?
-
  via Instellingen > Systeem > Toetsen"</string>
    <string name="first_back_long_press_title">Terug-toets gedrag</string>
-
    <string name="fools_day" />
    <string name="force_exit_message">%1$s succesvol afgesloten</string>
    <string name="global_action_privacy_mode_dialog_message">In guard mode, worden oproepen, notities en SMS berichten verborgen en er kan niets gewijzigd worden.</string>
@@ -276,30 +266,18 @@
    <string name="global_action_privacy_mode_on_status">Guard mode is AAN</string>
    <string name="global_action_privacy_mode_on_toast">Guard mode is aan. Oproepen, notities en SMS berichten verborgen en er kan niets gewijzigd worden</string>
    <string name="global_action_toggle_privacy_mode">Guard</string>
-
    <string name="grain_buds" />
-
    <string name="grain_in_ear" />
-
    <string name="grain_rain" />
-
    <string name="great_cold" />
-
    <string name="great_heat" />
-
    <string name="heavy_snow" />
-
    <string name="hoar_frost_falls" />
-
    <string name="insects_awaken" />
-
    <string name="international_womens_day" />
    <string name="invalid_url">Ongeldige URL:</string>
-
    <string name="labour_day" />
-
    <string name="lantern_festival" />
-
    <string name="light_snow" />
    <string name="loading">Laden...</string>
    <string name="lock_screen_date">EEEE, d MMMM</string>
@@ -307,57 +285,33 @@
    <string name="lockscreen_sms_bottom_hint">Schuif omlaag om SMS te openen</string>
    <string name="lockscreen_time_bottom_hint">Schuif omlaag om te ontgrendelen</string>
    <string name="lockscreen_unlock_sim_via_puk">Gebruik PUK om SIM te ontgrendelen</string>
-
    <string name="lunar_ba" />
-
    <string name="lunar_calendar" />
-
    <string name="lunar_chu" />
-
    <string name="lunar_chu_shi" />
-
    <string name="lunar_er" />
-
    <string name="lunar_er_shi" />
-
    <string name="lunar_jiu" />
-
    <string name="lunar_leap" />
-
    <string name="lunar_ling" />
-
    <string name="lunar_liu" />
-
    <string name="lunar_nian" />
-
    <string name="lunar_qi" />
-
    <string name="lunar_san" />
-
    <string name="lunar_san_shi" />
-
    <string name="lunar_shi" />
-
    <string name="lunar_shi_er" />
-
    <string name="lunar_shi_yi" />
-
    <string name="lunar_si" />
-
    <string name="lunar_year" />
-
    <string name="lunar_yi" />
-
    <string name="lunar_yue" />
-
    <string name="lunar_zheng" />
    <string name="miui_copyright_title">Copyright</string>
    <string name="miui_privacy_policy_title">Algemene voorwaarden</string>
    <string name="miui_user_agreement_title">Gebruikers overeenkomst</string>
    <string name="multi_select_title">%1$s item(s) geselecteerd</string>
-
    <string name="national_day" />
-
    <string name="new_years_day" />
    <string name="online_hottest">Hottest</string>
    <string name="online_hottest_short">Hottest</string>
@@ -365,7 +319,6 @@
    <string name="online_latest_short">Laatste</string>
    <string name="online_no_network">Niet mogelijk om te verbinden met het netwerk</string>
    <string name="online_search_hint">Zoek naar online bron</string>
-
    <string name="partys_day" />
    <string name="payphone">Betaal telefoon</string>
    <string name="phoneTypeMms">Mms</string>
@@ -397,37 +350,22 @@
    <string name="sd_not_available_saved_to_internal_storage">Opgeslagen op interne opslag</string>
    <string name="sd_not_available_use_internal_storage">SD-kaart niet beschikbaar, opgeslagen op interne opslag</string>
    <string name="sdcard_status_changed_dialog_message">"Afsluiten.
-
 Heropen om de lijst te verversen."</string>
    <string name="sdcard_status_changed_dialog_title">SD-kaart status gewijzigd</string>
    <string name="select_all">Selecteer alle</string>
-
    <string name="slight_cold" />
-
    <string name="slight_heat" />
-
    <string name="spring_begins" />
-
    <string name="stopping_the_heat" />
-
    <string name="summer_begins" />
-
    <string name="summer_solstice" />
-
    <string name="teachers_day" />
-
    <string name="the_armys_day" />
-
    <string name="the_double_ninth_festival" />
-
    <string name="the_dragon_boat_festival" />
-
    <string name="the_laba_rice_porridge_festival" />
-
    <string name="the_mid_autumn_festival" />
-
    <string name="the_rains" />
-
    <string name="the_spring_festival" />
    <string name="unknown">Onbekend nummer</string>
    <string name="user_agreement1">Bij gebruikmaken van de het systeem en online service aangeboden door Xiaomi, lees</string>
@@ -435,14 +373,9 @@ Heropen om de lijst te verversen."</string>
    <string name="user_agreement3">\u0020en\u0020</string>
    <string name="user_agreement4">Algemene voorwaarden</string>
    <string name="user_agreement5">，OK klikken geeft aan dat u accoord bent met bovenstaande, klik Annuleren als u niet accoord bent</string>
-
    <string name="valentines_day" />
-
    <string name="vernal_equinox" />
-
    <string name="white_dews" />
-
    <string name="winter_begins" />
-
    <string name="winter_solstice" />
 </resources>

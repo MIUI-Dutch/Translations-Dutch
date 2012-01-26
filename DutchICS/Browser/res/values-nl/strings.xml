@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
    <string name="accessibility_button_addbookmark">Pagina toevoegen aan favorieten</string>
    <string name="accessibility_button_back">Ga terug</string>
@@ -305,7 +305,6 @@
    <string name="pref_set_homepage_to">Zet als</string>
    <string name="pref_text_zoom">Tekst schaling</string>
    <string name="pref_ua_string">User agent string</string>
-
    <string name="pref_ua_title">User agent beheer</string>
    <string name="pref_use_instant_search">Google Instant</string>
    <string name="pref_use_instant_search_summary">Gebruik Google Instant als je Google Search gebruikt om resultaten te tonen tijdens invoer (dit kan data gebruik vergroten).</string>

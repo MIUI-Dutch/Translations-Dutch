@@ -1,13 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
    <string name="app_name">Thema\'s</string>
    <string name="apply_lockscreen_paper_tips">Vergrendelthema al in gebruik, nieuw vergendel-voorbeeld mogelijk niet zichtbaar!</string>
    <string name="apply_theme_no_select_message">Geen modules geselecteerd</string>
    <string name="backup_preference_title">Backup huidig thema</string>
    <string name="backup_theme_dialog_message">"Backup het huidige thema op
-
-
-
 %1$s"</string>
    <string name="backup_theme_dialog_ok">Backup</string>
    <string name="backup_theme_progress_message">Bezig met backup...</string>
