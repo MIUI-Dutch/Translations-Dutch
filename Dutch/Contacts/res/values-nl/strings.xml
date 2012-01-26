@@ -286,7 +286,7 @@ Even geduld..."</string>
    <string name="menu_doNotSave">Niet opslaan</string>
    <string name="menu_editContact">Contact wijzigen</string>
    <string name="menu_editGroupName">Groepsnaam wijzigen</string>
-   <string name="menu_group_ringtone">Groeps ringtone</string>
+   <string name="menu_group_ringtone">Groeps beltoon</string>
    <string name="menu_group_sms">Groeps SMS</string>
    <string name="menu_joinAggregate">Delen</string>
    <string name="menu_makeDefaultEmail">Standaard e-mail</string>
@@ -428,7 +428,7 @@ Even geduld..."</string>
    <string name="set_as_photo">Instellen als contactafbeelding?</string>
    <string name="set_photos">Configureren...</string>
    <string name="set_photos_finish">Contactafbeelding ingesteld</string>
-   <string name="set_ringtone_for_group_members_success">Stel ringtone in voor groep</string>
+   <string name="set_ringtone_for_group_members_success">Stel beltoon in voor groep</string>
    <string name="share_error">Kan dit contact niet delen</string>
    <string name="share_via">Contact delen via</string>
    <string name="share_visible_contacts">Zichtbare contacten delen</string>

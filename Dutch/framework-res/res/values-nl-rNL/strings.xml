@@ -1274,7 +1274,7 @@ Heropen om de lijst te verversen"</string>
    <string name="volume_notification">Meldingsvolume</string>
    <string name="volume_notification_mute">Demp notificatie</string>
    <string name="volume_ringtone">Belvolume</string>
-   <string name="volume_ringtone_mute">Demp ringtone</string>
+   <string name="volume_ringtone_mute">Demp beltoon</string>
    <string name="volume_unknown">Volume</string>
    <string name="wait">Wachten</string>
    <string name="wallpaper_binding_label">Achtergrond</string>

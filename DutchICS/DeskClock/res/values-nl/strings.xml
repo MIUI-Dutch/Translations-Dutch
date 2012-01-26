@@ -31,7 +31,7 @@
    <string name="day_concat">,\u0020</string>
    <string name="days">%s dagen</string>
    <string name="default_label">Alarm</string>
-   <string name="default_ringtone_setting_title">Zet standaard ringtone</string>
+   <string name="default_ringtone_setting_title">Zet standaard beltoon</string>
    <string name="delete">Wissen</string>
    <string name="delete_alarm">Alarm verwijderen</string>
    <string name="delete_alarm_confirm">Dit alarm wordt verwijderd</string>
@@ -47,7 +47,7 @@
    <string name="hour">1 uur</string>
    <string name="hours">%s uren</string>
    <string name="label">Etiket</string>
-   <string name="loading_ringtone">Laad ringtone…</string>
+   <string name="loading_ringtone">Laad beltoon</string>
    <string name="menu_desk_clock">Bureauklok</string>
    <string name="menu_edit_alarm">Bewerk alarm</string>
    <string name="menu_item_dock_settings">Dock-instellingen</string>
