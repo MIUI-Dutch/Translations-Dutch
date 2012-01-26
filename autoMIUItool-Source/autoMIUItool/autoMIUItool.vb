@@ -1191,13 +1191,13 @@ Public Class autoMIUItool
                     If InStr(str, " />") <> 0 Then
                         dictDoc1.Add(keyName, 0)
                         objReader12.Add(Trim(str))
-                        dictDoc11.Add(keyName, Join(objReader12.ToArray, "þ"))
+						If not dictDoc11.ContainsKey(keyName) Then dictDoc11.Add(keyName, Join(objReader12.ToArray, "þ"))
                         BackgroundWorker1.ReportProgress(ShowProgress(-2), "KeyName (0): " & keyName & ":" & Join(objReader12.ToArray, "þ"))
                         objReader12.Clear()
                     ElseIf InStr(str, "</string>") <> 0 Then
                         dictDoc1.Add(keyName, 1)
                         objReader12.Add(Trim(str))
-                        dictDoc11.Add(keyName, Join(objReader12.ToArray, "þ"))
+						If not dictDoc11.ContainsKey(keyName) Then dictDoc11.Add(keyName, Join(objReader12.ToArray, "þ"))
                         BackgroundWorker1.ReportProgress(ShowProgress(-2), "KeyName (1): " & keyName & ":" & Join(objReader12.ToArray, "þ"))
                         objReader12.Clear()
                     Else
@@ -1211,7 +1211,7 @@ Public Class autoMIUItool
                         objReader12.Add(str)
                         If InStr(str, "</string>") <> 0 Then
                             multiLine = False
-                            dictDoc11.Add(keyName, Join(objReader12.ToArray, "þ"))
+							If not dictDoc11.ContainsKey(keyName) Then dictDoc11.Add(keyName, Join(objReader12.ToArray, "þ"))
                             BackgroundWorker1.ReportProgress(ShowProgress(-2), "KeyName (2): " & keyName & ":" & Join(objReader12.ToArray, "þ"))
                             objReader12.Clear()
                         End If

@@ -51,12 +51,12 @@
                 If InStr(str, " />") <> 0 Then
                     dictDoc1.Add(keyName, 0)
                     objReader12.Add(Trim(str))
-                    dictDoc11.Add(keyName, Join(objReader12.ToArray, "þ"))
+					If not dictDoc11.ContainsKey(keyName) Then dictDoc11.Add(keyName, Join(objReader12.ToArray, "þ"))
                     objReader12.Clear()
                 ElseIf InStr(str, "</string>") <> 0 Then
                     dictDoc1.Add(keyName, 1)
                     objReader12.Add(Trim(str))
-                    dictDoc11.Add(keyName, Join(objReader12.ToArray, "þ"))
+					If not dictDoc11.ContainsKey(keyName) Then dictDoc11.Add(keyName, Join(objReader12.ToArray, "þ"))
                     objReader12.Clear()
                 Else
                     dictDoc1.Add(keyName, 2)
@@ -69,7 +69,7 @@
                     objReader12.Add(str)
                     If InStr(str, "</string>") <> 0 Then
                         multiLine = False
-                        dictDoc11.Add(keyName, Join(objReader12.ToArray, "þ"))
+						If not dictDoc11.ContainsKey(keyName) Then dictDoc11.Add(keyName, Join(objReader12.ToArray, "þ"))
                         objReader12.Clear()
                     End If
                 End If
