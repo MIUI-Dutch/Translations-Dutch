@@ -665,7 +665,7 @@ Aangezien dit gegevensverbruik wordt gemeten door uw telefoon en uw provider tot
    <string name="header_category_device">APPARAAT</string>
    <string name="header_category_personal">PERSOONLIJK</string>
    <string name="header_category_system">SYSTEEM</string>
-   <string name="header_category_wireless_networks">DRAADLOOS EN NETWERKEN</string>
+   <string name="header_category_wireless_networks">Draadloos en Netwerken</string>
    <string name="header_data_and_synchronization">Gegevens en synchronisatie</string>
    <string name="heavy_weight_stop_description">Als u de toepassing stopt, kan een deel van uw huidige werk verloren gaan</string>
    <string name="hidden_ssid_label">Hidden SSID:</string>
@@ -979,7 +979,7 @@ Om muziek, afbeeldingen en andere gebruikers data te wissen, moet de <b>SD-kaart
    <string name="quick_launch_summary">Sneltoetsen instellen om toepassingen te starten</string>
    <string name="quick_launch_title">Snel starten</string>
    <string name="radio_controls_summary">"Wi-Fi, Bluetooth, vliegmodus, mobiele netwerken en VPN's beheren"</string>
-   <string name="radio_controls_title">Draadloos en netwerk</string>
+   <string name="radio_controls_title">meer...</string>
    <string name="radio_info_band_mode_label">Radioband selecteren</string>
    <string name="radio_info_call_redirect_label">Oproep omleiden:</string>
    <string name="radio_info_call_status_label">Oproepstatus:</string>
