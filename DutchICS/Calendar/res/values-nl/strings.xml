@@ -99,7 +99,7 @@
    <string name="prefDialogTitle_vibrateWhen">Trillen</string>
    <string name="preferences_about_title">Over</string>
    <string name="preferences_alerts_popup_title">Pop-up notificatie</string>
-   <string name="preferences_alerts_beltoon_title">Selecteer meldingsgeluid</string>
+   <string name="preferences_alerts_ringtone_title">Selecteer meldingsgeluid</string>
    <string name="preferences_alerts_title">Herinnering instelling</string>
    <string name="preferences_alerts_vibrateWhen_title">Trillen</string>
    <string name="preferences_build_version">Versie</string>

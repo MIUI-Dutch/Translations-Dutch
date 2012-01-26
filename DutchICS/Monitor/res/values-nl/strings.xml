@@ -12,8 +12,8 @@
    <string name="data_usage_label_background">Achtergrond: %s</string>
    <string name="data_usage_label_foreground">Voorgrond: %s</string>
    <string name="data_usage_restrict_background">Beperkte achtergrond data</string>
-   <string name="data_usage_restrict_background_help">Beperk het gebruik van achtergrondinformatie voor deze app, stelt de bovengrens van de mobiele data in</string>
-   <string name="data_usage_restrict_background_summary">Als de mobiele datalimiet op de achtergrond bereikt is, dan, tenzij u bent verbonden met Wi-Fi-netwerk, zal een deel van de apps en diensten zullen niet worden uitgevoerd</string>
+   <string name="data_usage_restrict_background_help">Beperk het gebruik van achtergrondinformatie voor deze toepassing, stelt de bovengrens van de mobiele data in</string>
+   <string name="data_usage_restrict_background_summary">Als de mobiele datalimiet op de achtergrond bereikt is, dan, tenzij u bent verbonden met Wi-Fi-netwerk, zal een deel van de toepassingen en diensten zullen niet worden uitgevoerd</string>
    <string name="data_usage_restrict_background_title">Beperkte achtergrond gegevens?</string>
    <string name="data_usage_uninstalled_apps">Applicatie is verwijderd</string>
    <string name="date_format">%s Nr</string>

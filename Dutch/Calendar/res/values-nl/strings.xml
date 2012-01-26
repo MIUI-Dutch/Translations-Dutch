@@ -77,7 +77,7 @@
    <string name="prefDefault_alerts_vibrateWhen">Alleen in stille modus</string>
    <string name="prefDialogTitle_vibrateWhen">Trillen</string>
    <string name="preferences_about_title">Over</string>
-   <string name="preferences_alerts_beltoon_title">Selecteer meldingsgeluid</string>
+   <string name="preferences_alerts_ringtone_title">Selecteer meldingsgeluid</string>
    <string name="preferences_alerts_title">Herinnering instelling</string>
    <string name="preferences_alerts_type_default">1</string>
    <string name="preferences_alerts_type_dialog">Waarschuwingen &amp; meldingen</string>

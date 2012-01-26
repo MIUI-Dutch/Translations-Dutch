@@ -612,7 +612,7 @@ kies menu om er een toe te voegen"</string>
    <string name="sum_voicemail_choose_provider">Kies voicemail service</string>
    <string name="technology_news_disable">Technologie nieuws uitgeschakeld</string>
    <string name="technology_news_enable">Technologie nieuws ingeschakeld</string>
-   <string name="third_party_account_summary">Dit account is momenteel in gebruik door de %s app</string>
+   <string name="third_party_account_summary">Dit account is momenteel in gebruik door de %s toepassing</string>
    <string name="throttle_current_usage">Gebruikte data in huidige periode</string>
    <string name="throttle_data_rate_reduced_subtext">"%1$s maximaal overschreden
 Data rate teruggebracht tot %2$d Kb/s"</string>

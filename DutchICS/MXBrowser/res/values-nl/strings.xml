@@ -560,7 +560,7 @@
    <string name="user_guide_online_bookmark">Maxthon accounts kunnen met de cloud worden gesynchroniseerd</string>
    <string name="user_guide_pre_tab_text_1">om de vorige tab te openen</string>
    <string name="user_guide_refresh_text_1">Verversen</string>
-   <string name="user_guide_resource_download_fail">Downloaden van invoegapp mislukt</string>
+   <string name="user_guide_resource_download_fail">Downloaden van invoegtoepassing mislukt</string>
    <string name="user_guide_undo_close">om de laatst gesloten tab te openen</string>
    <string name="validity_period">Geldigheid:</string>
    <string name="view_certificate">Certificaat bekijken</string>

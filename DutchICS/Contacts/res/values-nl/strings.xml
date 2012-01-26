@@ -149,7 +149,7 @@
    <string name="customLabelPickerTitle">Aangepaste labelnaam</string>
    <string name="date_time_set">Instellen</string>
    <string name="date_year_toggle">Een jaar opgeven</string>
-   <string name="default_beltoon">Standaardbeltoon</string>
+   <string name="default_ringtone">Standaardbeltoon</string>
    <string name="delete_contact_calllog_title">"Bevestig het verwijderen van de oproep log van dit contact?"</string>
    <string name="delete_group_dialog_message">"De groep '%1$s' verwijderen? (De contacten zelf worden niet verwijderd.)"</string>
    <string name="delete_group_dialog_title">Groep verwijderen</string>
@@ -314,7 +314,7 @@
    <string name="menu_editContact">Contact wijzigen</string>
    <string name="menu_editGroup">Bewerken</string>
    <string name="menu_group_add_members">toevoegen</string>
-   <string name="menu_group_beltoon">Groep beltoon</string>
+   <string name="menu_group_ringtone">Groep ringtone</string>
    <string name="menu_group_sms">Groep SMS</string>
    <string name="menu_import_export">Importeren/exporteren</string>
    <string name="menu_joinAggregate">Delen</string>
@@ -450,7 +450,7 @@ Om een contact toe te voegen aan je favorieten:
    <string name="private_num">Privé-nummer</string>
    <string name="profile_display_name">Mijn profiel instellen</string>
    <string name="progress_notifier_message" formatted="false">Importeren %s/%s: %s</string>
-   <string name="quickcontact_missing_app">Geen apps om deze actie uit te voeren</string>
+   <string name="quickcontact_missing_app">Geen toepassingen om deze actie uit te voeren</string>
    <string name="reading_vcard_failed_title">Kan vCard-gegevens niet lezen</string>
    <string name="readOnlyContactDeleteConfirmation">Dit contact bevat informatie uit meerdere accounts. Informatie van alleen-lezen accounts wordt verborgen in uw lijst met contacten, niet gewist</string>
    <string name="readOnlyContactWarning">Kan contacten niet verwijderen uit alleen-lezen accounts. Alleen verbergen is mogelijk</string>

@@ -337,7 +337,7 @@
    <string name="resource_mute">Geen</string>
    <string name="resource_notification_default">Notificaties</string>
    <string name="resource_online">Online %1$s</string>
-   <string name="resource_beltoon_default">Beltoonn</string>
+   <string name="resource_ringtone_default">Ringtonen</string>
    <string name="resource_select">Selecteer</string>
    <string name="resource_title">Bron Detail</string>
    <string name="resource_transparent_wallpaper">Transparant</string>

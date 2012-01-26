@@ -638,7 +638,7 @@ Letop, de SIM card gaat op slot bij foutieve invoer"</string>
    <string name="technology_news_enable">Technologie nieuws ingeschakeld</string>
    <string name="telocation_setting">Locatie instelling</string>
    <string name="telocation_show_settings">Display instelling</string>
-   <string name="third_party_account_summary">Dit account is momenteel in gebruik door de %s app</string>
+   <string name="third_party_account_summary">Dit account is momenteel in gebruik door de %s toepassing</string>
    <string name="throttle_current_usage">Gebruikte data in huidige periode</string>
    <string name="throttle_data_rate_reduced_subtext">"%1$s maximaal overschreden
 Data rate teruggebracht tot %2$d Kb/s"</string>
