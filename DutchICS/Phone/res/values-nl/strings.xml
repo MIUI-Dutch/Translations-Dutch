@@ -661,7 +661,7 @@ Volgende periode start over %2$d dagen (%3$s)"</string>
    <string name="unknown">Onbekend</string>
    <string name="unlock_failed">Netwerk ontgrendelings aanvraag niet succesvol</string>
    <string name="unlock_success">Netwerk ongrendeling succesvol</string>
-   <string name="updating_fdn_contact">Updaten van FDN…</string>
+   <string name="updating_fdn_contact">Updaten van Vast nummer</string>
    <string name="updating_settings">Updaten van instellingen…</string>
    <string name="updating_title">Oproepinstellingen</string>
    <string name="username">Gebruikersnaam</string>
