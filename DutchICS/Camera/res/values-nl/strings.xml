@@ -42,7 +42,7 @@ Stap dan uit het beeld."</string>
    <string name="gallery_camera_videos_bucket_name">Camera video\'s</string>
    <string name="image_file_name_format">\'IMG\'_ddMMyyyy_HHmmss</string>
    <string name="no_picture_to_share">Geen afbeelding om te delen.</string>
-   <string name="no_storage">Ontkoppel de USB-opslag voordat u de camera gebruikt.</string>
+   <string name="no_storage">Koppel de USB-opslag voordat u de camera gebruikt.</string>
    <string name="no_video_to_share">Geen video om te delen.</string>
    <string name="not_enough_space">SD-kaart is vol</string>
    <string name="not_selectable_in_effect">Kan niet worden geselecteerd wanneer het effect is ingeschakeld.</string>
