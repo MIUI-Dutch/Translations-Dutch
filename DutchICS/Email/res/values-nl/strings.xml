@@ -40,7 +40,7 @@
    <string name="account_settings_notify_summary">Informeer in de statusbalk wanneer e-mail binnenkomt</string>
    <string name="account_settings_outgoing_label">Uitgaande instellingen</string>
    <string name="account_settings_outgoing_summary">Gebruikersnaam, wachtwoord en andere inst. voor uitgaande server</string>
-   <string name="account_settings_ringtone">Selecteer meldingsgeluid</string>
+   <string name="account_settings_beltoon">Selecteer meldingsgeluid</string>
    <string name="account_settings_servers">Server instellingen</string>
    <string name="account_settings_signature_hint">Tekst toevoegen aan berichten die u verzendt</string>
    <string name="account_settings_signature_label">Handtekening</string>

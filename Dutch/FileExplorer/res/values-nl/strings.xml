@@ -26,7 +26,7 @@
    <string name="fail_to_create_folder">Kan de folder niet maken, de folder bestaat al</string>
    <string name="fail_to_rename">Kan de folder of bestand niet hernoemen</string>
    <string name="favorite_photo">Foto</string>
-   <string name="favorite_ringtone">Ringtoon</string>
+   <string name="favorite_beltoon">Ringtoon</string>
    <string name="favorite_screen_cap">MIUI Schermafdruk</string>
    <string name="favorite_sdcard">SD-kaart</string>
    <string name="file_info_canread">Leesbaar:</string>

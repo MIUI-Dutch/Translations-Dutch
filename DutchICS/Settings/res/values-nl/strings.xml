@@ -4,12 +4,12 @@
    <string name="about_settings_summary">Juridische info, status, softwareversie weergeven</string>
    <string name="ac_enable_title">Toegangsbeperkingen</string>
    <string name="ac_privacy_mode_title">Wachtwoordbeveiliging gast-mode</string>
-   <string name="ac_set_apps_title">Te beschermen en te verbergen toepassingen</string>
+   <string name="ac_set_apps_title">Te beschermen en te verbergen apps</string>
    <string name="accelerometer_summary_off">Stand automatisch wijzigen als telefoon wordt gedraaid</string>
    <string name="accelerometer_summary_on">Stand automatisch wijzigen als telefoon wordt gedraaid</string>
    <string name="accelerometer_title">Scherm automatisch draaien</string>
    <string name="access_control_app_entry_multiple">in %s</string>
-   <string name="access_control_app_entry_single">in de toepassing</string>
+   <string name="access_control_app_entry_single">in de app</string>
    <string name="access_control_need_password">"%s is beveiligd met een wachtwoord
  "</string>
    <string name="access_control_need_to_unlock">Geef een wachtwoord in om toegang te beperken</string>
@@ -32,8 +32,8 @@
    <string name="accessibility_service_default_description">Geen beschrijving opgegeven.</string>
    <string name="accessibility_service_disable_warning_summary">"Als u 'OK' aanraakt, wordt %1$s beëindigd."</string>
    <string name="accessibility_service_disable_warning_title">%1$s beëindigen?</string>
-   <string name="accessibility_service_no_apps_message">U beschikt niet over toegankelijkheidstoepassingen. U kunt een schermlezer downloaden van Android Market. Klik op OK om een schermlezer te installeren</string>
-   <string name="accessibility_service_no_apps_title">Geen toegankelijkheidstoepassingen gevonden</string>
+   <string name="accessibility_service_no_apps_message">U beschikt niet over toegankelijkheidsapps. U kunt een schermlezer downloaden van Android Market. Klik op OK om een schermlezer te installeren</string>
+   <string name="accessibility_service_no_apps_title">Geen toegankelijkheidsapps gevonden</string>
    <string name="accessibility_service_security_warning_summary">%1$s kan alle tekst registreren die u typt, behalve wachtwoorden. Deze tekst kan ook persoonlijke gegevens zoals creditcardnummers omvatten. Er kunnen ook gegevens worden verzameld over uw interacties met de telefoon.</string>
    <string name="accessibility_service_security_warning_title">%1$s gebruiken?</string>
    <string name="accessibility_service_state_off">Uit</string>
@@ -73,7 +73,7 @@
    <string name="active_device_admin_msg">Apparaatbeheerder</string>
    <string name="active_input_method_subtypes">Actieve invoermethoden</string>
    <string name="activity_picker_label">Applicatie selecteren</string>
-   <string name="adb_warning_message">USB-foutopsporing is alleen bedoeld voor ontwikkelingsdoeleinden. Hiermee kunt u gegevens kopiëren tussen uw computer en uw apparaat, toepassingen op uw apparaat installeren zonder kennisgeving en loggegevens lezen</string>
+   <string name="adb_warning_message">USB-foutopsporing is alleen bedoeld voor ontwikkelingsdoeleinden. Hiermee kunt u gegevens kopiëren tussen uw computer en uw apparaat, apps op uw apparaat installeren zonder kennisgeving en loggegevens lezen</string>
    <string name="adb_warning_title">USB-foutopsporing inschakelen?</string>
    <string name="add_account_label">Account toevoegen</string>
    <string name="add_device_admin">In-\nschakelen</string>
@@ -121,20 +121,20 @@
    <string name="app_disable_dlg_text">Als u een ingebouwde app uitschakelt, kunnen andere apps onverwacht gedrag vertonen.</string>
    <string name="app_disable_dlg_title">Ingebouwde app uitschakelen?</string>
    <string name="app_factory_reset">Updates wissen</string>
-   <string name="app_factory_reset_dlg_text">Alle updates van Android-systeemtoepassingen wissen?</string>
+   <string name="app_factory_reset_dlg_text">Alle updates van Android-systeemapps wissen?</string>
    <string name="app_factory_reset_dlg_title">Updates wissen</string>
-   <string name="app_forward_locked">Toepassing beveiligd tegen kopiëren</string>
-   <string name="app_install_location_summary">Voorkeurslocatie wijzigen voor nieuwe toepassingen</string>
+   <string name="app_forward_locked">App beveiligd tegen kopiëren</string>
+   <string name="app_install_location_summary">Voorkeurslocatie wijzigen voor nieuwe apps</string>
    <string name="app_install_location_title">Voorkeurslocatie</string>
-   <string name="app_name_label">Toepassing</string>
+   <string name="app_name_label">App</string>
    <string name="app_not_found_dlg_text">De app is niet gevonden in de lijst met geïnstalleerde apps.</string>
    <string name="app_not_found_dlg_title" />
    <string name="app_process_limit_title">Achtergrondproceslimiet</string>
-   <string name="application_info_label">Toepassingsinfo</string>
-   <string name="application_size_label">Toepassingen</string>
-   <string name="applications_settings">Toepassingen</string>
-   <string name="applications_settings_header">Toepassingen</string>
-   <string name="applications_settings_summary">Toepassingen beheren, sneltoetsen voor starten instellen</string>
+   <string name="application_info_label">Appsinfo</string>
+   <string name="application_size_label">Appen</string>
+   <string name="applications_settings">Appen</string>
+   <string name="applications_settings_header">Appen</string>
+   <string name="applications_settings_summary">Appen beheren, sneltoetsen voor starten instellen</string>
    <string name="ask_compatibility">Vragen bij starten</string>
    <string name="assisted_gps">Ondersteunde GPS gebruiken</string>
    <string name="assisted_gps_disabled">Server gebruiken ter ondersteuning van GPS (uitschakelen om GPS-prestaties te verbeteren)</string>
@@ -143,7 +143,7 @@
    <string name="auto_caps">Autom. hoofdletters</string>
    <string name="auto_caps_summary">Eerste letter in zinnen als hoofdletter</string>
    <string name="auto_launch_disable_text">Geen standaardinstellingen</string>
-   <string name="auto_launch_enable_text">U hebt opgegeven dat deze toepassing standaard wordt gestart bij bepaalde acties</string>
+   <string name="auto_launch_enable_text">U hebt opgegeven dat deze app standaard wordt gestart bij bepaalde acties</string>
    <string name="auto_launch_label">Standaard starten</string>
    <string name="auto_punctuate">Automatisch punt</string>
    <string name="auto_punctuate_summary">Druk tweemaal op spatie om in te voegen</string>
@@ -158,10 +158,10 @@
    <string name="background_data_dialog_message">Als u achtergrondgegevens uitschakelt, bespaart u acculading en wordt het gegevensverbruik verlaagd. Sommige apps maken mogelijk nog steeds gebruik van de verbinding voor achtergrondgegevens.</string>
    <string name="background_data_dialog_title">Achtergrondgegevens uitschakelen?</string>
    <string name="background_data_summary">Onbeperkt gegevens synchroniseren, verzenden en ontvangen</string>
-   <string name="background_process_stop_description">Oud toepassingsproces bewaard voor geval betere snelheid nodig is. Gewoonlijk geen reden om dit te stoppen</string>
+   <string name="background_process_stop_description">Oud appsproces bewaard voor geval betere snelheid nodig is. Gewoonlijk geen reden om dit te stoppen</string>
    <string name="backup_configure_account_default_summary">Er is momenteel geen account ingesteld voor het opslaan van back-upgegevens</string>
    <string name="backup_configure_account_title">Back-upaccount</string>
-   <string name="backup_data_summary">Back-up van huidige instellingen en toepassingsgegevens</string>
+   <string name="backup_data_summary">Back-up van huidige instellingen en appsgegevens</string>
    <string name="backup_data_title">Back-up mijn gegevens</string>
    <string name="backup_erase_dialog_message">Stoppen met back-up van instellingen en alle kopiëen op Google-server wissen?</string>
    <string name="backup_erase_dialog_title" />
@@ -175,13 +175,13 @@
    <string name="band_mode_succeeded">Voltooid</string>
    <string name="band_mode_title">GSM/UMTS-band instellen</string>
    <string name="baseband_version">Baseband-versie</string>
-   <string name="battery_action_app_details">Toepassingsinfo</string>
+   <string name="battery_action_app_details">Appsinfo</string>
    <string name="battery_action_app_settings">App-instellingen</string>
    <string name="battery_action_bluetooth">Bluetooth-instellingen</string>
    <string name="battery_action_display">Scherminstellingen</string>
    <string name="battery_action_stop">Gedwongen stoppen</string>
    <string name="battery_action_wifi">Wi-Fi-instellingen</string>
-   <string name="battery_desc_apps">Batterij gebruikt door actieve toepassingen</string>
+   <string name="battery_desc_apps">Batterij gebruikt door actieve apps</string>
    <string name="battery_desc_bluetooth">Batterij gebruikt door Bluetooth</string>
    <string name="battery_desc_display">Batterij gebruikt door display en achtergrondverlichting</string>
    <string name="battery_desc_radio">Batterij gebruikt door mobiele radio</string>
@@ -240,7 +240,7 @@
    <string name="battery_stats_wifi_running_label">Wi-Fi</string>
    <string name="battery_status_title">Accustatus</string>
    <string name="battery_sugg_apps_gps">Bluetooth uitschakelen indien standby</string>
-   <string name="battery_sugg_apps_info">Toepassing stoppen of wissen</string>
+   <string name="battery_sugg_apps_info">App stoppen of wissen</string>
    <string name="battery_sugg_apps_settings">De app kan instellingen aanbieden om het accugebruik te beperken</string>
    <string name="battery_sugg_bluetooth_basic">Schakel Bluetooth uit indien standby</string>
    <string name="battery_sugg_bluetooth_headset">Probeer verbinding te maken met een ander Bluetooth-apparaat</string>
@@ -254,7 +254,7 @@
    <string name="bluetooth_a2dp_profile_summary_use_for">Gebruiken voor media-audio</string>
    <string name="bluetooth_advanced_titlebar">Geavanceerde Bluetooth</string>
    <string name="bluetooth_ask_discovery">Applicatie op uw apparaat verzoekt toestemming om uw apparaat zichtbaar te maken voor andere Bluetooth-apparaten gedurende %1$d seconden. Toestaan?</string>
-   <string name="bluetooth_ask_enablement">Toepassing verzoekt om Bluetooth in te schakelen. Doorgaan?</string>
+   <string name="bluetooth_ask_enablement">App verzoekt om Bluetooth in te schakelen. Doorgaan?</string>
    <string name="bluetooth_ask_enablement_and_discovery">Applicatie op uw apparaat verzoekt toestemming om Bluetooth in te schakelen en uw apparaat zichtbaar te maken voor andere apparaten gedurende %1$d seconden. Toestaan?</string>
    <string name="bluetooth_ask_enablement_and_lasting_discovery">Applicatie op uw apparaat vraagt toestemming om Bluetooth in te schakelen en uw apparaat zichtbaar te maken voor andere apparaten. Toestaan?</string>
    <string name="bluetooth_ask_lasting_discovery">Applicatie op uw apparaat vraagt toestemming om uw apparaat altijd zichtbaar te maken voor andere apparaten. Toestaan?</string>
@@ -404,10 +404,10 @@
    <string name="choose_timezone">Tijdzone selecteren</string>
    <string name="clear_activities">Standaardinstellingen wissen</string>
    <string name="clear_cache_btn_text">Buffer leegmaken</string>
-   <string name="clear_data_dlg_text">Alle gegevens die u in deze toepassing hebt opgeslagen, worden permanent verwijderd</string>
+   <string name="clear_data_dlg_text">Alle gegevens die u in deze app hebt opgeslagen, worden permanent verwijderd</string>
    <string name="clear_data_dlg_title">Wissen</string>
    <string name="clear_data_failed">Kan app-gegevens niet wissen.</string>
-   <string name="clear_failed_dlg_text">Kan toepassingsgegevens niet wissen</string>
+   <string name="clear_failed_dlg_text">Kan appsgegevens niet wissen</string>
    <string name="clear_failed_dlg_title">Gegevens wissen</string>
    <string name="clear_user_data_text">Gegevens wissen</string>
    <string name="computing_size">Berekenen...</string>
@@ -536,7 +536,7 @@ Aangezien dit gegevensverbruik wordt gemeten door uw telefoon en uw provider tot
    <string name="delete">Verwijderen</string>
    <string name="details_subtitle">Gegevens gebruiken</string>
    <string name="details_title">Gegevens batterijgebruik</string>
-   <string name="development_settings_summary">Opties instellen voor ontwikkeling toepassing</string>
+   <string name="development_settings_summary">Opties instellen voor ontwikkeling app</string>
    <string name="development_settings_title">Ontwikkeling</string>
    <string name="device_admin_add_title">Apparaatbeheerder</string>
    <string name="device_admin_settings_title">Instellingen apparaatbeheer</string>
@@ -568,7 +568,7 @@ Aangezien dit gegevensverbruik wordt gemeten door uw telefoon en uw provider tot
    <string name="display_settings">Display</string>
    <string name="display_settings_title">Display</string>
    <string name="dlg_cancel">Annuleer</string>
-   <string name="dlg_confirm_unmount_text">Als u de SD-kaart loskoppelt, wordt werking van een aantal toepassingen gestopt. Mogelijk zijn toepassingen pas weer beschikbaar als de SD-kaart weer aansluit</string>
+   <string name="dlg_confirm_unmount_text">Als u de SD-kaart loskoppelt, wordt werking van een aantal apps gestopt. Mogelijk zijn apps pas weer beschikbaar als de SD-kaart weer aansluit</string>
    <string name="dlg_confirm_unmount_title">SD-kaart loskoppelen</string>
    <string name="dlg_error_unmount_text">Kan SD-kaart niet loskoppelen. Probeer het later</string>
    <string name="dlg_error_unmount_title" />
@@ -586,7 +586,7 @@ Aangezien dit gegevensverbruik wordt gemeten door uw telefoon en uw provider tot
    <string name="dock_sounds_enable_summary_off">Geen geluiden afspelen bij plaatsen telefoon in en uit dock</string>
    <string name="dock_sounds_enable_summary_on">Geluiden afspelen bij plaatsen telefoon in en uit dock</string>
    <string name="dock_sounds_enable_title">Dockgeluiden</string>
-   <string name="does_not_exist">Toepassing niet gevonden</string>
+   <string name="does_not_exist">App niet gevonden</string>
    <string name="dtmf_tone_enable_title">Toetstonen hoorbaar</string>
    <string name="emergency_tone_summary">Gedrag bij noodoproepen instellen</string>
    <string name="emergency_tone_title">Toon voor noodoproep</string>
@@ -619,7 +619,7 @@ Aangezien dit gegevensverbruik wordt gemeten door uw telefoon en uw provider tot
    <string name="force_hw_ui">GPU-rendering afdwingen</string>
    <string name="force_hw_ui_summary">2D-hardwareversnelling gebruiken in applicaties</string>
    <string name="force_stop">Stop forceren</string>
-   <string name="force_stop_dlg_text">Geforceerd stoppen van toepassing kan problemen veroorzaken. Doorgaan?</string>
+   <string name="force_stop_dlg_text">Geforceerd stoppen van app kan problemen veroorzaken. Doorgaan?</string>
    <string name="force_stop_dlg_title">Stop forceren</string>
    <string name="gadget_picker_title">Gadget kiezen</string>
    <string name="gadget_title">Energieregeling</string>
@@ -640,7 +640,7 @@ Aangezien dit gegevensverbruik wordt gemeten door uw telefoon en uw provider tot
    <string name="header_category_system">SYSTEEM</string>
    <string name="header_category_wireless_networks">Draadloos en Netwerken</string>
    <string name="header_data_and_synchronization">Gegevens en synchronisatie</string>
-   <string name="heavy_weight_stop_description">Als u de toepassing stopt, kan een deel van uw huidige werk verloren gaan</string>
+   <string name="heavy_weight_stop_description">Als u de app stopt, kan een deel van uw huidige werk verloren gaan</string>
    <string name="hidden_ssid_label">Hidden SSID:</string>
    <string name="history_details_title">Geschiedenisdetails</string>
    <string name="ime_security_warning">Deze invoermethode verzamelt mogelijk alle tekst die u typt, inclusief persoonlijke gegevens zoals wachtwoorden en creditcardnummers. De methode is afkomstig uit de app %1$s. Deze invoermethode inschakelen?</string>
@@ -663,9 +663,9 @@ Aangezien dit gegevensverbruik wordt gemeten door uw telefoon en uw provider tot
    <string name="input_methods_and_subtype_enabler_title">Actieve invoermeth. selecteren</string>
    <string name="input_methods_settings_label_format">Instellingen %1$s</string>
    <string name="input_methods_settings_title">Tekstinvoer</string>
-   <string name="install_all_warning">Uw telefonische en persoonlijke gegevens zijn kwetsbaar voor aanvallen door toepassingen uit onbekende bronnen. U gaat ermee akkoord dat u als enige verantwoordelijk bent voor eventuele schade aan de telefoon of het verloren gaan van gegevens ten gevolge van het gebruiken van deze toepassingen</string>
+   <string name="install_all_warning">Uw telefonische en persoonlijke gegevens zijn kwetsbaar voor aanvallen door apps uit onbekende bronnen. U gaat ermee akkoord dat u als enige verantwoordelijk bent voor eventuele schade aan de telefoon of het verloren gaan van gegevens ten gevolge van het gebruiken van deze apps</string>
    <string name="install_applications">Onbekende bronnen</string>
-   <string name="install_unknown_applications">Installatie van niet-markttoepassingen toestaan</string>
+   <string name="install_unknown_applications">Installatie van niet-marktapps toestaan</string>
    <string name="insufficient_storage">Onvoldoende geheugen</string>
    <string name="intent_sender_account_label">Account:</string>
    <string name="intent_sender_action_label">Actie:</string>
@@ -774,8 +774,8 @@ Bent u er klaar voor? Raak 'Volgende' aan."</string>
    <string name="manage_device_admin">Apparaatbeheerders selecteren</string>
    <string name="manage_device_admin_summary">Apparaatbeheerders toevoegen of wissen</string>
    <string name="manage_space_text">Ruimte beheren</string>
-   <string name="manageapplications_settings_summary">Geïnstalleerde toepassingen beheren en wissen</string>
-   <string name="manageapplications_settings_title">Toepassingen beheren</string>
+   <string name="manageapplications_settings_summary">Geïnstalleerde apps beheren en wissen</string>
+   <string name="manageapplications_settings_title">Appen beheren</string>
    <string name="master_clear_accounts">"
 Je hebt deze accounts actief:
 "</string>
@@ -792,7 +792,7 @@ Je hebt deze accounts actief:
 Om muziek, afbeeldingen en andere gebruikers data te wissen, moet de <b>SD-kaart</b> worden gewist."</string>
    <string name="master_clear_failed">"Niet opnieuw ingesteld, omdat de service 'Systeem wissen' niet beschikbaar is."</string>
    <string name="master_clear_final_button_text">Alles wissen</string>
-   <string name="master_clear_final_desc">Telefoon opnieuw instellen en alle gegevens en toepassingen wissen? Actie kan niet worden teruggedraaid!</string>
+   <string name="master_clear_final_desc">Telefoon opnieuw instellen en alle gegevens en apps wissen? Actie kan niet worden teruggedraaid!</string>
    <string name="master_clear_gesture_explanation">Teken uw ontgrendelpatroon om opnieuw instellen van telefoon te bevestigen</string>
    <string name="master_clear_gesture_prompt">Ontgrendelpatroon tekenen</string>
    <string name="master_clear_summary">Wist alle gegevens op telefoon</string>
@@ -832,7 +832,7 @@ Om muziek, afbeeldingen en andere gebruikers data te wissen, moet de <b>SD-kaart
    <string name="misc_files_selected_count_bytes">%1$s van %2$s</string>
    <string name="model_number">Modelnummer</string>
    <string name="move_app">Verplaatsen</string>
-   <string name="move_app_failed_dlg_text">Kan toepassing niet verplaatsen. %1$s</string>
+   <string name="move_app_failed_dlg_text">Kan app niet verplaatsen. %1$s</string>
    <string name="move_app_failed_dlg_title" />
    <string name="move_app_to_internal">Verpl. naar telefoon</string>
    <string name="move_app_to_sdcard">Verplaats naar SD-kaart</string>
@@ -848,7 +848,7 @@ Om muziek, afbeeldingen en andere gebruikers data te wissen, moet de <b>SD-kaart
    <string name="nfc_quick_toggle_summary">Gegevensuitwisseling toestaan wanneer de telefoon een ander apparaat fysiek raakt</string>
    <string name="nfc_quick_toggle_title">NFC</string>
    <string name="no">Nee</string>
-   <string name="no_applications">Geen toepassingen</string>
+   <string name="no_applications">Geen apps</string>
    <string name="no_device_admins">Geen apparaatbeheerders beschikbaar</string>
    <string name="no_running_services">Geen actieve services</string>
    <string name="no_services">Niet actief</string>
@@ -919,16 +919,16 @@ Om muziek, afbeeldingen en andere gebruikers data te wissen, moet de <b>SD-kaart
    <string name="proxy_settings_label">Proxy instellingen</string>
    <string name="proxy_settings_title">Proxy</string>
    <string name="proxy_warning_limited_support">De HTTP-proxy wordt gebruikt door de browser, maar mag niet worden gebruikt door de andere apps.</string>
-   <string name="quick_launch_assign_application">Toepassing toewijzen</string>
+   <string name="quick_launch_assign_application">App toewijzen</string>
    <string name="quick_launch_clear_cancel_button">Annuleer</string>
    <string name="quick_launch_clear_dialog_message">Uw sneltoets voor %1$s (%2$s) wordt gewist</string>
    <string name="quick_launch_clear_dialog_title">Wissen</string>
    <string name="quick_launch_clear_ok_button">OK</string>
-   <string name="quick_launch_display_mode_applications">Toepassingen</string>
+   <string name="quick_launch_display_mode_applications">Appen</string>
    <string name="quick_launch_display_mode_shortcuts">Sneltoetsen</string>
    <string name="quick_launch_no_shortcut">Geen sneltoets</string>
    <string name="quick_launch_shortcut">Zoeken  %1$s</string>
-   <string name="quick_launch_summary">Sneltoetsen instellen om toepassingen te starten</string>
+   <string name="quick_launch_summary">Sneltoetsen instellen om apps te starten</string>
    <string name="quick_launch_title">Snel starten</string>
    <string name="radio_controls_summary">"Wi-Fi, Bluetooth, vliegmodus, mobiele netwerken en VPN's beheren"</string>
    <string name="radio_controls_title">meer...</string>
@@ -998,8 +998,8 @@ Om muziek, afbeeldingen en andere gebruikers data te wissen, moet de <b>SD-kaart
    <string name="restore_default_apn">Standaard APN-instellingen herstellen</string>
    <string name="restore_default_apn_completed">Standaard APN-instellingen opnieuw ingesteld</string>
    <string name="ring_volume_title">Belvolume</string>
-   <string name="ringtone_summary" />
-   <string name="ringtone_title">Beltoon telefoon</string>
+   <string name="beltoon_summary" />
+   <string name="beltoon_title">Beltoon telefoon</string>
    <string name="roaming">Roaming</string>
    <string name="roaming_disable">Verbinding maken met gegevensservices tijdens roaming</string>
    <string name="roaming_enable">Verbinding maken met gegevensservices tijdens roaming</string>
@@ -1014,7 +1014,7 @@ Om muziek, afbeeldingen en andere gebruikers data te wissen, moet de <b>SD-kaart
    <string name="running_processes_item_description_s_s">%1$d proces en %2$d service</string>
    <string name="runningservicedetails_processes_title">Processen</string>
    <string name="runningservicedetails_services_title">Services</string>
-   <string name="runningservicedetails_settings_title">Actieve toepassing</string>
+   <string name="runningservicedetails_settings_title">Actieve app</string>
    <string name="runningservicedetails_stop_dlg_text">Deze systeemservice stoppen? Sommige functies op uw telefoon werken mogelijk pas weer correct als u ze uit- en weer inschakelt</string>
    <string name="runningservicedetails_stop_dlg_title">Systeemservice stoppen?</string>
    <string name="runningservices_settings_summary">Momenteel actieve services weergeven en instellen</string>
@@ -1062,7 +1062,7 @@ Om muziek, afbeeldingen en andere gebruikers data te wissen, moet de <b>SD-kaart
    <string name="search_settings">Zoeken</string>
    <string name="search_settings_summary">Instellingen voor zoeken en zoekgeschiedenis beheren</string>
    <string name="security_passwords_title">Wachtwoorden</string>
-   <string name="security_settings_desc">Deze toepassing heeft toegang tot het volgende op uw telefoon:</string>
+   <string name="security_settings_desc">Deze app heeft toegang tot het volgende op uw telefoon:</string>
    <string name="security_settings_summary">"Mijn locatie', schermontgrendeling, SIM- en referentieopslagvergrendeling instellen"</string>
    <string name="security_settings_title">Locatie en beveiliging</string>
    <string name="select_all">Alles selecteren</string>
@@ -1075,9 +1075,9 @@ Om muziek, afbeeldingen en andere gebruikers data te wissen, moet de <b>SD-kaart
    <string name="service_manage_description">%1$s in gebruik. Tik op Instellingen om deze te beheren</string>
    <string name="service_process_name">%1$s</string>
    <string name="service_restarting">Opnieuw starten...</string>
-   <string name="service_started_by_app">Gestart door toepassing: tik om te stoppen</string>
+   <string name="service_started_by_app">Gestart door app: tik om te stoppen</string>
    <string name="service_stop">Stoppen</string>
-   <string name="service_stop_description">Service gestart door toepassing. Mogelijk werkt toepassing niet goed als u de service stopzet</string>
+   <string name="service_stop_description">Service gestart door app. Mogelijk werkt app niet goed als u de service stopzet</string>
    <string name="settings_backup">Back-up van instellingen maken</string>
    <string name="settings_backup_summary">Back-up maken van mijn instellingen</string>
    <string name="settings_button">Instellingen</string>
@@ -1330,7 +1330,7 @@ Via Google synchroniseren van data en toegang tot je contacten, agenda, en meer 
    <string name="usb_tethering_storage_active_subtext">Tethering niet mogelijk tijdens gebruik SD-kaart</string>
    <string name="usb_tethering_unavailable_subtext">Geen USB-apparaat aangesloten</string>
    <string name="usb_title">USB</string>
-   <string name="use_default_tts_settings_summary">Standaardinstellingen hebben voorrang boven toepassingsinstellingen</string>
+   <string name="use_default_tts_settings_summary">Standaardinstellingen hebben voorrang boven appsinstellingen</string>
    <string name="use_default_tts_settings_title">Altijd mijn instellingen gebruiken</string>
    <string name="use_location_summary">Google toestaan uw locatie te gebruiken om zoekresultaten en andere services te verbeteren</string>
    <string name="use_location_title">Locatie en Google Zoeken</string>

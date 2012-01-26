@@ -64,9 +64,9 @@
    <string name="repeat_all_notif">Herhaal alle songs.</string>
    <string name="repeat_current_notif">Herhaal huidige song.</string>
    <string name="repeat_off_notif">Herhaal uit.</string>
-   <string name="ringtone_menu">Gebruik als ringtoon</string>
-   <string name="ringtone_menu_short">Gebruik als ringtoon</string>
-   <string name="ringtone_set">“%s” toegevoegd en ingesteld als ringtoon</string>
+   <string name="beltoon_menu">Gebruik als ringtoon</string>
+   <string name="beltoon_menu_short">Gebruik als ringtoon</string>
+   <string name="beltoon_set">“%s” toegevoegd en ingesteld als ringtoon</string>
    <string name="save_as_playlist">Opslaan als afspeellijst</string>
    <string name="scanning">Scannen van SD-kaart...</string>
    <string name="scanning_nosdcard">Scan USB opslag…</string>

@@ -17,7 +17,7 @@
    <string name="alarm_vibrate">Trillen</string>
    <string name="alarm_volume_summary">Stel het alarmvolume in</string>
    <string name="alarm_volume_title">Alarm volume</string>
-   <string name="alert">Ringtone</string>
+   <string name="alert">Beltoon</string>
    <string name="analog_gadget">Analoge klok</string>
    <string name="app_label">Klok</string>
    <string name="battery_charging_level">%d%%</string>

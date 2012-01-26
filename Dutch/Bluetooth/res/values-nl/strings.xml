@@ -110,7 +110,7 @@
    <string name="transfer_menu_open">Open</string>
    <string name="unknown_device">Onbekend apparaat</string>
    <string name="unknown_file">Onbekend bestand</string>
-   <string name="unknown_file_desc">"Er is geen toepassing om dit bestand type te verwerken.
+   <string name="unknown_file_desc">"Er is geen app om dit bestand type te verwerken.
 "</string>
    <string name="unknownName">Onbekende naam</string>
    <string name="unknownNumber">Onbekend</string>

@@ -132,7 +132,7 @@
    <string name="create_new_group">Nieuwe groep</string>
    <string name="customLabelPickerTitle">Aangepaste labelnaam</string>
    <string name="date_day">Dag</string>
-   <string name="default_ringtone">Standaardbeltoon</string>
+   <string name="default_beltoon">Standaardbeltoon</string>
    <string name="delete_all_call_logs">Wis alle gespreklogs</string>
    <string name="delete_all_call_logs_title">Alle gespreklogs wissen?</string>
    <string name="delete_call_log_title">Selecteer gesprekslog om te wissen</string>
@@ -286,7 +286,7 @@ Even geduld..."</string>
    <string name="menu_doNotSave">Niet opslaan</string>
    <string name="menu_editContact">Contact wijzigen</string>
    <string name="menu_editGroupName">Groepsnaam wijzigen</string>
-   <string name="menu_group_ringtone">Groeps ringtone</string>
+   <string name="menu_group_beltoon">Groeps beltoon</string>
    <string name="menu_group_sms">Groeps SMS</string>
    <string name="menu_joinAggregate">Delen</string>
    <string name="menu_makeDefaultEmail">Standaard e-mail</string>
@@ -381,7 +381,7 @@ Even geduld..."</string>
    <string name="quick_contact_gtalk">GTalk</string>
    <string name="quick_contact_map">Kaart</string>
    <string name="quick_contact_send_sms">SMS</string>
-   <string name="quickcontact_missing_app">Geen toepassingen om deze actie uit te voeren</string>
+   <string name="quickcontact_missing_app">Geen apps om deze actie uit te voeren</string>
    <string name="quickcontact_missing_name">Onbekend</string>
    <string name="quickcontact_remember_choice">Deze keuze onthouden</string>
    <string name="reading_vcard_contacts">%1$s van %2$s contacten</string>
@@ -428,7 +428,7 @@ Even geduld..."</string>
    <string name="set_as_photo">Instellen als contactafbeelding?</string>
    <string name="set_photos">Configureren...</string>
    <string name="set_photos_finish">Contactafbeelding ingesteld</string>
-   <string name="set_ringtone_for_group_members_success">Stel ringtone in voor groep</string>
+   <string name="set_beltoon_for_group_members_success">Stel beltoon in voor groep</string>
    <string name="share_error">Kan dit contact niet delen</string>
    <string name="share_via">Contact delen via</string>
    <string name="share_visible_contacts">Zichtbare contacten delen</string>
