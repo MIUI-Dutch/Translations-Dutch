@@ -1074,7 +1074,7 @@ voor account \'%s\'"</string>
    <string name="reset">Opnieuw instellen</string>
    <string name="resource_alarm_default">Alarm</string>
    <string name="resource_apply">Toepassen</string>
-   <string name="resource_default">Standaard ringtoon</string>
+   <string name="resource_default">Standaard beltoon</string>
    <string name="resource_default_name">Bronnen</string>
    <string name="resource_delete_confirm">Verwijder bronnen?</string>
    <string name="resource_detail">Details</string>

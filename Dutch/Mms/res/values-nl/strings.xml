@@ -303,12 +303,12 @@
    <string name="ruim_full_title">RUIM-kaart vol</string>
    <string name="ruim_manage_messages_title">SMS berichten op RUIM-kaart</string>
    <string name="save">Opslaan</string>
-   <string name="save_ringtone">Opslaan als ringtoon</string>
+   <string name="save_ringtone">Opslaan als beltoon</string>
    <string name="save_to_ruim">opslaan op RUIM-kaart</string>
    <string name="save_to_sim">Opslaan op SIM kaart</string>
    <string name="saved_label">Opgeslagen:</string>
    <string name="saved_ringtone">Beltoon opgeslagen</string>
-   <string name="saved_ringtone_fail">Ringtoon opslaan mislukt</string>
+   <string name="saved_ringtone_fail">Beltoon opslaan mislukt</string>
    <string name="search">Zoeken naar bericht</string>
    <string name="search_empty">Geen overeenkomsten</string>
    <string name="search_hint">Zoeken naar bericht</string>

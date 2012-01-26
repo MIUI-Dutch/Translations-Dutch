@@ -327,11 +327,11 @@
    <string name="resize_image_error_information">Ook na verkleinen is afbeelding te groot om te verzenden</string>
    <string name="restore_default">Herstel standaard instellingen</string>
    <string name="save">Opslaan</string>
-   <string name="save_ringtone">Opslaan als ringtoon</string>
+   <string name="save_ringtone">Opslaan als beltoon</string>
    <string name="save_to_sim">Opslaan op SIM kaart</string>
    <string name="saved_label">Opgeslagen:</string>
    <string name="saved_ringtone">Beltoon opgeslagen</string>
-   <string name="saved_ringtone_fail">Ringtoon opslaan mislukt</string>
+   <string name="saved_ringtone_fail">Beltoon opslaan mislukt</string>
    <string name="search">Zoeken naar bericht</string>
    <string name="search_empty">Geen overeenkomsten</string>
    <string name="search_hint">Zoeken naar bericht</string>

@@ -59,7 +59,7 @@
    <string name="calllog_menu_call_ip_number">Bel IP  (dial %s)</string>
    <string name="calllog_menu_edit_before_call">Aanpassen</string>
    <string name="calllog_menu_send_sms">Zend SMS</string>
-   <string name="callNoAnswerTimeFormat">Ringtoon %s</string>
+   <string name="callNoAnswerTimeFormat">Beltoon %s</string>
    <string name="callrecordview_item_newcontact">Nieuw Contact</string>
    <string name="callrecordview_item_op_time_minutes_seconds" formatted="false">%d min %d sec</string>
    <string name="callrecordview_item_op_time_missed">Gemist</string>

@@ -166,10 +166,10 @@
    <string name="repeat_current">Herhaal: Nummer</string>
    <string name="repeat_none">Herhaal: Niets</string>
    <string name="repeat_playlist">Herhaal: Playlist</string>
-   <string name="ringtone_menu">Gebruik als ringtoon</string>
-   <string name="ringtone_menu_short">Gebruik als ringtoon</string>
-   <string name="ringtone_picker">Ringtone</string>
-   <string name="ringtone_set">“%s” toegevoegd en ingesteld als ringtoon</string>
+   <string name="ringtone_menu">Gebruik als beltoon</string>
+   <string name="ringtone_menu_short">Gebruik als beltoon</string>
+   <string name="ringtone_picker">Beltoon</string>
+   <string name="ringtone_set">“%s” toegevoegd en ingesteld als beltoon</string>
    <string name="save">Opslaan</string>
    <string name="save_as_playlist">Opslaan als afspeellijst</string>
    <string name="scanning">Scannen van SD-kaart...</string>

@@ -675,7 +675,7 @@ verzoekt om te koppelen"</string>
    <string name="heavy_weight_stop_description">Als u de app stopt, kan een deel van uw huidige werk verloren gaan</string>
    <string name="hidden_ssid_label">Hidden SSID:</string>
    <string name="huge_font">Enorm</string>
-   <string name="incoming_call_ringtone_settings_title">Ringtoon</string>
+   <string name="incoming_call_ringtone_settings_title">Beltoon</string>
    <string name="incoming_call_vibrate_abbreviation">Oproepen</string>
    <string name="incoming_call_vibrate_title">Trillen bij oproep</string>
    <string name="incoming_call_volume_title">Volume inkomend gesprek</string>
@@ -1039,7 +1039,7 @@ Als u alle gegevens op deze telefoon wilt wissen, moet de SD-kaart opnieuw worde
    <string name="reset_warning_final_msg">Alle volume instellingen worden terug gezet naar standaard instelling, doorgaan?</string>
    <string name="restore_default_apn">Standaard APN-instellingen herstellen</string>
    <string name="restore_default_apn_completed">Standaard APN-instellingen opnieuw ingesteld</string>
-   <string name="ringtone_category">Ringtoon instellingen</string>
+   <string name="ringtone_category">Beltoon instellingen</string>
    <string name="ringtone_volume_title">Bel volume</string>
    <string name="roaming">Roaming</string>
    <string name="rotate_180_title">Roteer scherm 180 graden</string>
