@@ -1,0 +1,28 @@
+\\kjlogic-dc01\user$\kees-jan\documents\visual studio 2010\Projects\autoMIUItool\autoMIUItool\bin\Debug\autoMIUItool.exe.manifest
+\\kjlogic-dc01\user$\kees-jan\documents\visual studio 2010\Projects\autoMIUItool\autoMIUItool\bin\Debug\autoMIUItool.application
+\\kjlogic-dc01\user$\kees-jan\documents\visual studio 2010\Projects\autoMIUItool\autoMIUItool\bin\Debug\autoMIUItool.exe
+\\kjlogic-dc01\user$\kees-jan\documents\visual studio 2010\Projects\autoMIUItool\autoMIUItool\bin\Debug\autoMIUItool.pdb
+\\kjlogic-dc01\user$\kees-jan\documents\visual studio 2010\Projects\autoMIUItool\autoMIUItool\bin\Debug\autoMIUItool.xml
+\\kjlogic-dc01\user$\kees-jan\documents\visual studio 2010\Projects\autoMIUItool\autoMIUItool\obj\x86\Debug\ResolveAssemblyReference.cache
+\\kjlogic-dc01\user$\kees-jan\documents\visual studio 2010\Projects\autoMIUItool\autoMIUItool\obj\x86\Debug\autoMIUItool.Resources.resources
+\\kjlogic-dc01\user$\kees-jan\documents\visual studio 2010\Projects\autoMIUItool\autoMIUItool\obj\x86\Debug\GenerateResource.read.1.tlog
+\\kjlogic-dc01\user$\kees-jan\documents\visual studio 2010\Projects\autoMIUItool\autoMIUItool\obj\x86\Debug\GenerateResource.write.1.tlog
+\\kjlogic-dc01\user$\kees-jan\documents\visual studio 2010\Projects\autoMIUItool\autoMIUItool\obj\x86\Debug\autoMIUItool.exe.manifest
+\\kjlogic-dc01\user$\kees-jan\documents\visual studio 2010\Projects\autoMIUItool\autoMIUItool\obj\x86\Debug\autoMIUItool.application
+\\kjlogic-dc01\user$\kees-jan\documents\visual studio 2010\Projects\autoMIUItool\autoMIUItool\obj\x86\Debug\autoMIUItool.exe
+\\kjlogic-dc01\user$\kees-jan\documents\visual studio 2010\Projects\autoMIUItool\autoMIUItool\obj\x86\Debug\autoMIUItool.xml
+\\kjlogic-dc01\user$\kees-jan\documents\visual studio 2010\Projects\autoMIUItool\autoMIUItool\obj\x86\Debug\autoMIUItool.pdb
+\\kjlogic-dc01\user$\kees-jan\documents\visual studio 2010\Projects\autoMIUItool\autoMIUItool\bin\Debug\autoMIUItool.exe.config
+\\kjlogic-dc01\user$\kees-jan\documents\visual studio 2010\Projects\autoMIUItool\autoMIUItool\obj\x86\Debug\autoMIUItool.ExitForm.resources
+\\kjlogic-dc01\user$\kees-jan\documents\visual studio 2010\Projects\autoMIUItool\autoMIUItool\obj\x86\Debug\autoMIUItool.checkStrings.resources
+\\kjlogic-dc01\user$\kees-jan\documents\visual studio 2010\Projects\autoMIUItool\autoMIUItool\obj\x86\Debug\autoMIUItool.checkArrays.resources
+\\kjlogic-dc01\user$\kees-jan\documents\visual studio 2010\Projects\autoMIUItool\autoMIUItool\obj\x86\Debug\autoMIUItool.autoMIUItool.resources
+\\kjlogic-dc01\user$\kees-jan\documents\visual studio 2010\Projects\autoMIUItool\autoMIUItool\obj\x86\Debug\autoMIUItool.RecompileLogForm.resources
+F:\autoMIUItool\autoMIUItool\bin\Debug\autoMIUItool.exe.config
+F:\autoMIUItool\autoMIUItool\obj\x86\Debug\autoMIUItool.exe
+F:\autoMIUItool\autoMIUItool\obj\x86\Debug\autoMIUItool.xml
+F:\autoMIUItool\autoMIUItool\obj\x86\Debug\autoMIUItool.pdb
+E:\autoMIUItool\autoMIUItool\bin\Debug\autoMIUItool.exe.config
+E:\autoMIUItool\autoMIUItool\obj\x86\Debug\autoMIUItool.exe
+E:\autoMIUItool\autoMIUItool\obj\x86\Debug\autoMIUItool.xml
+E:\autoMIUItool\autoMIUItool\obj\x86\Debug\autoMIUItool.pdb
