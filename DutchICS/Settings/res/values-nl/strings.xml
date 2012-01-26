@@ -628,7 +628,7 @@ Aangezien dit gegevensverbruik wordt gemeten door uw telefoon en uw provider tot
    <string name="getConfiguredNetworks">getConfiguredNetworks</string>
    <string name="getConnectionInfo">getConnectionInfo</string>
    <string name="haptic_feedback_enable_title">Trillingsreactie</string>
-   <string name="haptic_feedback_level">Vibratie level</string>
+   <string name="haptic_feedback_level">Trillen level</string>
    <string name="hardkeyboard_category">Fysieke toetsenbordinstellingen</string>
    <string name="hdcp_checking_dialog_title">HDCP-controlegedrag instellen</string>
    <string name="hdcp_checking_title">HDCP-controle</string>

@@ -43,7 +43,7 @@
    <string name="auto_answer_delay_entries_delay_3s">3s</string>
    <string name="auto_answer_delay_entries_delay_5s">5s</string>
    <string name="auto_answer_delay_entries_immediately">0s</string>
-   <string name="auto_answer_delay_title">Delay for auto answer</string>
+   <string name="auto_answer_delay_title">Wachttijd voor automatisch beantwoorden</string>
    <string name="auto_answer_pref_summary">Beantwoord oproepen automatisch</string>
    <string name="auto_answer_pref_title">Auto Answer</string>
    <string name="auto_answer_scenario_enteries_always">Altijd</string>
@@ -149,10 +149,10 @@
    <string name="confirm_pin_hint">Nieuwe PIN bevestigen</string>
    <string name="confirm_pin2_hint">Nieuwe PIN2 bevestigen</string>
    <string name="connect_disconnect_vibrate_none">Niet virbreren</string>
-   <string name="connect_disconnect_vibrate_normal">Vibreren</string>
-   <string name="connect_disconnect_vibrate_summary">Vibreren bij opnemen/ophangen</string>
-   <string name="connect_disconnect_vibrate_title">Vibratie</string>
-   <string name="connect_disconnect_vibrate_weak">Zwakke vibratie vibrate</string>
+   <string name="connect_disconnect_vibrate_normal">Trillen</string>
+   <string name="connect_disconnect_vibrate_summary">Trillen bij opnemen/ophangen</string>
+   <string name="connect_disconnect_vibrate_title">Trillen</string>
+   <string name="connect_disconnect_vibrate_weak">Zwakke trillen vibrate</string>
    <string name="connect_later">Momenteel niet mogelijk om met dit netwerk te verbinden. Probeer later nog eens</string>
    <string name="contactsIconLabel">Contacten</string>
    <string name="count_of_persons_in_conference">Totaal van %d contacten</string>

@@ -262,7 +262,7 @@
    <string name="pref_summary_notification_body_enabled">Voorbeeld van ontvangen berichten op het vergrendel (lock) scherm en de statusbalk</string>
    <string name="pref_summary_notification_body_enabled_when_secure">Het tonen van een berichtvoorbeeld is uitgeschakeld wanneer de telefoon beveiligd is met een wachtwoord</string>
    <string name="pref_summary_notification_enabled">Toon bericht notificaties in status bar</string>
-   <string name="pref_summary_notification_vibrateWhen">Ook vibreren bij notificatie</string>
+   <string name="pref_summary_notification_vibrateWhen">Ook trillen bij notificatie</string>
    <string name="pref_summary_ringtone_repeat">Aantal maal dat het meldingsgeluid (iedere 5 minuten) moet worden afgespeeld tot dat het bericht gelezen is</string>
    <string name="pref_summary_sms_delivery_reports">Ontvangstbevestiging voor ieder bericht dat verstuurd wordt</string>
    <string name="pref_summary_wake_up_screen">Scherm gaat aan bij binnenkomende berichten</string>
@@ -287,7 +287,7 @@
    <string name="pref_title_notification_body_enabled">Toon bericht voorbeeld</string>
    <string name="pref_title_notification_enabled">Meldingen</string>
    <string name="pref_title_notification_ringtone">Beltoon selecteren</string>
-   <string name="pref_title_notification_vibrateWhen">Vibreren</string>
+   <string name="pref_title_notification_vibrateWhen">Trillen</string>
    <string name="pref_title_ringtone_repeat">Herhaling meldingsgeluid</string>
    <string name="pref_title_sms_delete">Maximumaantal SMS-berichten</string>
    <string name="pref_title_sms_delivery_reports">Ontvangst bevestigingen</string>
@@ -296,7 +296,7 @@
    <string name="prefDefault_vibrate_false">nooit</string>
    <string name="prefDefault_vibrate_true">altijd</string>
    <string name="prefDefault_vibrateWhen">nooit</string>
-   <string name="prefDialogTitle_vibrateWhen">Vibreren</string>
+   <string name="prefDialogTitle_vibrateWhen">Trillen</string>
    <string name="preferences_title">Instellingen</string>
    <string name="prepare_send">Voorbereiden om te sturen...</string>
    <string name="preview">Voorbeeld</string>

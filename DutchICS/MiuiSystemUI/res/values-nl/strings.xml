@@ -92,8 +92,8 @@ Gebruik alleen de bijgeleverde oplader."</string>
    <string name="mount_storage">Koppelen</string>
    <string name="move_data_to_sdcard_message">Verplaatst data als schermafdruk, afbeeldingen enz. van intern geheugen naar SD-kaart. Voor dagelijks gebruik is het beter om de SD-kaart steeds in de telefoon te houden</string>
    <string name="move_data_to_sdcard_title">Data naar SD-kaart verplaatsen</string>
-   <string name="no_vibrate_hint">Volgens de instellingen staat vibreren voor oproepen en SMS uit, aanzetten van vibreren heeft daarom geen effect</string>
-   <string name="not_all_vibrate_hint">Volgens de instellingen, %1$s vibreert, %2$s vibreert niet, veranderen via Instellingen > Geluid > Vibreren</string>
+   <string name="no_vibrate_hint">Volgens de instellingen staat trillen voor oproepen en SMS uit, aanzetten van trillen heeft daarom geen effect</string>
+   <string name="not_all_vibrate_hint">Volgens de instellingen, %1$s vibreert, %2$s vibreert niet, veranderen via Instellingen > Geluid > Trillen</string>
    <string name="notification_vibrate_hint">Notificatie</string>
    <string name="return_to_incall_screen">Klik voor terug naar de oproep</string>
    <string name="screenshot_failed_text">Kan schermafbeelding niet opslaan. Mogelijk is de opslag in gebruik.</string>
@@ -165,13 +165,13 @@ Gebruik alleen de bijgeleverde oplader."</string>
    <string name="status_bar_toggle_shutdown">Power</string>
    <string name="status_bar_toggle_sync">Synchronisatie</string>
    <string name="status_bar_toggle_torch">Licht</string>
-   <string name="status_bar_toggle_vibrate">Vibreren</string>
+   <string name="status_bar_toggle_vibrate">Trillen</string>
    <string name="status_bar_toggle_wifi">WLAN</string>
    <string name="status_bar_use_physical_keyboard">Fysiek toetsenbord gebruiken</string>
    <string name="tab_notifications_lable">Meldingen</string>
    <string name="tab_toggles_lable">Schakelaars</string>
    <string name="title_usb_accessory">USB-accessoire</string>
-   <string name="to_vibrate_settings">Vibratie instelling</string>
+   <string name="to_vibrate_settings">Trillen instelling</string>
    <string name="usb_accessory_confirm_prompt">%1$s openen wanneer dit USB-accessoire wordt aangesloten?</string>
    <string name="usb_accessory_permission_prompt">De app %1$s toegang geven tot het USB-accessoire?</string>
    <string name="usb_accessory_uri_prompt">Er werken geen geïnstalleerde apps met dit USB-accessoire. Meer informatie op: %1$s</string>

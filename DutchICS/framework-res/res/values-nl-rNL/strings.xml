@@ -1102,7 +1102,7 @@ voor account \'%s\'"</string>
    <string name="silent_mode">Stille modus</string>
    <string name="silent_mode_ring">Beltoon aan</string>
    <string name="silent_mode_silent">Beltoon uit</string>
-   <string name="silent_mode_vibrate">Vibreren</string>
+   <string name="silent_mode_vibrate">Trillen</string>
    <string name="sim_added_message">U moet uw apparaat opnieuw starten voor toegang tot het mobiele netwerk.</string>
    <string name="sim_added_title">Simkaart aangesloten</string>
    <string name="sim_done_button">Gereed</string>
