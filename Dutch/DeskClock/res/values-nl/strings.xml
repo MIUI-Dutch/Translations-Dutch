@@ -6,7 +6,7 @@
    <string name="alarm_alert_snooze_set">Snoozing voor %d minuten</string>
    <string name="alarm_alert_snooze_text">Snooze</string>
    <string name="alarm_button_description">Alarms</string>
-   <string name="alarm_in_silent_mode_summary">Speel alarm zelfs wanneer stille modus is ingeschakeld</string>
+   <string name="alarm_in_silent_mode_summary">Alarm afspelen, zelfs wanneer stille modus van telefoon is geactiveerd</string>
    <string name="alarm_in_silent_mode_title">Alarm in de stille modus</string>
    <string name="alarm_klaxon_service_desc">Geluid afspelen service voor alarm in DeskClock</string>
    <string name="alarm_list_title">Alarms</string>
@@ -16,7 +16,7 @@
    <string name="alarm_repeat">Herhalen</string>
    <string name="alarm_vibrate">Trillen</string>
    <string name="alarm_volume_summary">Stel het alarmvolume in</string>
-   <string name="alarm_volume_title">Alarm volume</string>
+   <string name="alarm_volume_title">Alarmvolume</string>
    <string name="alert">Beltoon</string>
    <string name="analog_gadget">Analoge klok</string>
    <string name="app_label">Klok</string>
@@ -39,7 +39,7 @@
    <string name="home_button_description">Launcher</string>
    <string name="hour">1 uur</string>
    <string name="hours">%s uren</string>
-   <string name="label">Etiket</string>
+   <string name="label">Label</string>
    <string name="menu_desk_clock">Bureauklok</string>
    <string name="menu_edit_alarm">Bewerk alarm</string>
    <string name="menu_item_dock_settings">Dock-instellingen</string>
@@ -52,10 +52,10 @@
    <string name="set_alarm">Alarm instellen</string>
    <string name="settings">Instellingen</string>
    <string name="silent_alarm_summary">Stil</string>
-   <string name="snooze_duration_title">Snooze duur</string>
+   <string name="snooze_duration_title">Snooze-duur</string>
    <string name="time">Tijd</string>
    <string name="volume_button_dialog_title">Toets werking</string>
-   <string name="volume_button_setting_summary">Instellen wat deze knoppen doen wanneer ingedrukt tijdens een alarm</string>
-   <string name="volume_button_setting_title">Volume en Camera</string>
+   <string name="volume_button_setting_summary">Instellen wat deze knoppen doen wanneer erop wordt gedrukt tijdens een alarm</string>
+   <string name="volume_button_setting_title">Volumeknoppen</string>
    <string name="weather_fetch_failure">Weer informatie momenteel niet beschikbaar</string>
 </resources>
