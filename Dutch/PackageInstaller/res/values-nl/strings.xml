@@ -6,7 +6,7 @@
    <string name="cancel">Annuleren</string>
    <string name="dlg_app_replacement_statement">"De applicatie die je installeert zal de andere applicatie vervangen.
 Alle vorige gebruiker gegevens worden opgeslagen"</string>
-   <string name="dlg_app_replacement_title">Vervang de toepassing</string>
+   <string name="dlg_app_replacement_title">Vervang de app</string>
    <string name="dlg_ok">OK</string>
    <string name="dlg_sys_app_replacement_statement">"Dit is een systeem applicatie. Wilt u vervangen?
 Alle vorige gebruiker gegevens worden opgeslagen"</string>
@@ -25,10 +25,10 @@ Alle vorige gebruiker gegevens worden opgeslagen"</string>
    <string name="out_of_space_dlg_title">Geen ruimte meer</string>
    <string name="Parse_error_dlg_text">Er is een probleem met het lezen van het installatie pakket</string>
    <string name="Parse_error_dlg_title">Leesfout</string>
-   <string name="security_settings_desc">Toestaan dat deze toepassing:</string>
+   <string name="security_settings_desc">Toestaan dat deze app:</string>
    <string name="settings">Instellingen</string>
    <string name="uninstall_application_question">Applicatie wissen?</string>
-   <string name="uninstall_application_text">Deze toepassing zal worden verwijderd</string>
+   <string name="uninstall_application_text">Deze app zal worden verwijderd</string>
    <string name="uninstall_done">Klaar met wissen</string>
    <string name="uninstall_failed">Wissen niet succesvol</string>
    <string name="uninstall_failed_msg">%1$s konden niet worden verwijderd</string>

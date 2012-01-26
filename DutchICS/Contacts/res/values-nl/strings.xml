@@ -450,7 +450,7 @@ Om een contact toe te voegen aan je favorieten:
    <string name="private_num">Privé-nummer</string>
    <string name="profile_display_name">Mijn profiel instellen</string>
    <string name="progress_notifier_message" formatted="false">Importeren %s/%s: %s</string>
-   <string name="quickcontact_missing_app">Geen toepassingen om deze actie uit te voeren</string>
+   <string name="quickcontact_missing_app">Geen apps om deze actie uit te voeren</string>
    <string name="reading_vcard_failed_title">Kan vCard-gegevens niet lezen</string>
    <string name="readOnlyContactDeleteConfirmation">Dit contact bevat informatie uit meerdere accounts. Informatie van alleen-lezen accounts wordt verborgen in uw lijst met contacten, niet gewist</string>
    <string name="readOnlyContactWarning">Kan contacten niet verwijderen uit alleen-lezen accounts. Alleen verbergen is mogelijk</string>
