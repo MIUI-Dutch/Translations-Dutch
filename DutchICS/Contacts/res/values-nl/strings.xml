@@ -207,7 +207,7 @@
    <string name="edit_contact">Contact bewerken</string>
    <string name="edit_contact_card_title">Wijzig contact</string>
    <string name="editContactDescription">Contact wijzigen</string>
-   <string name="e-mail">E-mail</string>
+   <string name="email">E-mail</string>
    <string name="email_custom">E-mail naar %s</string>
    <string name="email_home">E-mail (privé)</string>
    <string name="email_mobile">E-mail (mobiel)</string>
