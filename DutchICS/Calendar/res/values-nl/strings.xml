@@ -29,7 +29,7 @@
    <string name="calendar_refresh">Ververs</string>
    <string name="change_response_title">Verander reactie</string>
    <string name="chips_waiting_for_directory_result">Wacht op meer contacten</string>
-   <string name="copy">Kopieer email adres</string>
+   <string name="copy">Kopieer e-mailadres</string>
    <string name="copy_db">Verzend database</string>
    <string name="create_an_account_desc">"Agenda werkt beter met een Google Account.
 • Toegang met elke web browser
@@ -70,7 +70,7 @@
    <string name="gadget_title">Agenda</string>
    <string name="goto_today">Vandaag</string>
    <string name="hide_controls">verberg knoppen</string>
-   <string name="hint_attendees">Email adres</string>
+   <string name="hint_attendees">E-mail adres</string>
    <string name="hint_description">Afspraak beschrijving</string>
    <string name="hint_what">Afspraak naam</string>
    <string name="hint_where">Lokatie</string>

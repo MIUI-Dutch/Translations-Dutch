@@ -18,11 +18,11 @@
    <string name="account_login_failed_code_7">Netwerk fout. Login mislukt.</string>
    <string name="account_login_password_title">Wachtwoord</string>
    <string name="account_login_succeed">Inloggen succesvol</string>
-   <string name="account_login_username_title">Email-adres</string>
+   <string name="account_login_username_title">E-mail-adres</string>
    <string name="account_logout">Uitloggen</string>
    <string name="account_logout_sync_isrunning">Synchroniseren, annuleer om meteen door te gaan.</string>
    <string name="account_modify">Profiel aanpassen</string>
-   <string name="account_no_email_username">Email-adres invullen alstublieft</string>
+   <string name="account_no_email_username">E-mail-adres invullen alstublieft</string>
    <string name="account_no_pwd">Wachtwoord invullen alstublieft</string>
    <string name="account_no_username">Gebruikersnaam invullen alstublieft</string>
    <string name="account_no_username_no_pwd">Gebruikersnaam en wachtwoord kunnen niet leeg zijn.</string>
@@ -189,7 +189,7 @@
    <string name="downloader_file_name">File name:\u0020</string>
    <string name="downloader_file_path">File Path:\u0020</string>
    <string name="downloader_top_panel_title">Download Beheer</string>
-   <string name="email_exists">Email-adres is al in gebruik</string>
+   <string name="email_exists">E-mail-adres is al in gebruik</string>
    <string name="exit_dialog_clear_all_history">Geschiedenis wissen</string>
    <string name="exit_dialog_clear_cache">Cache legen</string>
    <string name="exit_dialog_not_prompt">Niet meer vragen</string>
@@ -199,10 +199,10 @@
    <string name="exit_dialog_title">Maxthon Mobile Browser sluiten</string>
    <string name="expires_on">Verloopt op:</string>
    <string name="feedback_checkin">Ik wil inchecken</string>
-   <string name="feedback_checkin_err_contact_empty">Email-adres invoeren om in te checken</string>
-   <string name="feedback_contact_etad_hint">Email-adres hier</string>
+   <string name="feedback_checkin_err_contact_empty">E-mail-adres invoeren om in te checken</string>
+   <string name="feedback_contact_etad_hint">E-mail-adres hier</string>
    <string name="feedback_contact_etop_hint">Feedback hier</string>
-   <string name="feedback_contact_hint">Email-adres hier invoeren</string>
+   <string name="feedback_contact_hint">E-mail-adres hier invoeren</string>
    <string name="feedback_failed">Verzenden mislukt. Controleer uw internetverbinding.</string>
    <string name="feedback_hint">Feedback hier invoeren</string>
    <string name="feedback_post">Bedankt voor uw feedback!</string>
@@ -476,7 +476,7 @@
    <string name="quick_dial_url_had_exist">Quick Access bestaat al</string>
    <string name="quick_share">Snel delen</string>
    <string name="register">Registreren</string>
-   <string name="register_account_hint">Account (Email-adres)</string>
+   <string name="register_account_hint">Account (E-mail-adres)</string>
    <string name="register_failed">Account aanmaken mislukt</string>
    <string name="register_password_hint">Wachtwoord (min. 8 tekens)</string>
    <string name="register_success">Account gemaakt, inloggen..</string>
