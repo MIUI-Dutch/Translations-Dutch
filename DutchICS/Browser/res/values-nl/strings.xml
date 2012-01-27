@@ -39,7 +39,7 @@
    <string name="autofill_profile_editor_company_name">Bedrijfsnaam:</string>
    <string name="autofill_profile_editor_country">Land:</string>
    <string name="autofill_profile_editor_delete_profile">Wis</string>
-   <string name="autofill_profile_editor_email_address">Email:</string>
+   <string name="autofill_profile_editor_email_address">E-mail:</string>
    <string name="autofill_profile_editor_heading">Type de tekst die je wiilt gebruiken bij Auto-Tekst web formulieren.</string>
    <string name="autofill_profile_editor_name">Volledige naam:</string>
    <string name="autofill_profile_editor_phone_number">Telefoon:</string>
