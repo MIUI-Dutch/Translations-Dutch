@@ -25,7 +25,6 @@
    <string name="agenda_yesterday">GISTEREN, %1$s</string>
    <string name="alert_title">Agenda-herinneringen</string>
    <string name="app_label">Agenda</string>
-<<<<<<< HEAD
    <string name="attendees_label">Gasten</string>
    <string name="calendar_refresh">Vernieuwen</string>
    <string name="change_response_title">Reactie wijzigen</string>
@@ -38,20 +37,6 @@
    <string name="creating_event">Afspraak gemaakt.</string>
    <string name="creating_event_with_guest">Uitnodigingen verzonden.</string>
    <string name="custom">Aangepast (kan niet op de telefoon worden aangepast)</string>
-=======
-   <string name="attendees_label">Genodigden</string>
-   <string name="calendar_refresh">Ververs</string>
-   <string name="change_response_title">Verander reactie</string>
-   <string name="chips_waiting_for_directory_result">Wacht op meer contacten</string>
-   <string name="copy">Kopieer e-mailadres</string>
-   <string name="copy_db">Verzend database</string>
-   <string name="create_an_account_desc">"Agenda werkt beter met een Google Account.
-• Toegang met elke web browser
-• Veilige backup van agendapunten"</string>
-   <string name="creating_event">Afspraak toegevoegd</string>
-   <string name="creating_event_with_guest">Uitnodigingen verzonden</string>
-   <string name="custom">Aangepast... (Mislukt)</string>
->>>>>>> 4cbb8518c7691b3e99fd91e0a7e4f012bd714db4
    <string name="daily">Dagelijks</string>
    <string name="day_view">Dag</string>
    <string name="day_view_new_event_hint">+ Nieuwe afspraak</string>
@@ -84,7 +69,6 @@
    <string name="gadget_no_events">Geen lopende agenda-afspraken</string>
    <string name="gadget_title">Agenda</string>
    <string name="goto_today">Vandaag</string>
-<<<<<<< HEAD
    <string name="hide_controls">Bediening verbergen</string>
    <string name="hint_attendees">Gasten</string>
    <string name="hint_description">Beschrijving</string>
@@ -93,16 +77,6 @@
    <string name="loading">Laden...</string>
    <string name="menu_about_preferences">Over Agenda</string>
    <string name="menu_general_preferences">Algemene instellingen</string>
-=======
-   <string name="hide_controls">verberg knoppen</string>
-   <string name="hint_attendees">E-mail adres</string>
-   <string name="hint_description">Afspraak beschrijving</string>
-   <string name="hint_what">Afspraak naam</string>
-   <string name="hint_where">Lokatie</string>
-   <string name="loading">Laden…</string>
-   <string name="menu_about_preferences">Over agenda</string>
-   <string name="menu_general_preferences">Algemene voorkeuren</string>
->>>>>>> 4cbb8518c7691b3e99fd91e0a7e4f012bd714db4
    <string name="menu_preferences">Instellingen</string>
    <string name="menu_select_visible_calendars">"Agenda's"</string>
    <string name="modify_all">Alle afspraken in de reeks wijzigen</string>

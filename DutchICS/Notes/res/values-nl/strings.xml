@@ -58,7 +58,7 @@
    <string name="menu_sync_cancel">Annuleer synchronisatie</string>
    <string name="menu_title_select_folder">Selecteer map</string>
    <string name="note_alert_expired">Verlopen</string>
-   <string name="note_link_email">Stuur e-mail</string>
+   <string name="note_link_email">Stuur email</string>
    <string name="note_link_other">Open kaart</string>
    <string name="note_link_tel">Bel</string>
    <string name="note_link_web">Browse web</string>

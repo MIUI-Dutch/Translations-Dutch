@@ -19,12 +19,12 @@
    <string name="bind_email_dialog_title">Via E-mail</string>
    <string name="bind_phone_dialog_message">Je ontvangt een SMS bevestiging met een verificatie code om je account te valideren</string>
    <string name="bind_phone_dialog_title">Via SMS</string>
-   <string name="by_email">Per e-mail</string>
+   <string name="by_email">Per email</string>
    <string name="by_mobile">Per mobiel</string>
    <string name="create_now">Nu creëeren</string>
    <string name="disable_mitalk_dialog_message">Je kan niet meer chatten met je vrienden via MiTalk in Contacten, weet je zeker dat je synchronisatie  uitzet? \nTip: Na uitzettenmag je je account wijzigen of wissen in MiTalk instellingen</string>
    <string name="disable_mitalk_dialog_title">MiTalk synchronisatie uit</string>
-   <string name="email_not_verified">E-mail niet bevestigd</string>
+   <string name="email_not_verified">Email niet bevestigd</string>
    <string name="enable_mitalk_dialog_message">Inlog in MiTalk met systeem account. Als deze niet overeenkomt met het huidige MiTalk ID, wordt de data gewist. Zeker weten?</string>
    <string name="enable_mitalk_dialog_title">MiTalk synchronisatie aan</string>
    <string name="forget_password">Wachtwoord vergeten?</string>
@@ -75,7 +75,7 @@
    <string name="user_agreement3">\u0020en\u0020</string>
    <string name="user_agreement4">privacy regelement</string>
    <string name="user_detail">Mijn Card</string>
-   <string name="user_email">E-mail</string>
+   <string name="user_email">Email</string>
    <string name="user_email_button_verify">Verificatie</string>
    <string name="user_email_description">E-mail adres voor log in en account herstel</string>
    <string name="user_email_format_error">E-mail adres bevat ongeldige tekens</string>

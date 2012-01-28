@@ -38,15 +38,9 @@
    <string name="autofill_profile_editor_city">Plaatsnaam:</string>
    <string name="autofill_profile_editor_company_name">Bedrijfsnaam:</string>
    <string name="autofill_profile_editor_country">Land:</string>
-<<<<<<< HEAD
    <string name="autofill_profile_editor_delete_profile">Verwijderen</string>
    <string name="autofill_profile_editor_email_address">E-mail:</string>
    <string name="autofill_profile_editor_heading">Typ de tekst die u automatisch in webformulieren wilt laten invullen.</string>
-=======
-   <string name="autofill_profile_editor_delete_profile">Wis</string>
-   <string name="autofill_profile_editor_email_address">E-mail:</string>
-   <string name="autofill_profile_editor_heading">Type de tekst die je wiilt gebruiken bij Auto-Tekst web formulieren.</string>
->>>>>>> 4cbb8518c7691b3e99fd91e0a7e4f012bd714db4
    <string name="autofill_profile_editor_name">Volledige naam:</string>
    <string name="autofill_profile_editor_phone_number">Telefoon:</string>
    <string name="autofill_profile_editor_phone_number_invalid">Ongeldig telefoonnummer.</string>

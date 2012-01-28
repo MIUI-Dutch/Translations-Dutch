@@ -147,7 +147,7 @@ aan afspeellijsten, op basis van
    <string name="faux_art_playlist_label">Afspeellijst</string>
    <string name="favorite_playlist_item">Favoriete nummers</string>
    <string name="feedback">Feedback (in engels)</string>
-   <string name="feedback_email">Eenvoudig contact opnemen via e-mail</string>
+   <string name="feedback_email">Eenvoudig contact opnemen via email</string>
    <string name="feedback_reminder">Netwerkverbinding niet beschikbaar, probeer opnieuw</string>
    <string name="feedback_thanks">Bedankt voor uw feedback</string>
    <string name="filter_by_folder">Filter op map</string>
