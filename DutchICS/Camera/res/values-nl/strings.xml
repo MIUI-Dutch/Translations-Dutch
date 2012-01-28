@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-   <string name="access_sd_fail">Geen toegang tot geheugenkaart</string>
+   <string name="access_sd_fail">Geen toegang tot SD-kaart.</string>
    <string name="accessibility_back_to_first_level">Instelopties sluiten</string>
    <string name="accessibility_camera_picker">Schakelen tussen camera aan voorzijde en aan achterzijde</string>
    <string name="accessibility_decrement">%1$s verlagen</string>
@@ -11,15 +11,15 @@
    <string name="accessibility_shutter_button">Sluiterknop</string>
    <string name="accessibility_switch">%1$s-schakelaar</string>
    <string name="accessibility_zoom_control">Zoomregeling</string>
-   <string name="bg_replacement_message">"Plaats de telefoon op een stevige ondergrond en zorg dat er geen beweging achter je zichtbaar is.
-Stap dan uit het beeld."</string>
+   <string name="bg_replacement_message">"Zet uw apparaat neer.
+Stap even uit beeld."</string>
    <string name="camera_disabled">De camera is uitgeschakeld vanwege het beveiligingsbeleid.</string>
-   <string name="camera_error_title">Camera fout</string>
+   <string name="camera_error_title">Camerafout</string>
    <string name="camera_gallery_photos_text">Galerij</string>
    <string name="camera_label">Camera</string>
-   <string name="cannot_connect_camera">Kan niet verbinden met camera</string>
+   <string name="cannot_connect_camera">Kan geen verbinding maken met de camera.</string>
    <string name="clear_effects">Effecten wissen</string>
-   <string name="confirm_restore_message">Camera instelling wordt naar standaard terruggezet</string>
+   <string name="confirm_restore_message">Standaardinstellingen van camera herstellen?</string>
    <string name="confirm_restore_title">Standaardwaarden herstellen</string>
    <string name="dialog_ok">OK</string>
    <string name="disable_video_snapshot_hint">Videosnapshot staat uit als speciale effecten zijn ingeschakeld.</string>
@@ -37,13 +37,13 @@ Stap dan uit het beeld."</string>
    <string name="effect_none">Geen</string>
    <string name="effect_silly_faces">GEKKE GEZICHTEN</string>
    <string name="empty">" "</string>
-   <string name="gallery_camera_bucket_name">Camera afbeeldingen</string>
-   <string name="gallery_camera_videos_bucket_name">Camera video\'s</string>
+   <string name="gallery_camera_bucket_name">"Camerafoto's"</string>
+   <string name="gallery_camera_videos_bucket_name">"Cameravideo's"</string>
    <string name="image_file_name_format">\'IMG\'_ddMMyyyy_HHmmss</string>
    <string name="no_picture_to_share">Geen afbeelding om te delen.</string>
-   <string name="no_storage">Koppel de USB-opslag voordat u de camera gebruikt.</string>
+   <string name="no_storage">Plaats een SD-kaart voordat u de camera gebruikt.</string>
    <string name="no_video_to_share">Geen video om te delen.</string>
-   <string name="not_enough_space">SD-kaart is vol</string>
+   <string name="not_enough_space">De SD-kaart is vol.</string>
    <string name="not_selectable_in_effect">Kan niet worden geselecteerd wanneer het effect is ingeschakeld.</string>
    <string name="not_selectable_in_scene_mode">Kan niet worden geselecteerd in scènemodus.</string>
    <string name="pano_capture_indication">Panorama vastleggen</string>
@@ -116,25 +116,25 @@ Stap dan uit het beeld."</string>
    <string name="pref_video_time_lapse_frame_interval_entry_3000">3s</string>
    <string name="pref_video_time_lapse_frame_interval_entry_5000">5s</string>
    <string name="pref_video_time_lapse_frame_interval_title">Time-lapse-interval</string>
-   <string name="preparing_sd">Voorbereiden SD-kaart…</string>
-   <string name="review_cancel">Annuleer</string>
-   <string name="review_ok">Ok</string>
-   <string name="review_play">Speel</string>
-   <string name="review_retake">Opnieuw</string>
+   <string name="preparing_sd">SD-kaart voorbereiden…</string>
+   <string name="review_cancel">ANNULEREN</string>
+   <string name="review_ok">GEREED</string>
+   <string name="review_play">Afspelen</string>
+   <string name="review_retake">OPNIEUW OPNEMEN</string>
    <string name="setting_decrement">&lt;</string>
    <string name="setting_increment">></string>
    <string name="share_picture_via">Foto delen via</string>
    <string name="share_video_via">Video delen via</string>
-   <string name="spaceIsLow_content">SD-kaart bijna vol, verlaag de kwaliteit of verwijder bestanden</string>
+   <string name="spaceIsLow_content">Uw SD-kaart is bijna vol. Wijzig de kwaliteitsinstelling of verwijder enkele afbeeldingen of andere bestanden.</string>
    <string name="switch_camera_id">Camera wijzigen</string>
    <string name="switch_to_camera_label">Overschakelen naar camera</string>
    <string name="switch_to_panorama_label">Overschakelen naar panoramamodus</string>
    <string name="switch_to_video_label">Overschakelen naar video</string>
    <string name="tap_to_focus">Raak aan voor scherpstellen.</string>
    <string name="time_lapse_title">Time-lapse-opname</string>
-   <string name="video_camera_label">Video recorder</string>
+   <string name="video_camera_label">Camcorder</string>
    <string name="video_file_name_format">\'VID\'_ddMMyyyy_HHmmss</string>
-   <string name="video_reach_size_limit">Grote limiet bereikt</string>
+   <string name="video_reach_size_limit">Maximale grootte bereikt</string>
    <string name="video_snapshot_hint">Raak het voorbeeldscherm aan voor een foto bij video-opnamen.</string>
-   <string name="wait">Wachten a.u.b.…</string>
+   <string name="wait">Een ogenblik geduld...</string>
 </resources>

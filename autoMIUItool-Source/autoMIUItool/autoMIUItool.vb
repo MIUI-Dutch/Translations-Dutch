@@ -1166,7 +1166,6 @@ Public Class autoMIUItool
 
     Private Sub srtStrings()
         Dim str As String
-        Dim dictDoc1 As New Dictionary(Of String, Integer)
         Dim dictDoc11 As New Dictionary(Of String, String)
         Dim objReader12 As New ArrayList
         Dim keyName, TextResult As String
@@ -1177,7 +1176,6 @@ Public Class autoMIUItool
         For Each file In GetAllSubFiles(LanguageTranslationFolder.Text, "strings.xml")
             BackgroundWorker1.ReportProgress(ShowProgress(), "@@Sort: " & file)
             BackgroundWorker1.ReportProgress(ShowProgress(-2), "##Sort: " & file)
-            dictDoc1.Clear()
             dictDoc11.Clear()
             objReader12.Clear()
             Dim objReader1 As New System.IO.StreamReader(file.ToString, System.Text.Encoding.UTF8)
@@ -1189,19 +1187,16 @@ Public Class autoMIUItool
                     keyNameEnd = InStr(str, ">") - 1
                     keyName = Mid(str, keyNameStart, keyNameEnd - keyNameStart)
                     If InStr(str, " />") <> 0 Then
-                        dictDoc1.Add(keyName, 0)
                         objReader12.Add(Trim(str))
 						If not dictDoc11.ContainsKey(keyName) Then dictDoc11.Add(keyName, Join(objReader12.ToArray, "þ"))
                         BackgroundWorker1.ReportProgress(ShowProgress(-2), "KeyName (0): " & keyName & ":" & Join(objReader12.ToArray, "þ"))
                         objReader12.Clear()
                     ElseIf InStr(str, "</string>") <> 0 Then
-                        dictDoc1.Add(keyName, 1)
                         objReader12.Add(Trim(str))
 						If not dictDoc11.ContainsKey(keyName) Then dictDoc11.Add(keyName, Join(objReader12.ToArray, "þ"))
                         BackgroundWorker1.ReportProgress(ShowProgress(-2), "KeyName (1): " & keyName & ":" & Join(objReader12.ToArray, "þ"))
                         objReader12.Clear()
                     Else
-                        dictDoc1.Add(keyName, 2)
                         objReader12.Add(Trim(str))
                         multiLine = True
                     End If

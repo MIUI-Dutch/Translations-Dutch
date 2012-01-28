@@ -144,28 +144,6 @@
         Next
     End Sub
 
-    'textCount1 = 0
-    'textCount2 = 0
-
-    'Dim objReader1 As New System.IO.StreamReader(CFS1, System.Text.Encoding.UTF8)
-    'Do While objReader1.Peek() <> -1
-    '    TextBox1.Text = TextBox1.Text & objReader1.ReadLine() & vbNewLine
-    '    textCount1 = textCount1 + 1
-    'Loop
-    'objReader1.Close()
-
-    'Dim objReader2 As New System.IO.StreamReader(CFS2, System.Text.Encoding.UTF8)
-    'Do While objReader2.Peek() <> -1
-    '    TextBox2.Text = TextBox2.Text & objReader2.ReadLine() & vbNewLine
-    '    textCount2 = textCount2 + 1
-    'Loop
-    'objReader2.Close()
-
-    'If textCount1 = textCount2 Then
-    '    Me.Close()
-    'End If
-    'Me.Text = CFS2
-
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
         Me.Close()
     End Sub
