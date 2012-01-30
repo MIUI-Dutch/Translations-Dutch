@@ -221,6 +221,18 @@ Namespace My
                 Me("SmalijarVersion") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property StockTranslationFolder() As String
+            Get
+                Return CType(Me("StockTranslationFolder"),String)
+            End Get
+            Set
+                Me("StockTranslationFolder") = value
+            End Set
+        End Property
     End Class
 End Namespace
 

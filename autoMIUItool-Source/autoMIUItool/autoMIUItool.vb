@@ -5,7 +5,7 @@ Public Class autoMIUItool
 
     Dim ApplicationPath As String = System.IO.Path.GetDirectoryName( _
         System.Reflection.Assembly.GetExecutingAssembly().GetName().CodeBase)
-    Dim BaseFolder, InputRoms, OutputRoms, ROMsource, EnglishFolder, LanguageFolder, Theme As String
+    Dim BaseFolder, InputRoms, OutputRoms, ROMsource, EnglishFolder, LanguageFolder, StockFolder, Theme As String
     Dim DoROMs() As String
     Dim InputAPK, OutputAPK, Temp, Tools, UpdateAPK, UpdateInput, UpdateROM, UpdateZIP, APKjar, DoJava As String
     Dim DoSpecial(), DelAPKs() As String
@@ -27,6 +27,7 @@ Public Class autoMIUItool
             My.Settings.Language = Language.Text
             My.Settings.EnglishTranslationFolder = EnglishTranslationFolder.Text
             My.Settings.LanguageTranslationFolder = LanguageTranslationFolder.Text
+            My.Settings.StockTranslationFolder = StockTranslationFolder.Text
             My.Settings.APKjarVersion = APKjarVersion.Text
             My.Settings.SmalijarVersion = BakSmaliVersion.Text
             My.Settings.JavaExe = JavaExe.Text
@@ -56,6 +57,7 @@ Public Class autoMIUItool
         Language.Text = My.Settings.Language
         EnglishTranslationFolder.Text = My.Settings.EnglishTranslationFolder
         LanguageTranslationFolder.Text = My.Settings.LanguageTranslationFolder
+        StockTranslationFolder.Text = My.Settings.StockTranslationFolder
 
         TextBox1.Text = BaseFolder
         InputRoms = BaseFolder & "\_INPUT_ROM\"
@@ -463,6 +465,9 @@ Public Class autoMIUItool
         If e.Argument.ToString = "SortStrings" Then
             srtStrings()
         End If
+        If e.Argument.ToString = "MergeStock" Then
+            MergeStockStrings()
+        End If
         If e.Argument.ToString = "DeOdex" Then
             deodex()
         End If
@@ -481,6 +486,7 @@ Public Class autoMIUItool
         Me.sortStrings.Enabled = True
         Me.DoDeOdex.Enabled = True
         Me.MakeTheme.Enabled = True
+        Me.MergeStock.Enabled = True
     End Sub
 
     Private Sub BackgroundWorker1_ProgressChanged(ByVal sender As System.Object, ByVal e As System.ComponentModel.ProgressChangedEventArgs) Handles BackgroundWorker1.ProgressChanged
@@ -1508,6 +1514,163 @@ Public Class autoMIUItool
         'zip theme
         BackgroundWorker1.ReportProgress(ShowProgress(-2), BaseFolder & "\7za.exe" & " a -tzip " & Theme & "miuinl.mtz " & Theme & "theme\* -mx9")
         BackgroundWorker1.ReportProgress(ShowProgress(-2), DoExecute(BaseFolder & "\7za.exe", " a -tzip " & Theme & "miuinl.mtz " & Theme & "theme\* -mx9"))
+    End Sub
+
+    Private Sub MergeStock_Click(sender As System.Object, e As System.EventArgs) Handles MergeStock.Click
+        Me.MergeStock.Enabled = False
+        StartBackgroundWorker("MergeStock")
+    End Sub
+
+    Private Sub MergeStockStrings()
+        Dim str As String
+        Dim dictDoc1 As New Dictionary(Of String, Integer)
+        Dim dictDoc11 As New Dictionary(Of String, String)
+        Dim objReader12 As New ArrayList
+        Dim dictDoc2 As New Dictionary(Of String, Integer)
+        Dim dictDoc21 As New Dictionary(Of String, String)
+        Dim objReader22 As New ArrayList
+        Dim keyName, TextResult As String
+        Dim keyNameStart, keyNameEnd As Integer
+        Dim multiLine As Boolean = False
+
+        ShowProgress(countItems(GetAllSubFiles(LanguageTranslationFolder.Text, "strings.xml")))
+        For Each file In GetAllSubFiles(LanguageTranslationFolder.Text, "strings.xml")
+            BackgroundWorker1.ReportProgress(ShowProgress(), "@@Merge: " & file)
+            BackgroundWorker1.ReportProgress(ShowProgress(-2), "##Merge: " & file)
+            dictDoc1.Clear()
+            dictDoc11.Clear()
+            objReader12.Clear()
+            Dim objReader1 As New System.IO.StreamReader(file.ToString, System.Text.Encoding.UTF8)
+            multiLine = False
+            Do While objReader1.Peek() <> -1
+                str = objReader1.ReadLine()
+                If InStr(str, "<string name=") <> 0 Then
+                    keyNameStart = InStr(str, "name=") + 6
+                    keyNameEnd = InStr(str, ">") - 1
+                    keyName = Mid(str, keyNameStart, keyNameEnd - keyNameStart)
+                    If InStr(str, " />") <> 0 Then
+                        dictDoc1.Add(keyName, 0)
+                        objReader12.Add(Trim(str))
+                        If Not dictDoc11.ContainsKey(keyName) Then dictDoc11.Add(keyName, Join(objReader12.ToArray, "þ"))
+                        BackgroundWorker1.ReportProgress(ShowProgress(-2), "KeyName (0): " & keyName & ":" & Join(objReader12.ToArray, "þ"))
+                        objReader12.Clear()
+                    ElseIf InStr(str, "</string>") <> 0 Then
+                        dictDoc1.Add(keyName, 1)
+                        objReader12.Add(Trim(str))
+                        If Not dictDoc11.ContainsKey(keyName) Then dictDoc11.Add(keyName, Join(objReader12.ToArray, "þ"))
+                        BackgroundWorker1.ReportProgress(ShowProgress(-2), "KeyName (1): " & keyName & ":" & Join(objReader12.ToArray, "þ"))
+                        objReader12.Clear()
+                    Else
+                        objReader12.Add(Trim(str))
+                        multiLine = True
+                    End If
+                    'keys in current ROM
+                Else
+                    If multiLine Then
+                        objReader12.Add(str)
+                        If InStr(str, "</string>") <> 0 Then
+                            multiLine = False
+                            dictDoc1.Add(keyName, 2)
+                            If Not dictDoc11.ContainsKey(keyName) Then dictDoc11.Add(keyName, Join(objReader12.ToArray, "þ"))
+                            BackgroundWorker1.ReportProgress(ShowProgress(-2), "KeyName (2): " & keyName & ":" & Join(objReader12.ToArray, "þ"))
+                            objReader12.Clear()
+                        End If
+                    End If
+                End If
+            Loop
+            objReader1.Close()
+
+
+            dictDoc2.Clear()
+            dictDoc21.Clear()
+            objReader12.Clear()
+            If FileExists(Replace(file.ToString, LanguageTranslationFolder.Text, StockTranslationFolder.Text)) Then
+                Dim objReader2 As New System.IO.StreamReader(Replace(file.ToString, LanguageTranslationFolder.Text, StockTranslationFolder.Text), System.Text.Encoding.UTF8)
+                multiLine = False
+                Do While objReader2.Peek() <> -1
+                    str = objReader2.ReadLine()
+                    If InStr(str, "<string name=") <> 0 Then
+                        keyNameStart = InStr(str, "name=") + 6
+                        keyNameEnd = InStr(str, ">") - 1
+                        keyName = Mid(str, keyNameStart, keyNameEnd - keyNameStart)
+                        If InStr(str, " />") <> 0 Then
+                            dictDoc2.Add(keyName, 0)
+                            objReader12.Add(Trim(str))
+                            If Not dictDoc21.ContainsKey(keyName) Then dictDoc21.Add(keyName, Join(objReader12.ToArray, "þ"))
+                            BackgroundWorker1.ReportProgress(ShowProgress(-2), "KeyName (0): " & keyName & ":" & Join(objReader12.ToArray, "þ"))
+                            objReader12.Clear()
+                        ElseIf InStr(str, "</string>") <> 0 Then
+                            dictDoc2.Add(keyName, 1)
+                            objReader12.Add(Trim(str))
+                            If Not dictDoc21.ContainsKey(keyName) Then dictDoc21.Add(keyName, Join(objReader12.ToArray, "þ"))
+                            BackgroundWorker1.ReportProgress(ShowProgress(-2), "KeyName (1): " & keyName & ":" & Join(objReader12.ToArray, "þ"))
+                            objReader12.Clear()
+                        Else
+                            objReader12.Add(Trim(str))
+                            multiLine = True
+                        End If
+                        'keys in current ROM
+                    Else
+                        If multiLine Then
+                            objReader12.Add(str)
+                            If InStr(str, "</string>") <> 0 Then
+                                multiLine = False
+                                dictDoc2.Add(keyName, 2)
+                                If Not dictDoc21.ContainsKey(keyName) Then dictDoc21.Add(keyName, Join(objReader12.ToArray, "þ"))
+                                BackgroundWorker1.ReportProgress(ShowProgress(-2), "KeyName (2): " & keyName & ":" & Join(objReader12.ToArray, "þ"))
+                                objReader12.Clear()
+                            End If
+                        End If
+                    End If
+                Loop
+                objReader2.Close()
+
+                Dim keys11 As List(Of String) = dictDoc11.Keys.ToList
+                keys11.Sort()
+
+                TextResult = ""
+                For Each key11 In keys11
+                    If dictDoc2.ContainsKey(key11) Then
+                        If dictDoc1.Item(key11) = dictDoc2.Item(key11) Then
+                            For Each Line In dictDoc21.Item(key11).Split("þ")
+                                TextResult = TextResult & Line & vbNewLine
+                            Next
+							if dictDoc11.Item(key11).ToString <> dictDoc21.Item(key11).ToString then
+								BackgroundWorker1.ReportProgress(ShowProgress(-2), "##Key: " & key11 & " = " & dictDoc11.Item(key11).ToString & "=>" & dictDoc21.Item(key11).ToString)
+							End If
+                        Else
+                            For Each Line In dictDoc11.Item(key11).Split("þ")
+                                TextResult = TextResult & Line & vbNewLine
+                            Next
+                        End If
+                    Else
+                        For Each Line In dictDoc11.Item(key11).Split("þ")
+                            TextResult = TextResult & Line & vbNewLine
+                        Next
+                    End If
+                Next
+                TextResult = Replace(TextResult, vbNewLine & vbNewLine, vbNewLine)
+                TextResult = Replace(TextResult, "<string name=", "   <string name=")
+                System.IO.File.WriteAllText(file.ToString, "<?xml version=""1.0"" encoding=""utf-8""?>" & vbNewLine & "<resources>" & vbNewLine & TextResult & "</resources>" & vbNewLine, System.Text.Encoding.UTF8)
+            End If
+        Next
+        BackgroundWorker1.ReportProgress(ShowProgress(-2), "@@Merge: Ready")
+
+    End Sub
+
+    Private Sub TextBox2_Click(sender As Object, e As System.EventArgs) Handles StockTranslationFolder.Click
+        FolderBrowserDialog1.Description = "Select the " & Language.Text & " Stock Strings Folder"
+
+        ' Do not show the button for new folder
+        FolderBrowserDialog1.ShowNewFolderButton = False
+
+        Dim dlgResult As DialogResult = FolderBrowserDialog1.ShowDialog()
+
+        If dlgResult = DialogResult.OK Then
+            StockTranslationFolder.Text = FolderBrowserDialog1.SelectedPath()
+            StockFolder = StockTranslationFolder.Text
+        End If
+
     End Sub
 
 End Class

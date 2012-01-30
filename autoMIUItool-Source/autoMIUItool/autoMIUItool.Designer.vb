@@ -61,6 +61,8 @@ Partial Class autoMIUItool
         Me.Label6 = New System.Windows.Forms.Label()
         Me.APKjarVersion = New System.Windows.Forms.ComboBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.StockTranslationFolder = New System.Windows.Forms.TextBox()
+        Me.Label21 = New System.Windows.Forms.Label()
         Me.Language = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -79,6 +81,7 @@ Partial Class autoMIUItool
         Me.Label12 = New System.Windows.Forms.Label()
         Me.OTAupdate = New System.Windows.Forms.CheckBox()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.MergeStock = New System.Windows.Forms.Button()
         Me.MakeTheme = New System.Windows.Forms.Button()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.findStrings2 = New System.Windows.Forms.Button()
@@ -359,7 +362,7 @@ Partial Class autoMIUItool
         '
         'DeleteAPKs
         '
-        Me.DeleteAPKs.Location = New System.Drawing.Point(189, 303)
+        Me.DeleteAPKs.Location = New System.Drawing.Point(189, 320)
         Me.DeleteAPKs.Name = "DeleteAPKs"
         Me.DeleteAPKs.Size = New System.Drawing.Size(661, 20)
         Me.DeleteAPKs.TabIndex = 16
@@ -367,7 +370,7 @@ Partial Class autoMIUItool
         '
         'SpecialAPK
         '
-        Me.SpecialAPK.Location = New System.Drawing.Point(189, 272)
+        Me.SpecialAPK.Location = New System.Drawing.Point(189, 298)
         Me.SpecialAPK.Name = "SpecialAPK"
         Me.SpecialAPK.Size = New System.Drawing.Size(661, 20)
         Me.SpecialAPK.TabIndex = 14
@@ -391,7 +394,7 @@ Partial Class autoMIUItool
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(13, 306)
+        Me.Label9.Location = New System.Drawing.Point(13, 323)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(119, 13)
         Me.Label9.TabIndex = 15
@@ -400,7 +403,7 @@ Partial Class autoMIUItool
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(13, 275)
+        Me.Label8.Location = New System.Drawing.Point(13, 301)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(176, 13)
         Me.Label8.TabIndex = 13
@@ -434,6 +437,8 @@ Partial Class autoMIUItool
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.StockTranslationFolder)
+        Me.GroupBox1.Controls.Add(Me.Label21)
         Me.GroupBox1.Controls.Add(Me.Language)
         Me.GroupBox1.Controls.Add(Me.Label5)
         Me.GroupBox1.Controls.Add(Me.Label4)
@@ -442,10 +447,27 @@ Partial Class autoMIUItool
         Me.GroupBox1.Controls.Add(Me.Label3)
         Me.GroupBox1.Location = New System.Drawing.Point(10, 129)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(852, 127)
+        Me.GroupBox1.Size = New System.Drawing.Size(852, 163)
         Me.GroupBox1.TabIndex = 7
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Strings && Arrays Settings"
+        '
+        'StockTranslationFolder
+        '
+        Me.StockTranslationFolder.Location = New System.Drawing.Point(176, 117)
+        Me.StockTranslationFolder.Name = "StockTranslationFolder"
+        Me.StockTranslationFolder.ReadOnly = True
+        Me.StockTranslationFolder.Size = New System.Drawing.Size(661, 20)
+        Me.StockTranslationFolder.TabIndex = 10
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Location = New System.Drawing.Point(6, 120)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(105, 13)
+        Me.Label21.TabIndex = 9
+        Me.Label21.Text = "Stock Strings Folder:"
         '
         'Language
         '
@@ -611,6 +633,7 @@ Partial Class autoMIUItool
         'TabPage2
         '
         Me.TabPage2.BackgroundImage = Global.autoMIUItool.My.Resources.Resources.miuiNL_BG
+        Me.TabPage2.Controls.Add(Me.MergeStock)
         Me.TabPage2.Controls.Add(Me.MakeTheme)
         Me.TabPage2.Controls.Add(Me.Label19)
         Me.TabPage2.Controls.Add(Me.findStrings2)
@@ -623,6 +646,15 @@ Partial Class autoMIUItool
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "check Strings && Arrays "
         Me.TabPage2.UseVisualStyleBackColor = True
+        '
+        'MergeStock
+        '
+        Me.MergeStock.Location = New System.Drawing.Point(11, 217)
+        Me.MergeStock.Name = "MergeStock"
+        Me.MergeStock.Size = New System.Drawing.Size(121, 23)
+        Me.MergeStock.TabIndex = 8
+        Me.MergeStock.Text = "Merge Stock strings"
+        Me.MergeStock.UseVisualStyleBackColor = True
         '
         'MakeTheme
         '
@@ -1050,5 +1082,8 @@ Partial Class autoMIUItool
     Friend WithEvents Label20 As System.Windows.Forms.Label
     Friend WithEvents DebugSwitch As System.Windows.Forms.CheckBox
     Friend WithEvents MakeTheme As System.Windows.Forms.Button
+    Friend WithEvents MergeStock As System.Windows.Forms.Button
+    Friend WithEvents StockTranslationFolder As System.Windows.Forms.TextBox
+    Friend WithEvents Label21 As System.Windows.Forms.Label
 
 End Class

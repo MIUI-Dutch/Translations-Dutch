@@ -43,24 +43,24 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="autoMIUItool.exe" size="1558016">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="autoMIUItool.exe" size="1562112">
       <assemblyIdentity name="autoMIUItool" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>2/pWNkD8HfmxXVlENzHa0n/ar0s=</dsig:DigestValue>
+        <dsig:DigestValue>107/RjC/YQcKlixvhbccha/ZyWE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="autoMIUItool.exe.config" size="2643">
+  <file name="autoMIUItool.exe.config" size="2768">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>BeRjjIeSzfVRDRPvcYcDbTnzvVg=</dsig:DigestValue>
+      <dsig:DigestValue>AhSnxkEBhHX3LaPAnZhhKDy2uwk=</dsig:DigestValue>
     </hash>
   </file>
   <file name="MI.ico" size="191054">
