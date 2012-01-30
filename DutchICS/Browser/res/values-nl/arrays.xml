@@ -526,13 +526,13 @@
     </string-array>
     <string-array name="pref_content_plugins_choices">
         <item>Altijd aan</item>
-        <item>Altijd uit</item>
-        <item>Toon op commando</item>
+        <item>Op verzoek</item>
+        <item>Uit</item>
     </string-array>
     <string-array name="pref_content_plugins_values">
-        <item>AAN</item>
-        <item>UIT</item>
-        <item>OP_COMMANDO</item>
+        <item>ON</item>
+        <item>ON_DEMAND</item>
+        <item>OFF</item>
     </string-array>
     <string-array name="pref_data_preload_choices">
         <item>Never</item>
@@ -591,11 +591,11 @@
         <item>other</item>
     </string-array>
     <string-array name="pref_text_size_choices">
-        <item>Tiny</item>
-        <item>Small</item>
-        <item>Normal</item>
-        <item>Large</item>
-        <item>Huge</item>
+        <item>Miniscuul</item>
+        <item>Klein</item>
+        <item>Normaal</item>
+        <item>Groot</item>
+        <item>Enorm</item>
     </string-array>
     <string-array name="pref_ua_choices">
         <item>Android</item>
