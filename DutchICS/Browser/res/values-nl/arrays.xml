@@ -526,7 +526,7 @@
     </string-array>
     <string-array name="pref_content_plugins_choices">
         <item>Altijd aan</item>
-        <item>Op verzoek</item>
+        <item>Op aanvraag</item>
         <item>Uit</item>
     </string-array>
     <string-array name="pref_content_plugins_values">
