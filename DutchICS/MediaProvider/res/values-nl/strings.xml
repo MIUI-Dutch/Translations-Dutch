@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-   <string name="app_label">Mediaopslag</string>
-   <string name="artist_label">Artiest</string>
-   <string name="uid_label">Media</string>
-   <string name="upgrade_msg">Mediadatabase bijwerken.</string>
+    <string name="app_label">Mediaopslag</string>
+    <string name="artist_label">Artiest</string>
+    <string name="uid_label">Media</string>
+    <string name="upgrade_msg">Mediadatabase bijwerken.</string>
 </resources>

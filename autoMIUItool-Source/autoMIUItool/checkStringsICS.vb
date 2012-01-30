@@ -50,17 +50,17 @@
                 keyName = Mid(str, keyNameStart, keyNameEnd - keyNameStart)
                 If InStr(str, " />") <> 0 Then
                     dictDoc1.Add(keyName, 0)
-                    objReader12.Add(Trim(str))
+                    objReader12.Add(str)
 					If not dictDoc11.ContainsKey(keyName) Then dictDoc11.Add(keyName, Join(objReader12.ToArray, "þ"))
                     objReader12.Clear()
                 ElseIf InStr(str, "</string>") <> 0 Then
                     dictDoc1.Add(keyName, 1)
-                    objReader12.Add(Trim(str))
+                    objReader12.Add(str)
 					If not dictDoc11.ContainsKey(keyName) Then dictDoc11.Add(keyName, Join(objReader12.ToArray, "þ"))
                     objReader12.Clear()
                 Else
                     dictDoc1.Add(keyName, 2)
-                    objReader12.Add(Trim(str))
+                    objReader12.Add(str)
                     multiLine = True
                 End If
                 'keys in current ROM
@@ -89,17 +89,17 @@
                 If dictDoc1.ContainsKey(keyName) Then
                     If InStr(str, " />") <> 0 Then
                         dictDoc2.Add(keyName, 0)
-                        objReader22.Add(Trim(str))
+                        objReader22.Add(str)
                         dictDoc21.Add(keyName, Join(objReader22.ToArray, "þ"))
                         objReader22.Clear()
                     ElseIf InStr(str, "</string>") <> 0 Then
                         dictDoc2.Add(keyName, 1)
-                        objReader22.Add(Trim(str))
+                        objReader22.Add(str)
                         dictDoc21.Add(keyName, Join(objReader22.ToArray, "þ"))
                         objReader22.Clear()
                     Else
                         dictDoc2.Add(keyName, 2)
-                        objReader22.Add(Trim(str))
+                        objReader22.Add(str)
                         multiLine = True
                     End If
                 End If
@@ -157,7 +157,6 @@
         Next
 
         If NoNewXMLkeyAddition Then
-            TextBox3.Text = Replace(TextBox3.Text, "<string name=", "   <string name=")
             System.IO.File.WriteAllText(CFS2, "<?xml version=""1.0"" encoding=""utf-8""?>" & vbNewLine & "<resources>" & vbNewLine & TextBox3.Text & "</resources>" & vbNewLine, System.Text.Encoding.UTF8)
             Me.Close()
         End If
@@ -176,12 +175,12 @@
                 If dictDoc21.ContainsKey(keyName) Then dictDoc21.Remove(keyName)
                 If InStr(add, " />") <> 0 Or InStr(add, "</string>") <> 0 Then
                     dictDoc2.Add(keyName, 0)
-                    objReader22.Add(Trim(add))
+                    objReader22.Add(add)
                     dictDoc21.Add(keyName, Join(objReader22.ToArray, "þ"))
                     objReader22.Clear()
                 Else
                     dictDoc2.Add(keyName, 2)
-                    objReader22.Add(Trim(add))
+                    objReader22.Add(add)
                     multiLine = True
                 End If
             Else
@@ -212,7 +211,6 @@
     End Sub
 
     Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
-        TextBox3.Text = Replace(TextBox3.Text, "<string name=", "   <string name=")
         System.IO.File.WriteAllText(CFS2, "<?xml version=""1.0"" encoding=""utf-8""?>" & vbNewLine & "<resources>" & vbNewLine & TextBox3.Text & "</resources>" & vbNewLine, System.Text.Encoding.UTF8)
         Me.Close()
     End Sub

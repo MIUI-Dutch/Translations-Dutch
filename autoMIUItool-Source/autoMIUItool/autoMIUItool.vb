@@ -1521,6 +1521,114 @@ Public Class autoMIUItool
         StartBackgroundWorker("MergeStock")
     End Sub
 
+	Private Sub MergeStockArrays()
+        ShowProgress(countItems(GetAllSubFiles(LanguageTranslationFolder.Text, "arrays.xml")))
+        For Each file In GetAllSubFiles(LanguageTranslationFolder.Text, "arrays.xml")
+            BackgroundWorker1.ReportProgress(ShowProgress(), "@@Merge: " & file)
+            BackgroundWorker1.ReportProgress(ShowProgress(-2), "##Merge: " & file)
+            dictDoc1.Clear()
+            dictDoc11.Clear()
+            objReader12.Clear()
+			Dim objReader1 As New System.IO.StreamReader(file.ToString, System.Text.Encoding.UTF8)
+			multiLine = False
+			Do While objReader1.Peek() <> -1
+				str = objReader1.ReadLine()
+				If InStr(str, "array name=") <> 0 Then
+					keyNameStart = InStr(str, "name=") + 6
+					keyNameEnd = InStr(str, ">") - 1
+					keyName = Mid(str, keyNameStart, keyNameEnd - keyNameStart)
+					itemCount1 = 1
+					objReader12.Add(str)
+					multiLine = True
+					If InStr(str, " />") <> 0 Then
+						multiLine = False
+						dictDoc1.Add(keyName, itemCount1)
+						dictDoc11.Add(keyName, Join(objReader12.ToArray, "þ"))
+						objReader12.Clear()
+					End If
+				Else
+					If multiLine Then
+						objReader12.Add(str)
+						itemCount1 += 1
+						If InStr(str, "array>") <> 0 Then
+							multiLine = False
+							dictDoc1.Add(keyName, itemCount1)
+							dictDoc11.Add(keyName, Join(objReader12.ToArray, "þ"))
+							objReader12.Clear()
+						End If
+					End If
+				End If
+			loop
+			objReader1.Close()
+
+			dictDoc2.Clear()
+			dictDoc21.Clear()
+			objReader12.Clear()
+			If FileExists(Replace(file.ToString, LanguageTranslationFolder.Text, StockTranslationFolder.Text)) Then
+				Dim objReader2 As New System.IO.StreamReader(Replace(file.ToString, LanguageTranslationFolder.Text, StockTranslationFolder.Text), System.Text.Encoding.UTF8)
+				multiLine = False
+				Do While objReader2.Peek() <> -1
+					str = objReader2.ReadLine()
+					If InStr(str, "array name=") <> 0 Then
+						keyNameStart = InStr(str, "name=") + 6
+						keyNameEnd = InStr(str, ">") - 1
+						keyName = Mid(str, keyNameStart, keyNameEnd - keyNameStart)
+						itemCount2 = 1
+						objReader22.Add(str)
+						multiLine = True
+						If InStr(str, " />") <> 0 Then
+							multiLine = False
+							dictDoc2.Add(keyName, itemCount2)
+							dictDoc21.Add(keyName, Join(objReader22.ToArray, "þ"))
+							objReader22.Clear()
+						End If
+					Else
+						If multiLine Then
+							objReader22.Add(str)
+							itemCount2 += 1
+							If InStr(str, "array>") <> 0 Then
+								multiLine = False
+								dictDoc2.Add(keyName, itemCount2)
+								dictDoc21.Add(keyName, Join(objReader22.ToArray, "þ"))
+								objReader22.Clear()
+							End If
+						End If
+					End If
+				Loop
+				objReader2.Close()
+
+				Dim keys11 As List(Of String) = dictDoc11.Keys.ToList
+				keys11.Sort()
+
+				'textbox1 = new to translate
+				TextResult = ""
+				For Each key11 In keys11
+					If dictDoc2.ContainsKey(key11) Then
+						If dictDoc1.Item(key11) = dictDoc2.Item(key11) Then
+							For Each Line In dictDoc21.Item(key11).Split("þ")
+								TextResult = TextResult & Line & vbNewLine
+							Next
+							if dictDoc11.Item(key11).ToString <> dictDoc21.Item(key11).ToString then
+								BackgroundWorker1.ReportProgress(ShowProgress(-2), "##Key: " & key11 & " = " & dictDoc11.Item(key11).ToString & "=>" & dictDoc21.Item(key11).ToString)
+							End If
+						Else
+							For Each Line In dictDoc11.Item(key11).Split("þ")
+								TextResult = TextResult & Line & vbNewLine
+							Next
+						End If
+					Else
+						For Each Line In dictDoc11.Item(key11).Split("þ")
+							TextResult = TextResult & Line & vbNewLine
+						Next
+					End If
+				Next
+				TextResult = Replace(TextResult, vbNewLine & vbNewLine, vbNewLine)
+                System.IO.File.WriteAllText(file.ToString, "<?xml version=""1.0"" encoding=""utf-8""?>" & vbNewLine & "<resources>" & vbNewLine & TextResult & "</resources>" & vbNewLine, System.Text.Encoding.UTF8)
+            End If
+        Next
+        BackgroundWorker1.ReportProgress(ShowProgress(-2), "@@Merge Arrays: Ready")
+    End Sub
+	
     Private Sub MergeStockStrings()
         Dim str As String
         Dim dictDoc1 As New Dictionary(Of String, Integer)
@@ -1550,18 +1658,18 @@ Public Class autoMIUItool
                     keyName = Mid(str, keyNameStart, keyNameEnd - keyNameStart)
                     If InStr(str, " />") <> 0 Then
                         dictDoc1.Add(keyName, 0)
-                        objReader12.Add(Trim(str))
+                        objReader12.Add(str)
                         If Not dictDoc11.ContainsKey(keyName) Then dictDoc11.Add(keyName, Join(objReader12.ToArray, "þ"))
                         BackgroundWorker1.ReportProgress(ShowProgress(-2), "KeyName (0): " & keyName & ":" & Join(objReader12.ToArray, "þ"))
                         objReader12.Clear()
                     ElseIf InStr(str, "</string>") <> 0 Then
                         dictDoc1.Add(keyName, 1)
-                        objReader12.Add(Trim(str))
+                        objReader12.Add(str)
                         If Not dictDoc11.ContainsKey(keyName) Then dictDoc11.Add(keyName, Join(objReader12.ToArray, "þ"))
                         BackgroundWorker1.ReportProgress(ShowProgress(-2), "KeyName (1): " & keyName & ":" & Join(objReader12.ToArray, "þ"))
                         objReader12.Clear()
                     Else
-                        objReader12.Add(Trim(str))
+                        objReader12.Add(str)
                         multiLine = True
                     End If
                     'keys in current ROM
@@ -1595,18 +1703,18 @@ Public Class autoMIUItool
                         keyName = Mid(str, keyNameStart, keyNameEnd - keyNameStart)
                         If InStr(str, " />") <> 0 Then
                             dictDoc2.Add(keyName, 0)
-                            objReader12.Add(Trim(str))
+                            objReader12.Add(str)
                             If Not dictDoc21.ContainsKey(keyName) Then dictDoc21.Add(keyName, Join(objReader12.ToArray, "þ"))
                             BackgroundWorker1.ReportProgress(ShowProgress(-2), "KeyName (0): " & keyName & ":" & Join(objReader12.ToArray, "þ"))
                             objReader12.Clear()
                         ElseIf InStr(str, "</string>") <> 0 Then
                             dictDoc2.Add(keyName, 1)
-                            objReader12.Add(Trim(str))
+                            objReader12.Add(str)
                             If Not dictDoc21.ContainsKey(keyName) Then dictDoc21.Add(keyName, Join(objReader12.ToArray, "þ"))
                             BackgroundWorker1.ReportProgress(ShowProgress(-2), "KeyName (1): " & keyName & ":" & Join(objReader12.ToArray, "þ"))
                             objReader12.Clear()
                         Else
-                            objReader12.Add(Trim(str))
+                            objReader12.Add(str)
                             multiLine = True
                         End If
                         'keys in current ROM
@@ -1650,11 +1758,10 @@ Public Class autoMIUItool
                     End If
                 Next
                 TextResult = Replace(TextResult, vbNewLine & vbNewLine, vbNewLine)
-                TextResult = Replace(TextResult, "<string name=", "   <string name=")
                 System.IO.File.WriteAllText(file.ToString, "<?xml version=""1.0"" encoding=""utf-8""?>" & vbNewLine & "<resources>" & vbNewLine & TextResult & "</resources>" & vbNewLine, System.Text.Encoding.UTF8)
             End If
         Next
-        BackgroundWorker1.ReportProgress(ShowProgress(-2), "@@Merge: Ready")
+        BackgroundWorker1.ReportProgress(ShowProgress(-2), "@@Merge Strings: Ready")
 
     End Sub
 

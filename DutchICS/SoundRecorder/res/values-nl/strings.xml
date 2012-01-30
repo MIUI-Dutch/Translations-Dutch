@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
    <string name="alert_message_delete_record">Geselecteerde opname wissen?</string>
-   <string name="app_name">Geluidsrecorder</string>
-   <string name="audio_db_album_name">Audio-opnamen</string>
-   <string name="audio_db_artist_name">Uw opnamen</string>
-   <string name="audio_db_playlist_name">Mijn opnamen</string>
+    <string name="app_name">Geluidsrecorder</string>
+    <string name="audio_db_album_name">Audio-opnamen</string>
+    <string name="audio_db_artist_name">Uw opnamen</string>
+    <string name="audio_db_playlist_name">Mijn opnamen</string>
    <string name="audio_db_title_format">yyyy-MM-dd HH:mm:ss</string>
-   <string name="button_ok">OK</string>
+    <string name="button_ok">OK</string>
    <string name="call_record">Oproep opname</string>
    <string name="call_record_or">of</string>
    <string name="default_record_name">nieuwe opname</string>
@@ -14,13 +14,13 @@
    <string name="dialog_delete">Wis</string>
    <string name="dialog_play">Play</string>
    <string name="dialog_send">Verstuur</string>
-   <string name="error_app_internal">Interne toepassingsfout</string>
-   <string name="error_mediadb_new_record">Kan opgenomen audio niet opslaan</string>
-   <string name="error_sdcard_access">Kan geen toegang krijgen tot de USB-opslag</string>
+    <string name="error_app_internal">Interne toepassingsfout</string>
+    <string name="error_mediadb_new_record">Kan opgenomen audio niet opslaan</string>
+    <string name="error_sdcard_access">Kan geen toegang krijgen tot de USB-opslag</string>
    <string name="hour">%d uur</string>
-   <string name="insert_sd_card">Koppel de USB-opslag</string>
+    <string name="insert_sd_card">Koppel de USB-opslag</string>
    <string name="mark_now">(Huidig)</string>
-   <string name="max_length_reached">Maximumlengte is bereikt</string>
+    <string name="max_length_reached">Maximumlengte is bereikt</string>
    <string name="menu_setting">Instellingen</string>
    <string name="menu_view_record_list">Toon opname lijst</string>
    <string name="minute">%d minuten</string>
@@ -39,10 +39,10 @@
    <string name="prefDialogTitle_recordType">Selecteer bestandstype</string>
    <string name="preferences_title">Instellingen</string>
    <string name="record_list">Opname lijst</string>
-   <string name="recording">Opnemen</string>
-   <string name="recording_stopped">Opname gestopt</string>
+    <string name="recording">Opnemen</string>
+    <string name="recording_stopped">Opname gestopt</string>
    <string name="sd_card_not_available">SD-kaart is niet beschikbaar</string>
    <string name="second">%d seconden</string>
-   <string name="storage_is_full">Opslagruimte is vol</string>
+    <string name="storage_is_full">Opslagruimte is vol</string>
    <string name="timer_format" formatted="false">%02d:%02d</string>
 </resources>

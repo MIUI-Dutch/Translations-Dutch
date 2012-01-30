@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="answer_widget_entries">
         <item>@string/answer_widget_sliding_vertial</item>
@@ -37,7 +37,7 @@
     <string-array name="cdma_network_preferences_choices">
         <item>CDMA/EvDo</item>
         <item>Alleen CDMA</item>
-        <item>Alleen EVDO</item>
+        <item>Alleen EvDo</item>
     </string-array>
     <string-array name="cdma_network_preferences_values">
         <item>0</item>
@@ -46,7 +46,7 @@
     </string-array>
     <string-array name="cdma_roaming_mode_choices">
         <item>Alleen thuisnetwerken</item>
-        <item>Aangesloten netwerken</item>
+        <item>Partnernetwerken</item>
         <item>Elk netwerk</item>
     </string-array>
     <string-array name="cdma_roaming_mode_values">
@@ -71,9 +71,9 @@
         <item>2</item>
     </string-array>
     <string-array name="clir_display_values">
-        <item>Netwerk standaard</item>
-        <item>Verberg nummer</item>
-        <item>Toon nummer</item>
+        <item>Netwerkstandaard</item>
+        <item>Nummer verbergen</item>
+        <item>Nummer weergeven</item>
     </string-array>
     <string-array name="clir_values">
         <item>Standaard</item>
@@ -107,10 +107,10 @@
         <item>1</item>
     </string-array>
     <string-array name="gsm_umts_network_preferences_choices">
-        <item>GSM/WCDMA (auto modus)</item>
+        <item>GSM/WCDMA (automatische modus)</item>
         <item>Alleen WCDMA</item>
         <item>Alleen GSM</item>
-        <item>GSM/WCDA (WCDMA voorkeur)</item>
+        <item>GSM/WCDA (voorkeur voor WCDMA)</item>
     </string-array>
     <string-array name="gsm_umts_network_preferences_values">
         <item>0</item>
@@ -211,7 +211,7 @@
         <item>GSM / WCDMA preferred</item>
     </string-array>
     <string-array name="preferred_network_mode_choices_lte">
-        <item>LTE / CDMA</item>
+        <item>LTE/CDMA</item>
         <item>CDMA</item>
     </string-array>
     <string-array name="preferred_network_mode_values">
@@ -257,7 +257,7 @@
     </string-array>
     <string-array name="tty_mode_entries">
         <item>TTY uit</item>
-        <item>TTY volledig</item>
+        <item>TTY vol</item>
         <item>TTY HCO</item>
         <item>TTY VCO</item>
     </string-array>

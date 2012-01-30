@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="apn_auth_entries">
         <item>Geen</item>
         <item>PAP</item>
         <item>CHAP</item>
-        <item>PAP or CHAP</item>
+        <item>PAP of CHAP</item>
     </string-array>
     <string-array name="apn_auth_values">
         <item>0</item>
@@ -23,9 +23,9 @@
         <item>IPV4V6</item>
     </string-array>
     <string-array name="app_install_location_entries">
-        <item>Interne opslag van apparaat</item>
-        <item>Verwijderbare SD kaart</item>
-        <item>Laat het systeem bepalen</item>
+        <item>Interne apparaatopslag</item>
+        <item>Verwisselbare SD-kaart</item>
+        <item>Het systeem laten bepalen</item>
     </string-array>
     <string-array name="app_install_location_values">
         <item>apparaat</item>
@@ -33,12 +33,12 @@
         <item>auto</item>
     </string-array>
     <string-array name="app_process_limit_entries">
-        <item>Standard limit</item>
-        <item>No background processes</item>
-        <item>At most 1 process</item>
-        <item>At most 2 processes</item>
-        <item>At most 3 processes</item>
-        <item>At most 4 processes</item>
+        <item>Standaardlimiet</item>
+        <item>Geen achtergrondprocessen</item>
+        <item>Maximaal 1 proces</item>
+        <item>Maximaal 2 processen</item>
+        <item>Maximaal 3 processen</item>
+        <item>Maximaal 4 processen</item>
     </string-array>
     <string-array name="app_process_limit_values">
         <item>-1</item>
@@ -51,7 +51,7 @@
     <string-array name="bearer_entries">
         <item>LTE</item>
         <item>eHRPD</item>
-        <item>Unspecified</item>
+        <item>Niet opgegeven</item>
     </string-array>
     <string-array name="bearer_values">
         <item>14</item>
@@ -59,10 +59,10 @@
         <item>0</item>
     </string-array>
     <string-array name="bluetooth_visibility_timeout_entries">
-        <item>2 Minuten</item>
-        <item>5 Minuten</item>
-        <item>1 Uur</item>
-        <item>Nooit</item>
+        <item>2 minuten</item>
+        <item>5 minuten</item>
+        <item>1 uur</item>
+        <item>Geen time-out</item>
     </string-array>
     <string-array name="date_format_values">
         <item></item>
@@ -71,14 +71,14 @@
         <item>yyyy-MM-dd</item>
     </string-array>
     <string-array name="dream_timeout_entries">
-        <item>Never</item>
-        <item>15 seconds</item>
-        <item>30 seconds</item>
-        <item>1 minute</item>
-        <item>2 minutes</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>30 minutes</item>
+        <item>Nooit</item>
+        <item>15 seconden</item>
+        <item>30 seconden</item>
+        <item>1 minuut</item>
+        <item>2 minuten</item>
+        <item>5 minuten</item>
+        <item>10 minuten</item>
+        <item>30 minuten</item>
     </string-array>
     <string-array name="dream_timeout_values">
         <item>0</item>
@@ -101,10 +101,10 @@
         <item>2</item>
     </string-array>
     <string-array name="entries_font_size">
-        <item>Small</item>
-        <item>Normal</item>
-        <item>Large</item>
-        <item>Huge</item>
+        <item>Klein</item>
+        <item>Normaal</item>
+        <item>Groot</item>
+        <item>Enorm</item>
     </string-array>
     <string-array name="entryvalues_font_size">
         <item>0.85</item>
@@ -123,14 +123,14 @@
         <item>3</item>
     </string-array>
     <string-array name="hdcp_checking_summaries">
-        <item>Never use HDCP checking</item>
-        <item>Use HDCP checking for DRM content only</item>
-        <item>Always use HDCP checking</item>
+        <item>HDCP-controle nooit gebruiken</item>
+        <item>HDCP-controle alleen voor DRM-inhoud gebruiken</item>
+        <item>HDCP-controle altijd gebruiken</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
-        <item>Never check</item>
-        <item>Check for DRM content only</item>
-        <item>Always check</item>
+        <item>Nooit controleren</item>
+        <item>Alleen controleren op DRM-inhoud</item>
+        <item>Altijd controleren</item>
     </string-array>
     <string-array name="hdcp_checking_values">
         <item>never</item>
@@ -148,15 +148,15 @@
         <item>@string/input_method_selector_always_hide_value</item>
     </array>
     <string-array name="lock_after_timeout_entries">
-        <item>Immediately</item>
-        <item>5 seconds</item>
-        <item>15 seconds</item>
-        <item>30 seconds</item>
-        <item>1 minute</item>
-        <item>2 minutes</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>30 minutes</item>
+        <item>Onmiddellijk</item>
+        <item>5 seconden</item>
+        <item>15 seconden</item>
+        <item>30 seconden</item>
+        <item>1 minuut</item>
+        <item>2 minuten</item>
+        <item>5 minuten</item>
+        <item>10 minuten</item>
+        <item>30 minuten</item>
     </string-array>
     <string-array name="lock_after_timeout_values">
         <item>0</item>
@@ -170,9 +170,9 @@
         <item>1800000</item>
     </string-array>
     <string-array name="long_press_timeout_selector_titles">
-        <item>Short</item>
-        <item>Medium</item>
-        <item>Long</item>
+        <item>Kort</item>
+        <item>Normaal</item>
+        <item>Lang</item>
     </string-array>
     <string-array name="long_press_timeout_selector_values">
         <item>500</item>
@@ -180,13 +180,13 @@
         <item>1500</item>
     </string-array>
     <string-array name="screen_timeout_entries">
-        <item>15 seconds</item>
-        <item>30 seconds</item>
-        <item>1 minute</item>
-        <item>2 minutes</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>30 minutes</item>
+        <item>15 seconden</item>
+        <item>30 seconden</item>
+        <item>1 minuut</item>
+        <item>2 minuten</item>
+        <item>5 minuten</item>
+        <item>10 minuten</item>
+        <item>30 minuten</item>
     </string-array>
     <string-array name="screen_timeout_values">
         <item>15000</item>
@@ -198,9 +198,9 @@
         <item>1800000</item>
     </string-array>
     <string-array name="silent_mode_entries">
-        <item>Off</item>
-        <item>Vibrate</item>
-        <item>Mute</item>
+        <item>Uit</item>
+        <item>Trillen</item>
+        <item>Dempen</item>
     </string-array>
     <string-array name="silent_mode_values">
         <item>off</item>
@@ -221,17 +221,17 @@
         <item>Afrika</item>
         <item>Azië</item>
         <item>Australië</item>
-        <item>Pacific</item>
-        <item>All</item>
+        <item>Stille Oceaan</item>
+        <item>Alles</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
-        <item>Animation off</item>
-        <item>Animation scale .5x</item>
-        <item>Animation scale 1x</item>
-        <item>Animation scale 1.5x</item>
-        <item>Animation scale 2x</item>
-        <item>Animation scale 5x</item>
-        <item>Animation scale 10x</item>
+        <item>Animatie uit</item>
+        <item>Animatieschaal 0,5x</item>
+        <item>Animatieschaal 1x</item>
+        <item>Animatieschaal 1,5x</item>
+        <item>Animatieschaal 2x</item>
+        <item>Animatieschaal 5x</item>
+        <item>Animatieschaal 10x</item>
     </string-array>
     <string-array name="transition_animation_scale_values">
         <item>0</item>
@@ -257,11 +257,11 @@
         <item>Este es un ejemplo de síntesis de voz en español.</item>
     </string-array>
     <string-array name="tts_pitch_entries">
-        <item>Heel laag</item>
+        <item>Zeer laag</item>
         <item>Laag</item>
         <item>Normaal</item>
         <item>Hoog</item>
-        <item>Heel hoog</item>
+        <item>Zeer hoog</item>
     </string-array>
     <string-array name="tts_pitch_values">
         <item>50</item>
@@ -271,11 +271,11 @@
         <item>150</item>
     </string-array>
     <string-array name="tts_rate_entries">
-        <item>Heel langzaam</item>
+        <item>Zeer langzaam</item>
         <item>Langzaam</item>
         <item>Normaal</item>
         <item>Snel</item>
-        <item>Heel snel</item>
+        <item>Zeer snel</item>
     </string-array>
     <string-array name="tts_rate_values">
         <item>60</item>
@@ -285,17 +285,17 @@
         <item>200</item>
     </string-array>
     <string-array name="usage_stats_display_order_types">
-        <item>Gebruiks tijd</item>
-        <item>Start teller</item>
-        <item>Applicatie naam</item>
+        <item>Gebruikstijd</item>
+        <item>Aantal keer gestart</item>
+        <item>App-naam</item>
     </string-array>
     <string-array name="vpn_states">
-        <item>Disconnected</item>
-        <item>Initializing…</item>
-        <item>Connecting…</item>
-        <item>Connected</item>
-        <item>Timeout</item>
-        <item>Unsuccessful</item>
+        <item>Verbinding verbroken</item>
+        <item>Initialiseren...</item>
+        <item>Verbinding maken...</item>
+        <item>Verbonden</item>
+        <item>Time-out</item>
+        <item>Mislukt</item>
     </string-array>
     <string-array name="vpn_types">
         <item>PPTP</item>
@@ -306,12 +306,12 @@
         <item>IPSec Hybrid RSA</item>
     </string-array>
     <string-array name="vpn_types_long">
-        <item>PPTP VPN</item>
-        <item>L2TP/IPSec VPN with pre-shared keys</item>
-        <item>L2TP/IPSec VPN with certificates</item>
-        <item>IPSec VPN with pre-shared keys and Xauth authentication</item>
-        <item>IPSec VPN with certificates and Xauth authentication</item>
-        <item>IPSec VPN with certificates and hybrid authentication</item>
+        <item>PPTP-VPN</item>
+        <item>L2TP/IPSec-VPN met van tevoren gedeelde sleutels</item>
+        <item>L2TP/IPSec-VPN met certificaten</item>
+        <item>IPSec VPN-met van tevoren gedeelde sleutels en Xauth-authenticatie</item>
+        <item>IPSec-VPN met certificaten en Xauth-authenticatie</item>
+        <item>IPSec-VPN met certificaten en hybride authenticatie</item>
     </string-array>
     <string-array name="wifi_ap_security">
         <item>Open</item>
@@ -329,9 +329,9 @@
         <item>TTLS</item>
     </string-array>
     <string-array name="wifi_frequency_band_entries">
-        <item>Auto</item>
-        <item>5 GHz only</item>
-        <item>2.4 GHz only</item>
+        <item>Automatisch</item>
+        <item>Alleen 5 GHz</item>
+        <item>Alleen 2,4 GHz</item>
     </string-array>
     <string-array name="wifi_frequency_band_values">
         <item>0</item>
@@ -340,25 +340,25 @@
     </string-array>
     <string-array name="wifi_ip_settings">
         <item>DHCP</item>
-        <item>Static</item>
+        <item>passief</item>
     </string-array>
     <string-array name="wifi_network_setup">
-        <item>Off</item>
-        <item>Push button</item>
-        <item>PIN from access point</item>
-        <item>PIN from this device</item>
+        <item>Uit</item>
+        <item>Knop indrukken</item>
+        <item>Pincode van toegangspunt</item>
+        <item>Pincode van dit apparaat</item>
     </string-array>
     <string-array name="wifi_p2p_status">
-        <item>Connected</item>
-        <item>Invited</item>
-        <item>Unsuccessful</item>
-        <item>Available</item>
-        <item>Out-of-range</item>
+        <item>Verbonden</item>
+        <item>Uitgenodigd</item>
+        <item>Mislukt</item>
+        <item>Beschikbaar</item>
+        <item>Geen bereik</item>
     </string-array>
     <string-array name="wifi_p2p_wps_setup">
-        <item>Push button</item>
-        <item>PIN from peer device</item>
-        <item>PIN from this device</item>
+        <item>Knop indrukken</item>
+        <item>Pincode van peerapparaat</item>
+        <item>Pin van dit apparaat</item>
     </string-array>
     <string-array name="wifi_phase2_entries">
         <item>Geen</item>
@@ -368,8 +368,8 @@
         <item>GTC</item>
     </string-array>
     <string-array name="wifi_proxy_settings">
-        <item>None</item>
-        <item>Manual</item>
+        <item>Geen</item>
+        <item>Handmatig</item>
     </string-array>
     <array name="wifi_security">
         <item>@string/wifi_security_none</item>
@@ -386,17 +386,17 @@
         <item>Slecht</item>
         <item>Redelijk</item>
         <item>Goed</item>
-        <item>Zeer goed</item>
+        <item>Uitstekend</item>
     </string-array>
     <string-array name="wifi_sleep_policy_entries">
-        <item>Bij uitgaan van het scherm</item>
-        <item>Nooit tijdens opladen</item>
-        <item>Nooit</item>
+        <item>Altijd</item>
+        <item>Alleen indien aangesloten</item>
+        <item>Nooit (verhoogt het gegevensgebruik)</item>
     </string-array>
     <string-array name="wifi_sleep_policy_entries_wifi_only">
-        <item>Always</item>
-        <item>Only when plugged in</item>
-        <item>Never</item>
+        <item>Altijd</item>
+        <item>Alleen indien aangesloten</item>
+        <item>Nooit</item>
     </string-array>
     <string-array name="wifi_sleep_policy_values">
         <item>0</item>
@@ -405,36 +405,36 @@
     </string-array>
     <string-array name="wifi_status">
         <item></item>
-        <item>Scannen…</item>
-        <item>Verbinden…</item>
-        <item>Authenticeren…</item>
-        <item>IP adres verkrijgen…</item>
+        <item>Scannen...</item>
+        <item>Verbinding maken...</item>
+        <item>Verifiëren...</item>
+        <item>IP-adres ophalen…</item>
         <item>Verbonden</item>
-        <item>Uitgesteld</item>
-        <item>Verbreken...</item>
+        <item>Opgeschort</item>
+        <item>Verbinding verbreken...</item>
         <item>Verbinding verbroken</item>
-        <item>Niet succesvol</item>
+        <item>Mislukt</item>
     </string-array>
     <string-array name="wifi_status_with_ssid">
         <item></item>
-        <item>Scannen…</item>
-        <item>Verbinden met %1$s…</item>
-        <item>Authenticeren met %1$s…</item>
-        <item>Verkrijgen van IP adres van %1$s…</item>
+        <item>Scannen...</item>
+        <item>Verbinding maken met %1$s...</item>
+        <item>Verifiëren met %1$s…</item>
+        <item>IP-adres ophalen van %1$s…</item>
         <item>Verbonden met %1$s</item>
-        <item>Geschorst</item>
-        <item>Verbinding verbreken van %1$s…</item>
+        <item>Opgeschort</item>
+        <item>Verbinding verbreken met %1$s…</item>
         <item>Verbinding verbroken</item>
-        <item>Niet succesvol</item>
+        <item>Mislukt</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
-        <item>Animation off</item>
-        <item>Animation scale .5x</item>
-        <item>Animation scale 1x</item>
-        <item>Animation scale 1.5x</item>
-        <item>Animation scale 2x</item>
-        <item>Animation scale 5x</item>
-        <item>Animation scale 10x</item>
+        <item>Animatie uit</item>
+        <item>Animatieschaal 0,5x</item>
+        <item>Animatieschaal 1x</item>
+        <item>Animatieschaal 1,5x</item>
+        <item>Animatieschaal 2x</item>
+        <item>Animatieschaal 5x</item>
+        <item>Animatieschaal 10x</item>
     </string-array>
     <string-array name="window_animation_scale_values">
         <item>0</item>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="abcsok">
         <item>ABC Søk</item>
@@ -535,9 +535,9 @@
         <item>OFF</item>
     </string-array>
     <string-array name="pref_data_preload_choices">
-        <item>Never</item>
-        <item>Only on Wi-Fi</item>
-        <item>Always</item>
+        <item>Nooit</item>
+        <item>Alleen voor Wi-Fi</item>
+        <item>Altijd</item>
     </string-array>
     <array name="pref_data_preload_values">
         <item>@string/pref_data_preload_value_never</item>
@@ -545,14 +545,14 @@
         <item>@string/pref_data_preload_value_always</item>
     </array>
     <string-array name="pref_default_text_encoding_choices">
-        <item>Latin-1 (ISO-8859-1)</item>
+        <item>Latijns-1 (ISO-8859-1)</item>
         <item>Unicode (UTF-8)</item>
-        <item>Chinese (GBK)</item>
-        <item>Chinese (Big5)</item>
-        <item>Japanese (ISO-2022-JP)</item>
-        <item>Japanese (SHIFT_JIS)</item>
-        <item>Japanese (EUC-JP)</item>
-        <item>Korean (EUC-KR)</item>
+        <item>Chinees (GBK)</item>
+        <item>Chinees (Big5)</item>
+        <item>Japans (ISO-2022-JP)</item>
+        <item>Japans (SHIFT_JIS)</item>
+        <item>Japans (EUC-JP)</item>
+        <item>Koreaans (EUC-KR)</item>
     </string-array>
     <string-array name="pref_default_text_encoding_values">
         <item>Latin-1</item>
@@ -565,8 +565,8 @@
         <item>EUC-KR</item>
     </string-array>
     <string-array name="pref_default_zoom_choices">
-        <item>Ver</item>
-        <item>Medium</item>
+        <item>Veraf</item>
+        <item>Normaal</item>
         <item>Dichtbij</item>
     </string-array>
     <string-array name="pref_default_zoom_values">
@@ -591,7 +591,7 @@
         <item>other</item>
     </string-array>
     <string-array name="pref_text_size_choices">
-        <item>Miniscuul</item>
+        <item>Minuscuul</item>
         <item>Klein</item>
         <item>Normaal</item>
         <item>Groot</item>

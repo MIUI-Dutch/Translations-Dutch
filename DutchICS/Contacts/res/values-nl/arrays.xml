@@ -9,6 +9,6 @@
     </array>
     <string-array name="otherLabels">
         <item>Organisatie</item>
-        <item>Notitie</item>
+        <item>Opmerking</item>
     </string-array>
 </resources>

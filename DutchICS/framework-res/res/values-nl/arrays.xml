@@ -11,20 +11,20 @@
         <item>0</item>
     </integer-array>
     <integer-array name="config_autoBrightnessKeyboardBacklightValues">
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
         <item>0</item>
         <item>0</item>
         <item>0</item>
     </integer-array>
     <integer-array name="config_autoBrightnessLcdBacklightValues">
         <item>10</item>
-        <item>35</item>
-        <item>55</item>
-        <item>70</item>
-        <item>70</item>
-        <item>250</item>
+        <item>50</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>255</item>
     </integer-array>
     <integer-array name="config_autoBrightnessLevels">
         <item>7</item>
@@ -78,22 +78,22 @@
     <array name="config_sms_enabled_locking_shift_tables" />
     <array name="config_sms_enabled_single_shift_tables" />
     <string-array name="config_statusBarIcons">
-        <item>headset</item>
-        <item>call_record</item>
-        <item>privacy_mode</item>
         <item>ime</item>
         <item>sync_failing</item>
         <item>sync_active</item>
         <item>gps</item>
+        <item>headset</item>
         <item>bluetooth</item>
         <item>nfc</item>
         <item>tty</item>
         <item>speakerphone</item>
+        <item>call_record</item>
         <item>mute</item>
         <item>volume</item>
         <item>wifi</item>
         <item>wimax</item>
         <item>cdma_eri</item>
+        <item>privacy_mode</item>
         <item>data_connection</item>
         <item>phone_evdo_signal</item>
         <item>phone_signal</item>
@@ -113,7 +113,7 @@
         <item>7</item>
     </integer-array>
     <string-array name="config_tether_usb_regexs">
-        <item>rndis0</item>
+        <item>usb0</item>
     </string-array>
     <string-array name="config_tether_wifi_regexs">
         <item>wl0.1</item>
@@ -123,21 +123,21 @@
     <array name="config_usbHostBlacklist" />
     <integer-array name="config_virtualKeyVibePattern">
         <item>0</item>
-        <item>10</item>
+        <item>1</item>
         <item>20</item>
-        <item>30</item>
+        <item>21</item>
     </integer-array>
     <string-array name="emailAddressTypes">
-        <item>Home</item>
-        <item>Work</item>
-        <item>Other</item>
-        <item>Custom</item>
+        <item>Thuis</item>
+        <item>Werk</item>
+        <item>Overig</item>
+        <item>Aangepast</item>
     </string-array>
     <string-array name="imAddressTypes">
-        <item>Home</item>
-        <item>Work</item>
-        <item>Other</item>
-        <item>Custom</item>
+        <item>Thuis</item>
+        <item>Werk</item>
+        <item>Overig</item>
+        <item>Aangepast</item>
     </string-array>
     <string-array name="imProtocols">
         <item>AIM</item>
@@ -192,11 +192,11 @@
         <item>@null</item>
     </array>
     <integer-array name="maps_starting_lat_lng">
-        <item>51589256</item>
-        <item>4774396</item>
+        <item>36149777</item>
+        <item>-95993398</item>
     </integer-array>
     <integer-array name="maps_starting_zoom">
-        <item>4</item>
+        <item>3</item>
     </integer-array>
     <string-array name="networkAttributes">
         <item>wifi,1,1,1,-1,true</item>
@@ -208,25 +208,25 @@
         <item>bluetooth,7,7,0,-1,true</item>
     </string-array>
     <string-array name="organizationTypes">
-        <item>Work</item>
-        <item>Other</item>
-        <item>Custom</item>
+        <item>Werk</item>
+        <item>Overig</item>
+        <item>Aangepast</item>
     </string-array>
     <string-array name="phoneTypes">
-        <item>Home</item>
-        <item>Mobile</item>
-        <item>Work</item>
-        <item>Work Fax</item>
-        <item>Home Fax</item>
-        <item>Pager</item>
-        <item>Other</item>
-        <item>Custom</item>
+        <item>Thuis</item>
+        <item>Mobiel</item>
+        <item>Werk</item>
+        <item>Fax werk</item>
+        <item>Fax thuis</item>
+        <item>Semafoon</item>
+        <item>Overig</item>
+        <item>Aangepast</item>
     </string-array>
     <string-array name="postalAddressTypes">
-        <item>Home</item>
-        <item>Work</item>
-        <item>Other</item>
-        <item>Custom</item>
+        <item>Thuis</item>
+        <item>Werk</item>
+        <item>Overig</item>
+        <item>Aangepast</item>
     </string-array>
     <array name="preloaded_color_state_lists">
         <item>@color/primary_text_dark</item>
