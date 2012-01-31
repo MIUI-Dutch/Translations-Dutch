@@ -280,7 +280,7 @@
    <string name="lantern_festival" />
    <string name="light_snow" />
    <string name="loading">Laden...</string>
-   <string name="lock_screen_date">EEEE, d MMMM</string>
+   <string name="lock_screen_date">EEEE d MMMM</string>
    <string name="lockscreen_call_bottom_hint">Schuif omlaag om telefoon te openen</string>
    <string name="lockscreen_sms_bottom_hint">Schuif omlaag om SMS te openen</string>
    <string name="lockscreen_time_bottom_hint">Schuif omlaag om te ontgrendelen</string>

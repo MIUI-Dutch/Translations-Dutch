@@ -5,8 +5,8 @@
     <integer-array name="config_autoBrightnessButtonBacklightValues">
         <item>255</item>
         <item>255</item>
-        <item>0</item>
-        <item>0</item>
+        <item>255</item>
+        <item>127</item>
         <item>0</item>
         <item>0</item>
         <item>0</item>
@@ -14,10 +14,10 @@
         <item>0</item>
     </integer-array>
     <integer-array name="config_autoBrightnessKeyboardBacklightValues">
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+        <item>127</item>
         <item>0</item>
         <item>0</item>
         <item>0</item>
@@ -26,13 +26,13 @@
     </integer-array>
     <integer-array name="config_autoBrightnessLcdBacklightValues">
         <item>20</item>
-        <item>20</item>
-        <item>20</item>
-        <item>20</item>
-        <item>35</item>
         <item>50</item>
-        <item>50</item>
-        <item>100</item>
+        <item>80</item>
+        <item>110</item>
+        <item>150</item>
+        <item>180</item>
+        <item>200</item>
+        <item>220</item>
         <item>255</item>
     </integer-array>
     <integer-array name="config_autoBrightnessLevels">
@@ -50,9 +50,9 @@
     </integer-array>
     <integer-array name="config_longPressVibePattern">
         <item>0</item>
-        <item>5</item>
+        <item>1</item>
         <item>20</item>
-        <item>20</item>
+        <item>21</item>
     </integer-array>
     <integer-array name="config_safeModeDisabledVibePattern">
         <item>1</item>
@@ -100,7 +100,7 @@
     </string-array>
     <array name="config_tether_dhcp_range" />
     <string-array name="config_tether_upstream_regexs">
-        <item>pdp\\d</item>
+        <item>rmnet\\d</item>
         <item>eth\\d</item>
     </string-array>
     <string-array name="config_tether_usb_regexs">
@@ -118,21 +118,21 @@
     </integer-array>
     <integer-array name="config_virtualKeyVibePattern">
         <item>0</item>
-        <item>4</item>
-        <item>10</item>
-        <item>2</item>
+        <item>1</item>
+        <item>20</item>
+        <item>21</item>
     </integer-array>
     <string-array name="emailAddressTypes">
-        <item>Home</item>
-        <item>Work</item>
-        <item>Other</item>
-        <item>Custom</item>
+        <item>Thuis</item>
+        <item>Werk</item>
+        <item>Overig</item>
+        <item>Aangepast</item>
     </string-array>
     <string-array name="imAddressTypes">
-        <item>Home</item>
-        <item>Work</item>
-        <item>Other</item>
-        <item>Custom</item>
+        <item>Thuis</item>
+        <item>Werk</item>
+        <item>Overig</item>
+        <item>Aangepast</item>
     </string-array>
     <string-array name="imProtocols">
         <item>AIM</item>
@@ -160,25 +160,25 @@
         <item>mobile_hipri,5,0,3</item>
     </string-array>
     <string-array name="organizationTypes">
-        <item>Work</item>
-        <item>Other</item>
-        <item>Custom</item>
+        <item>Werk</item>
+        <item>Overig</item>
+        <item>Aangepast</item>
     </string-array>
     <string-array name="phoneTypes">
-        <item>Home</item>
-        <item>Mobile</item>
-        <item>Work</item>
-        <item>Work Fax</item>
-        <item>Home Fax</item>
-        <item>Pager</item>
-        <item>Other</item>
-        <item>Custom</item>
+        <item>Thuis</item>
+        <item>Mobiel</item>
+        <item>Werk</item>
+        <item>Fax werk</item>
+        <item>Fax thuis</item>
+        <item>Semafoon</item>
+        <item>Overig</item>
+        <item>Aangepast</item>
     </string-array>
     <string-array name="postalAddressTypes">
-        <item>Home</item>
-        <item>Work</item>
-        <item>Other</item>
-        <item>Custom</item>
+        <item>Thuis</item>
+        <item>Werk</item>
+        <item>Overig</item>
+        <item>Aangepast</item>
     </string-array>
     <array name="preloaded_color_state_lists">
         <item>@color/hint_foreground_dark</item>

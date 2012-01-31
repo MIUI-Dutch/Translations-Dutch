@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-   <string name="agree">Akkoord</string>
-   <string name="app_label">Netwerk Locatie</string>
-   <string name="disagree">Niet akkoord</string>
-   <string name="location_warning_message">Laat google\'s locatie dienst anonieme locatie gegevens verzamelen. Collectie zal ook optreden wanneer er geen apps worden uitgevoerd</string>
-   <string name="location_warning_title">Locatie goedkeuring</string>
+    <string name="agree">Akkoord</string>
+    <string name="app_label">Netwerklocatie</string>
+    <string name="disagree">Niet akkoord</string>
+    <string name="location_warning_message">De locatieservice van Google toestaan om anoniem locatiegegevens te verzamelen. Het verzamelen gaat door wanneer er geen toepassingen actief zijn!</string>
+    <string name="location_warning_title">Locatietoestemming</string>
 </resources>

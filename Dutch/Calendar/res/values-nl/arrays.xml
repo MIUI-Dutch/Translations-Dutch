@@ -1,5 +1,85 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="availability">
+        <item>Bezig</item>
+        <item>Beschikbaar</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Alleen deze afspraak</item>
+        <item>Alle gebeurtenissen in de reeks</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Alleen deze afspraak</item>
+        <item>Deze en toekomstige afspraken</item>
+        <item>Alle afspraken</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>Deze en toekomstige afspraken</item>
+        <item>Alle afspraken</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>eerste</item>
+        <item>tweede</item>
+        <item>derde</item>
+        <item>vierde</item>
+        <item>laatste</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>Altijd</item>
+        <item>Alleen indien stil</item>
+        <item>Nooit</item>
+    </string-array>
+    <string-array name="preferences_alert_type_labels">
+        <item>Alarm</item>
+        <item>Statusbalkmelding</item>
+        <item>Uit</item>
+    </string-array>
+    <string-array name="preferences_alert_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Geen</item>
+        <item>1 minuut</item>
+        <item>5 minuten</item>
+        <item>10 minuten</item>
+        <item>15 minuten</item>
+        <item>20 minuten</item>
+        <item>25 minuten</item>
+        <item>30 minuten</item>
+        <item>45 minuten</item>
+        <item>1 uur</item>
+        <item>2 uren</item>
+        <item>3 uren</item>
+        <item>12 uren</item>
+        <item>24 uren</item>
+        <item>2 dagen</item>
+        <item>1 week</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_values">
+        <item>0</item>
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>720</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>10080</item>
+    </string-array>
+    <string-array name="prefValues_alerts_vibrateWhen">
+        <item>Altijd</item>
+        <item>Stil</item>
+        <item>Nooit</item>
+    </string-array>
     <string-array name="reminder_minutes_labels">
         <item>1 minuut</item>
         <item>5 minuten</item>
@@ -33,6 +113,17 @@
         <item>1440</item>
         <item>2880</item>
         <item>10080</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>Geen reactie</item>
+        <item>Ja</item>
+        <item>Misschien</item>
+        <item>Nee</item>
+    </string-array>
+    <string-array name="response_labels2">
+        <item>Ja</item>
+        <item>Misschien</item>
+        <item>Nee</item>
     </string-array>
     <string-array name="timezone_labels">
         <item>Marshall Islands</item>
@@ -206,100 +297,9 @@
         <item>Pacific/Fiji</item>
         <item>Pacific/Tongatapu</item>
     </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Geen</item>
-        <item>1 minuut</item>
-        <item>5 minuten</item>
-        <item>10 minuten</item>
-        <item>15 minuten</item>
-        <item>20 minuten</item>
-        <item>25 minuten</item>
-        <item>30 minuten</item>
-        <item>45 minuten</item>
-        <item>1 uur</item>
-        <item>2 uren</item>
-        <item>3 uren</item>
-        <item>12 uren</item>
-        <item>24 uren</item>
-        <item>2 dagen</item>
-        <item>1 week</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_values">
-        <item>0</item>
-        <item>1</item>
-        <item>5</item>
-        <item>10</item>
-        <item>15</item>
-        <item>20</item>
-        <item>25</item>
-        <item>30</item>
-        <item>45</item>
-        <item>60</item>
-        <item>120</item>
-        <item>180</item>
-        <item>720</item>
-        <item>1440</item>
-        <item>2880</item>
-        <item>10080</item>
-    </string-array>
-    <string-array name="preferences_alert_type_labels">
-        <item>Alarm</item>
-        <item>Statusbalkmelding</item>
-        <item>Uit</item>
-    </string-array>
-    <string-array name="preferences_alert_type_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <string-array name="availability">
-        <item>Bezig</item>
-        <item>Beschikbaar</item>
-    </string-array>
     <string-array name="visibility">
         <item>Standaard</item>
-        <item>Prive</item>
-        <item>Publiek</item>
-    </string-array>
-    <string-array name="ordinal_labels">
-        <item>eerste</item>
-        <item>tweede</item>
-        <item>derde</item>
-        <item>vierde</item>
-        <item>laatste</item>
-    </string-array>
-    <string-array name="response_labels1">
-        <item>(Geen reactie)</item>
-        <item>Ja</item>
-        <item>Misschien</item>
-        <item>Nee</item>
-    </string-array>
-    <string-array name="response_labels2">
-        <item>Ja</item>
-        <item>Misschien</item>
-        <item>Nee</item>
-    </string-array>
-    <string-array name="delete_repeating_labels">
-        <item>Alleen deze afspraak</item>
-        <item>Deze &amp;amp;amp; toekomstige afspraken</item>
-        <item>Alle afspraken</item>
-    </string-array>
-    <string-array name="delete_repeating_labels_no_selected">
-        <item>Deze &amp;amp;amp; toekomstige afspraken</item>
-        <item>Alle gebeurtenissen</item>
-    </string-array>
-    <string-array name="change_response_labels">
-        <item>Alleen deze afspraak</item>
-        <item>Alle afspraken in serie</item>
-    </string-array>
-    <string-array name="prefEntries_alerts_vibrateWhen">
-        <item>Altijd</item>
-        <item>Alleen in stille modus</item>
-        <item>Nooit</item>
-    </string-array>
-    <string-array name="prefValues_alerts_vibrateWhen">
-        <item>Altijd</item>
-        <item>Stil</item>
-        <item>Nooit</item>
+        <item>Privé</item>
+        <item>Openbaar</item>
     </string-array>
 </resources>
