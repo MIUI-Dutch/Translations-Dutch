@@ -121,7 +121,7 @@ Gebruik alleen de bijgeleverde oplader."</string>
    <string name="settings_toggle_position_reset">Reset schakelaars</string>
    <string name="status_bar_accessibility_dismiss_recents">Recente apps negeren</string>
    <string name="status_bar_clear_all_button">Wissen</string>
-   <string name="status_bar_date_format">d MMMM YYYY</string>
+   <string name="status_bar_date_format">d MMMM yyyy</string>
    <string name="status_bar_date_formatter">%2$s</string>
    <string name="status_bar_do_not_disturb_button">Niet storen</string>
    <string name="status_bar_input_method_settings_configure_input_methods">Invoermethoden instellen</string>
