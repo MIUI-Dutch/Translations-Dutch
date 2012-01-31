@@ -15,7 +15,7 @@
    <string name="return_to_incall_screen">Klik voor terug naar de oproep</string>
     <string name="status_bar_clear_all_button">Wissen</string>
    <string name="status_bar_date_format">EEE d MMMM,</string>
-   <string name="status_bar_date_format_lock">d MMMM YYYY</string>
+   <string name="status_bar_date_format_lock">d MMMM yyyy</string>
     <string name="status_bar_latest_events_title">Meldingen</string>
     <string name="status_bar_no_notifications_title">Geen meldingen</string>
     <string name="status_bar_ongoing_events_title">Actief</string>
