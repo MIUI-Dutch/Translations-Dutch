@@ -123,7 +123,7 @@
    <string name="account_setup_outgoing_require_login_label">Sign-in nodig</string>
    <string name="account_setup_outgoing_security_label">Beveiligings type</string>
    <string name="account_setup_outgoing_smtp_server_label">SMTP server</string>
-   <string name="account_setup_outgoing_title">Uigaande server instellingen</string>
+   <string name="account_setup_outgoing_title">Uitgaande server instellingen</string>
    <string name="account_setup_outgoing_username_label">Gebruikersnaam</string>
    <string name="account_setup_security_policies_required_fmt">De server %s vereist dat je toestaat op afstand een aantal beveiligingsfuncties te bedienen van je telefoon. Wil je dit account opzetten en eindigen?</string>
    <string name="account_setup_security_required_title">Remote security administration</string>
@@ -148,6 +148,7 @@
    <string name="debug_enable_sensitive_logging_label">Gevoelige informatie vasleggen inschakelen? (Kann wachtwoorden tonen in logs.)</string>
    <string name="debug_title">Foutopsporing</string>
    <string name="debug_version_fmt">Versie: %s</string>
+   <string name="default_signature">Verzonden vanaf mijn Mi Phone</string>
    <string name="delete_action">Wissen</string>
    <string name="deselect_all_action">Deselecteer alle</string>
    <string name="device_admin_description">Activeert server-gespecificeerde veiligheidsbeleid</string>

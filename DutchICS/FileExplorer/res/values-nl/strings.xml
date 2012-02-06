@@ -55,6 +55,7 @@
    <string name="operation_cancel">Annuleren</string>
    <string name="operation_cancel_selectall">Alles deselecteren</string>
    <string name="operation_copy">Kopiëer</string>
+   <string name="operation_copy_path">kopieer bestand pad</string>
    <string name="operation_create_folder">Nieuwe map</string>
    <string name="operation_create_folder_message">Voer naam van de map in</string>
    <string name="operation_delete">Wis</string>

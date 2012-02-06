@@ -4,7 +4,7 @@
    <string name="airplane_error_msg">Je kan Bluetooth niet gebruiken in vliegtuig-modus</string>
    <string name="airplane_error_title">Vliegtuig-modus</string>
    <string name="alwaysallowed">Altijd toestaan?</string>
-    <string name="app_name">Afdrukken via Bluetooth</string>
+   <string name="app_name">Afdrukken via Bluetooth</string>
    <string name="auth_notif_message">Type sessie sleutel voor %1$s</string>
    <string name="auth_notif_ticker">Obex verificatieverzoek</string>
    <string name="auth_notif_title">Sessie Sleutel</string>
