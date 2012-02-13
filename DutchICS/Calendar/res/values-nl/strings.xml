@@ -75,6 +75,8 @@
    <string name="hint_what">Afspraaknaam</string>
    <string name="hint_where">Locatie</string>
    <string name="loading">Laden...</string>
+   <string name="local_calendar_display_name">Lokale Agenda</string>
+   <string name="local_owner_account_name">Lokaal Account</string>
    <string name="menu_about_preferences">Over Agenda</string>
    <string name="menu_general_preferences">Algemene instellingen</string>
    <string name="menu_preferences">Instellingen</string>

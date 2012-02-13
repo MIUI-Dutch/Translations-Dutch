@@ -627,6 +627,8 @@ Probeer het over %d seconden opnieuw."</string>
    <string name="menu_delete_shortcut_label">verwijderen</string>
    <string name="menu_enter_shortcut_label">invoeren</string>
    <string name="menu_space_shortcut_label">ruimte</string>
+   <string name="message_screen_button_disabled">Functies van toetsen op het onderste scherm zijn uitgeschakeld. Deze kunnen ingeschakeld worden door op \"Home\" en \"Power\" te drukken</string>
+   <string name="message_screen_button_enabled">Functies van toetsen op het onderste scherm zijn ingeschakeld</string>
    <string name="midnight">middernacht</string>
    <string name="Midnight">Middernacht</string>
    <string name="minute">min</string>
@@ -1255,6 +1257,7 @@ Heropen om de lijst te verversen"</string>
    <string name="status_bar_toggle_privacy_mode">Gast modus</string>
    <string name="status_bar_toggle_reboot">Herstart</string>
    <string name="status_bar_toggle_rotate">Draaien</string>
+   <string name="status_bar_toggle_screen_button">SchermToets</string>
    <string name="status_bar_toggle_screenshot">Screenshot</string>
    <string name="status_bar_toggle_shutdown">Uitschakelen</string>
    <string name="status_bar_toggle_sync">Sync</string>

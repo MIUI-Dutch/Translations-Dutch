@@ -10,13 +10,13 @@
    <string name="accelerometer_title">Scherm autom. draaien</string>
    <string name="access_control_app_entry_multiple">in %s</string>
    <string name="access_control_app_entry_single">in de app</string>
+   <string name="access_control_apps_title">Wijzig app toegang</string>
    <string name="access_control_need_password">"%s is beveiligd met een wachtwoord
  "</string>
    <string name="access_control_need_to_unlock">Geef een wachtwoord in om toegang te beperken</string>
    <string name="access_control_no_back_footer">Druk op [icon] toets om af te sluiten</string>
    <string name="access_control_password_title">Toegangsbeperkingen</string>
    <string name="access_control_recording_intro_header">Teken patroon om toegang te beperken tot wachtwoorden</string>
-   <string name="access_control_title">toegangsbeperkingen</string>
    <string name="accessibility_long_press_timeout_title">Vertraging voor blijven aanraken</string>
    <string name="accessibility_menu_item_settings">Instellingen</string>
    <string name="accessibility_menu_item_tutorial">Training</string>
@@ -154,6 +154,9 @@ Houd de apparaten bij elkaar (meestal met de achterkanten tegen elkaar aan) en r
    <string name="automatic_brightness">Automatische helderheid</string>
    <string name="available_size">%s (beschikbaar)</string>
    <string name="awake">Stand-bytijd apparaat</string>
+   <string name="back_long_press">Terug toets</string>
+   <string name="back_long_press_timeout">"Vertraag
+%1$.1f seconden"</string>
    <string name="background_data">Achtergrondgegevens</string>
    <string name="background_data_dialog_message">Als u achtergrondgegevens uitschakelt, bespaart u acculading en wordt het gegevensverbruik verlaagd. Sommige apps maken mogelijk nog steeds gebruik van de verbinding voor achtergrondgegevens.</string>
    <string name="background_data_dialog_title">Achtergrondgegevens uitschakelen?</string>
@@ -393,6 +396,18 @@ Houd de apparaten bij elkaar (meestal met de achterkanten tegen elkaar aan) en r
    <string name="cached">Gecacht achtergrondproces</string>
    <string name="call_settings_summary">Voicemail, oproepen doorschakelen, wisselgesprek, beller-id instellen</string>
    <string name="call_settings_title">Oproepinstellingen</string>
+   <string name="camera_key_action_app_title">Open app</string>
+   <string name="camera_key_action_category_title">Gebruik als camera app niet in gebruik is</string>
+   <string name="camera_key_action_none_title">Geen actie</string>
+   <string name="camera_key_action_setting_title">MI Toets</string>
+   <string name="camera_key_action_shortcut_call">Bel</string>
+   <string name="camera_key_action_shortcut_home">Terug naar standaard scherm</string>
+   <string name="camera_key_action_shortcut_screenshot">Schermafdruk maken</string>
+   <string name="camera_key_action_shortcut_search">Zoek</string>
+   <string name="camera_key_action_shortcut_title">Snelkoppeling</string>
+   <string name="camera_key_action_shortcut_wake">Sluit/Open telefoon</string>
+   <string name="camera_key_action_title">MI toets</string>
+   <string name="camera_key_action_toggle_title">Trigger toggle</string>
    <string name="cancel">Annuleren</string>
    <string name="cant_sync_dialog_message">Synchroniseren is op dit moment uitgeschakeld voor dit item. Als u deze instelling wilt wijzigen, schakelt u achtergrondgegevens en automatisch synchroniseren tijdelijk in.</string>
    <string name="cant_sync_dialog_title">Kan niet handmatig synchroniseren</string>
@@ -557,6 +572,7 @@ Aangezien dit gegevensverbruik wordt gemeten door uw telefoon en uw provider tot
    <string name="device_status_activity_title">Status</string>
    <string name="device_status_summary">Telefoonnummer, signaal, enzovoort</string>
    <string name="dialog_title_font_size">Lettergrootte</string>
+   <string name="disable_power_key_long_press_under_keyguard">Disable on lockscreen</string>
    <string name="disable_text">Uitschakelen</string>
    <string name="disabled">Uitgeschakeld</string>
    <string name="disableNetwork">disableNetwork</string>
@@ -593,6 +609,7 @@ Aangezien dit gegevensverbruik wordt gemeten door uw telefoon en uw provider tot
    <string name="empty_list_msg">U heeft geen apps van derden geïnstalleerd.</string>
    <string name="enable_adb">USB-foutopsporing</string>
    <string name="enable_adb_summary">Foutopsporingsmodus bij USB-verbinding</string>
+   <string name="enable_back_long_press">Lang indrukken om App te sluiten</string>
    <string name="enable_compatibility">App schalen</string>
    <string name="enable_text">Inschakelen</string>
    <string name="enableNetwork">enableNetwork</string>
@@ -681,6 +698,8 @@ Aangezien dit gegevensverbruik wordt gemeten door uw telefoon en uw provider tot
    <string name="keep_screen_on">Stand-by</string>
    <string name="keep_screen_on_summary">Scherm gaat nooit uit tijdens het opladen</string>
    <string name="kernel_version">Kernel-versie</string>
+   <string name="key_settings">Toets</string>
+   <string name="key_settings_title">Toets</string>
    <string name="keyboard_settings_category">Toetsenbord en invoermethoden</string>
    <string name="keyboard_settings_title">Android-toetsenbord</string>
    <string name="language_keyboard_settings_title">Taal en invoer</string>
@@ -797,6 +816,7 @@ Als u muziek, foto's en andere gebruikersgegevens wilt wissen, moet de "<b>SD-ka
    <string name="master_clear_gesture_prompt">Teken uw ontgrendelingspatroon</string>
    <string name="master_clear_summary">Alle gegevens op de telefoon wissen</string>
    <string name="master_clear_title">Fabrieksinstellingen terug</string>
+   <string name="media_button">Media toets</string>
    <string name="media_format_button_text">SD-kaart wissen</string>
    <string name="media_format_desc">Wilt u de SD-kaart wissen? <b>Alle</b> gegevens op de kaart gaan verloren.</string>
    <string name="media_format_final_button_text">Alles wissen</string>
@@ -837,6 +857,8 @@ Als u muziek, foto's en andere gebruikersgegevens wilt wissen, moet de "<b>SD-ka
    <string name="move_app_to_internal">Verplaatsen naar telefoon</string>
    <string name="move_app_to_sdcard">Verplaatsen naar SD-kaart</string>
    <string name="moving">Verplaatsen</string>
+   <string name="multi_touch_points_category_title">Multi-touch punten</string>
+   <string name="multi_touch_points_preference">Herstart voor activatie</string>
    <string name="musicfx_title">Muziekeffecten</string>
    <string name="network_settings_title">Mobiele netwerken</string>
    <string name="network_state_label">Netwerk Status:</string>
@@ -850,6 +872,7 @@ Als u muziek, foto's en andere gebruikersgegevens wilt wissen, moet de "<b>SD-ka
    <string name="no">Nee</string>
    <string name="no_applications">Geen apps.</string>
    <string name="no_device_admins">Geen apparaatbeheerders beschikbaar</string>
+   <string name="no_media_button_receiver">Nee</string>
    <string name="no_running_services">Niets wordt uitgevoerd.</string>
    <string name="no_services">Niet actief</string>
    <string name="normal_date_format">Regionaal (%s)</string>
@@ -883,6 +906,7 @@ Als u muziek, foto's en andere gebruikersgegevens wilt wissen, moet de "<b>SD-ka
    <string name="power_bluetooth">Bluetooth</string>
    <string name="power_cell">Mobiel stand-by</string>
    <string name="power_idle">Telefoon inactief</string>
+   <string name="power_key">Aan/uit toets</string>
    <string name="power_phone">Spraakoproepen</string>
    <string name="power_screen">Scherm</string>
    <string name="power_usage_level_and_status">%1$s - %2$s</string>
@@ -890,7 +914,13 @@ Als u muziek, foto's en andere gebruikersgegevens wilt wissen, moet de "<b>SD-ka
    <string name="power_usage_summary">Waarvoor de accu is gebruikt</string>
    <string name="power_usage_summary_title">Accu</string>
    <string name="power_wifi">Wi-Fi</string>
+   <string name="pref_volume_category_title">Volume</string>
+   <string name="pref_volume_wake_summary">Druk op volume toetsen opent de telefoon. Voor telefoons waar de aan/uit toets moeilijk bereikbaar is</string>
+   <string name="pref_volume_wake_title">Volume rocker open</string>
    <string name="preference_change_password_title">Wachtwoord wijzigen</string>
+   <string name="preferred_media_app_summary">Kies Muziekspeler</string>
+   <string name="privacy_mode_enable_title">Activeer guard-modus</string>
+   <string name="privacy_protect_title">Privacy protectie</string>
    <string name="privacy_settings">Back-up maken en opnieuw instellen</string>
    <string name="privacy_settings_title">Back-up maken en opnieuw instellen</string>
    <string name="process_kernel_label">Android-besturingssysteem</string>
@@ -1219,6 +1249,8 @@ Een benadering van Google voor de synchronisatie van gegevens, zodat u altijd en
    <string name="title_font_size">Lettergrootte</string>
    <string name="total_size">%s (totaal)</string>
    <string name="total_size_label">Totaal</string>
+   <string name="trackball_settings">Trackball</string>
+   <string name="trackball_wake_title">Open via Trackball</string>
    <string name="transition_animation_scale_title">Overgangsanimatieschaal</string>
    <string name="trusted_credentials">Vertrouwde id-gegevens</string>
    <string name="trusted_credentials_disable_confirmation">Het CA-certificaat voor het systeem uitschakelen?</string>

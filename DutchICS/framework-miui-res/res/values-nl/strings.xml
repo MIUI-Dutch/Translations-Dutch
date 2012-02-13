@@ -255,17 +255,23 @@
    <string name="double_seventh_day" />
    <string name="download_failed">Download mislukt</string>
    <string name="download_preview_failed">Voorbeeld laden mislukt</string>
+   <string name="ellipsis">...</string>
+   <string name="factorytest_reboot">Herstart</string>
    <string name="firewall_setting">Contact blokkering</string>
    <string name="first_back_long_press_message">"Wil je de functie aanzetten voor het ingedrukt houden van de Terug-toets voor het afsluiten van de aktieve applicatie en zijn achtergrond processen?
  via Instellingen > Systeem > Toetsen"</string>
    <string name="first_back_long_press_title">Terug-toets gedrag</string>
    <string name="fools_day" />
    <string name="force_exit_message">%1$s succesvol afgesloten</string>
+   <string name="global_action_power_off">Uit</string>
    <string name="global_action_privacy_mode_dialog_message">In guard mode, worden oproepen, notities en SMS berichten verborgen en er kan niets gewijzigd worden.</string>
    <string name="global_action_privacy_mode_off_status">Guard mode is UIT</string>
    <string name="global_action_privacy_mode_on_status">Guard mode is AAN</string>
    <string name="global_action_privacy_mode_on_toast">Guard mode is aan. Oproepen, notities en SMS berichten verborgen en er kan niets gewijzigd worden</string>
    <string name="global_action_toggle_privacy_mode">Guard</string>
+   <string name="global_actions_airplane_mode_off_status">Vliegtuig-modus is UIT</string>
+   <string name="global_actions_airplane_mode_on_status">Vliegtuig-modus is AAN</string>
+   <string name="global_actions_toggle_airplane_mode">Vliegtuig-modus</string>
    <string name="grain_buds" />
    <string name="grain_in_ear" />
    <string name="grain_rain" />
@@ -276,12 +282,25 @@
    <string name="insects_awaken" />
    <string name="international_womens_day" />
    <string name="invalid_url">Ongeldige URL:</string>
+   <string name="keyguard_incorrect_pin_with_retry_count">Pogingen over %d</string>
+   <string name="kilobyteShort">KB</string>
    <string name="labour_day" />
    <string name="lantern_festival" />
    <string name="light_snow" />
    <string name="loading">Laden...</string>
    <string name="lock_screen_date">EEEE d MMMM</string>
    <string name="lockscreen_call_bottom_hint">Schuif omlaag om telefoon te openen</string>
+   <string name="lockscreen_charged">Opgeladen.</string>
+   <string name="lockscreen_emergency_call">Noodoproep</string>
+   <string name="lockscreen_instructions_when_pattern_disabled">Druk Menu voor vrijgave.</string>
+   <string name="lockscreen_low_battery">Lader aansluiten.</string>
+   <string name="lockscreen_missing_sim_instructions">SIM-kaart plaatsen.</string>
+   <string name="lockscreen_missing_sim_message_short">Geen SIM-kaart.</string>
+   <string name="lockscreen_network_locked_message">Netwerk geblokkeerd</string>
+   <string name="lockscreen_plugged_in">Laden, %d%%</string>
+   <string name="lockscreen_sim_locked_message">SIM-kaart geblokkeerd.</string>
+   <string name="lockscreen_sim_puk_locked_instructions">Lees de gebruiksaanwijzing of bel de Helpdesk.</string>
+   <string name="lockscreen_sim_puk_locked_message">SIM-kaart is PUK-geblokkeerd.</string>
    <string name="lockscreen_sms_bottom_hint">Schuif omlaag om SMS te openen</string>
    <string name="lockscreen_time_bottom_hint">Schuif omlaag om te ontgrendelen</string>
    <string name="lockscreen_unlock_sim_via_puk">Gebruik PUK om SIM te ontgrendelen</string>
@@ -308,6 +327,7 @@
    <string name="lunar_yi" />
    <string name="lunar_yue" />
    <string name="lunar_zheng" />
+   <string name="megabyteShort">MB</string>
    <string name="miui_copyright_title">Copyright</string>
    <string name="miui_privacy_policy_title">Algemene voorwaarden</string>
    <string name="miui_user_agreement_title">Gebruikers overeenkomst</string>
@@ -323,6 +343,7 @@
    <string name="partys_day" />
    <string name="payphone">Betaal telefoon</string>
    <string name="phoneTypeMms">Mms</string>
+   <string name="power_off">Uitschakelen</string>
    <string name="private_num">Privé nummer</string>
    <string name="reboot_confirm">De telefoon wordt herstart. Doorgaan?</string>
    <string name="reboot_progress">Herstarten...</string>
@@ -345,6 +366,7 @@
    <string name="resource_update">Bijwerken</string>
    <string name="resourcebrowser_lable">Browser bronnen</string>
    <string name="reverse_all">Wis alle</string>
+   <string name="ringtone_default_with_actual">Standaard beltoon</string>
    <string name="safetylegal_activity_unreachable">De telefoon heeft geen data verbinding. Om de informatie te tonen, ga naar %s op een willekeurige computer met Internet</string>
    <string name="sd_not_available">SD-kaart niet beschikbaar, controleer of hij geplaatst is</string>
    <string name="sd_not_available_low_internal_storage">SD-kaart niet beschikbaar, weinig ruimte op interne opslag</string>
@@ -354,6 +376,9 @@
 Heropen om de lijst te verversen."</string>
    <string name="sdcard_status_changed_dialog_title">SD-kaart status gewijzigd</string>
    <string name="select_all">Selecteer alle</string>
+   <string name="silent_mode_ring">Belgeluid aan</string>
+   <string name="silent_mode_silent">Belgeluid uit</string>
+   <string name="silent_mode_vibrate">Trillen</string>
    <string name="slight_cold" />
    <string name="slight_heat" />
    <string name="spring_begins" />

@@ -28,6 +28,7 @@ Alle eerdere gebruikersgegevens worden opgeslagen."</string>
    <string name="install_failed_verify_timeout">Tijdens het verifiëren van dit pakket is een time-out opgetreden. Installeer het pakket later.</string>
    <string name="installing">Installeren...</string>
    <string name="launch">Openen</string>
+   <string name="lift_ban">ban opheffen</string>
    <string name="manage_applications">Toepassingen beheren</string>
    <string name="manage_device_administrators">Apparaatbeheerders beheren</string>
    <string name="ok">OK</string>
@@ -48,6 +49,7 @@ Alle eerdere gebruikersgegevens worden opgeslagen."</string>
    <string name="uninstall_update_title">Update verwijderen</string>
    <string name="uninstalling">Verwijderen...</string>
    <string name="unknown">Onbekend</string>
-   <string name="unknown_apps_dlg_text">Voor de veiligheid is uw telefoon ingesteld op het blokkeren van de installatie van apps die niet afkomstig zijn van Android Market.</string>
+   <string name="unknown_apps_dlg_text">"Voor de veiligheid is uw telefoon ingesteld op het blokkeren van de installatie van apps die niet afkomstig zijn van Android Market.
+Wijzigen via Instellingen->Beveiliging->Onbekende bronnen."</string>
    <string name="unknown_apps_dlg_title">De installatie is geblokkeerd</string>
 </resources>

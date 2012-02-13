@@ -65,6 +65,18 @@
    <string name="battery_low_why">Accugebruik</string>
    <string name="bluetooth_tethered">Bluetooth getetherd</string>
    <string name="call_status_dialing">Kiezen</string>
+   <string name="camera_key_action_app_title">Open app</string>
+   <string name="camera_key_action_category_title">Als camera app niet in gebruik is</string>
+   <string name="camera_key_action_none_title">Geen actie</string>
+   <string name="camera_key_action_setting_title">MI Toets</string>
+   <string name="camera_key_action_shortcut_call">Bel</string>
+   <string name="camera_key_action_shortcut_home">Terug naar homescreen</string>
+   <string name="camera_key_action_shortcut_screenshot">Schermafdruk maken</string>
+   <string name="camera_key_action_shortcut_search">Zoek</string>
+   <string name="camera_key_action_shortcut_title">snelkoppeling</string>
+   <string name="camera_key_action_shortcut_wake">sluit/open telefoon</string>
+   <string name="camera_key_action_title">MI toets</string>
+   <string name="camera_key_action_toggle_title">Trigger toggle</string>
    <string name="compat_mode_help_body">Wanneer een app is ontworpen voor een kleiner scherm, wordt naast de klok een zoomknop weergegeven.</string>
    <string name="compat_mode_help_header">Compatibiliteitszoom</string>
    <string name="compat_mode_off">Rek uit v. schermvulling</string>
@@ -80,7 +92,6 @@ Als u gegevens opnieuw inschakelt, kunnen er kosten in rekening worden gebracht 
    <string name="data_usage_disabled_dialog_title">Gegevens uitgeschakeld</string>
    <string name="default_usb_mode">Standaard USB connectie type</string>
    <string name="dismount_storage">Niet koppelen</string>
-   <string name="enable_back_long_press">Terug lang indrukken voor afsluiten App</string>
    <string name="gps_notification_found_text">Locatie bepaald met GPS</string>
    <string name="gps_notification_searching_text">Zoeken naar GPS</string>
    <string name="incoming_call_vibrate_hint">Inkomende oproep</string>

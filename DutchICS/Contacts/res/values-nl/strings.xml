@@ -56,6 +56,7 @@
    <string name="callDetailsDurationFormat" formatted="false">%s min. %s sec.</string>
    <string name="callDetailTitle">Gespreksgegevens</string>
    <string name="calllog_menu_blacklist">Voeg toe aan blacklist</string>
+   <string name="calllog_menu_call_ip_number">Kies IP oproep (kies %s)</string>
    <string name="calllog_menu_edit_before_call">Aanpassen</string>
    <string name="calllog_menu_send_sms">Zend SMS</string>
    <string name="callNoAnswerTimeFormat">Beltoon %s</string>
@@ -100,7 +101,7 @@
    <string name="chat_qq">Chatten via QQ</string>
    <string name="chat_skype">Chatten via Skype</string>
    <string name="chat_yahoo">Chatten via Yahoo</string>
-	   <string name="check_unsynchronized_accounts">Ongesynchroniseerd check frequentie</string>
+   <string name="check_unsynchronized_accounts">Ongesynchroniseerd check frequentie</string>
    <string name="clear_default">Standaardwaarden wissen</string>
    <string name="clearCallLogConfirmation">Al uw oproepgegevens worden verwijderd.</string>
    <string name="clearCallLogConfirmation_title">Oproeplog wissen?</string>
@@ -194,9 +195,9 @@
    <string name="dialog_new_group_account">Groep in account maken</string>
    <string name="dialog_sync_add">Synchronisatiegroep toevoegen</string>
    <string name="directory_search_label">Directory</string>
-	   <string name="dirty_contacts_notification_description">Telefoon heeft %d ongesynchroniseerde contacten</string>
-	   <string name="dirty_contacts_notification_message">(Zet geen herinnering bij contacten instelling)</string>
-	   <string name="dirty_contacts_notification_title">sync contacten?</string>
+   <string name="dirty_contacts_notification_description">Telefoon heeft %d ongesynchroniseerde contacten</string>
+   <string name="dirty_contacts_notification_message">(Zet geen herinnering bij contacten instelling)</string>
+   <string name="dirty_contacts_notification_title">sync contacten?</string>
    <string name="display_all_contacts">Alle contacten</string>
    <string name="display_more_groups">Meer groepen…</string>
    <string name="display_options_sort_by_family_name">Achternaam</string>
@@ -243,9 +244,9 @@ Reden: '%s'"</string>
    <string name="favoritesFrequentCalled">Vaak gebeld</string>
    <string name="favoritesFrequentContacted">Regelmatig contact</string>
    <string name="foundTooManyContacts">Meer dan %d gevonden.</string>
-	   <string name="frequency_none">Geen herinnering</string>
-	   <string name="frequency_three_days">Iedere 3 dagen checken</string>
-	   <string name="frequency_weekly">Wekelijks checken</string>
+   <string name="frequency_none">Geen herinnering</string>
+   <string name="frequency_three_days">Iedere 3 dagen checken</string>
+   <string name="frequency_weekly">Wekelijks checken</string>
    <string name="frequentList">Vaak</string>
    <string name="from_account_format">%1$s</string>
    <string name="full_name">Naam</string>
@@ -308,7 +309,6 @@ Reden: '%s'"</string>
    <string name="menu_accounts">Accounts</string>
    <string name="menu_addStar">Toevoegen aan favorieten</string>
    <string name="menu_call">Contact bellen</string>
-	   <string name="menu_call_ip_number">Bel IP telefoon (bel %s)</string>
    <string name="menu_callNumber">%s bellen</string>
    <string name="menu_contacts_filter">Zichtbare contacten</string>
    <string name="menu_copyContact">Kopiëren naar mijn contacten</string>
@@ -468,9 +468,9 @@ U kunt als volgt een contact toevoegen aan uw lijst met favorieten:
    <string name="recentCalls_trashVoicemail">Voicemail verwijderen</string>
    <string name="recentCallsIconLabel">Gesprek</string>
    <string name="relationLabelsGroup">Relatie</string>
-	   <string name="remind_btn_ignore">Negeren</string>
-	   <string name="remind_btn_not_remind">Geen herinnering</string>
-	   <string name="remind_btn_sync_now">Nu</string>
+   <string name="remind_btn_ignore">Negeren</string>
+   <string name="remind_btn_not_remind">Geen herinnering</string>
+   <string name="remind_btn_sync_now">Nu</string>
    <string name="removePhoto">Foto verwijderen</string>
    <string name="ringLabelsGroup">ring</string>
    <string name="savingContact">Contact opslaan...</string>
@@ -498,6 +498,9 @@ U kunt als volgt een contact toevoegen aan uw lijst met favorieten:
    <string name="shortcutDialContact">Direct bellen</string>
    <string name="shortcutMessageContact">Direct bericht</string>
    <string name="showAllContactsJoinItem">Alle contacten weergeven</string>
+   <string name="sim_contact_search_error">Fout bij zoeken van contacten op SIM-kaart</string>
+   <string name="sim_indexed_contact_not_exist">Positie %1$d op SIM-kaart is niet correct, hoort tussen %2$d en %3$d</string>
+   <string name="sim_no_contact">Geen contacten op SIM-kaart</string>
    <string name="simContacts_emptyLoading">Laden vanaf SIM-kaart...</string>
    <string name="simContacts_title">Contacten op SIM-kaart</string>
    <string name="sms">Sms</string>

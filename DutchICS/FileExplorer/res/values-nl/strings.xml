@@ -76,12 +76,15 @@
    <string name="operation_show_sys">Toon verborgen bestanden</string>
    <string name="operation_unfavorite">Verwijder uit Favorieten</string>
    <string name="removed_favorite">Verwijderd uit favorieten</string>
+   <string name="sd_card_available">"Ruimte beschikbaar: "</string>
+   <string name="sd_card_name">"SD-kaart: "</string>
    <string name="sd_folder">SD-kaart</string>
    <string name="search_hint">Zoek bestand(en)</string>
    <string name="search_title">Zoek bestand(en)</string>
    <string name="start_server">Start service</string>
    <string name="stop_server">Stop service</string>
    <string name="storage_warning">Externe opslag niet beschikbaar of kan niet worden gelezen</string>
+   <string name="tab_category">Bladeren</string>
    <string name="tab_remote">FTP</string>
    <string name="tab_sd">SD-kaart</string>
    <string name="wifi_state">Wi-Fi status</string>

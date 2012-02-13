@@ -192,11 +192,11 @@
         <item>@null</item>
     </array>
     <integer-array name="maps_starting_lat_lng">
-        <item>36149777</item>
-        <item>-95993398</item>
+        <item>51589256</item>
+        <item>4774396</item>
     </integer-array>
     <integer-array name="maps_starting_zoom">
-        <item>3</item>
+        <item>4</item>
     </integer-array>
     <string-array name="networkAttributes">
         <item>wifi,1,1,1,-1,true</item>

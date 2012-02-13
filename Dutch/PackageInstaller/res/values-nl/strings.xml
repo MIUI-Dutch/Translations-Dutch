@@ -32,7 +32,7 @@ Alle eerdere gebruikersgegevens worden opgeslagen."</string>
    <string name="uninstall_done">Verwijdering voltooid</string>
    <string name="uninstall_failed">Verwijderen is mislukt</string>
    <string name="uninstall_failed_msg">%1$s kan niet worden verwijderd.</string>
-   <string name="uninstall_failed_retained_app_msg">App gewijzigd door operator kan niet ge-deinstalleerd worden</string></resources>
+   <string name="uninstall_failed_retained_app_msg">App gewijzigd door operator kan niet ge-deinstalleerd worden</string>
    <string name="uninstall_update_question">Update verwijderen?</string>
    <string name="uninstall_update_text">De toepassingsupdate wordt verwijderd. U kunt de fabrieksversie van de toepassing nog steeds gebruiken.</string>
    <string name="uninstalling">Verwijderen...</string>

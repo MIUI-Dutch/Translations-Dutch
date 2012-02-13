@@ -26,6 +26,7 @@
    <string name="attach_record_video">Video opnemen</string>
    <string name="attach_slideshow">Diavoorstelling</string>
    <string name="attach_sound">Audio</string>
+   <string name="attach_subject">Onderwerp</string>
    <string name="attach_take_photo">Foto nemen</string>
    <string name="attach_video">"Video's"</string>
    <string name="batch_delete_confirm_dialog_message">Wis geselecteerde %1$s berichten</string>
@@ -392,6 +393,7 @@
    <string name="to_count">%d contacten</string>
    <string name="to_hint">Aan</string>
    <string name="to_label">Naar\u0020</string>
+   <string name="to_send_wrapper">Wordt verzonden op %s</string>
    <string name="too_many_attachments">Er is een limiet van %1$s bijlagen. Alleen de eerste %2$s worden toegevoegd.</string>
    <string name="too_many_recipients">Bericht bevat te veel ontvangers (%1$s). De limiet is %2$s ontvangers.</string>
    <string name="too_many_unsent_mms">Kan dit bericht nu niet verzenden. Te veel niet-verzonden multimediaberichten.</string>

@@ -157,7 +157,7 @@ Klik OK om taak te annuleren"</string>
 Annuleren kan leiden tot dataverlies"</string>
    <string name="task_restore_cancel_progress">Annuleren...</string>
    <string name="task_restore_finished_local">Herstel compleet</string>
-   <string name="task_restore_none">Geen herstel nodig</string></resources>
+   <string name="task_restore_none">Geen herstel nodig</string>
    <string name="task_running_dialog">Backup wordt uitgevoerd op de achtergrond, klik op OK voor de voortgang</string>
    <string name="task_running_hint">Service draait in de achtergrond, probeer herstel opnieuw!</string>
    <string name="task_service_not_launched">Backup service niet gestart, even wachten!</string>
