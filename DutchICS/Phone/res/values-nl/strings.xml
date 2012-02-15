@@ -44,7 +44,7 @@
    <string name="auto_answer_delay_entries_delay_5s">5s</string>
    <string name="auto_answer_delay_entries_immediately">0s</string>
    <string name="auto_answer_delay_title">Wachttijd voor Snelle reacties</string>
-   <string name="auto_answer_pref_summary">Beantwoord oproepen automatisch</string>
+   <string name="auto_answer_pref_summary">Beantwoord oproepen automatisch met Snelle reacties</string>
    <string name="auto_answer_pref_title">Snelle reacties</string>
    <string name="auto_answer_scenario_enteries_always">Altijd</string>
    <string name="auto_answer_scenario_enteries_bluetooth_only">Alleen via Bluetooth</string>
@@ -55,11 +55,11 @@
    <string name="auto_country_code">Automatisch landcode toevoegen</string>
    <string name="auto_country_code_sum">Automatisch de landcode toevoegen voor het telefoonnummer van contacten, de landcode wordt direct gekozen.</string>
    <string name="auto_ip_setting">Automatische IP instelling</string>
-   <string name="auto_record_call_summary">Start recording while the call is connected, and save it to SD card</string>
-   <string name="auto_record_call_title">Record automatically</string>
-   <string name="auto_redial_pref_summary">Redial numbers automatically if line is busy</string>
-   <string name="auto_redial_pref_title">Auto herkiezen</string>
-   <string name="auto_registration">Auto registratie</string>
+   <string name="auto_record_call_summary">Start opname tijdens oproep, en sla op de SD-kaart op</string>
+   <string name="auto_record_call_title">Automatische opname</string>
+   <string name="auto_redial_pref_summary">Automatisch opnieuw bellen, als lijn bezet is</string>
+   <string name="auto_redial_pref_title">Automatisch herkiezen</string>
+   <string name="auto_registration">Automatische registratie</string>
    <string name="auto_retry_mode_summary">Modus voor automatisch opnieuw proberen inschakelen</string>
    <string name="auto_retry_mode_title">Automatisch opnieuw proberen</string>
    <string name="autoip">IP bellen</string>

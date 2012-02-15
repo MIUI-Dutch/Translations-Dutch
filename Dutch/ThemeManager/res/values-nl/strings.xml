@@ -21,8 +21,8 @@
    <string name="component_settings_title">Aanpassen huidige thema</string>
    <string name="customized_current_theme_title">Huidige lockscherm instellingen</string>
    <string name="desktop_wallpaper">Achtergrond</string>
-   <string name="live_wallpaper">Live achtergrondrond</string>
-   <string name="lockscreen_wallpaper">Vergrendel-achtergrond</string>
+   <string name="live_wallpaper">Live achtergrond</string>
+   <string name="lockscreen_wallpaper">Vergrendel achtergrond</string>
    <string name="lockstyle_personal_settings">Aanpassingen</string>
    <string name="new_format_convert">Converteer %s naar nieuw format</string>
    <string name="old_format_convert_tip1">Dit thema is niet van het laatste format en kan niet direct gebruikt worden, wilt u het converteren om te gebruiken?</string>
