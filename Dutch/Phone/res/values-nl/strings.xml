@@ -475,6 +475,8 @@ Let op, PIN2 geralateerde functies gaan op slot bij foutieve invoer!"</string>
    <string name="preferred_network_mode_gsm_umts">GSM/WCDMA</string>
    <string name="preferred_network_mode_summary">Verander het netwerk werkings modus</string>
    <string name="preferred_network_mode_title">Netwerk modus</string>
+   <string name="preferred_network_type_3g_only_warning">"3G geslecteerd als voorkeur netwerk type, er is dan géén signaal als de SIM-kaart geen 3G functionaliteit heeft!
+Klik OK om door te gaan."</string>
    <string name="preferred_network_type_entries_3g_preferred">3G voorkeur</string>
    <string name="preferred_network_type_entries_auto">Automatisch</string>
    <string name="preferred_network_type_entries_global">Global</string>

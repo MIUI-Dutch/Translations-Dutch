@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-   <string name="alternates_for_a">àáâãäåāæ</string>
+   <string name="alternates_for_a">àáâãäåæ</string>
    <string name="alternates_for_e">3èéêë</string>
    <string name="alternates_for_i">8ìíîï</string>
    <string name="alternates_for_o">9òóôõöœø</string>
