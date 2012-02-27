@@ -176,6 +176,12 @@
         <item>@string/description_target_decline_miui</item>
         <item>@null</item>
     </array>
+    <array name="in_call_answer_widget_3way_targets_light_miui">
+        <item>@drawable/ic_in_call_answer_light_miui</item>
+        <item>@drawable/ic_in_call_send_sms_light_miui</item>
+        <item>@drawable/ic_in_call_decline_light_miui</item>
+        <item>@null</item>
+    </array>
     <array name="in_call_answer_widget_3way_targets_miui">
         <item>@drawable/ic_in_call_answer_miui</item>
         <item>@drawable/ic_in_call_send_sms_miui</item>
