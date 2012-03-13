@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
    <string name="app_name">Thema\'s</string>
+   <string name="apply_font_btn_exclude">Toepassen zonder  font</string>
+   <string name="apply_font_btn_reboot">Toepassen en herstart</string>
+   <string name="apply_font_tip">Het thema heeft een font, dus herstart is nodig.</string>
    <string name="apply_lockscreen_paper_tips">Vergrendelthema al in gebruik, nieuw vergendel-voorbeeld mogelijk niet zichtbaar!</string>
    <string name="apply_theme_no_select_message">Geen modules geselecteerd</string>
    <string name="backup_preference_title">Backup huidig thema</string>

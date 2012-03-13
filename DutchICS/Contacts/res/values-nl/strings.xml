@@ -56,7 +56,6 @@
    <string name="callDetailsDurationFormat" formatted="false">%s min. %s sec.</string>
    <string name="callDetailTitle">Gespreksgegevens</string>
    <string name="calllog_menu_blacklist">Voeg toe aan blacklist</string>
-   <string name="calllog_menu_call_ip_number">Kies IP oproep (kies %s)</string>
    <string name="calllog_menu_edit_before_call">Aanpassen</string>
    <string name="calllog_menu_send_sms">Zend SMS</string>
    <string name="callNoAnswerTimeFormat">Beltoon %s</string>
@@ -310,6 +309,7 @@ Reden: '%s'"</string>
    <string name="menu_accounts">Accounts</string>
    <string name="menu_addStar">Toevoegen aan favorieten</string>
    <string name="menu_call">Contact bellen</string>
+   <string name="menu_call_ip_number">Kies IP oproep (naar %s)</string>
    <string name="menu_callNumber">%s bellen</string>
    <string name="menu_contacts_filter">Zichtbare contacten</string>
    <string name="menu_copyContact">Kopiëren naar mijn contacten</string>
@@ -333,6 +333,7 @@ Reden: '%s'"</string>
    <string name="menu_redirect_calls_to_vm">Alle oproepen naar voicemail</string>
    <string name="menu_removeStar">Uit favorieten verwijderen</string>
    <string name="menu_search">Zoeken</string>
+   <string name="menu_send_to_desktop">Snelkoppeling maken</string>
    <string name="menu_sendSMS">"Sms'en naar contact"</string>
    <string name="menu_set_ring_tone">Beltoon instellen</string>
    <string name="menu_settings">Instellingen</string>
@@ -489,6 +490,7 @@ U kunt als volgt een contact toevoegen aan uw lijst met favorieten:
    <string name="select_all">Selecteer alles</string>
    <string name="select_none">Niets geselecteerd, kan opdracht niet uitvoeren</string>
    <string name="select_vcard_title">vCard-bestand kiezen</string>
+   <string name="send_contact_shortcut_todesktop_success">Snelkoppeling voor contact succesvol geplaatst</string>
    <string name="separatorJoinAggregateAll">Alle contacten</string>
    <string name="separatorJoinAggregateSuggestions">Mogelijke contacten</string>
    <string name="service_provider">Service provider</string>

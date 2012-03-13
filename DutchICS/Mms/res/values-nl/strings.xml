@@ -57,11 +57,13 @@
    <string name="confirm_clear_search_text">De zoekgeschiedenis wordt gewist.</string>
    <string name="confirm_clear_search_title">Wissen</string>
    <string name="confirm_delete_all_conversations">Alle threads worden verwijderd.</string>
+   <string name="confirm_delete_all_RUIM_messages">Alle berichten op de RUIM-kaart worden gewist.</string>
    <string name="confirm_delete_all_SIM_messages">Alle berichten op de simkaart worden verwijderd.</string>
    <string name="confirm_delete_conversation">De volledige thread wordt verwijderd.</string>
    <string name="confirm_delete_group_message">Wis alle berichten?</string>
    <string name="confirm_delete_locked_message">Dit vergrendelde bericht verwijderen?</string>
    <string name="confirm_delete_message">Het bericht wordt verwijderd.</string>
+   <string name="confirm_delete_RUIM_message">Dit bericht op de RUIM-kaartwordt gewist.</string>
    <string name="confirm_delete_SIM_message">Dit bericht op de simkaart wordt verwijderd.</string>
    <string name="confirm_dialog_locked_title">Vergrendeld bericht verwijderen?</string>
    <string name="confirm_dialog_title">Verwijderen?</string>
@@ -254,6 +256,7 @@
    <string name="pref_summary_delete_limit">%1$s berichten per conversatie</string>
    <string name="pref_summary_delivery_reports">Afleverrapporten voor elk verzonden bericht</string>
    <string name="pref_summary_filter_phone">Vaste telefoonnummers filteren, deze kunnen geen SMS ontvangen</string>
+   <string name="pref_summary_manage_ruim_messages">Beheer opgeslagen berichten op de RUIM-kaart</string>
    <string name="pref_summary_manage_sim_messages">Berichten op uw SIM-kaart beheren</string>
    <string name="pref_summary_mms_auto_retrieval">Berichten automatisch ophalen</string>
    <string name="pref_summary_mms_delivery_reports">Ontvangstbevestiging voor elk verzonden bericht aanvragen</string>
@@ -279,6 +282,7 @@
    <string name="pref_title_delivery_reports">Afleverrapporten</string>
    <string name="pref_title_delivery_ringtone">Afleverrapport geluid</string>
    <string name="pref_title_filter_phone">Vast nummers filteren</string>
+   <string name="pref_title_manage_ruim_messages">Beheer opgeslagen berichten op de RUIM-kaart</string>
    <string name="pref_title_manage_sim_messages">Berichten op SIM-kaart beheren</string>
    <string name="pref_title_mms_auto_retrieval">Automatisch ophalen</string>
    <string name="pref_title_mms_delete">Limiet voor MMS</string>
@@ -328,8 +332,12 @@
    <string name="resent_message">Opnieuw versturen</string>
    <string name="resize_image_error_information">Deze afbeelding is te groot om te verzenden, zelfs als het formaat wordt aangepast.</string>
    <string name="restore_default">Standaardinstellingen terugzetten</string>
+   <string name="ruim_empty">Geen opgeslagen berichten op de RUIM-kaart</string>
+   <string name="ruim_full_title">RUIM-kaart vol</string>
+   <string name="ruim_manage_messages_title">SMS berichten op RUIM-kaart</string>
    <string name="save">Opslaan</string>
    <string name="save_ringtone">Opslaan als beltoon</string>
+   <string name="save_to_ruim">Op RUIM-kaart opslaan</string>
    <string name="save_to_sim">Opslaan op SIM kaart</string>
    <string name="saved_label">"Opgeslagen: "</string>
    <string name="saved_ringtone">Beltoon opgeslagen.</string>

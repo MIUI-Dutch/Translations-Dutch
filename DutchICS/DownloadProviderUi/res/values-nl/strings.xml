@@ -39,6 +39,7 @@
    <string name="keep_queued_download">Houden</string>
    <string name="menu_enter_edit_mode">Bewerken</string>
    <string name="menu_preferences">Instellingen</string>
+   <string name="might_lead_to_mobile_charge">"Na annuleren komt er geen melding van het netwerk. Dit kan kosten voor dataverkeer geven"</string>
    <string name="missing_title">&lt;Onbekend></string>
    <string name="no_downloads">Geen downloads.</string>
    <string name="open_download">Open</string>

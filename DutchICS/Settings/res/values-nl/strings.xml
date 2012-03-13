@@ -623,6 +623,7 @@ Aangezien dit gegevensverbruik wordt gemeten door uw telefoon en uw provider tot
    <string name="error_title" />
    <string name="external_code_size_label">USB-opslagapp</string>
    <string name="external_data_size_label">SD-kaart</string>
+   <string name="factory_settings">Fabrieksinstelling</string>
    <string name="filter">Filter</string>
    <string name="filter_apps_all">Alles</string>
    <string name="filter_apps_onsdcard">Op SD-kaart</string>
@@ -1179,6 +1180,7 @@ Pincode mogelijk onjuist."</string>
    <string name="spellcheckers_settings_title">Spellingcontrole</string>
    <string name="ssid_label">SSID:</string>
    <string name="status_awake_time">Stand-bytijd</string>
+   <string name="status_bar_settings">Statusbalk</string>
    <string name="status_bt_address">Bluetooth-adres</string>
    <string name="status_data_state">Status mobiel netwerk</string>
    <string name="status_icc_id">ICCID</string>

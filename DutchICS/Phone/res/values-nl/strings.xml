@@ -195,6 +195,7 @@
    <string name="clir_choices_show_number_miui">Nummer weergeven</string>
    <string name="close_dialog">OK</string>
    <string name="close_profile">Sluiten</string>
+   <string name="cmda_call_miui">Cdma Oproep</string>
    <string name="command_error_fdn_failure_miui">Deze handeling is niet toegestaan als vaste kiesnummers zijn ingeschakeld. Probeer het nogmaals als vaste kiesnummers zijn uitgeschakeld.</string>
    <string name="command_error_generic_failure_miui">Deze handeling kon niet worden beëindigd. Probeer het later opnieuw.</string>
    <string name="command_error_illegal_sim_or_me_miui">Netwerkselectie mislukt wegens foute SIM of ME.</string>
@@ -212,6 +213,7 @@
    <string name="command_error_unsupported_request_miui">Deze handeling wordt niet ondersteund.</string>
    <string name="confCall">Telefonische vergadering</string>
    <string name="confirm_delete_message_title_miui">Je wist deze berichten met aangepaste kenmerken.</string>
+   <string name="confirm_delete_sim_entry_miui">Bevestig wissen van %d geselteerde contacten op SIM-kaart?</string>
    <string name="confirm_pin_hint_miui">Nieuwe PIN bevestigen</string>
    <string name="confirm_pin2_hint_miui">Nieuwe PIN2 bevestigen</string>
    <string name="confirmPin2Label">Nieuwe PIN2 bevestigen</string>
@@ -244,8 +246,11 @@
    <string name="default_preference_summary">&lt;Niet ingesteld></string>
    <string name="default_transport">UDP</string>
    <string name="delete_fdn_contact">Vaste kiesnummers verwijderen</string>
+   <string name="delete_selected_sim_entry_miui">Wis selecteerde contacten</string>
    <string name="delete_sim_contact_confirm_title_miui">SIM contactpersonen verwijderen</string>
+   <string name="delete_sim_entry_miui">Wis</string>
    <string name="deleting_fdn_contact">Vast nummer verwijderen...</string>
+   <string name="deleting_sim_entry_miui">Wis contacten op SIM-kaart</string>
    <string name="description_call_recording_miui">Bezig met Gespreksopname.</string>
    <string name="description_delete_button">backspace</string>
    <string name="description_dial_button">bellen</string>
@@ -405,6 +410,8 @@ Toch overschakelen naar de nieuwe provider?"</string>
    <string name="hangup_sms_miui">Afwijzen met bericht</string>
    <string name="ignore_miui">Negeren</string>
    <string name="imei">IMEI-nummer</string>
+   <string name="import_all_sim_entries_miui">Importeer alle contacten</string>
+   <string name="import_all_sim_entry_miui">Importeer alle</string>
    <string name="import_selected_sim_entries_miui">Geselecteerde contactpersonen importeren</string>
    <string name="import_sim_entry_miui">Importeren</string>
    <string name="importAllSimEntries">Alles importeren</string>
@@ -562,6 +569,7 @@ Toch overschakelen naar de nieuwe provider?"</string>
    <string name="onscreen_merge_calls_text_miui">Oproepen samenvoegen</string>
    <string name="onscreen_mute_text_miui">Dempen</string>
    <string name="onscreen_note_text_miui">Noteren</string>
+   <string name="onscreen_send_flash_text_miui">Sneltekst</string>
    <string name="onscreen_speaker_text_miui">Luidspreker</string>
    <string name="onscreen_swap_calls_text_miui">Omschakelen</string>
    <string name="onscreen_tools_off_miui">Tools</string>
@@ -658,8 +666,13 @@ Let op, PIN2 gerelateerde functies worden geblokkeerd bij foutieve invoer!"</str
    <string name="preferred_network_mode_title">Netwerk modus</string>
    <string name="preferred_network_mode_wcdma_only_summary">Aanbevolen netwerk-modus: Alleen WCDMA</string>
    <string name="preferred_network_mode_wcdma_perf_summary">Aanbevolen netwerk-modus: Bij voorkeur WCDMA </string>
+   <string name="preferred_network_type_3g_only_warning_miui">"3G geselecteerd als voorkeurs netwerk type, dus er is géén signaal als de SIM-kaart geen 3G functionaliteit heeft!
+Klik OK voor doorgaan."</string>
+   <string name="preferred_network_type_cdma_miui">CDMA</string>
+   <string name="preferred_network_type_gsm_umts_miui">GSM/WCDMA</string>
    <string name="preferred_network_type_pref_entries_3g_preferred_miui">Bij voorkeur 3G</string>
    <string name="preferred_network_type_pref_entries_auto_miui">Automatisch</string>
+   <string name="preferred_network_type_pref_entries_global_miui">Global</string>
    <string name="preferred_network_type_pref_entries_only_2g_miui">Alleen 2G (stroombesparend)</string>
    <string name="preferred_network_type_pref_entries_only_3g_miui">Alleen 3G</string>
    <string name="preferred_network_type_title_miui">Selectie netwerktype</string>
@@ -702,9 +715,13 @@ Let op! De SIM kaart wordt onklaar gemaakt bij een opnieuw foutieve invoer"</str
    <string name="requesting_unlock">Verzoek om ontgrendelen netwerk...</string>
    <string name="reset_my_choice_hint">"U kunt 'Oproepinstellingen' gebruiken om te wijzigen welk account u standaard voor internetoproepen wilt gebruiken door daar een ander account te selecteren."</string>
    <string name="respond_via_sms_canned_response_1">Kan nu niet opnemen. Alles goed?</string>
+   <string name="respond_via_sms_canned_response_1_miui">"Ik kan de oproep nu niet beantwoorden. Ik bel later terug."</string>
    <string name="respond_via_sms_canned_response_2">Ik bel je zo terug.</string>
+   <string name="respond_via_sms_canned_response_2_miui">"Ik kan de oproep nu niet beantwoorden. Wat kan ik voor je doen?"</string>
    <string name="respond_via_sms_canned_response_3">Ik bel je later.</string>
+   <string name="respond_via_sms_canned_response_3_miui">"Ik heb het nu super druk. Bel je later."</string>
    <string name="respond_via_sms_canned_response_4">Kan nu niet opnemen. Bel me later.</string>
+   <string name="respond_via_sms_canned_response_4_miui">"Ik kan nu niet telefoneren. Wat is er aan de hand?"</string>
    <string name="respond_via_sms_confirmation_format">Bericht verzonden naar %s.</string>
    <string name="respond_via_sms_custom_message">Aangepast bericht...</string>
    <string name="respond_via_sms_edittext_dialog_title">Snelle reactie</string>
@@ -744,6 +761,7 @@ Let op! De SIM kaart wordt onklaar gemaakt bij een opnieuw foutieve invoer"</str
    <string name="sim_contact_dropdown_menu_select_all_miui">Selecteer alles</string>
    <string name="sim_contact_name_miui">Naam</string>
    <string name="sim_contact_number_miui">Nummer</string>
+   <string name="sim_contacts_title_miui">Contacten op SIM-kaart</string>
    <string name="sim_lock_off_miui">PIN code vereist om telefoon te gebruiken</string>
    <string name="sim_lock_on_miui">PIN code vereist om telefoon te gebruiken</string>
    <string name="sim_lock_title_miui">SIM-kaart blokkade-instellingen</string>

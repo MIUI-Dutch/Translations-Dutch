@@ -51,6 +51,7 @@
    <string name="move_data_to_sdcard_title">Move data naar SD-kaart</string>
    <string name="moving_data_to_sdcard_message">Data wordt verplaatst naar SD-kaart</string>
    <string name="moving_data_to_sdcard_progress_format">Verplaatst %1$dKb van %2$dKb</string>
+   <string name="my_rank">Update plaats:</string>
    <string name="network_error">Kan niet verbinden, netwerk problemen of server is bezig</string>
    <string name="new_update_content_title">Nieuwe versie:%s</string>
    <string name="new_update_download_complete_body">Nieuwe versie: %s</string>

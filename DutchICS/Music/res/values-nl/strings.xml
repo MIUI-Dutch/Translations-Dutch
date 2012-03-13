@@ -94,7 +94,6 @@
    <string name="lyric_open_other_connect">Download songteksten via mobiele internetconnectie</string>
    <string name="lyric_picker_not_found">Bestandsbeheer niet gevonden</string>
    <string name="max_interval">90</string>
-   <string name="mediapickerlabel">Muziek</string>
    <string name="mediaplaybacklabel">Muziek</string>
    <string name="menu_batch_selection">Keuze-modus</string>
    <string name="min_interval">1</string>
@@ -142,7 +141,6 @@
    <string name="queue">Huidige afspeellijst</string>
    <string name="quit_warining">Speler zal stoppen na %d minuut(en)</string>
    <string name="recentlyadded_title">Laatst toegevoegd</string>
-   <string name="record_count">Totaal van %d records</string>
    <string name="remove_from_favorite">Wis uit Favorieten</string>
    <string name="remove_item">Wis</string>
    <string name="rename_album_menu">Hernoem album</string>
@@ -163,10 +161,10 @@
    <string name="sdcard_missing_message">Je telefoon heeft geen ingeschoven SD-kaart.</string>
    <string name="sdcard_missing_message_nosdcard">Je telefoon heeft geen USB opslag.</string>
    <string name="search_failed">Zoeken mislukt, controleer netwerkverbinding</string>
-   <string name="search_failed_report">Niets gevonden</string>
    <string name="search_hint">Zoek Muziek</string>
    <string name="search_history">Zoekhistorie</string>
    <string name="search_in_process">Zoeken</string>
+   <string name="search_result_format">\"%s\"</string>
    <string name="search_settings_description">Artiesten, albums en nummers</string>
    <string name="search_title">Zoeken</string>
    <string name="select_all">Selecteer alle</string>
