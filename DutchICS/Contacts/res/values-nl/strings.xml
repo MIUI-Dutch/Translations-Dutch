@@ -206,6 +206,7 @@
    <string name="display_options_view_family_name_first">Achternaam eerst</string>
    <string name="display_options_view_given_name_first">Roepnaam eerst</string>
    <string name="display_options_view_names_as">Contactnamen weergeven als</string>
+   <string name="display_sim_contacts">Toon sim contact</string>
    <string name="display_ungrouped">Alle andere contacten</string>
    <string name="display_warn_remove_ungrouped">"Als u '%s' verwijdert uit de synchronisatie, worden ook contacten die niet bij een groep horen uit de synchronisatie verwijderd."</string>
    <string name="edit_contact">Contact bewerken</string>
@@ -452,6 +453,7 @@ U kunt als volgt een contact toevoegen aan uw lijst met favorieten:
    <string name="preference_export">Export</string>
    <string name="preference_import">Import</string>
    <string name="preference_others">Overig</string>
+   <string name="preference_sim">SIM-kaart</string>
    <string name="preview_contact_card_title">Import contact</string>
    <string name="primary_indicator">(Standaard)</string>
    <string name="private_num">Privénummer</string>
@@ -504,6 +506,8 @@ U kunt als volgt een contact toevoegen aan uw lijst met favorieten:
    <string name="shortcutMessageContact">Direct bericht</string>
    <string name="showAllContactsJoinItem">Alle contacten weergeven</string>
    <string name="sim_contact_search_error">Fout bij zoeken van contacten op SIM-kaart</string>
+   <string name="sim_contacts_invisiable">Onzichtbaar</string>
+   <string name="sim_contacts_visiable">Zichtbaar</string>
    <string name="sim_indexed_contact_not_exist">Positie %1$d op SIM-kaart is niet correct, hoort tussen %2$d en %3$d</string>
    <string name="sim_no_contact">Geen contacten op SIM-kaart</string>
    <string name="simContacts_emptyLoading">Laden vanaf SIM-kaart...</string>

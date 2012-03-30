@@ -90,6 +90,11 @@
    <string name="call_forwarding_number_hint_miui">Voer het doorschakelnummer in</string>
    <string name="call_forwarding_settings">Instellingen voor doorschakelen van oproepen</string>
    <string name="call_forwarding_settings_miui">Oproep doorschakelinstellingen</string>
+   <string name="call_log_number_limit_key_title">Maximum</string>
+   <string name="call_log_number_limit_miui">Oproep log aantal restricties</string>
+   <string name="call_log_number_limit_subsummary">%d</string>
+   <string name="call_log_number_limit_summary_miui">Beperk de ruimte van oproep log om efficientie te garanderen</string>
+   <string name="call_log_number_limit_title">Instellen van de ruimte voor de oproep log</string>
    <string name="call_lost">De verbinding is verbroken.</string>
    <string name="call_lost_title">Verbinding verbroken</string>
    <string name="call_priority">Uitgaande oproep via SIP</string>
@@ -162,6 +167,7 @@
    <string name="cb_sms_settings">Instellingen voor SMS infodienstberichten</string>
    <string name="cdma_activate_device">Activeer apparaat</string>
    <string name="cdma_cell_broadcast_sms">Infodienstbericht</string>
+   <string name="cdma_conference_call_miui">Vergader oproep</string>
    <string name="cdma_lte_data_service">Gegevensservice instellen</string>
    <string name="cdma_network_preferences_dialogtitle">CDMA-netwerkvoorkeuren</string>
    <string name="cdma_network_preferences_title">CDMA-netwerkvoorkeuren</string>
@@ -178,6 +184,7 @@
    <string name="cdma_system_select_dialogtitle">Systeem selecteren</string>
    <string name="cdma_system_select_summary">De CDMA-roamingmodus wijzigen</string>
    <string name="cdma_system_select_title">Systeem selecteren</string>
+   <string name="cdma_three_way_calls_miui">Drie-weg oproep</string>
    <string name="cell_bc_sms_disable">Infodienstbericht uitgeschakeld</string>
    <string name="cell_bc_sms_enable">SMS Infodienstbericht ingeschakeld</string>
    <string name="cell_broadcast_sms">Infodienstbericht</string>
@@ -195,7 +202,6 @@
    <string name="clir_choices_show_number_miui">Nummer weergeven</string>
    <string name="close_dialog">OK</string>
    <string name="close_profile">Sluiten</string>
-   <string name="cmda_call_miui">Cdma Oproep</string>
    <string name="command_error_fdn_failure_miui">Deze handeling is niet toegestaan als vaste kiesnummers zijn ingeschakeld. Probeer het nogmaals als vaste kiesnummers zijn uitgeschakeld.</string>
    <string name="command_error_generic_failure_miui">Deze handeling kon niet worden beëindigd. Probeer het later opnieuw.</string>
    <string name="command_error_illegal_sim_or_me_miui">Netwerkselectie mislukt wegens foute SIM of ME.</string>

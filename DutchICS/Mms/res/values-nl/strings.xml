@@ -269,6 +269,7 @@
    <string name="pref_summary_notification_enabled">Berichtmeldingen in statusbalk weergeven</string>
    <string name="pref_summary_notification_vibrateWhen">Ook trillen bij melding</string>
    <string name="pref_summary_ringtone_repeat">Aantal maal dat het meldingsgeluid (iedere 5 minuten) moet worden afgespeeld tot dat het bericht gelezen is</string>
+   <string name="pref_summary_show_recent_contacts">Toon lijst met recente contacten tijdens het opstellen van een nieuw bericht</string>
    <string name="pref_summary_sms_delivery_reports">Ontvangstbevestiging voor elk verzonden bericht aanvragen</string>
    <string name="pref_summary_wake_up_screen">Scherm gaat aan bij binnenkomende berichten</string>
    <string name="pref_theme_modify">Wijzig thema</string>
@@ -295,6 +296,7 @@
    <string name="pref_title_notification_ringtone">Beltoon kiezen</string>
    <string name="pref_title_notification_vibrateWhen">Trillen</string>
    <string name="pref_title_ringtone_repeat">Herhaling meldingsgeluid</string>
+   <string name="pref_title_show_recent_contacts">Toon recente contacten</string>
    <string name="pref_title_sms_delete">Limiet voor sms</string>
    <string name="pref_title_sms_delivery_reports">Ontvangstbevestigingen</string>
    <string name="pref_title_wake_up_screen">Schakel scherm in</string>

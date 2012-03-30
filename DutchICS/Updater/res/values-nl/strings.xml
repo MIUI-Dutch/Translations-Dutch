@@ -63,9 +63,6 @@
    <string name="no_updates_found">Heeft geen updates gevonden</string>
    <string name="no_updates_warning">Heeft geen enkele update gevonden</string>
    <string name="no_updates_warning2">Heeft geen enkele update gevonden!</string>
-   <string name="page_error">Geen toegang tot MIUI, mobiele netwerk tijdelijk niet beschikbaar</string>
-   <string name="page_error_title">Toegangsfout</string>
-   <string name="page_reload">Ververs pagina</string>
    <string name="reboot_to_new_system">Herstart voor nieuwe versie</string>
    <string name="sdcard_has_no_space_dialog_body">SD-kaart heeft te weinig vrije ruimte. Maak ruimte vrij voor je de update download</string>
    <string name="sdcard_has_no_space_dialog_title">SD-kaart heeft te weinig vrije ruimte</string>

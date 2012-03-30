@@ -195,6 +195,7 @@ Houd de apparaten bij elkaar (meestal met de achterkanten tegen elkaar aan) en r
    <string name="battery_history_hours">%1$du %2$dm %3$ds</string>
    <string name="battery_history_minutes">%1$dm %2$ds</string>
    <string name="battery_history_seconds">%1$ds</string>
+   <string name="battery_indicator_style">Batterij indicator stijle</string>
    <string name="battery_info_awake_battery">Stand-bytijd op accu:</string>
    <string name="battery_info_awake_plugged">Stand-bytijd tijdens opladen:</string>
    <string name="battery_info_health_cold">Koud</string>
@@ -230,6 +231,8 @@ Houd de apparaten bij elkaar (meestal met de achterkanten tegen elkaar aan) en r
    <string name="battery_info_voltage_label">Accuvoltage:</string>
    <string name="battery_info_voltage_units">mV</string>
    <string name="battery_level_title">Accuniveau</string>
+   <string name="battery_settings">Batterij</string>
+   <string name="battery_settings_title">Batterij</string>
    <string name="battery_since_reset">Accugebruik sinds herstel</string>
    <string name="battery_since_unplugged">Accugebruik sinds losgekoppeld</string>
    <string name="battery_stats_charging_label">Opladen</string>
@@ -385,6 +388,10 @@ Houd de apparaten bij elkaar (meestal met de achterkanten tegen elkaar aan) en r
    <string name="bluetooth_visibility">Kan worden gevonden</string>
    <string name="bluetooth_visibility_timeout">Time-out voor zichtbaarheid</string>
    <string name="bluetooth_visibility_timeout_summary">Instellen hoe lang het apparaat vindbaar is</string>
+   <string name="breathing_light_color_summary">LED kleur voor ontvangst nieuwe notificatie</string>
+   <string name="breathing_light_color_title">LED kleur</string>
+   <string name="breathing_light_freq_summary">LED pauze tussen flash</string>
+   <string name="breathing_light_freq_title">LED flash frequentie</string>
    <string name="brightness">Helderheid</string>
    <string name="brightness_summary">Helderheid van het scherm aanpassen</string>
    <string name="bssid_label">BSSID:</string>
@@ -425,6 +432,8 @@ Houd de apparaten bij elkaar (meestal met de achterkanten tegen elkaar aan) en r
    <string name="clear_failed_dlg_text">Kan gegevens voor de app niet wissen.</string>
    <string name="clear_failed_dlg_title">Gegevens wissen</string>
    <string name="clear_user_data_text">Gegevens wissen</string>
+   <string name="common_settings">Normale Instellingen</string>
+   <string name="complete_settings">Complete Instellingen</string>
    <string name="computing_size">Berekenen…</string>
    <string name="config_list_label">Ingestelde Netwerken</string>
    <string name="configure_input_method">Invoermethoden instellen</string>
@@ -543,11 +552,13 @@ Aangezien dit gegevensverbruik wordt gemeten door uw telefoon en uw provider tot
    <string name="date_time_set_date">Datum instellen</string>
    <string name="date_time_set_time">Tijd instellen</string>
    <string name="date_time_set_timezone">Tijdzone selecteren</string>
+   <string name="date_time_settings">Datum &amp; tiijd</string>
    <string name="debug_applications_category">Apps</string>
    <string name="debug_intent_sender_label">Debug intent sender</string>
    <string name="debug_log">Debug log</string>
    <string name="debug_ui_category">Gebruikersinterface</string>
    <string name="default_date_format">MM/dd/yyyy</string>
+   <string name="default_usb_mode">Standaard USB connectie type</string>
    <string name="delete">Verwijderen</string>
    <string name="details_subtitle">Gebruiksdetails</string>
    <string name="details_title">Gebruiksdetails</string>
@@ -623,7 +634,6 @@ Aangezien dit gegevensverbruik wordt gemeten door uw telefoon en uw provider tot
    <string name="error_title" />
    <string name="external_code_size_label">USB-opslagapp</string>
    <string name="external_data_size_label">SD-kaart</string>
-   <string name="factory_settings">Fabrieksinstelling</string>
    <string name="filter">Filter</string>
    <string name="filter_apps_all">Alles</string>
    <string name="filter_apps_onsdcard">Op SD-kaart</string>
@@ -666,6 +676,7 @@ Aangezien dit gegevensverbruik wordt gemeten door uw telefoon en uw provider tot
    <string name="immediately_destroy_activities_summary">Activiteit wissen zodra de gebruiker deze verlaat</string>
    <string name="ims_reg_required_off">Uitschakelen van IMS-registratie vereist</string>
    <string name="ims_reg_required_on">Inschakelen van IMS-registratie vereist</string>
+   <string name="incoming_call_vibrate_abbreviation">Oproepen</string>
    <string name="incoming_call_volume_title">Beltoon</string>
    <string name="input_method">Invoermethode</string>
    <string name="input_method_selector">Selectie voor invoermethode</string>
@@ -709,6 +720,11 @@ Aangezien dit gegevensverbruik wordt gemeten door uw telefoon en uw provider tot
    <string name="language_settings_category">Taalinstellingen</string>
    <string name="large_font">Groot</string>
    <string name="launch_count_label">Aantal</string>
+   <string name="launcher_settings_title">Launcher</string>
+   <string name="led_colors_summary">Notificatie LED kleur</string>
+   <string name="led_frequence_summary">Interval instellen tussen LED flash</string>
+   <string name="led_pulse_summary">Pulse LED voor nieuwe notificaties</string>
+   <string name="led_settings">LED</string>
    <string name="legal_information">Juridische informatie</string>
    <string name="license_title">Licentie</string>
    <string name="link_speed_label">Link Speed:</string>
@@ -726,6 +742,9 @@ Aangezien dit gegevensverbruik wordt gemeten door uw telefoon en uw provider tot
    <string name="lock_after_timeout_summary">%1$s na slaapstand</string>
    <string name="lock_intro_message">"Beveilig uw telefoon tegen ongeoorloofd gebruik door een persoonlijk schermontgrendelingspatroon in te stellen. Gebruik op het volgende scherm uw vinger om de punten met elkaar te verbinden. U moet minimaal vier punten met elkaar verbinden.
 Bent u er klaar voor? Raak 'Volgende' aan."</string>
+   <string name="lock_screen_unlock_show">Toon scherm wachtwoord scherm directl</string>
+   <string name="lock_screen_unlock_show_summary">"Gebruik geen andere vergrendelscherm, gebruik de scherm ontgrendel interface"</string>
+   <string name="lock_settings_picker_settings">Zet scherm slot</string>
    <string name="lock_settings_picker_title">Schermvergr. select.</string>
    <string name="lock_settings_title">Schermbeveiliging</string>
    <string name="lock_setup">Instellen voltooid</string>
@@ -851,6 +870,7 @@ Als u muziek, foto's en andere gebruikersgegevens wilt wissen, moet de "<b>SD-ka
    <string name="misc_files">Diverse bestanden</string>
    <string name="misc_files_selected_count">%1$d van %2$d geselecteerd</string>
    <string name="misc_files_selected_count_bytes">%1$s van %2$s</string>
+   <string name="mms_vibrate_abbreviation">Berichten</string>
    <string name="model_number">Modelnummer</string>
    <string name="move_app">Verplaatsen</string>
    <string name="move_app_failed_dlg_text">Kan app niet verplaatsen. %1$s</string>
@@ -877,9 +897,11 @@ Als u muziek, foto's en andere gebruikersgegevens wilt wissen, moet de "<b>SD-ka
    <string name="no_running_services">Niets wordt uitgevoerd.</string>
    <string name="no_services">Niet actief</string>
    <string name="normal_date_format">Regionaal (%s)</string>
+   <string name="notification_pulse_summary">Als nieuwe notificatie is ontvangen, pulse notifiatie LED</string>
    <string name="notification_pulse_title">Knipperen trackball</string>
    <string name="notification_sound_dialog_title">Beltoon voor meldingen kiezen</string>
    <string name="notification_sound_title">Standaardmelding</string>
+   <string name="notification_vibrate_abbreviation">Notificatie</string>
    <string name="notification_volume_title">Melding</string>
    <string name="oem_radio_info_label">OEM-specifieke gegevens/instellingen</string>
    <string name="onscreen_keyboard_settings_summary">Instellingen voor schermtoetsenbord</string>
@@ -910,6 +932,7 @@ Als u muziek, foto's en andere gebruikersgegevens wilt wissen, moet de "<b>SD-ka
    <string name="power_key">Aan/uit toets</string>
    <string name="power_phone">Spraakoproepen</string>
    <string name="power_screen">Scherm</string>
+   <string name="power_usage_history">Batterij gebruik</string>
    <string name="power_usage_level_and_status">%1$s - %2$s</string>
    <string name="power_usage_not_available">Accugebruikgegevens niet beschikb.</string>
    <string name="power_usage_summary">Waarvoor de accu is gebruikt</string>
@@ -1055,6 +1078,7 @@ Als u muziek, foto's en andere gebruikersgegevens wilt wissen, moet de "<b>SD-ka
    <string name="screen_compatibility_text">Deze app is mogelijk niet ontworpen voor uw scherm. U kunt hier bepalen hoe de app wordt aangepast aan uw scherm.</string>
    <string name="screen_timeout">Slaapstand</string>
    <string name="screen_timeout_summary">Na %1$s inactiviteit</string>
+   <string name="screen_timeout_title">Scherm time-out</string>
    <string name="screensaver_activate_on_dock_title">Ook starten indien gedockt</string>
    <string name="screensaver_component_title">Geselecteerde candy</string>
    <string name="screensaver_settings_summary_off">Uitgeschakeld</string>
@@ -1130,6 +1154,8 @@ Als u muziek, foto's en andere gebruikersgegevens wilt wissen, moet de "<b>SD-ka
    <string name="show_owner_info_on_lockscreen_label">Eigenaarsgegevens weergeven op vergrendeld scherm</string>
    <string name="show_password">Wachtwoorden zichtbaar maken</string>
    <string name="show_password_summary" />
+   <string name="show_rounded_corners">Toon afgeronde hoeken</string>
+   <string name="show_rounded_corners_summary">Herstart is nodig voor activatie</string>
    <string name="show_running_services">Actieve services weergeven</string>
    <string name="show_screen_updates">Schermupdates weergeven</string>
    <string name="show_screen_updates_summary">Laat schermdelen knipperen als ze zijn bijgewerkt</string>
@@ -1248,6 +1274,7 @@ Een benadering van Google voor de synchronisatie van gegevens, zodat u altijd en
    <string name="tethering_help_button_text">Help</string>
    <string name="time_picker_title">Tijd</string>
    <string name="time_zone_auto_stub">Selecteer Tijdzone</string>
+   <string name="timezone_settings">TijdZone</string>
    <string name="title_font_size">Lettergrootte</string>
    <string name="total_size">%s (totaal)</string>
    <string name="total_size_label">Totaal</string>
@@ -1332,6 +1359,7 @@ Een benadering van Google voor de synchronisatie van gegevens, zodat u altijd en
    <string name="unlock_set_unlock_pattern_title">Patroon</string>
    <string name="unlock_set_unlock_pin_summary">Gemiddelde tot zware beveiliging</string>
    <string name="unlock_set_unlock_pin_title">PIN</string>
+   <string name="unlock_set_unlock_summary">Scherm wachtwoord instellen voor wachtwoord protectie</string>
    <string name="unmount_inform_text">SD-kaart wordt ontkoppeld.</string>
    <string name="untitled_apn">Naamloos</string>
    <string name="upload_debug_log_summary">Verzend debuglog via Wi-Fi om MIUI ROMs te verbeteren</string>

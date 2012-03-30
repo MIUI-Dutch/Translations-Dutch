@@ -5,7 +5,10 @@
    <string name="alarm_alert_dismiss_text">Negeren</string>
    <string name="alarm_alert_snooze_set">Snooze is ingesteld op %d minuten.</string>
    <string name="alarm_alert_snooze_text">Snooze</string>
+   <string name="alarm_ascending_mode_summary">Alarm oplopend volume</string>
+   <string name="alarm_ascending_mode_title">Alarm oplopend</string>
    <string name="alarm_button_description">Alarmen</string>
+   <string name="alarm_disabled">Uitgeschakeld</string>
    <string name="alarm_in_silent_mode_summary">Alarm afspelen, zelfs als stille modus van telefoon is geactiveerd</string>
    <string name="alarm_in_silent_mode_title">Alarm in stille modus</string>
    <string name="alarm_klaxon_service_desc">Service geluidsweergave voor alarmen ingesteld in Klok.</string>
@@ -32,9 +35,11 @@
    <string name="days">%s dagen</string>
    <string name="default_label">Alarm</string>
    <string name="default_ringtone_setting_title">Standaardbeltoon instellen</string>
+   <string name="delelte_selected_timezone">De geselecteerde timezone(s) wissen?</string>
    <string name="delete">Verwijderen</string>
    <string name="delete_alarm">Alarm verwijderen</string>
    <string name="delete_alarm_confirm">Dit alarm verwijderen?</string>
+   <string name="delete_timezone_title">Wis timezone</string>
    <string name="desk_clock_button_description">Klokweergave</string>
    <string name="disable_alarm">Alarm uitschakelen</string>
    <string name="done">Gereed</string>
@@ -48,9 +53,15 @@
    <string name="hours">%s uur</string>
    <string name="label">Label</string>
    <string name="loading_ringtone">Beltoon laden…</string>
+   <string name="menu_add_worldclock">Timezone toevoegen</string>
+   <string name="menu_alarm_setting">Alarm instellingen</string>
+   <string name="menu_alarmclock_edit">Wijzig alarmklok</string>
+   <string name="menu_delete">Wis</string>
    <string name="menu_desk_clock">Bureauklok</string>
    <string name="menu_edit_alarm">Alarm bewerken</string>
+   <string name="menu_edit_systemtime">Wijzig systeem tijd</string>
    <string name="menu_item_dock_settings">Dockinstellingen</string>
+   <string name="menu_worldclock_edit">Wijzig worldklok</string>
    <string name="minute">1 minuut</string>
    <string name="minutes">%s minuten</string>
    <string name="music_button_description">Muziek</string>
@@ -61,10 +72,17 @@
    <string name="settings">Instellingen</string>
    <string name="show_clock">Klok weergeven</string>
    <string name="silent_alarm_summary">Stil</string>
+   <string name="slide_down_delelte_alarm">Schuif neer om alarm te stoppen</string>
    <string name="snooze_duration_title">Snooze-duur</string>
+   <string name="stopwatch_title">Stopwatch</string>
    <string name="time">Tijd</string>
+   <string name="timer_title">Timer</string>
+   <string name="timezone_exist_error_message">Tijdzone toevoegen mislukt. Tijdzone bestaat al selecteer om te wijzigen.</string>
+   <string name="timezone_search_hint">Zoek stad om aan wereldklok toe te voegen</string>
    <string name="volume_button_dialog_title">Knopeffect</string>
    <string name="volume_button_setting_summary">Instellen wat deze knoppen doen wanneer erop wordt gedrukt tijdens een alarm</string>
    <string name="volume_button_setting_title">Volumeknoppen</string>
+   <string name="wait_when_operating_data_message">Verwerken data, moment.</string>
    <string name="weather_fetch_failure">Weersinformatie is momenteel niet beschikbaar.</string>
+   <string name="worldclock_title">Wereldklok</string>
 </resources>

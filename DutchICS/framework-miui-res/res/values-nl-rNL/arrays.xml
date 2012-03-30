@@ -38,9 +38,6 @@
         <item>China Mobile</item>
         <item>China Telecom</item>
     </string-array>
-    <array name="android_config_virtualKeyVibePattern">@android:array/config_virtualKeyVibePattern</array>
-    <array name="android_config_mobile_hotspot_provision_app">@android:array/config_mobile_hotspot_provision_app</array>
-    <array name="android_common_nicknames">@android:array/common_nicknames</array>
     <string-array name="mobile_operator_numeric_equivalencies">
         <item>46000</item>
         <item>46001</item>
