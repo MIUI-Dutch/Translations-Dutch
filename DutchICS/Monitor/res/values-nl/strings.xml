@@ -1,61 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-   <string name="all_apps">Alle programma\'s</string>
-   <string name="app_detail">Details programma</string>
-   <string name="app_detail_control">data Control</string>
-   <string name="app_name">Data monitor</string>
-   <string name="apply_rules_failed">Kan firewall regels niet toepassen, Probeer het opnieuw</string>
-   <string name="apply_rules_failed_known">Onbekend</string>
-   <string name="auto_turn_off_mobile">Stop data bij limiet</string>
-   <string name="data_usage_app_restrict_dialog">"In het geval van Wi-Fi-connectiviteit, kan deze functie de achtergrondgegevens applicatie stoppen.
-U vindt meer relevante gegevens over flow control optie in de instellingen in de bijbehorende applicatie."</string>
-   <string name="data_usage_cycle_editor_positive">Instellen</string>
-   <string name="data_usage_cycle_editor_subtitle">datum:</string>
-   <string name="data_usage_label_background">Achtergrond: %s</string>
-   <string name="data_usage_label_foreground">Voorgrond: %s</string>
-   <string name="data_usage_restrict_background">Beperkte achtergrond data</string>
-   <string name="data_usage_restrict_background_help">Beperk het gebruik van achtergrondinformatie voor deze app, stelt de bovengrens van de mobiele data in</string>
-   <string name="data_usage_restrict_background_summary">Als de mobiele datalimiet op de achtergrond bereikt is, dan, tenzij u bent verbonden met Wi-Fi-netwerk, zal een deel van de apps en diensten zullen niet worden uitgevoerd</string>
-   <string name="data_usage_restrict_background_title">Beperkte achtergrond gegevens?</string>
-   <string name="data_usage_uninstalled_apps">Applicatie is verwijderd</string>
-   <string name="date_format">%s Nr</string>
-   <string name="display_system_app">Toon systeem applicaties</string>
-   <string name="duration" formatted="false">in %d %d %d tot op-jaar %d %d %d dag</string>
-   <string name="duration_days" formatted="false">%d dagen %d uur %d minuten</string>
-   <string name="duration_hours" formatted="false">%d uur %d minuten</string>
-   <string name="duration_minutes">%d minuten</string>
-   <string name="exceed">Over:\u0020</string>
-   <string name="force_stop">Stop forceren</string>
-   <string name="input_max_traffic">Geef datalimiet op</string>
-   <string name="input_warning_traffic">Waarschuwing (MB)</string>
-   <string name="loading_apps_list">Programmalijst laden, wacht aub...</string>
-   <string name="max_traffic_monthly">Max maandelijks 2G/3G</string>
-   <string name="menu_display_system_app">Toon systeem apps</string>
-   <string name="menu_not_display_system_app">Verberg systeem apps</string>
-   <string name="menu_refresh">Vernieuwen</string>
-   <string name="menu_sort_by_name">Sorteer op naam</string>
-   <string name="menu_sort_by_traffic">Sorteer op dataverkeer</string>
-   <string name="mobile">2G/3G</string>
-   <string name="mobile_format">2G/3G: %s</string>
-   <string name="mobile_traffic">2G/3G data</string>
-   <string name="monitor_settings">Instellingen</string>
-   <string name="monitor_starting_day">Begin datum</string>
-   <string name="network_control">Datagebruik instellingen</string>
-   <string name="network_monitor">Apps monitor</string>
-   <string name="process_kernel_label">Android OS</string>
-   <string name="refresh">Vernieuwen</string>
-   <string name="remain">Tegoed:\u0020</string>
-   <string name="settings">Instellen</string>
-   <string name="tether_settings_title_all">Het delen van netwerken en draagbare hot spot</string>
-   <string name="tether_settings_title_bluetooth">Bluetooth Sharing Netwerk</string>
-   <string name="tether_settings_title_usb">USB Sharing Netwerk</string>
-   <string name="tether_settings_title_usb_bluetooth">Bluetooth instelling</string>
-   <string name="tether_settings_title_wifi">WI-Fi instelling</string>
-   <string name="threshold">Melding:\u0020</string>
-   <string name="traffic_data">Datamonitor</string>
-   <string name="traffic_none">Geen</string>
-   <string name="used">Gebruikt:\u0020</string>
-   <string name="version_text">Versie %1$s</string>
-   <string name="wifi">Wi-Fi</string>
-   <string name="wifi_format">Wi-Fi:%s</string>
+    <string name="adjust_data">Data aanpassen</string>
+    <string name="all_apps">Alle programma\'s</string>
+    <string name="app_detail">Details programma</string>
+    <string name="app_detail_control">data Control</string>
+    <string name="app_name">Data monitor</string>
+    <string name="apply_rules_failed">Kan firewall regels niet toepassen, Probeer het opnieuw</string>
+    <string name="apply_rules_failed_known">Onbekend</string>
+    <string name="auto_turn_off_mobile">Stop data bij limiet</string>
+    <string name="data_usage_app_restrict_dialog">""In het geval van Wi-Fi-connectiviteit, kan deze functie de achtergrondgegevens applicatie stoppen.
+
+U vindt meer relevante gegevens over flow control optie in de instellingen in de bijbehorende applicatie.""</string>
+    <string name="data_usage_cycle_editor_positive">Instellen</string>
+    <string name="data_usage_cycle_editor_subtitle">datum:</string>
+    <string name="data_usage_label_background">Achtergrond: %s</string>
+    <string name="data_usage_label_foreground">Voorgrond: %s</string>
+    <string name="data_usage_restrict_background">Beperkte achtergrond data</string>
+    <string name="data_usage_restrict_background_help">Beperk het gebruik van achtergrondinformatie voor deze app, stelt de bovengrens van de mobiele data in</string>
+    <string name="data_usage_restrict_background_summary">Als de mobiele datalimiet op de achtergrond bereikt is, dan, tenzij u bent verbonden met Wi-Fi-netwerk, zal een deel van de apps en diensten zullen niet worden uitgevoerd</string>
+    <string name="data_usage_restrict_background_title">Beperkte achtergrond gegevens?</string>
+    <string name="data_usage_uninstalled_apps">Applicatie is verwijderd</string>
+    <string name="date_format">%s Nr</string>
+    <string name="display_system_app">Toon systeem applicaties</string>
+    <string name="duration" formatted="false">in %d %d %d tot op-jaar %d %d %d dag</string>
+    <string name="duration_days" formatted="false">%d dagen %d uur %d minuten</string>
+    <string name="duration_hours" formatted="false">%d uur %d minuten</string>
+    <string name="duration_minutes">%d minuten</string>
+    <string name="exceed">Over:\u0020</string>
+    <string name="force_stop">Stop forceren</string>
+    <string name="input_adjust_data">data (MB)</string>
+    <string name="input_max_traffic">Geef datalimiet op</string>
+    <string name="input_warning_traffic">Waarschuwing (MB)</string>
+    <string name="loading_apps_list">Programmalijst laden, wacht aub...</string>
+    <string name="max_traffic_monthly">Max maandelijks 2G/3G</string>
+    <string name="menu_display_system_app">Toon systeem apps</string>
+    <string name="menu_not_display_system_app">Verberg systeem apps</string>
+    <string name="menu_refresh">Vernieuwen</string>
+    <string name="menu_sort_by_name">Sorteer op naam</string>
+    <string name="menu_sort_by_traffic">Sorteer op dataverkeer</string>
+    <string name="mobile">2G/3G</string>
+    <string name="mobile_format">2G/3G: %s</string>
+    <string name="mobile_traffic">2G/3G data</string>
+    <string name="monitor_settings">Instellingen</string>
+    <string name="monitor_starting_day">Begin datum</string>
+    <string name="network_control">Datagebruik instellingen</string>
+    <string name="network_monitor">Apps monitor</string>
+    <string name="process_kernel_label">Android OS</string>
+    <string name="refresh">Vernieuwen</string>
+    <string name="remain">Tegoed:\u0020</string>
+    <string name="settings">Instellen</string>
+    <string name="tether_settings_title_all">Het delen van netwerken en draagbare hot spot</string>
+    <string name="tether_settings_title_bluetooth">Bluetooth Sharing Netwerk</string>
+    <string name="tether_settings_title_usb">USB Sharing Netwerk</string>
+    <string name="tether_settings_title_usb_bluetooth">Bluetooth instelling</string>
+    <string name="tether_settings_title_wifi">WI-Fi instelling</string>
+    <string name="threshold">Melding:\u0020</string>
+    <string name="traffic_data">Datamonitor</string>
+    <string name="traffic_none">Geen</string>
+    <string name="used">Gebruikt:\u0020</string>
+    <string name="version_text">Versie %1$s</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="wifi_format">Wi-Fi:%s</string>
 </resources>

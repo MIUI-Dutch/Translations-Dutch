@@ -70,6 +70,7 @@
     <string name="accessibility_tutorial_skip">Overslaan</string>
     <string name="accessibility_tutorial_title">Handleiding voor toegankelijkheid</string>
     <string name="account_sync_settings_title">Synchronisatie-instellingen</string>
+    <string name="activating">Activeren...</string>
     <string name="active_device_admin_msg">Apparaatbeheerder</string>
     <string name="active_input_method_subtypes">Actieve invoermethoden</string>
     <string name="activity_picker_label">Een activiteit kiezen</string>
@@ -102,18 +103,23 @@ Houd de apparaten bij elkaar (meestal met de achterkanten tegen elkaar aan) en r
     <string name="apn_auth_type_pap">PAP</string>
     <string name="apn_auth_type_pap_chap">PAP of CHAP</string>
     <string name="apn_edit">Toegangspunt bewerken</string>
+    <string name="apn_general">Algemeen</string>
     <string name="apn_http_port">Poort</string>
     <string name="apn_http_proxy">Proxy</string>
     <string name="apn_mcc">MCC</string>
+    <string name="apn_mms">MMS</string>
     <string name="apn_mms_port">MMS-poort</string>
     <string name="apn_mms_proxy">MMS-proxy</string>
     <string name="apn_mmsc">MMSC</string>
     <string name="apn_mnc">MNC</string>
     <string name="apn_name">Naam</string>
+    <string name="apn_new">Nieuw access point</string>
     <string name="apn_not_set">Niet ingesteld</string>
     <string name="apn_password">Wachtwoord</string>
     <string name="apn_protocol">APN-protocol</string>
     <string name="apn_roaming_protocol">Roamingprotocol voor APN</string>
+    <string name="apn_save">Opslaan of niet</string>
+    <string name="apn_save_msg">Deze APN is gewijzigd, opslaan?</string>
     <string name="apn_server">Server</string>
     <string name="apn_settings">"APN's"</string>
     <string name="apn_type">APN-type</string>
@@ -558,6 +564,7 @@ Aangezien dit gegevensverbruik wordt gemeten door uw telefoon en uw provider tot
     <string name="debug_log">Debug log</string>
     <string name="debug_ui_category">Gebruikersinterface</string>
     <string name="default_date_format">MM/dd/yyyy</string>
+    <string name="default_input_method">Kies standaard invoer methode</string>
     <string name="default_usb_mode">Standaard USB connectie type</string>
     <string name="delete">Verwijderen</string>
     <string name="details_subtitle">Gebruiksdetails</string>
@@ -571,6 +578,7 @@ Aangezien dit gegevensverbruik wordt gemeten door uw telefoon en uw provider tot
     <string name="device_admin_warning">Als u deze beheerder activeert, staat u de app %1$s toe de volgende bewerkingen uit te voeren:</string>
     <string name="device_cpu">CPU:</string>
     <string name="device_cpu2_info">dual core</string>
+    <string name="device_cpu4_info">"Quad-Core "</string>
     <string name="device_info_default">Onbekend</string>
     <string name="device_info_label">Apparaatinfo</string>
     <string name="device_info_not_available">Niet beschikbaar</string>
@@ -649,6 +657,7 @@ Aangezien dit gegevensverbruik wordt gemeten door uw telefoon en uw provider tot
     <string name="force_stop">Nu stoppen</string>
     <string name="force_stop_dlg_text">Als u een app gedwongen stopt, kan deze onverwacht gedrag vertonen.</string>
     <string name="force_stop_dlg_title">Gedwongen stoppen?</string>
+    <string name="forget_wifi_message">Stopt automatisch verbinden met netwerk en en wachtwoord moet opnieuw ingevoerd worden</string>
     <string name="gadget_picker_title">Gadget kiezen</string>
     <string name="gadget_title">Energiebeheer</string>
     <string name="gadget_toggle_bluetooth">Bluetooth-instelling bijwerken</string>
@@ -796,6 +805,7 @@ Bent u er klaar voor? Raak 'Volgende' aan."</string>
     <string name="lockpattern_retry_button_text">Opnieuw proberen</string>
     <string name="lockpattern_settings_change_lock_pattern">Ontgrendelingspatroon wijzigen</string>
     <string name="lockpattern_settings_choose_lock_pattern">Ontgrendelingspatroon instellen</string>
+    <string name="lockpattern_settings_enable_power_button_instantly_locks">Power button sluit scherm onmiddelijk</string>
     <string name="lockpattern_settings_enable_summary">U moet een patroon tekenen om het scherm te ontgrendelen</string>
     <string name="lockpattern_settings_enable_tactile_feedback_title">Trillen bij aanraking</string>
     <string name="lockpattern_settings_enable_title">Patroon vereist</string>
@@ -815,6 +825,7 @@ Bent u er klaar voor? Raak 'Volgende' aan."</string>
     <string name="manage_space_text">Ruimte beheren</string>
     <string name="manageapplications_settings_summary">Geïnstalleerde apps beheren en verwijderen</string>
     <string name="manageapplications_settings_title">Apps beheren</string>
+    <string name="manually_add_network">Netwerk handmatig toevoegen</string>
     <string name="master_clear_accounts">"
 U bent momenteel aangemeld bij de volgende accounts:
 "</string>
@@ -881,6 +892,8 @@ Als u muziek, foto's en andere gebruikersgegevens wilt wissen, moet de "<b>SD-ka
     <string name="multi_touch_points_category_title">Multi-touch punten</string>
     <string name="multi_touch_points_preference">Herstart voor activatie</string>
     <string name="musicfx_title">Muziekeffecten</string>
+    <string name="nearby_wifi">Selecteer WiFi netwerk</string>
+    <string name="network_detail">%s Netwerk detail</string>
     <string name="network_settings_title">Mobiele netwerken</string>
     <string name="network_state_label">Netwerk Status:</string>
     <string name="networkid_label">Netwerk ID:</string>
@@ -894,6 +907,7 @@ Als u muziek, foto's en andere gebruikersgegevens wilt wissen, moet de "<b>SD-ka
     <string name="no_applications">Geen apps.</string>
     <string name="no_device_admins">Geen apparaatbeheerders beschikbaar</string>
     <string name="no_media_button_receiver">Nee</string>
+    <string name="no_nearby_wifi">Geen WI-FI netwerk gedetecteeerd, re-scan of voeg netwerk handmatig toe</string>
     <string name="no_running_services">Niets wordt uitgevoerd.</string>
     <string name="no_services">Niet actief</string>
     <string name="normal_date_format">Regionaal (%s)</string>
@@ -938,6 +952,9 @@ Als u muziek, foto's en andere gebruikersgegevens wilt wissen, moet de "<b>SD-ka
     <string name="power_usage_summary">Waarvoor de accu is gebruikt</string>
     <string name="power_usage_summary_title">Accu</string>
     <string name="power_wifi">Wi-Fi</string>
+    <string name="pref_button_light">toets verlichting</string>
+    <string name="pref_button_light_summary">Menu, Home terug toets indicator</string>
+    <string name="pref_operational_key">Operationele toets</string>
     <string name="pref_volume_category_title">Volume</string>
     <string name="pref_volume_wake_summary">Druk op volume toetsen opent de telefoon. Voor telefoons waar de aan/uit toets moeilijk bereikbaar is</string>
     <string name="pref_volume_wake_title">Volume rocker open</string>
@@ -1114,8 +1131,38 @@ Als u muziek, foto's en andere gebruikersgegevens wilt wissen, moet de "<b>SD-ka
     <string name="sdcard_settings_unmounted_status">U kunt de SD-kaart nu veilig verwijderen</string>
     <string name="sdcard_settings_used_bytes_label">Gebruikte bytes:</string>
     <string name="sdcard_unmount">SD-kaart ontkoppelen</string>
+    <string name="search_about">over</string>
+    <string name="search_accelerometer">accelerometer</string>
+    <string name="search_access_control">toegang controle</string>
+    <string name="search_airplane">vliegtuig</string>
+    <string name="search_android_beam">beam</string>
+    <string name="search_battery_indicator">batterij indicator</string>
+    <string name="search_bluetooth">bluetooth</string>
+    <string name="search_brightness">helderheid</string>
+    <string name="search_date_time">datum tijd</string>
+    <string name="search_description">Zoek instellingen</string>
+    <string name="search_gps">gps</string>
+    <string name="search_hint">Zoek instellingen</string>
+    <string name="search_key">toets</string>
+    <string name="search_label">Instellingen</string>
+    <string name="search_language">taal</string>
+    <string name="search_launcher">launcher</string>
+    <string name="search_led">led</string>
+    <string name="search_network">netwerk</string>
+    <string name="search_ring_volume">bel volume</string>
+    <string name="search_ringtone">beltoon</string>
+    <string name="search_screen_timeout">scherm timeout</string>
     <string name="search_settings">Zoeken</string>
     <string name="search_settings_summary">Instellingen voor zoeken en zoekgeschiedenis beheren</string>
+    <string name="search_silent">stil</string>
+    <string name="search_sms_received">sms ontvangen</string>
+    <string name="search_status_bar">statusbalk</string>
+    <string name="search_sync">sync</string>
+    <string name="search_tether">tether</string>
+    <string name="search_unlock_set">ontgrendelen</string>
+    <string name="search_vpn">vpn</string>
+    <string name="search_wallpaper">achtergrond</string>
+    <string name="search_wifi">wifi</string>
     <string name="security_passwords_title">Wachtwoorden</string>
     <string name="security_privacy_settings_title">Beveiliging &amp; privacy</string>
     <string name="security_settings_desc">Deze app heeft toegang tot de volgende opties van uw telefoon:</string>
@@ -1166,6 +1213,9 @@ Als u muziek, foto's en andere gebruikersgegevens wilt wissen, moet de "<b>SD-ka
     <string name="sim_bad_pin">Onjuiste pincode</string>
     <string name="sim_change_failed">"Kan pincode niet wijzigen.
 Pincode mogelijk onjuist."</string>
+    <string name="sim_change_failed_enable_sim_lock">"Wijzigen SIM PIN mislukt.
+
+ Enable SIM LOCK."</string>
     <string name="sim_change_pin">SIM PIN-code</string>
     <string name="sim_change_succeeded">SIM PIN-code gewijzigd</string>
     <string name="sim_disable_sim_lock">SIM-kaart ontgrendelen</string>
@@ -1175,6 +1225,9 @@ Pincode mogelijk onjuist."</string>
     <string name="sim_enter_ok">OK</string>
     <string name="sim_enter_old">Oude SIM PIN-code</string>
     <string name="sim_enter_pin">SIM PIN-code</string>
+    <string name="sim_lock_change_not_supported">"SIM Lock wijzigen mislukt.
+
+ SIM staat wijziging niet toe."</string>
     <string name="sim_lock_failed">"Kan status van simkaartblokkering niet wijzigen.
 Pincode mogelijk onjuist."</string>
     <string name="sim_lock_off">PIN-code vereist voor gebruik van telefoon</string>
@@ -1337,6 +1390,8 @@ Een benadering van Google voor de synchronisatie van gegevens, zodat u altijd en
     <string name="unlock_disable_lock_pattern_summary">Ontgrendelingspatroon verwijderen</string>
     <string name="unlock_disable_lock_pin_summary">PIN-code voor ontgrendelen verwijderen</string>
     <string name="unlock_disable_lock_title">Schermvergrendeling uitschakelen</string>
+    <string name="unlock_set_enter_system">Toegang direct</string>
+    <string name="unlock_set_enter_system_summary">"Systeem vergrendelscherm thema wordt niet geruikt. Telefoon direct bruikbaar na activeren"</string>
     <string name="unlock_set_unlock_biometric_weak_summary">Lage beveiliging, experimenteel</string>
     <string name="unlock_set_unlock_biometric_weak_title">Face Unlock</string>
     <string name="unlock_set_unlock_disabled_summary">Uitgeschakeld door beheerder, encryptiebeleid of referentieopslag</string>
@@ -1412,6 +1467,8 @@ Een benadering van Google voor de synchronisatie van gegevens, zodat u altijd en
     <string name="verifier_device_identifier">Apparaat-id voor ontwikkeling</string>
     <string name="verifier_device_identifier_not_available">Apparaatgegevens niet beschikbaar</string>
     <string name="version_text">versie %1$s</string>
+    <string name="vibrate_category_title">Vibreren</string>
+    <string name="vibrate_in_normal_title">Vibreer normaal</string>
     <string name="vibrate_in_silent_title">Trillen indien stil</string>
     <string name="vibrate_on_ring_title">Trillen en bellen</string>
     <string name="voice_category">Spraak</string>
@@ -1419,6 +1476,7 @@ Een benadering van Google voor de synchronisatie van gegevens, zodat u altijd en
     <string name="voice_input_output_settings_title">Instellingen voor spraakinvoer en -uitvoer</string>
     <string name="voice_search_settings_title">Spraakgestuurd zoeken</string>
     <string name="volume_alarm_description">Alarmen</string>
+    <string name="volume_category_title">Volume</string>
     <string name="volume_media_description">Muziek, video, games en andere media</string>
     <string name="volume_notification_description">Meldingen</string>
     <string name="volume_ring_description">Beltoon en meldingen</string>
@@ -1537,6 +1595,10 @@ Een benadering van Google voor de synchronisatie van gegevens, zodat u altijd en
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
+    <string name="wifi_security_wapi_cert">WAPI CERT</string>
+    <string name="wifi_security_wapi_psk">WAPI PSK</string>
+    <string name="wifi_security_wapi_psk_ascii">WAPI PSK ASCII</string>
+    <string name="wifi_security_wapi_psk_hexadecimal">WAPI PSK hexadecimaal</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
@@ -1603,6 +1665,15 @@ Raak "<b>Terug</b> aan om verbinding te maken met een ander Wi-Fi-netwerk.</stri
     <string name="wifi_unchanged">(ongewijzigd)</string>
     <string name="wifi_unspecified">(niet opgegeven)</string>
     <string name="wifi_update">Refresh Stats</string>
+    <string name="wifi_wapi_as_certificate">AS certificaat</string>
+    <string name="wifi_wapi_fail_to_auth">"WAPI authenticatie mislukt
+
+check geldigheid van certificaten"</string>
+    <string name="wifi_wapi_fail_to_init">"Onmogelijk om WAPI certificaten te openen
+
+Toegangs opslag mogelijk niet beschikbaar"</string>
+    <string name="wifi_wapi_psk_type">Password type</string>
+    <string name="wifi_wapi_user_certificate">Gebruiker certificaat</string>
     <string name="wifi_wps_available_first_item">Beveiligd netwerk beschikbaar</string>
     <string name="wifi_wps_available_second_item">" (beveiligd netwerk beschikbaar)"</string>
     <string name="wifi_wps_failed">Kan WPS niet starten, probeer het opnieuw.</string>

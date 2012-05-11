@@ -337,4 +337,14 @@
         <item>@string/voice_quality_ui_values_crisp_miui</item>
         <item>@string/voice_quality_ui_values_bright_miui</item>
     </array>
+    <string-array name="voicemail_notification_vibrate_when_entries">
+        <item>Always</item>
+        <item>Only when silent</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="voicemail_notification_vibrate_when_values">
+        <item>always</item>
+        <item>silent</item>
+        <item>never</item>
+    </string-array>
 </resources>

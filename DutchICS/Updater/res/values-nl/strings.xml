@@ -65,6 +65,7 @@
     <string name="no_updates_found">Heeft geen updates gevonden</string>
     <string name="no_updates_warning">Heeft geen enkele update gevonden</string>
     <string name="no_updates_warning2">Heeft geen enkele update gevonden!</string>
+    <string name="paused_queued_for_wifi">Wacht op WLAN connectie</string>
     <string name="reboot_to_new_system">Herstart voor nieuwe versie</string>
     <string name="sdcard_has_no_space_dialog_body">SD-kaart heeft te weinig vrije ruimte. Maak ruimte vrij voor je de update download</string>
     <string name="sdcard_has_no_space_dialog_title">SD-kaart heeft te weinig vrije ruimte</string>
@@ -79,11 +80,15 @@
     <string name="share_update_content_unsign">I’ve updated MIUI to %s! For detailed changelog, please visit http://www.miui.com</string>
     <string name="sign_in_add_account_helper">Je telefoon heeft geen MIUI account geconfigureerd, creëer één voor punten</string>
     <string name="sign_in_info">"Je update ranglijst is%1$s
+
 %2$s gebruikers zijn ingelogd voor MIUI %3$s"</string>
     <string name="sign_in_info_rank_more">"Je update ranglijst is na %1$s
+
 Meer dan %2$s gebruikers zijn ingelogd voor MIUI %3$s"</string>
     <string name="sign_in_info_total_more">"Je update ranglijst is%1$s
+
 Meer dan %2$s gebruikers hebben ingelogd voor MIUI %3$s"</string>
+    <string name="stable_build">Stabiele Build</string>
     <string name="start_update">Begin update</string>
     <string name="switch_system">Verander systeem</string>
     <string name="system_backup_button_text">Systeem Backup</string>

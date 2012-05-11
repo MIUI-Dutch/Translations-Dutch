@@ -4,7 +4,6 @@
     <string name="account_phone">Alleen voor telefoon, niet gesynchroniseerd</string>
     <string name="account_sim">Sim-only, ongesynchroniseerd</string>
     <string name="account_type_format">%1$s contact</string>
-    <string name="activity_title_confirm_add_detail">Aan contact toevoegen</string>
     <string name="activity_title_contacts_filter">Zichtbare contacten</string>
     <string name="activity_title_settings">Instellingen</string>
     <string name="add_account">Account toevoegen</string>
@@ -24,7 +23,6 @@
     <string name="attach_photo_dialog_title">Contactfoto</string>
     <string name="audio_chat">Voicechat</string>
     <string name="blurbJoinContactDataWith">Selecteer het contact dat u met %s wilt samenvoegen:</string>
-    <string name="btn_finished">Finish</string>
     <string name="caching_vcard_message">Bezig met opslaan van vCard(s) in de lokale tijdelijke opslag. Het daadwerkelijke importeren begint binnenkort.</string>
     <string name="caching_vcard_title">In cachegeheugen opslaan</string>
     <string name="call_assistant">%s bellen</string>
@@ -126,6 +124,7 @@
     <string name="contact_editor_prompt_multiple_accounts">U kunt uw nieuwe contact synchroniseren met een van de volgende accounts. Welk account wilt u gebruiken?</string>
     <string name="contact_editor_prompt_one_account">Uw nieuwe contact wordt gesynchroniseerd met %1$s.</string>
     <string name="contact_editor_prompt_zero_accounts">Er wordt geen back-up van uw nieuwe contact gemaakt. Een account toevoegen waarmee online een back-up van contacten wordt gemaakt?</string>
+    <string name="contact_pick_photo">Foto</string>
     <string name="contact_read_only">Kan niet worden bewerkt vanuit deze app.</string>
     <string name="contact_status_update_attribution">via %1$s</string>
     <string name="contact_status_update_attribution_with_date">%1$s via %2$s</string>
@@ -286,7 +285,6 @@ Reden: '%s'"</string>
     <string name="invalidContactMessage">Het contact bestaat niet.</string>
     <string name="keep_local">Lokaal opslaan</string>
     <string name="label_duplicate_count">(%1$d)</string>
-    <string name="label_merge">Samengevoegd</string>
     <string name="label_no_duplicate_contacts">Mooi! Geen dubbele meer!!</string>
     <string name="label_notes">Opmerkingen</string>
     <string name="label_sip_address">Internetoproep</string>
@@ -372,6 +370,7 @@ Reden: '%s'"</string>
 • Toegang via elke webbrowser.
 • Maak beveiligde back-ups van uw contacten."</string>
     <string name="no_contact_details">Geen aanvullende gegevens voor dit contact.</string>
+    <string name="no_contact_name">Geen naam opgeslagen</string>
     <string name="no_contacts_selected">Geen contacten geselecteerd.</string>
     <string name="no_sdcard_message">Er is geen opslag gevonden.</string>
     <string name="no_sdcard_title">Opslag niet beschikbaar</string>
@@ -445,6 +444,7 @@ U kunt als volgt een contact toevoegen aan uw lijst met favorieten:
     <string name="people">Personen</string>
     <string name="percentage">%s%%</string>
     <string name="phoneLabelsGroup">Telefoon</string>
+    <string name="photo_package_activity_title">Foto pakket</string>
     <string name="photoPickerNotFoundText">"Er zijn geen foto's beschikbaar op de telefoon."</string>
     <string name="pick_favorites_list_title">Totaal %1$d favoriete contact nummers</string>
     <string name="pick_new_photo">Nieuwe foto selecteren in Galerij</string>
@@ -486,16 +486,13 @@ U kunt als volgt een contact toevoegen aan uw lijst met favorieten:
     <string name="recentCallsIconLabel">Gesprek</string>
     <string name="relationLabelsGroup">Relatie</string>
     <string name="remind_btn_ignore">Negeren</string>
-    <string name="remind_btn_not_remind">Geen herinnering</string>
     <string name="remind_btn_sync_now">Nu</string>
     <string name="removePhoto">Foto verwijderen</string>
     <string name="ringLabelsGroup">ring</string>
-    <string name="savingContact">Contact opslaan...</string>
     <string name="savingDisplayGroups">Weergaveopties opslaan...</string>
     <string name="scan_duplicate">"Zoek naar dubbele data, moment... "</string>
     <string name="scan_duplicate_message">Contacten met complete dubbele data %1$d</string>
     <string name="scan_merge">Zoek naar mogelijk dubbele contacten, moment...</string>
-    <string name="scan_merge_message">Contacten met gedeeltelijk dubbele data %1$d</string>
     <string name="scanning_sdcard_failed_message">"De opslag kan niet worden gescand. (Reden: '%s')"</string>
     <string name="scanning_sdcard_failed_title">Kan opslag niet scannen</string>
     <string name="search_bar_hint">Contacten zoeken</string>
@@ -505,7 +502,9 @@ U kunt als volgt een contact toevoegen aan uw lijst met favorieten:
     <string name="searching_vcard_message">Zoeken naar vCard-gegevens in opslag...</string>
     <string name="searching_vcard_title">Zoeken naar vCard</string>
     <string name="select_all">Selecteer alles</string>
+    <string name="select_new_photo_from_photo_package">Selecteer nieuwe foto</string>
     <string name="select_none">Niets geselecteerd, kan opdracht niet uitvoeren</string>
+    <string name="select_photo_from_photo_package">Selecteer nieuwe foto</string>
     <string name="select_vcard_title">vCard-bestand kiezen</string>
     <string name="send_contact_shortcut_todesktop_success">Snelkoppeling voor contact succesvol geplaatst</string>
     <string name="separatorJoinAggregateAll">Alle contacten</string>
@@ -521,8 +520,6 @@ U kunt als volgt een contact toevoegen aan uw lijst met favorieten:
     <string name="shortcutMessageContact">Direct bericht</string>
     <string name="showAllContactsJoinItem">Alle contacten weergeven</string>
     <string name="sim_contact_search_error">Fout bij zoeken van contacten op SIM-kaart</string>
-    <string name="sim_contacts_invisiable">Onzichtbaar</string>
-    <string name="sim_contacts_visiable">Zichtbaar</string>
     <string name="sim_indexed_contact_not_exist">Positie %1$d op SIM-kaart is niet correct, hoort tussen %2$d en %3$d</string>
     <string name="sim_no_contact">Geen contacten op SIM-kaart</string>
     <string name="simContacts_emptyLoading">Laden vanaf SIM-kaart...</string>
@@ -578,11 +575,12 @@ U kunt als volgt een contact toevoegen aan uw lijst met favorieten:
     <string name="type_outgoing">Uitgaand gesprek</string>
     <string name="type_voicemail">Voicemail</string>
     <string name="unknown">Onbekend</string>
+    <string name="unknown_contact_name">Onbekend contact</string>
     <string name="unkown_location">Locatie is onbekend</string>
     <string name="upgrade_in_progress">Lijst met contactpersonen wordt bijgewerkt.</string>
-    <string name="upgrade_out_of_memory">"Contacten worden bijgewerkt.
-Voor het upgradeproces is ongeveer %s MB interne opslagruimte vereist.
-Kies een van de volgende opties:"</string>
+    <string name="upgrade_out_of_memory">""Contacten worden bijgewerkt. Voor het upgradeproces is ongeveer %s MB interne opslagruimte vereist.
+
+Kies een van de volgende opties:""</string>
     <string name="upgrade_out_of_memory_retry">Upgrade opnieuw proberen</string>
     <string name="upgrade_out_of_memory_uninstall">Verwijder enkele apps</string>
     <string name="use_photo_as_primary">Deze foto gebruiken</string>

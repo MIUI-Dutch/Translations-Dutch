@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <array name="carrier_properties" />
     <array name="common_nicknames" />
@@ -33,6 +33,7 @@
         <item>458</item>
         <item>2223</item>
     </integer-array>
+    <array name="config_cdma_dun_supported_types" />
     <integer-array name="config_data_usage_network_types">
         <item>0</item>
         <item>2</item>
@@ -53,6 +54,7 @@
         <item>21</item>
     </integer-array>
     <array name="config_mobile_hotspot_provision_app" />
+    <array name="config_oemUsbModeOverride" />
     <integer-array name="config_protectedNetworks">
         <item>10</item>
         <item>11</item>

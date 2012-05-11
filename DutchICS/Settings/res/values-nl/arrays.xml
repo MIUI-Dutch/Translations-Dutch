@@ -462,6 +462,8 @@
         <item>@string/wifi_security_wep</item>
         <item>@string/wifi_security_psk_generic</item>
         <item>@string/wifi_security_eap</item>
+        <item>@string/wifi_security_wapi_psk</item>
+        <item>@string/wifi_security_wapi_cert</item>
     </array>
     <array name="wifi_security_no_eap">
         <item>@string/wifi_security_none</item>
@@ -513,6 +515,10 @@
         <item>Verbinding verbroken</item>
         <item>Mislukt</item>
     </string-array>
+    <array name="wifi_wapi_psk_type">
+        <item>@string/wifi_security_wapi_psk_ascii</item>
+        <item>@string/wifi_security_wapi_psk_hexadecimal</item>
+    </array>
     <string-array name="window_animation_scale_entries">
         <item>Animatie uit</item>
         <item>Animatieschaal 0,5x</item>
