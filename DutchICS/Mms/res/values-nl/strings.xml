@@ -419,9 +419,9 @@
     <string name="type_to_compose_text_enter_to_send">Typ een bericht</string>
     <string name="type_to_compose_text_or_leave_blank">Typ een bericht, of laat dit veld leeg</string>
     <string name="type_video">video</string>
-    <string name="undelivered_msg_dialog_body">""Kan dit bericht niet verzenden.
+    <string name="undelivered_msg_dialog_body">"Kan dit bericht niet verzenden.
 
-Poging gedaan: %s.""</string>
+Poging gedaan: %s."</string>
     <string name="undelivered_msg_dialog_title">Niet-afgeleverd bericht</string>
     <string name="undelivered_sms_dialog_body">Kan dit bericht niet verzenden.</string>
     <string name="unknown_sender">Onbekende afzender</string>

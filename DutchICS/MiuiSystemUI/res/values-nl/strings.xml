@@ -83,9 +83,9 @@
     <string name="compat_mode_on">Zoom om scherm te vullen</string>
     <string name="config_statusBarComponent">com.android.systemui.statusbar.phone.PhoneStatusBar</string>
     <string name="config_systemBarComponent">com.android.systemui.statusbar.tablet.TabletStatusBar</string>
-    <string name="data_usage_disabled_dialog">""U heeft de gestelde limiet voor gegevensverbruik bereikt.
+    <string name="data_usage_disabled_dialog">"U heeft de gestelde limiet voor gegevensverbruik bereikt.
 
-Als u gegevens opnieuw inschakelt, kunnen er kosten in rekening worden gebracht door uw provider.""</string>
+Als u gegevens opnieuw inschakelt, kunnen er kosten in rekening worden gebracht door uw provider."</string>
     <string name="data_usage_disabled_dialog_3g_title">2G-/3G-gegevens uitgeschakeld</string>
     <string name="data_usage_disabled_dialog_4g_title">4G-gegevens uitgeschakeld</string>
     <string name="data_usage_disabled_dialog_enable">Gegevens opnieuw inschakelen</string>
@@ -113,9 +113,9 @@ Als u gegevens opnieuw inschakelt, kunnen er kosten in rekening worden gebracht 
     <string name="gps_notification_searching_text">Zoeken naar GPS</string>
     <string name="incoming_call_vibrate_hint">Inkomende oproep</string>
     <string name="installer_cd_button_title">AFT-app voor Mac installeren</string>
-    <string name="invalid_charger">""Opladen via USB niet ondersteund.
+    <string name="invalid_charger">"Opladen via USB niet ondersteund.
 
-Gebruik alleen de bijgeleverde oplader.""</string>
+Gebruik alleen de bijgeleverde oplader."</string>
     <string name="label_view">Weergeven</string>
     <string name="lockscreen_carrier_default">Geen service.</string>
     <string name="mms_vibrate_hint">Bericht</string>
@@ -183,9 +183,9 @@ Gebruik alleen de bijgeleverde oplader.""</string>
     <string name="status_bar_no_recent_apps">Geen recente apps</string>
     <string name="status_bar_ongoing_events_title">Actief</string>
     <string name="status_bar_please_disturb_button">Meldingen weergeven</string>
-    <string name="status_bar_recent_clear_result">""Succesvol %1$s geheugen vrijgemaakt.
+    <string name="status_bar_recent_clear_result">"Succesvol %1$s geheugen vrijgemaakt.
 
-Beschikbaar geheugen is %2$s.""</string>
+Beschikbaar geheugen is %2$s."</string>
     <string name="status_bar_recent_inspect_item_title">App-info</string>
     <string name="status_bar_recent_memory_info_format">%dM</string>
     <string name="status_bar_recent_remove_item_title">Verwijderen uit lijst</string>

@@ -7,9 +7,9 @@
     <string name="apply_lockscreen_paper_tips">Vergrendelthema al in gebruik, nieuw vergendel-voorbeeld mogelijk niet zichtbaar!</string>
     <string name="apply_theme_no_select_message">Geen modules geselecteerd</string>
     <string name="backup_preference_title">Backup huidig thema</string>
-    <string name="backup_theme_dialog_message">""Backup het huidige thema op
+    <string name="backup_theme_dialog_message">"Backup het huidige thema op
 
-%1$s""</string>
+%1$s"</string>
     <string name="backup_theme_dialog_ok">Backup</string>
     <string name="backup_theme_progress_message">Bezig met backup...</string>
     <string name="backup_theme_success_message">Thema met succes gebackupt</string>

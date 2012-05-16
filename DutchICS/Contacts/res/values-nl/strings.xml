@@ -578,9 +578,9 @@ U kunt als volgt een contact toevoegen aan uw lijst met favorieten:
     <string name="unknown_contact_name">Onbekend contact</string>
     <string name="unkown_location">Locatie is onbekend</string>
     <string name="upgrade_in_progress">Lijst met contactpersonen wordt bijgewerkt.</string>
-    <string name="upgrade_out_of_memory">""Contacten worden bijgewerkt. Voor het upgradeproces is ongeveer %s MB interne opslagruimte vereist.
+    <string name="upgrade_out_of_memory">"Contacten worden bijgewerkt. Voor het upgradeproces is ongeveer %s MB interne opslagruimte vereist.
 
-Kies een van de volgende opties:""</string>
+Kies een van de volgende opties:"</string>
     <string name="upgrade_out_of_memory_retry">Upgrade opnieuw proberen</string>
     <string name="upgrade_out_of_memory_uninstall">Verwijder enkele apps</string>
     <string name="use_photo_as_primary">Deze foto gebruiken</string>

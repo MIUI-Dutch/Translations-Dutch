@@ -8,9 +8,9 @@
     <string name="apply_rules_failed">Kan firewall regels niet toepassen, Probeer het opnieuw</string>
     <string name="apply_rules_failed_known">Onbekend</string>
     <string name="auto_turn_off_mobile">Stop data bij limiet</string>
-    <string name="data_usage_app_restrict_dialog">""In het geval van Wi-Fi-connectiviteit, kan deze functie de achtergrondgegevens applicatie stoppen.
+    <string name="data_usage_app_restrict_dialog">"In het geval van Wi-Fi-connectiviteit, kan deze functie de achtergrondgegevens applicatie stoppen.
 
-U vindt meer relevante gegevens over flow control optie in de instellingen in de bijbehorende applicatie.""</string>
+U vindt meer relevante gegevens over flow control optie in de instellingen in de bijbehorende applicatie."</string>
     <string name="data_usage_cycle_editor_positive">Instellen</string>
     <string name="data_usage_cycle_editor_subtitle">datum:</string>
     <string name="data_usage_label_background">Achtergrond: %s</string>

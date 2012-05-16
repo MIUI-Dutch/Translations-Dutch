@@ -6,9 +6,9 @@
     <string name="clear_shortcuts">Wis snelkoppelingen</string>
     <string name="clear_shortcuts_agree">Wis snelkoppelingen</string>
     <string name="clear_shortcuts_disagree">"Niet wissen"</string>
-    <string name="clear_shortcuts_prompt">""Dit wist alle snelkoppelingennaar recent gekozen suggesties.
+    <string name="clear_shortcuts_prompt">"Dit wist alle snelkoppelingennaar recent gekozen suggesties.
 
-(voor wissen van Browser geschiedenis, gebruik dan Browser instellingen.)""</string>
+(voor wissen van Browser geschiedenis, gebruik dan Browser instellingen.)"</string>
     <string name="clear_shortcuts_summary">Wis recente snelkoppelingen van zoek suggesties</string>
     <string name="corpus_description_apps">Namen van geinstalleeerde applicaties</string>
     <string name="corpus_description_web">Web, favorieten en browser geschiedenis</string>
